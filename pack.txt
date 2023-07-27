@@ -1,1 +1,3 @@
 By Woowz11 [1.0]
+Pack version: 0.2.6
+https://github.com/Woowz11/BloodRaw-Minecraft/releases
