@@ -20,7 +20,11 @@ Soon...
 
 ## Supported Versions
 
-Soon [1.5.2]
+Soon [1.6.4]
+
+[Minecraft 2.0]
+
+[1.5.2]
 
 [1.4.2]
 
