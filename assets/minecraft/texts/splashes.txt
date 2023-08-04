@@ -1,4 +1,4 @@
-§fThe First Splash in the §mTexture§r Resource Pack!
+§fThe First Splash in the §mTexture§r§f Resource Pack!
 §fRIP Rock Buttons
 §fBy Woowz11!
 §fHello!
@@ -6,21 +6,22 @@
 §fWhen's Blood Eye V?
 §fYou're Not a Very Good Modder
 §7gh release create
-§7It's So Hard
-§7Stroke or Heart Attack?
-§7💀
-§7When
-§7-:(--{[The Word]}--):-
-§7§kaaaaaaa
-§7§lBold
-§7§oItalic
-§7§nStrike
-§7§mUnderline
-§7Don't Play at People Playground
-§7No Icon
-§7Grandson of WVirus
-§7BLOOD RAW
-§7splashes.txt
-§7PLAYERNAME
-§7DON'T REMOVE THIS SPLASH, okay, it's a joke
-§7ДИ НАХ
+§fIt's So Hard
+§fStroke or Heart Attack?
+§f💀
+§fWhen
+§f-:(--{[The Word]}--):-
+§f§kaaaaaaa
+§f§lBold
+§f§oItalic
+§f§nStrike
+§f§mUnderline
+§fDon't Play at People Playground
+§fNo Icon
+§fGrandson of WVirus
+§fBLOOD RAW
+§fsplashes.txt
+§fPLAYERNAME
+§fDON'T REMOVE THIS SPLASH, okay, it's a joke
+§fДИ НАХ
+§fВыйти из игры
