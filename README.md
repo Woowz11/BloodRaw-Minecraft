@@ -2,7 +2,7 @@
 
 Texture Pack Blood Raw
 
-Please, read license.txt [CC BY-NC-SA 4.0]
+Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
 [Download Texture Pack](https://github.com/Woowz11/BloodRaw-Minecraft/releases)
 
