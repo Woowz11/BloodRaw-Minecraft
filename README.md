@@ -51,3 +51,7 @@ Soon [1.6.4]
 [Beta 1.2]
 
 [Alpha 1.2.6]
+
+## Supported Mods
+
+HBM - [1%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
