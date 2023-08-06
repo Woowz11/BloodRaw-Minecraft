@@ -18,7 +18,7 @@ Alpha, Beta Testers: Cyberpaul Red, ~~[PavkaLakar](https://github.com/PavkaLakar
 
 ## Music Credits
 
-**set position woowz11!!!!!!** - Jean Jacques Perrey - Brazilian Flower
+[[minecraft/sounds/records/stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey - Brazilian Flower
 
 ## Supported Versions
 
