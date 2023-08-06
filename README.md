@@ -1,3 +1,5 @@
+![Texture Pack Icon](../blob/main/pack.png)
+
 ## Info
 
 Texture Pack Blood Raw
@@ -12,7 +14,7 @@ Main Texture Pack Creator, Artist: Woowz11
 
 Chief Assistant: The Window Skerpka
 
-Alpha, Beta Testers: Cyberpaul Red, PavkaLakar, Klaver, Kemrouz
+Alpha, Beta Testers: Cyberpaul Red, ~~[PavkaLakar](https://github.com/PavkaLakar)~~, Klaver, Kemrouz
 
 ## Music Credits
 
@@ -54,4 +56,4 @@ Soon [1.6.4]
 
 ## Supported Mods
 
-HBM - [1%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
+HBM - [1.25%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)

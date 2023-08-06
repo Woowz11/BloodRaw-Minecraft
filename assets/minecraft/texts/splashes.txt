@@ -10,7 +10,6 @@
 §fStroke or Heart Attack?
 §f💀
 §fWhen
-§f-:(--{[The Word]}--):-
 §f§lBold
 §f§oItalic
 §f§nStrike
@@ -22,16 +21,13 @@
 §fsplashes.txt
 §fPLAYERNAME
 §fDON'T REMOVE THIS SPLASH, okay, it's a joke
-§fДИ НАХ
-§fВыйти из игры
+§fQuit game
 §fNew Splashe
 §fFat Font
 §fThin Font
-§fPavkaLakar Gay!!!
 §fDon't Look at The Texture Pack History
 §fI Don't Know What to Make Up
-§f._.
-§f-_-
-§f:^)
-§f>:(
 §fIT'S NOT A MINECRAFT CLONE!
+§fWhen is 1.7.10?
+§fWho am I?
+§fWhen in Garry's Mod?
