@@ -21,13 +21,14 @@
 §fsplashes.txt
 §fPLAYERNAME
 §fDON'T REMOVE THIS SPLASH, okay, it's a joke
-§fQuit game
+§fQuit Game
 §fNew Splashe
 §fFat Font
 §fThin Font
 §fDon't Look at The Texture Pack History
 §fI Don't Know What to Make Up
 §fIT'S NOT A MINECRAFT CLONE!
-§fWhen is 1.7.10?
+§fWhen is 1.8?
 §fWho am I?
 §fWhen in Garry's Mod?
+§fRIP Rose

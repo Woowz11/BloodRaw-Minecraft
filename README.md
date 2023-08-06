@@ -1,4 +1,4 @@
-![Texture Pack Icon](../blob/main/pack.png)
+![Texture Pack Icon](../main/pack.png)
 
 ## Info
 
@@ -22,7 +22,9 @@ Soon...
 
 ## Supported Versions
 
-Soon [1.6.4]
+Soon [1.7.10]
+
+[1.6.4]
 
 [Minecraft 2.0]
 
