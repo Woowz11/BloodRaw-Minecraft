@@ -1,4 +1,4 @@
-![Texture Pack Icon](../main/pack.png)
+![Texture Pack Icon](../main/gui/crash_logo.png)
 
 ## Info
 
@@ -18,7 +18,7 @@ Alpha, Beta Testers: Cyberpaul Red, ~~[PavkaLakar](https://github.com/PavkaLakar
 
 ## Music Credits
 
-Soon...
+**set position woowz11!!!!!!** - Jean Jacques Perrey - Brazilian Flower
 
 ## Supported Versions
 
@@ -58,4 +58,5 @@ Soon [1.7.10]
 
 ## Supported Mods
 
-HBM - [1.25%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
+HBM - [1.75%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
+NEI - [0%] - Soon

@@ -1,0 +1,16 @@
+{
+  "step.gravel": {
+    "category": "neutral",
+	"replace" : true,
+    "sounds": [
+      "step/gravel1",
+      "step/gravel2",
+      "step/gravel3",
+      "step/gravel4",
+      "step/gravel5",
+	  "step/gravel6",
+	  "step/gravel7",
+	  "step/gravel8"
+    ]
+  }
+}
