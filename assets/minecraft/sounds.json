@@ -1,6 +1,82 @@
 {
-  "step.gravel": {
+  "liquid.lava": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "liquid/lava1",
+	  "liquid/lava2",
+	  "liquid/lava3"
+    ]
+  },
+  "liquid.lavapop": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "liquid/lavapop1",
+	  "liquid/lavapop2",
+	  "liquid/lavapop3"
+    ]
+  },
+  "game.neutral.swim.splash": {
     "category": "neutral",
+	"replace" : true,
+    "sounds": [
+      "liquid/splash1",
+      "liquid/splash2",
+	  "liquid/splash3"
+    ]
+  },
+  "game.player.swim.splash": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "liquid/splash1",
+      "liquid/splash2",
+	  "liquid/splash3"
+    ]
+  },
+  "game.hostile.swim.splash": {
+    "category": "hostile",
+	"replace" : true,
+    "sounds": [
+      "liquid/splash1",
+      "liquid/splash2",
+	  "liquid/splash3"
+    ]
+  },
+  "step.grass": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "step/grass1",
+      "step/grass2",
+      "step/grass3",
+      "step/grass4",
+      "step/grass5",
+      "step/grass6",
+	  "step/grass7",
+	  "step/grass8",
+	  "step/grass9",
+	  "step/grass10",
+	  "step/grass11",
+	  "step/grass12"
+    ]
+  },
+  "step.sand": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "step/sand1",
+      "step/sand2",
+      "step/sand3",
+      "step/sand4",
+      "step/sand5",
+	  "step/sand6",
+	  "step/sand7"
+    ]
+  },
+  "step.gravel": {
+    "category": "block",
 	"replace" : true,
     "sounds": [
       "step/gravel1",
@@ -11,6 +87,37 @@
 	  "step/gravel6",
 	  "step/gravel7",
 	  "step/gravel8"
+    ]
+  },
+    "random.bow": {
+    "category": "neutral",
+	"replace" : true,
+    "sounds": [
+      "random/bow1",
+	  "random/bow2",
+	  "random/bow3"
+    ]
+  },
+  "random.door_open": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "random/door_open1",
+	  "random/door_open2"
+    ]
+  },
+   "gui.button.press": {
+    "category": "master",
+	"replace" : true,
+    "sounds": [
+      "random/click"
+    ]
+  },
+  "random.click": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "random/click"
     ]
   }
 }
