@@ -18,6 +18,7 @@
 §fNo Icon
 §fGrandson of WVirus
 §fBLOOD RAW
+§fBLOOD EYE
 §fsplashes.txt
 §fPLAYERNAME
 §fDON'T REMOVE THIS SPLASH, okay, it's a joke
@@ -40,3 +41,4 @@
 §fYou podzol
 §fWhen PtTR?
 §fNew Sounds!
+§fFLOWERS!!!
