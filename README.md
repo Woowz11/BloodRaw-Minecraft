@@ -22,7 +22,9 @@ Alpha, Beta Testers: Cyberpaul Red, ~~[PavkaLakar](https://github.com/PavkaLakar
 
 ## Supported Versions
 
-Soon [1.7.10]
+Soon [1.8]
+
+[1.7.10]
 
 [1.6.4]
 

@@ -1,5 +1,6 @@
 {
   "texture": {
-    "blur": false
+    "blur": false,
+    "mipmaps": 50
   }
 }
