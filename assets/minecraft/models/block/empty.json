@@ -1,0 +1,22 @@
+{
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"ambientocclusion": false,
+	"textures": {
+		"empty": "blocks/empty",
+		"particle": "blocks/empty"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1, 1, 1],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0.25, 0, 0, 3.75], "texture": "empty"},
+				"east": {"uv": [3.75, 0, 0, 3.75], "texture": "empty"},
+				"south": {"uv": [3.75, 0, 3.5, 3.75], "texture": "empty"},
+				"west": {"uv": [7.75, 0, 4, 3.75], "texture": "empty"},
+				"up": {"uv": [3.5, 0, 0, 0.25], "rotation": 270, "texture": "empty"}
+			}
+		}
+	]
+}

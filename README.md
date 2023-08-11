@@ -1,4 +1,4 @@
-![Texture Pack Icon](../main/gui/crash_logo.png)
+![Texture Pack Icon](../woowz/logo.png)
 
 ## Info
 
@@ -12,9 +12,9 @@ Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses
 
 Main Texture Pack Creator, Artist: Woowz11
 
-Chief Assistant: The Window Skerpka
+Active Testers: The Window Skerpka, [Soon] Nekit, [Soon] Brinq
 
-Alpha, Beta Testers: Cyberpaul Red, ~~[PavkaLakar](https://github.com/PavkaLakar)~~, Klaver, Kemrouz
+Other Testers: Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), Klaver, Kemrouz, SetnaM, Deer
 
 ## Music Credits
 
