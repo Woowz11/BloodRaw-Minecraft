@@ -1,2 +1,2 @@
 By Woowz11 [1.8]
-Pack Version: 0.6.9
+Pack Version: 0.7.0

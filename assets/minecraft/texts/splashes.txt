@@ -43,3 +43,5 @@
 §fNew Sounds!
 §fFLOWERS!!!
 §fCC BY-NC-SA 4.0
+§f>>return GetRandomSplashe();
+§fUse MCPatcher Noob!

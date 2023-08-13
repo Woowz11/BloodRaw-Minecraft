@@ -6,6 +6,8 @@ Texture Pack Blood Raw
 
 Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
+Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
+
 [Download Texture Pack](https://github.com/Woowz11/BloodRaw-Minecraft/releases)
 
 ## Creator
@@ -19,6 +21,8 @@ Other Testers: Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), Klave
 ## Music Credits
 
 [[minecraft/sounds/records/stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey - Brazilian Flower
+
+[[minecraft/sounds/records/chirp](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg)] - The Daniel Pemberton TV Orchestra - The Orb Of Dreamers
 
 ## Supported Versions
 
@@ -63,3 +67,7 @@ Soon [1.8]
 HBM - [1.75%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
 
 NEI - [0%] - Soon
+
+IC2 - [0%] - Soon
+
+Damage Indicators - [0%] - Soon

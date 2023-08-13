@@ -1,0 +1,6 @@
+{
+    "parent": "block/farmland",
+    "textures": {
+        "top": "blocks/farmland_5"
+    }
+}
