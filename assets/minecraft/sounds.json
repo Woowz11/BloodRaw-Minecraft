@@ -112,12 +112,5 @@
     "sounds": [
       "random/click"
     ]
-  },
-  "random.click": {
-    "category": "block",
-	"replace" : true,
-    "sounds": [
-      "random/click"
-    ]
   }
 }

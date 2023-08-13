@@ -1,4 +1,4 @@
-![Texture Pack Icon](../woowz/logo.png)
+![Texture Pack Icon](../main/woowz/logo.png)
 
 ## Info
 
