@@ -44,6 +44,50 @@
 	  "liquid/splash3"
     ]
   },
+  "game.neutral.swim": {
+    "category": "neutral",
+	"replace" : true,
+    "sounds": [
+      "liquid/swim1",
+      "liquid/swim2",
+      "liquid/swim3",
+      "liquid/swim4",
+	  "liquid/swim5",
+	  "liquid/swim6",
+	  "liquid/swim7",
+	  "liquid/swim8",
+	  "liquid/swim9",
+	  "liquid/swim10",
+	  "liquid/swim11",
+	  "liquid/swim12",
+	  "liquid/swim13",
+	  "liquid/swim14",
+	  "liquid/swim15",
+	  "liquid/swim16"
+    ]
+  },
+  "game.hostile.swim": {
+    "category": "hostile",
+	"replace" : true,
+    "sounds": [
+      "liquid/swim1",
+      "liquid/swim2",
+      "liquid/swim3",
+      "liquid/swim4",
+	  "liquid/swim5",
+	  "liquid/swim6",
+	  "liquid/swim7",
+	  "liquid/swim8",
+	  "liquid/swim9",
+	  "liquid/swim10",
+	  "liquid/swim11",
+	  "liquid/swim12",
+	  "liquid/swim13",
+	  "liquid/swim14",
+	  "liquid/swim15",
+	  "liquid/swim16"
+    ]
+  },
   "step.grass": {
     "category": "block",
 	"replace" : true,
@@ -66,13 +110,17 @@
     "category": "block",
 	"replace" : true,
     "sounds": [
-      "step/sand1",
-      "step/sand2",
-      "step/sand3",
-      "step/sand4",
-      "step/sand5",
-	  "step/sand6",
-	  "step/sand7"
+	  "step/sand8",
+	  "step/sand9",
+	  "step/sand10",
+	  "step/sand11",
+	  "step/sand12",
+	  "step/sand13",
+	  "step/sand14",
+	  "step/sand15",
+	  "step/sand16",
+	  "step/sand17",
+	  "step/sand18"
     ]
   },
    "step.stone": {
@@ -100,35 +148,41 @@
 	  "step/stone19",
 	  "step/stone20",
 	  "step/stone21",
-	  "step/stone22",
-	  "step/stone23",
-	  "step/stone24",
-	  "step/stone25",
-	  "step/stone26",
-	  "step/stone27",
-	  "step/stone28",
-	  "step/stone29",
-	  "step/stone30",
-	  "step/stone31",
-	  "step/stone32",
-	  "step/stone33",
-	  "step/stone34",
-	  "step/stone35",
-	  "step/stone36"
+	  "step/stone22"
+    ]
+  },
+  "step.snow": {
+    "category": "block",
+	"replace" : true,
+    "sounds": [
+      "step/snow1",
+      "step/snow2",
+      "step/snow3",
+      "step/snow4",
+	  "step/snow5",
+	  "step/snow6",
+	  "step/snow7",
+	  "step/snow8",
+	  "step/snow9",
+	  "step/snow10",
+	  "step/snow11"
     ]
   },
   "step.gravel": {
     "category": "block",
 	"replace" : true,
     "sounds": [
-      "step/gravel1",
-      "step/gravel2",
-      "step/gravel3",
-      "step/gravel4",
-      "step/gravel5",
-	  "step/gravel6",
-	  "step/gravel7",
-	  "step/gravel8"
+	  "step/gravel9",
+	  "step/gravel10",
+	  "step/gravel11",
+	  "step/gravel12",
+	  "step/gravel13",
+	  "step/gravel14",
+	  "step/gravel15",
+	  "step/gravel16",
+	  "step/gravel17",
+	  "step/gravel18",
+	  "step/gravel19"
     ]
   },
     "random.bow": {
