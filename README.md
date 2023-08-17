@@ -24,6 +24,8 @@ Other Testers: Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), Klave
 
 [[minecraft/sounds/records/chirp](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg)] - The Daniel Pemberton TV Orchestra - The Orb Of Dreamers
 
+[[minecraft/sounds/records/wait](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg)] - Lifeformed - Undiscovery
+
 ## Supported Versions
 
 Soon [1.8]

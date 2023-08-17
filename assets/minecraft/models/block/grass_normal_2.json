@@ -1,0 +1,249 @@
+{
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"ambientocclusion": false,
+	"textures": {
+		"tall_grass": "blocks/grass_top_tall_2",
+		"top_extra": "blocks/grass_top_extra",
+		"side_top": "blocks/grass_side_overlay_extra",
+		"roots": "blocks/grass_bottom_extra",
+		"side": "blocks/grass_side",
+		"top": "blocks/grass_top_new",
+		"bottom": "blocks/grass_bottom",
+		"top_dirt": "blocks/grass_top_dirt",
+		"overlay": "blocks/grass_side_overlay",
+		"side_extra": "blocks/grass_top_tall",
+		"particle": "blocks/particle/grass"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top_dirt", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Overlay_Original",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "west", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Overlay_Side",
+			"from": [-0.1, 15.3, -0.1],
+			"to": [16.1, 16.5, 16.1],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#side_top", "cullface": "up", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#side_top", "cullface": "up", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#side_top", "cullface": "up", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#side_top", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Overlay_Top",
+			"from": [0, 15.5, 0],
+			"to": [16, 16.5, 16],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top_extra", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass_S",
+			"from": [0, 0, 16],
+			"to": [16, 16, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 16, 16]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "rotation": 180, "texture": "#side_extra", "cullface": "south", "tintindex": 0},
+				"south": {"uv": [16, 8, 8, 16], "rotation": 180, "texture": "#side_extra", "cullface": "south", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass_N",
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 16, 0]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "rotation": 180, "texture": "#side_extra", "cullface": "north", "tintindex": 0},
+				"south": {"uv": [16, 0, 8, 8], "rotation": 180, "texture": "#side_extra", "cullface": "north", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass_E",
+			"from": [16, 0, 0],
+			"to": [16, 16, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [16, 16, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 8, 16], "rotation": 180, "texture": "#side_extra", "cullface": "east", "tintindex": 0},
+				"west": {"uv": [8, 8, 0, 16], "rotation": 180, "texture": "#side_extra", "cullface": "east", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass_O",
+			"from": [0, 0, 0],
+			"to": [0, 16, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 16, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#side_extra", "cullface": "west", "tintindex": 0},
+				"west": {"uv": [8, 0, 0, 8], "rotation": 180, "texture": "#side_extra", "cullface": "west", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass",
+			"from": [1.60896, 16, -1],
+			"to": [1.60896, 32, 15],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [6.60896, 24, 7]},
+			"faces": {
+				"east": {"uv": [8, 8, 0, 16], "texture": "#tall_grass", "cullface": "up", "tintindex": 0},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#tall_grass", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass",
+			"from": [1, 16, -8],
+			"to": [17, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 16, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 0, 16], "texture": "#tall_grass", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [0, 8, 8, 16], "rotation": 180, "texture": "#tall_grass", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass",
+			"from": [1, 16, 8],
+			"to": [17, 16, 24],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [9, 16, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#tall_grass", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [8, 0, 0, 8], "texture": "#tall_grass", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass",
+			"from": [9, 16, 0],
+			"to": [25, 16, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [9, 16, 8]},
+			"faces": {
+				"up": {"uv": [16, 8, 8, 16], "rotation": 90, "texture": "#tall_grass", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [8, 8, 16, 16], "rotation": 90, "texture": "#tall_grass", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass",
+			"from": [-7, 16, 0],
+			"to": [9, 16, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [9, 16, 8]},
+			"faces": {
+				"up": {"uv": [8, 0, 16, 8], "rotation": 270, "texture": "#tall_grass", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [16, 0, 8, 8], "rotation": 270, "texture": "#tall_grass", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass",
+			"from": [-0.55, 16, 11],
+			"to": [15.45, 32, 11],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 8, 8], "texture": "#side_extra", "cullface": "up", "tintindex": 0},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#side_extra", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Grass",
+			"from": [13.22163, 16, 0.12556],
+			"to": [13.22163, 32, 16.12556],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [11.14663, 24, 4.07556]},
+			"faces": {
+				"east": {"uv": [8, 8, 0, 16], "texture": "#side_extra", "cullface": "up", "tintindex": 0},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#side_extra", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [2.65685, -16, 9.65685],
+			"to": [18.65685, 0, 9.65685],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [10.65685, -8, 9.65685]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#roots", "cullface": "down"},
+				"south": {"uv": [8, 0, 0, 8], "texture": "#roots", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [-2.87596, -16, 6.95087],
+			"to": [13.12404, 0, 6.95087],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [4.12404, -8, 6.95087]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#roots", "cullface": "down"},
+				"south": {"uv": [8, 8, 0, 16], "texture": "#roots", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [0.57446, -16, 1.63177],
+			"to": [16.57446, 0, 1.63177],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.57446, -8, 1.63177]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#roots", "cullface": "down"},
+				"south": {"uv": [16, 8, 8, 16], "texture": "#roots", "cullface": "down"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "Cube",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		},
+		{
+			"name": "Grass",
+			"origin": [8, 16, 8],
+			"color": 0,
+			"children": [8]
+		},
+		{
+			"name": "Grass",
+			"origin": [8, 16, 8],
+			"color": 0,
+			"children": [9, 10, 11, 12]
+		},
+		13,
+		14,
+		{
+			"name": "Roots",
+			"origin": [3.02832, -8, 11.37183],
+			"color": 0,
+			"children": [15, 16, 17]
+		}
+	]
+}
