@@ -172,17 +172,17 @@
     "category": "block",
 	"replace" : true,
     "sounds": [
+	  "step/gravel1",
+	  "step/gravel2",
+	  "step/gravel3",
+	  "step/gravel4",
+	  "step/gravel5",
+	  "step/gravel6",
+	  "step/gravel7",
+	  "step/gravel8",
 	  "step/gravel9",
 	  "step/gravel10",
-	  "step/gravel11",
-	  "step/gravel12",
-	  "step/gravel13",
-	  "step/gravel14",
-	  "step/gravel15",
-	  "step/gravel16",
-	  "step/gravel17",
-	  "step/gravel18",
-	  "step/gravel19"
+	  "step/gravel11"
     ]
   },
     "random.bow": {
