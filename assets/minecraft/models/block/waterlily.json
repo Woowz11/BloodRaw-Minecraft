@@ -1,0 +1,38 @@
+{
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "blocks/waterlily_bottom",
+		"texture": "blocks/waterlily",
+		"particle": "blocks/particle/waterlily"
+	},
+	"elements": [
+		{
+			"from": [0, -0.8, 0],
+			"to": [16, -0.8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, -14.8, 8],
+			"to": [16, -0.8, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -6.9, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 14], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 14], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, -14.8, 8],
+			"to": [16, -0.8, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, -6.9, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 14], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 14], "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}

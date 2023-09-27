@@ -6,17 +6,15 @@ Texture Pack Blood Raw
 
 Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
-Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
-
 [Download Texture Pack](https://github.com/Woowz11/BloodRaw-Minecraft/releases)
+
+Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
 
 ## Creator
 
 Main Texture Pack Creator, Artist: Woowz11
 
-Active Testers: The Window Skerpka, [Soon] Nekit, [Soon] Brinq
-
-Other Testers: Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), Klaver, Kemrouz, SetnaM, Deer
+Other Testers: Thewindowskrepka, Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), [Nekit](https://github.com/nekitplay155), Brinq, Klaver, Kemrouz, SetnaM, Deer
 
 ## Music Credits
 
