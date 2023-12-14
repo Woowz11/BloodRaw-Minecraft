@@ -12,9 +12,9 @@ Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11origina
 
 ## Creator
 
-Main Texture Pack Creator, Artist: Woowz11
+Creator: Woowz11
 
-Other Testers: Thewindowskrepka, Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), [Nekit](https://github.com/nekitplay155), Brinq, Klaver, Kemrouz, SetnaM, Deer
+Testers: Thewindowskrepka, Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), [Nekit](https://github.com/nekitplay155), Brinq, Klaver, Kemrouz, SetnaM, Deer
 
 ## Music Credits
 
@@ -28,39 +28,39 @@ Other Testers: Thewindowskrepka, Cyberpaul Red, [PavkaLakar](https://github.com/
 
 Soon [1.8]
 
-[1.7.10]
+[[1.7.10]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.6.4)
 
-[1.6.4]
+[[1.6.4]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.5.6)
 
-[Minecraft 2.0]
+[[Minecraft 2.0]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.4.7)
 
-[1.5.2]
+[[1.5.2]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.4.6)
 
-[1.4.2]
+[[1.4.2]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.3.8)
 
-[1.3.1]
+[[1.3.1]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.3.3)
 
-[1.2.1]
+[[1.2.1]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.3.0)
 
-[1.1]
+[[1.1]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.2.7)
 
-[1.0]
+[[1.0]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.2.6)
 
-[Beta 1.8]
+[[Beta 1.8]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.2.0)
 
-[Beta 1.7]
+[[Beta 1.7]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.6)
 
-[Beta 1.6]
+[[Beta 1.6]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.5)
 
-[Beta 1.5]
+[[Beta 1.5]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.4)
 
-[Beta 1.4]
+[[Beta 1.4]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.3)
 
-[Beta 1.3]
+[[Beta 1.3]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.2)
 
-[Beta 1.2]
+[[Beta 1.2]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.1)
 
-[Alpha 1.2.6]
+[[Alpha 1.2.6]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.0.9)
 
 ## Supported Mods
 

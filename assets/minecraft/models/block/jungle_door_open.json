@@ -1,0 +1,9 @@
+{
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"ambientocclusion": false,
+	"parent": "block/wooden_door_open",
+	"textures": {
+		"0": "blocks/door_jungle",
+		"particle": "blocks/particle/door_jungle"
+	}
+}

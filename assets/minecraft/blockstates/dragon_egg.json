@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+			{ "model": "dragon_egg" },
+			{ "model": "dragon_egg", "y": 90 },
+			{ "model": "dragon_egg", "y": 180 },
+			{ "model": "dragon_egg", "y": 270 }
+		]
+	}
+}
