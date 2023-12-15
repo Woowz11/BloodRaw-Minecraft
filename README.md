@@ -64,13 +64,13 @@ Soon [1.8]
 
 ## Supported Mods
 
-Forge - [50%] - Soon
+Forge - [65%] - Soon
 
 Optifine - [?%] - Soon
 
 HBM - [1.75%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
 
-NEI - [0%] - Soon
+NEI - [10%] - Soon
 
 IC2 - [0%] - Soon
 

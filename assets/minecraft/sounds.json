@@ -110,17 +110,17 @@
     "category": "block",
 	"replace" : true,
     "sounds": [
+	  "step/sand1",
+	  "step/sand2",
+	  "step/sand3",
+	  "step/sand4",
+	  "step/sand5",
+	  "step/sand6",
+	  "step/sand7",
 	  "step/sand8",
 	  "step/sand9",
 	  "step/sand10",
-	  "step/sand11",
-	  "step/sand12",
-	  "step/sand13",
-	  "step/sand14",
-	  "step/sand15",
-	  "step/sand16",
-	  "step/sand17",
-	  "step/sand18"
+	  "step/sand11"
     ]
   },
    "step.stone": {
@@ -207,6 +207,21 @@
 	"replace" : true,
     "sounds": [
       "random/click"
+    ]
+  },
+   "mob.creeper.death": {
+    "category": "hostile",
+    "sounds": [
+      "mob/creeper/death"
+    ]
+  },
+  "mob.creeper.say": {
+    "category": "hostile",
+    "sounds": [
+      "mob/creeper/say1",
+      "mob/creeper/say2",
+      "mob/creeper/say3",
+      "mob/creeper/say4"
     ]
   }
 }
