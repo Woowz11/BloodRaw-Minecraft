@@ -10,11 +10,23 @@ Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses
 
 Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
 
+# Desirable graphics settings:
+
+Graphics: Fancy (Or Details/Trees: Fancy)
+Smooth Lighting: Maximum
+Smooth Lighting Level: 100%
+Brightness: Moody (0%)
+Dynamic Lights: Fancy (Or Quality/Dynamic Lights: Fancy)
+Quality/Random Mobs: ON
+Quality/Better Grass: Fancy
+Quality/Custom Colours: ON
+Quality/Custom Items: ON
+
 ## Creator
 
 Creator: Woowz11
 
-Testers: Thewindowskrepka, Cyberpaul Red, [PavkaLakar](https://github.com/PavkaLakar), [Nekit](https://github.com/nekitplay155), Brinq, Klaver, Kemrouz, SetnaM, Deer
+Testers: [Cyberpaul Red](https://github.com/red-pr), Have a nice day., [SetnaM](https://github.com/youwillseelowskill), Kotyara228, Thewindowskrepka, [PavkaLakar](https://github.com/PavkaLakar), [Nekit](https://github.com/nekitplay155), Brinq, Klaver, Kemrouz, Deer
 
 ## Music Credits
 
