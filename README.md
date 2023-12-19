@@ -1,8 +1,8 @@
 ![Texture Pack Icon](../main/woowz/logo.png)
 
-## Info
+# Info
 
-Texture Pack Blood Raw
+Minecraft Texture Pack - Blood Raw
 
 Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
@@ -10,25 +10,31 @@ Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses
 
 Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
 
-# Desirable graphics settings:
-
-Graphics: Fancy (Or Details/Trees: Fancy)
-Smooth Lighting: Maximum
-Smooth Lighting Level: 100%
-Brightness: Moody (0%)
-Dynamic Lights: Fancy (Or Quality/Dynamic Lights: Fancy)
-Quality/Random Mobs: ON
-Quality/Better Grass: Fancy
-Quality/Custom Colours: ON
-Quality/Custom Items: ON
-
-## Creator
-
-Creator: Woowz11
+Author: Woowz11
 
 Testers: [Cyberpaul Red](https://github.com/red-pr), Have a nice day., [SetnaM](https://github.com/youwillseelowskill), Kotyara228, Thewindowskrepka, [PavkaLakar](https://github.com/PavkaLakar), [Nekit](https://github.com/nekitplay155), Brinq, Klaver, Kemrouz, Deer
 
-## Music Credits
+## Desirable graphics settings:
+
+Graphics: Fancy (Or Details/Trees: Fancy)
+
+Smooth Lighting: Maximum
+
+Smooth Lighting Level: 100%
+
+Brightness: Moody (0%)
+
+Dynamic Lights: Fancy (Or Quality/Dynamic Lights: Fancy)
+
+Quality/Random Mobs: ON
+
+Quality/Better Grass: Fancy
+
+Quality/Custom Colours: ON
+
+Quality/Custom Items: ON
+
+# Music Credits
 
 [[minecraft/sounds/records/stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey - Brazilian Flower
 
@@ -36,7 +42,7 @@ Testers: [Cyberpaul Red](https://github.com/red-pr), Have a nice day., [SetnaM](
 
 [[minecraft/sounds/records/wait](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg)] - Lifeformed - Undiscovery
 
-## Supported Versions
+# Supported Versions
 
 Soon [1.8]
 
@@ -74,7 +80,7 @@ Soon [1.8]
 
 [[Alpha 1.2.6]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.0.9)
 
-## Supported Mods
+# Supported Mods
 
 Forge - [65%] - Soon
 
