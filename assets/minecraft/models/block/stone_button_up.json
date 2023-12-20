@@ -1,0 +1,49 @@
+{
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "blocks/stone",
+		"particle": "blocks/stone"
+	},
+	"elements": [
+		{
+			"from": [5.65, 0, 6],
+			"to": [9.65, 2, 11],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.65, 1, 9.5]},
+			"faces": {
+				"north": {"uv": [9, 3, 13, 5], "texture": "#0"},
+				"east": {"uv": [1, 10, 6, 12], "texture": "#0"},
+				"south": {"uv": [4, 4, 8, 6], "texture": "#0"},
+				"west": {"uv": [11, 0, 16, 2], "texture": "#0"},
+				"up": {"uv": [11, 11, 15, 16], "texture": "#0"},
+				"down": {"uv": [2, 6, 6, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.64, -0.01, 5.99],
+			"to": [9.66, 3.01, 10.01],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.65, 1, 9.5]},
+			"faces": {
+				"north": {"uv": [7, 11, 11, 14], "texture": "#0"},
+				"east": {"uv": [6, 9, 10, 12], "texture": "#0"},
+				"south": {"uv": [5, 1, 9, 4], "texture": "#0"},
+				"west": {"uv": [2, 7, 6, 10], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [8, 1, 12, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.66, 0.01, 5.01],
+			"to": [8.64, 2.49, 6.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.65, 1, 9.5]},
+			"faces": {
+				"north": {"uv": [2, 3, 4, 5.5], "texture": "#0"},
+				"east": {"uv": [1, 11, 3, 13.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2.5], "texture": "#0"},
+				"west": {"uv": [14, 4, 16, 6.5], "texture": "#0"},
+				"up": {"uv": [5, 4, 7, 6], "texture": "#0"},
+				"down": {"uv": [0, 10, 2, 12], "texture": "#0"}
+			}
+		}
+	]
+}
