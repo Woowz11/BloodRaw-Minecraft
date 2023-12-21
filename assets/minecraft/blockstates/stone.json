@@ -3,8 +3,12 @@
         "normal": [
             { "model": "stone" },
             { "model": "stone_mirrored" },
+			{ "model": "stone", "y": 90 },
             { "model": "stone", "y": 180 },
-            { "model": "stone_mirrored", "y": 180 }
+			{ "model": "stone", "y": 270 },
+			{ "model": "stone_mirrored", "y": 90 },
+            { "model": "stone_mirrored", "y": 180 },
+			{ "model": "stone_mirrored", "y": 270 }
         ]
     }
 }

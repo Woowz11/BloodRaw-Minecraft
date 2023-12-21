@@ -140,8 +140,7 @@
     "sounds": [
       "random/explode1",
       "random/explode2",
-      "random/explode3",
-      "random/explode4"
+      "random/explode3"
     ]
   },
     "dig.glass": {

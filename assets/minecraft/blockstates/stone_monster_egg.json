@@ -1,5 +1,10 @@
 {
     "variants": {
-        "normal": { "model": "stone_m" }
+        "normal": [
+            { "model": "stone_m" },
+			{ "model": "stone_m", "y": 90 },
+            { "model": "stone_m", "y": 180 },
+			{ "model": "stone_m", "y": 270 }
+        ]
     }
 }

@@ -1,51 +1,51 @@
-§fThe First Splash in the §mTexture§r§f Resource Pack!
-§fRIP Rock Buttons
+§fThe first splash in the §mtexture§r§f resource pack!
+§fRIP rock buttons
 §fBy Woowz11!
 §fHello!
-§fShould I Have Removed The Vanilla Splashes?
+§fShould I have removed the vanilla splashes?
 §fWhen's Blood Eye V?
-§fYou're Not a Very Good Modder
+§fYou're not a very good modder
 §7gh release create
-§fIt's So Hard
-§fStroke or Heart Attack?
-§f💀
+§fIt's so hard
+§fStroke or heart attack?
 §fWhen
 §f§lBold
 §f§oItalic
 §f§nStrike
 §f§mUnderline
-§fDon't Play at People Playground
-§fNo Icon
+§fDon't play at People Playground
+§fNo icon
 §fGrandson of WVirus
 §fBLOOD RAW
 §fBLOOD EYE
 §fsplashes.txt
 §fPLAYERNAME
 §fDON'T REMOVE THIS SPLASH, okay, it's a joke
-§fQuit Game
-§fNew Splashe
-§fFat Font
-§fThin Font
-§fDon't Look at The Texture Pack History
+§fQuit game
+§fNew splashe
+§fFat font
+§fThin font
+§fDon't look at the texture pack history
 §fI Don't Know What to Make Up
 §fIT'S NOT A MINECRAFT CLONE!
 §fWhen is 1.9?
 §fWho am I?
 §fWhen in Garry's Mod?
-§fRIP Rose
+§fRIP rose
 §fHBM is the Best?
-§fOld NEI Ugly!!!
-§fRandom Creeper's
+§fOld NEI ugly!!!
+§fRandom creeper's
 §fMods
-§fCreepy Cave
+§fCreepy cave
 §fYou podzol
 §fWhen PtTR?
-§fNew Sounds!
+§fNew sounds!
 §fFLOWERS!!!
 §fCC BY-NC-SA 4.0
 §f>>return GetRandomSplashe();
-§fUse MCPatcher Noob!
+§fUse MCPatcher noob!
 §fAfter a long time...
 §fClownfish!
 §fUPDATE!!!
 §fWhen Lethal Company?
+§fCAMCA
