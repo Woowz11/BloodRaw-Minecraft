@@ -1,6 +1,6 @@
 {
 	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
-	"ambientocclusion": false,
+	"parent": "block/cube_all",
 	"textures": {
 		"3": "blocks/stone_slab_bottom",
 		"4": "blocks/furnace_front_off_new",

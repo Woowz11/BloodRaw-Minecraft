@@ -1,6 +1,6 @@
 {
 	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
-	"ambientocclusion": false,
+	"parent": "block/cube_all",
 	"textures": {
 		"0": "blocks/crafting_table",
 		"particle": "blocks/particle/oak_wood"

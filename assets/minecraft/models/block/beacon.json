@@ -1,6 +1,7 @@
 {
 	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
 	"ambientocclusion": false,
+	"parent": "block/base",
 	"textures": {
 		"0": "blocks/beacon",
 		"1": "blocks/beacon_new",

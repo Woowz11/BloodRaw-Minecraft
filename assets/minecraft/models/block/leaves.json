@@ -1,6 +1,7 @@
 {
 	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
 	"ambientocclusion": false,
+	"parent": "block/base",
 	"textures": {
 		"particle": "blocks/particle/leaves"
 	},

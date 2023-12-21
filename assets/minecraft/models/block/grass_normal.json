@@ -1,5 +1,6 @@
 {
 	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"parent": "block/base",
 	"ambientocclusion": false,
 	"textures": {
 		"tall_grass": "blocks/grass_top_tall_2",

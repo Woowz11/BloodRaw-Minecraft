@@ -1,6 +1,7 @@
 {
 	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
 	"ambientocclusion": false,
+	"parent": "block/base",
 	"textures": {
 		"0": "blocks/jukebox_top_has_record",
 		"1": "blocks/jukebox_bottom",
