@@ -84,14 +84,22 @@ Soon [1.9]
 
 # Supported Mods
 
-Forge - [65%] - Soon
+Forge - [65%] - [Download Link](https://files.minecraftforge.net/net/minecraftforge/forge/)
 
-Optifine - [?%] - Soon
+Optifine - [?%] - [Download Link](https://optifine.net/downloads)
 
 HBM - [1.75%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
 
-NEI - [10%] - Soon
+JEI - [0%] - Soon
+
+NEI - [70%] - Soon
 
 IC2 - [0%] - Soon
+
+Lucky Block - [75%] - Soon
+
+Xaeros Minimap - [0%] - Soon
+
+MrCrayfish Furniture - [0%] - Soon
 
 Damage Indicators - [0%] - Soon
