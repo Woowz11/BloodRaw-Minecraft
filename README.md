@@ -12,7 +12,7 @@ Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11origina
 
 Author: Woowz11
 
-Testers: [Cyberpaul Red](https://github.com/red-pr), Have a nice day., [SetnaM](https://github.com/youwillseelowskill), Kotyara228, Thewindowskrepka, [PavkaLakar](https://github.com/PavkaLakar), [Nekit](https://github.com/nekitplay155), Brinq, Klaver, Kemrouz, Deer
+Testers: Have a nice day., [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
 
 ## Desirable graphics settings:
 
@@ -92,11 +92,11 @@ HBM - [1.75%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbm
 
 JEI - [0%] - Soon
 
-NEI - [70%] - Soon
+NEI - [70%] - [Download Link <1.8](https://www.curseforge.com/minecraft/mc-mods/notenoughitems) [Download Link >=1.8](https://legacy.curseforge.com/minecraft/mc-mods/not-enough-items-1-8)
 
 IC2 - [0%] - Soon
 
-Lucky Block - [75%] - Soon
+Lucky Block - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/lucky-block)
 
 Xaeros Minimap - [0%] - Soon
 
