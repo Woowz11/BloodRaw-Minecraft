@@ -26,7 +26,7 @@ Brightness: Moody (0%)
 
 Dynamic Lights: Fancy (Or Quality/Dynamic Lights: Fancy)
 
-Quality/Random Mobs: ON
+Quality/Random Entities: ON
 
 Quality/Better Grass: Fancy
 
