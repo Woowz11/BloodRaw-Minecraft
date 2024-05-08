@@ -86,8 +86,6 @@ Soon [1.9]
 
 Forge - [65%] - [Download Link](https://files.minecraftforge.net/net/minecraftforge/forge/)
 
-Optifine - [?%] - [Download Link](https://optifine.net/downloads)
-
 HBM - [1.75%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
 
 JEI - [0%] - Soon

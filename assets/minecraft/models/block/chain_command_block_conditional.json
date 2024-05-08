@@ -1,0 +1,6 @@
+{
+	"parent": "block/chain_command_block",
+	"textures": {
+		"0": "blocks/chain_command_block_conditional"
+	}
+}

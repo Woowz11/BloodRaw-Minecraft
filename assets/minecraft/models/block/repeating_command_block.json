@@ -1,0 +1,6 @@
+{
+	"parent": "block/command_block",
+	"textures": {
+		"0": "blocks/repeating_command_block"
+	}
+}
