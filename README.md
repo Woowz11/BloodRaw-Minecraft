@@ -4,7 +4,7 @@
 
 Minecraft Texture Pack - Blood Raw
 
-Please, read license.txt [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
+Please, read [license.txt](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/license.txt) [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
 [Download Texture Pack](https://github.com/Woowz11/BloodRaw-Minecraft/releases)
 
@@ -30,9 +30,17 @@ Quality/Random Entities: ON
 
 Quality/Better Grass: Fancy
 
-Quality/Custom Colours: ON
+Quality/Custom Colors: ON
 
 Quality/Custom Items: ON
+
+Quality/Connected Textures: Fancy
+
+Quality/Custom Sky: ON
+
+Details/Swamp Colors: ON
+
+Details/Smooth Biomes: ON
 
 # Music Credits
 

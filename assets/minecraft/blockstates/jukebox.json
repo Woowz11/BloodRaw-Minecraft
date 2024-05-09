@@ -1,6 +1,10 @@
 {
-    "variants": {
-        "has_record=false": { "model": "jukebox" },
-        "has_record=true":  { "model": "jukebox_on" }
-    }
+    "multipart": [
+        {   "when": { "has_record": "false" },
+            "apply": { "model": "jukebox", "uvlock": false }
+        },
+        {   "when": { "has_record": "true" },
+            "apply": { "model": "jukebox_on", "uvlock": false }
+        }
+    ]
 }

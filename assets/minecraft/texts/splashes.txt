@@ -26,7 +26,7 @@
 §fFat font
 §fThin font
 §fDon't look at the texture pack history
-§fI Don't Know What to Make Up
+§fI don't know what to make up
 §fIT'S NOT A MINECRAFT CLONE!
 §fWhen is 1.10?
 §fWho am I?
@@ -48,5 +48,6 @@
 §fClownfish!
 §fUPDATE!!!
 §fWhen Lethal Company?
-§fCAMCA
+§fSAMSA
 §fWhen Content Warning?
+§fRelax horror

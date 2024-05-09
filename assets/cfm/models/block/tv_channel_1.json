@@ -1,0 +1,6 @@
+{
+	"parent": "cfm:block/tv",
+	"textures": {
+		"1": "cfm:blocks/channel_1"
+	}
+}
