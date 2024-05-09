@@ -106,6 +106,10 @@ Lucky Block - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-m
 
 Xaeros Minimap - [0%] - Soon
 
-MrCrayfish Furniture - [0%] - Soon
+MrCrayfish Furniture - [30%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod)
 
 Damage Indicators - [0%] - Soon
+
+Better Foliage - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/better-foliage)
+
+Chisel and Bits - [0%] - Soon
