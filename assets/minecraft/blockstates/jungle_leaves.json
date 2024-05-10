@@ -1,10 +1,10 @@
 {
-    "variants": {
-        "normal": [
-			{ "model": "jungle_leaves" },
-			{ "model": "jungle_leaves", "y": 90 },
-			{ "model": "jungle_leaves", "y": 180 },
-			{ "model": "jungle_leaves", "y": 270 }
-		]
-    }
+    "multipart": [
+        {   "when": { "decayable": "false" },
+            "apply": { "model": "jungle_leaves_decor" }
+        },
+        {   "when": { "decayable": "true" },
+            "apply": { "model": "jungle_leaves" }
+        }
+    ]
 }

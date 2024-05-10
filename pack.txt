@@ -1,2 +1,2 @@
-Pack Version: 0.9.5 [1.9]
+Pack Version: 0.9.6 [1.9]
 By Woowz11 ©

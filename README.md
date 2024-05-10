@@ -96,13 +96,13 @@ Forge - [65%] - [Download Link](https://files.minecraftforge.net/net/minecraftfo
 
 HBM - [1.75%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)
 
-JEI - [0%] - Soon
+JEI - [50%] - Soon
 
 NEI - [70%] - [Download Link <1.8](https://www.curseforge.com/minecraft/mc-mods/notenoughitems) [Download Link >=1.8](https://legacy.curseforge.com/minecraft/mc-mods/not-enough-items-1-8)
 
 IC2 - [0%] - Soon
 
-Lucky Block - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/lucky-block)
+<font style="color:green">Lucky Block - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/lucky-block)</font>
 
 Xaeros Minimap - [0%] - Soon
 
@@ -110,6 +110,10 @@ MrCrayfish Furniture - [30%] - [Download Link](https://www.curseforge.com/minecr
 
 Damage Indicators - [0%] - Soon
 
-Better Foliage - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/better-foliage)
+<font style="color:green">Better Foliage - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/better-foliage)</font>
 
 Chisel and Bits - [0%] - Soon
+
+Iron Chest - [20%] - Soon
+
+Trap Craft - [0%] - Soon

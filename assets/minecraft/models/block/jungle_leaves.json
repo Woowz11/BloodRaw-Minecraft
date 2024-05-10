@@ -3,6 +3,7 @@
 	"ambientocclusion": false,
 	"parent": "block/base",
 	"textures": {
+		"leaves": "blocks/leaves_jungle",
 		"1": "blocks/leaves_jungle_new2",
 		"all": "blocks/leaves_jungle_new",
 		"particle": "blocks/particle/leaves"
