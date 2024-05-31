@@ -1,18 +1,17 @@
 ![Texture Pack Icon](../main/woowz/logo.png)
 
-# Info
-
-Minecraft Texture Pack - Blood Raw
-
-Please, read [license.txt](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/license.txt) [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
+## Minecraft Texture/Resource Pack - Blood Raw
 
 [Download Texture Pack](https://github.com/Woowz11/BloodRaw-Minecraft/releases)
 
-Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
-
 Author: Woowz11
 
-Testers: Have a nice day., [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
+> [!IMPORTANT]
+> Please, read [license.txt](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/license.txt) [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
+
+Testers: [Wldoui](https://github.com/wldoui), Have a nice day., [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
+
+Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
 
 ## Desirable graphics settings:
 
@@ -102,7 +101,7 @@ NEI - [70%] - [Download Link <1.8](https://www.curseforge.com/minecraft/mc-mods/
 
 IC2 - [0%] - Soon
 
-<font style="color:green">Lucky Block - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/lucky-block)</font>
+✔️ Lucky Block - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/lucky-block)
 
 Xaeros Minimap - [0%] - Soon
 
@@ -110,7 +109,7 @@ MrCrayfish Furniture - [30%] - [Download Link](https://www.curseforge.com/minecr
 
 Damage Indicators - [0%] - Soon
 
-<font style="color:green">Better Foliage - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/better-foliage)</font>
+✔️ Better Foliage - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/better-foliage)
 
 Chisel and Bits - [0%] - Soon
 

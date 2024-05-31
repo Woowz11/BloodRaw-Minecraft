@@ -1,0 +1,26 @@
+{
+	"parent": "item/handheld_big",
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 145],
+			"translation": [0, 0.25, -1.75],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -145],
+			"translation": [0, 0.25, -1.75],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [50, -90, 180],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [50, 90, -180],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.36, 1.36, 0.68]
+		}
+	}
+}

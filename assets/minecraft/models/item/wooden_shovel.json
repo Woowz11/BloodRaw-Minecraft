@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_big_shovel",
+    "textures": {
+        "layer0": "items/wood_shovel"
+    }
+}

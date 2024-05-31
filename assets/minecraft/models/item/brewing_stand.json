@@ -1,5 +1,5 @@
 {
-    "parent": "block/brewing_stand",
+    "parent": "block/brewing_stand_full",
     "display": {
         "gui": {
             "rotation": [ 30, 225, 0 ],
