@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "prismarine_rough" },
+            { "model": "prismarine_rough", "y": 90 },
+            { "model": "prismarine_rough", "y": 180 },
+            { "model": "prismarine_rough", "y": 270 },
+            { "model": "prismarine_rough", "x": 90 },
+            { "model": "prismarine_rough", "y": 90, "x": 90 },
+            { "model": "prismarine_rough", "y": 180, "x": 90 },
+            { "model": "prismarine_rough", "y": 270, "x": 90 },
+            { "model": "prismarine_rough", "x": 180 },
+            { "model": "prismarine_rough", "y": 90, "x": 180 },
+            { "model": "prismarine_rough", "y": 180, "x": 180 },
+            { "model": "prismarine_rough", "y": 270, "x": 180 },
+			{ "model": "prismarine_rough", "x": 270 },
+            { "model": "prismarine_rough", "y": 90, "x": 270 },
+            { "model": "prismarine_rough", "y": 180, "x": 270 },
+            { "model": "prismarine_rough", "y": 270, "x": 270 }
+        ]
+    }
+}

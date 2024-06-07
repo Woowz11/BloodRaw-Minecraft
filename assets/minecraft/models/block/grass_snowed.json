@@ -1,0 +1,97 @@
+{
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"parent": "block/base",
+	"ambientocclusion": false,
+	"textures": {
+		"roots": "blocks/grass_bottom_extra",
+		"side": "blocks/grass_side_snowed",
+		"bottom": "blocks/grass_bottom",
+		"top_dirt": "blocks/snow",
+		"particle": "blocks/particle/grass"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top_dirt", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [-3, -16, 4],
+			"to": [13, 0, 4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [5, -8, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#roots", "cullface": "down"},
+				"south": {"uv": [8, 0, 0, 8], "texture": "#roots", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [4.20711, -16, 3.11739],
+			"to": [4.20711, 0, 19.11739],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [5.70711, -8, 13.19239]},
+			"faces": {
+				"east": {"uv": [8, 8, 0, 16], "texture": "#roots", "cullface": "down"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#roots", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [10.48502, -16, 1.04853],
+			"to": [10.48502, 0, 17.04853],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.48502, -8, 9.04853]},
+			"faces": {
+				"east": {"uv": [16, 8, 8, 16], "texture": "#roots", "cullface": "down"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#roots", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [3.75332, -16, 7.62183],
+			"to": [19.75332, 0, 7.62183],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [3.02832, -8, 11.37183]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#roots", "cullface": "down"},
+				"south": {"uv": [16, 0, 8, 8], "texture": "#roots", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Cube",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "Grass",
+			"origin": [8, 16, 8],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "Grass",
+			"origin": [8, 16, 8],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "Roots",
+			"origin": [3.02832, -8, 11.37183],
+			"color": 0,
+			"children": [1, 2, 3, 4]
+		}
+	]
+}

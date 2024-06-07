@@ -1,0 +1,46 @@
+{
+    "variants": {
+        "bites=0": [
+            { "model": "cake_uneaten" },
+            { "model": "cake_uneaten", "y": 90 },
+            { "model": "cake_uneaten", "y": 180 },
+            { "model": "cake_uneaten", "y": 270 } 
+		],
+        "bites=1": [
+            { "model": "cake_slice1" },
+            { "model": "cake_slice1", "y": 90 },
+            { "model": "cake_slice1", "y": 180 },
+            { "model": "cake_slice1", "y": 270 } 
+		],
+        "bites=2": [
+            { "model": "cake_slice2" },
+            { "model": "cake_slice2", "y": 90 },
+            { "model": "cake_slice2", "y": 180 },
+            { "model": "cake_slice2", "y": 270 } 
+		],
+        "bites=3": [
+            { "model": "cake_slice3" },
+            { "model": "cake_slice3", "y": 90 },
+            { "model": "cake_slice3", "y": 180 },
+            { "model": "cake_slice3", "y": 270 } 
+		],
+        "bites=4": [
+            { "model": "cake_slice4" },
+            { "model": "cake_slice4", "y": 90 },
+            { "model": "cake_slice4", "y": 180 },
+            { "model": "cake_slice4", "y": 270 } 
+		],
+        "bites=5": [
+            { "model": "cake_slice5" },
+            { "model": "cake_slice5", "y": 90 },
+            { "model": "cake_slice5", "y": 180 },
+            { "model": "cake_slice5", "y": 270 } 
+		],
+        "bites=6": [
+            { "model": "cake_slice6" },
+            { "model": "cake_slice6", "y": 90 },
+            { "model": "cake_slice6", "y": 180 },
+            { "model": "cake_slice6", "y": 270 } 
+		]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "packed_ice" },
+            { "model": "packed_ice", "y": 90 },
+            { "model": "packed_ice", "y": 180 },
+            { "model": "packed_ice", "y": 270 },
+            { "model": "packed_ice", "x": 90 },
+            { "model": "packed_ice", "y": 90, "x": 90 },
+            { "model": "packed_ice", "y": 180, "x": 90 },
+            { "model": "packed_ice", "y": 270, "x": 90 },
+            { "model": "packed_ice", "x": 180 },
+            { "model": "packed_ice", "y": 90, "x": 180 },
+            { "model": "packed_ice", "y": 180, "x": 180 },
+            { "model": "packed_ice", "y": 270, "x": 180 },
+			{ "model": "packed_ice", "x": 270 },
+            { "model": "packed_ice", "y": 90, "x": 270 },
+            { "model": "packed_ice", "y": 180, "x": 270 },
+            { "model": "packed_ice", "y": 270, "x": 270 }
+        ]
+    }
+}

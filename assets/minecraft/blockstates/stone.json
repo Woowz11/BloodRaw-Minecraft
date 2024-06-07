@@ -2,13 +2,37 @@
     "variants": {
         "normal": [
             { "model": "stone" },
-            { "model": "stone_mirrored" },
-			{ "model": "stone", "y": 90 },
+            { "model": "stone", "y": 90 },
             { "model": "stone", "y": 180 },
-			{ "model": "stone", "y": 270 },
-			{ "model": "stone_mirrored", "y": 90 },
+            { "model": "stone", "y": 270 },
+            { "model": "stone", "x": 90 },
+            { "model": "stone", "y": 90, "x": 90 },
+            { "model": "stone", "y": 180, "x": 90 },
+            { "model": "stone", "y": 270, "x": 90 },
+            { "model": "stone", "x": 180 },
+            { "model": "stone", "y": 90, "x": 180 },
+            { "model": "stone", "y": 180, "x": 180 },
+            { "model": "stone", "y": 270, "x": 180 },
+			{ "model": "stone", "x": 270 },
+            { "model": "stone", "y": 90, "x": 270 },
+            { "model": "stone", "y": 180, "x": 270 },
+            { "model": "stone", "y": 270, "x": 270 },
+			{ "model": "stone_mirrored" },
+            { "model": "stone_mirrored", "y": 90 },
             { "model": "stone_mirrored", "y": 180 },
-			{ "model": "stone_mirrored", "y": 270 }
+            { "model": "stone_mirrored", "y": 270 },
+            { "model": "stone_mirrored", "x": 90 },
+            { "model": "stone_mirrored", "y": 90, "x": 90 },
+            { "model": "stone_mirrored", "y": 180, "x": 90 },
+            { "model": "stone_mirrored", "y": 270, "x": 90 },
+            { "model": "stone_mirrored", "x": 180 },
+            { "model": "stone_mirrored", "y": 90, "x": 180 },
+            { "model": "stone_mirrored", "y": 180, "x": 180 },
+            { "model": "stone_mirrored", "y": 270, "x": 180 },
+			{ "model": "stone_mirrored", "x": 270 },
+            { "model": "stone_mirrored", "y": 90, "x": 270 },
+            { "model": "stone_mirrored", "y": 180, "x": 270 },
+            { "model": "stone_mirrored", "y": 270, "x": 270 }
         ]
     }
 }

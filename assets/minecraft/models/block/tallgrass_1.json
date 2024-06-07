@@ -1,0 +1,67 @@
+{
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "blocks/tallgrass",
+		"1": "blocks/tallgrass_wavy",
+		"2": "blocks/tallgrass_wavy_big",
+		"particle": "blocks/particle/grass"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 2],
+			"to": [16, 0, 18],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 2]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0, 14],
+			"to": [16, 16, 14],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 14]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2, 0, 0],
+			"to": [2, 16, 16],
+			"rotation": {"angle": -45, "axis": "z", "origin": [2, 0, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [14, 0, 0],
+			"to": [14, 16, 16],
+			"rotation": {"angle": 0, "axis": "z", "origin": [14, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 5, 0],
+			"to": [16, 5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 4, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-16, 1, -16],
+			"to": [32, 1, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 12, 12], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [0, 12, 12, 0], "texture": "#2", "tintindex": 0}
+			}
+		}
+	],
+	"display": {}
+}

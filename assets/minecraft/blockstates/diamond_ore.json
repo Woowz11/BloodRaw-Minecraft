@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "diamond_ore" },
+            { "model": "diamond_ore", "y": 90 },
+            { "model": "diamond_ore", "y": 180 },
+            { "model": "diamond_ore", "y": 270 },
+            { "model": "diamond_ore", "x": 90 },
+            { "model": "diamond_ore", "y": 90, "x": 90 },
+            { "model": "diamond_ore", "y": 180, "x": 90 },
+            { "model": "diamond_ore", "y": 270, "x": 90 },
+            { "model": "diamond_ore", "x": 180 },
+            { "model": "diamond_ore", "y": 90, "x": 180 },
+            { "model": "diamond_ore", "y": 180, "x": 180 },
+            { "model": "diamond_ore", "y": 270, "x": 180 },
+			{ "model": "diamond_ore", "x": 270 },
+            { "model": "diamond_ore", "y": 90, "x": 270 },
+            { "model": "diamond_ore", "y": 180, "x": 270 },
+            { "model": "diamond_ore", "y": 270, "x": 270 }
+        ]
+    }
+}

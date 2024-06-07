@@ -1,0 +1,18 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "tallgrass_1" },
+			{ "model": "tallgrass_1", "y": 90 },
+            { "model": "tallgrass_1", "y": 180 },
+			{ "model": "tallgrass_1", "y": 270 },
+			{ "model": "tallgrass_2" },
+			{ "model": "tallgrass_2", "y": 90 },
+            { "model": "tallgrass_2", "y": 180 },
+			{ "model": "tallgrass_2", "y": 270 },
+			{ "model": "tallgrass_3" },
+			{ "model": "tallgrass_3", "y": 90 },
+            { "model": "tallgrass_3", "y": 180 },
+			{ "model": "tallgrass_3", "y": 270 }
+        ]
+    }
+}

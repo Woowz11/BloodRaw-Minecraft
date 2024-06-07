@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "ice" },
+            { "model": "ice", "y": 90 },
+            { "model": "ice", "y": 180 },
+            { "model": "ice", "y": 270 },
+            { "model": "ice", "x": 90 },
+            { "model": "ice", "y": 90, "x": 90 },
+            { "model": "ice", "y": 180, "x": 90 },
+            { "model": "ice", "y": 270, "x": 90 },
+            { "model": "ice", "x": 180 },
+            { "model": "ice", "y": 90, "x": 180 },
+            { "model": "ice", "y": 180, "x": 180 },
+            { "model": "ice", "y": 270, "x": 180 },
+			{ "model": "ice", "x": 270 },
+            { "model": "ice", "y": 90, "x": 270 },
+            { "model": "ice", "y": 180, "x": 270 },
+            { "model": "ice", "y": 270, "x": 270 }
+        ]
+    }
+}

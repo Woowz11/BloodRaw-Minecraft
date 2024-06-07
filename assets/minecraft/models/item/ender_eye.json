@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated_default",
+    "textures": {
+        "layer0": "items/ender_eye"
+    }
+}

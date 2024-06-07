@@ -1,0 +1,6 @@
+{
+    "parent": "block/chorus_flower",
+    "textures": {
+        "0": "blocks/chorus_flower_dead"
+    }
+}

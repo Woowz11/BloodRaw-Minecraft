@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "hardened_clay" },
+            { "model": "hardened_clay", "y": 90 },
+            { "model": "hardened_clay", "y": 180 },
+            { "model": "hardened_clay", "y": 270 },
+            { "model": "hardened_clay", "x": 90 },
+            { "model": "hardened_clay", "y": 90, "x": 90 },
+            { "model": "hardened_clay", "y": 180, "x": 90 },
+            { "model": "hardened_clay", "y": 270, "x": 90 },
+            { "model": "hardened_clay", "x": 180 },
+            { "model": "hardened_clay", "y": 90, "x": 180 },
+            { "model": "hardened_clay", "y": 180, "x": 180 },
+            { "model": "hardened_clay", "y": 270, "x": 180 },
+			{ "model": "hardened_clay", "x": 270 },
+            { "model": "hardened_clay", "y": 90, "x": 270 },
+            { "model": "hardened_clay", "y": 180, "x": 270 },
+            { "model": "hardened_clay", "y": 270, "x": 270 }
+        ]
+    }
+}

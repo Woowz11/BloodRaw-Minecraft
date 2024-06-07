@@ -10,6 +10,11 @@
             { "model": "grass_normal_2", "y": 180 },
             { "model": "grass_normal_2", "y": 270 }
         ],
-        "snowy=true":  { "model": "grass_snowed" }
+        "snowy=true":  [
+            { "model": "grass_snowed" },
+            { "model": "grass_snowed", "y": 90 },
+            { "model": "grass_snowed", "y": 180 },
+            { "model": "grass_snowed", "y": 270 }
+        ]
     }
 }
