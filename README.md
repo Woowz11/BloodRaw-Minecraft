@@ -116,4 +116,4 @@ Chisel and Bits - [0%] - Soon
 
 Iron Chest - [20%] - Soon
 
-Trap Craft - [0%] - Soon
+Trap Craft - [35%] - Soon

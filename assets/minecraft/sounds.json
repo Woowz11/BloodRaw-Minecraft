@@ -8,6 +8,7 @@
     ],
     "subtitle": "subtitles.entity.generic.explode"
   },
+  
   "entity.lightning.impact": {
     "replace" : true,
     "sounds": [
@@ -16,6 +17,20 @@
 	  { "name": "woowz/explosions/electricity/3", "volume": 0.5  }
     ],
     "subtitle": "subtitles.entity.lightning.impact"
+  },
+    "entity.lightning.thunder": {
+	"replace" : true,
+    "sounds": [
+      "woowz/weather/lightbolt/1",
+      "woowz/weather/lightbolt/2",
+      "woowz/weather/lightbolt/3",
+	  "woowz/weather/lightbolt/4",
+	  "woowz/weather/lightbolt/5",
+	  "woowz/weather/lightbolt/6",
+	  "woowz/weather/lightbolt/7",
+	  "woowz/weather/lightbolt/8"
+    ],
+    "subtitle": "subtitles.entity.lightning.thunder"
   },
   
   "ambient.cave": {

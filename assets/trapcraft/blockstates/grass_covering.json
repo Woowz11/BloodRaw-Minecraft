@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "trapcraft:grass_covering" },
+            { "model": "trapcraft:grass_covering", "y": 90 },
+            { "model": "trapcraft:grass_covering", "y": 180 },
+            { "model": "trapcraft:grass_covering", "y": 270 }
+        ]
+    }
+}

@@ -1,5 +1,10 @@
 {
     "variants": {
-        "normal": { "model": "netherrack" }
+        "normal": [
+            { "model": "netherrack" },
+            { "model": "netherrack", "y": 90 },
+            { "model": "netherrack", "y": 180 },
+            { "model": "netherrack", "y": 270 }
+        ]
     }
 }

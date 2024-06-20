@@ -1,0 +1,15 @@
+tile.luckyBlock.name=Лакиблок
+item.luckyBlock.luck=Удача
+item.luckyBlock.customDrop=С своим дропом
+
+item.luckySword.name=Лакимеч
+item.luckyBow.name=Лакилук
+item.luckyPotion.name=Лакизелье
+
+commands.setluckyblock.usage=/setluckyblock <x> <y> <z> [luck] [customDrops]
+commands.setluckyblock.success=Лакиблок размещён
+commands.setluckyblock.failed=Не получилось разместить лакиблок
+commands.setluckyblock.outOfWorld=Лакиблок находится за пределами мира
+commands.setluckyblock.noChange=Лакиблок не получилось разместить
+commands.giveluckyblock.usage=/giveluckyblock <player> [amount] [luck] [customDrops]
+commands.giveluckyblock.success=Given %s * %d to %s

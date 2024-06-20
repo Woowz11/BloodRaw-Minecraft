@@ -1,0 +1,11 @@
+container.magnetic_chest=Магнитный сундук
+container.igniter=Поджигатель
+
+tile.trapcraft.fan.name=Вентилятор
+tile.trapcraft.magnetic_chest.name=Магнитный сундук
+tile.trapcraft.grass_covering.name=Травяной покров
+tile.trapcraft.bear_trap.name=Медвежий копкан
+tile.trapcraft.spikes.name=Шипы
+tile.trapcraft.igniter.name=Поджигатель
+
+item.trapcraft.igniter_range.name=Уселитель растояния поджигателя
