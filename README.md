@@ -4,6 +4,8 @@
 
 [Download Texture Pack](https://github.com/Woowz11/BloodRaw-Minecraft/releases)
 
+[Texture Pack Site](https://woowz11.github.io/woowzsite/bloodraw.html)
+
 Author: Woowz11
 
 > [!IMPORTANT]
