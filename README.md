@@ -45,13 +45,18 @@ Details/Smooth Biomes: ON
 
 # Music Credits
 
-[[minecraft/sounds/records/stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey - Brazilian Flower
+[[minecraft/sounds/records/stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey — Brazilian Flower
 
-[[minecraft/sounds/records/chirp](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg)] - The Daniel Pemberton TV Orchestra - The Orb Of Dreamers
+[[minecraft/sounds/records/chirp](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg)] - The Daniel Pemberton TV Orchestra — The Orb Of Dreamers
 
-[[minecraft/sounds/records/wait](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg)] - Lifeformed - Undiscovery
+[[minecraft/sounds/records/wait](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg)] - Lifeformed — Undiscovery
 
-[[minecraft/sounds/records/13](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/13.ogg)] - Notch - Calm 4
+[[minecraft/sounds/records/13](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/13.ogg)] - Notch — Calm 4
+
+[[minecraft/sounds/records/11](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/11.ogg)] - Hzlancer — Superfighters DELUXE Theme
+
+[[minecraft/sounds/records/strad](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/strad.ogg)] - Bebromet2k18 — TROLL MEGA HIT
+
 # Supported Versions
 
 Soon [1.9]

@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable_wb",
+    "textures": {
+		"bottom": "blocks/stone_slab_bottom",
+        "top": "blocks/furnace_top",
+        "front": "blocks/dropper_front_horizontal",
+        "side": "blocks/furnace_side"
+    }
+}

@@ -1,4 +1,153 @@
 {
+  "block.furnace.fire_crackle": {
+    "replace" : true,
+    "sounds": [
+      "woowz/other/fire/1",
+      "woowz/other/fire/2",
+	  "woowz/other/fire/3",
+	  "woowz/other/fire/4",
+	  "woowz/other/fire/5",
+	  "woowz/other/fire/6",
+	  "woowz/other/fire/7",
+	  "woowz/other/fire/8",
+	  "woowz/other/fire/9",
+	  "woowz/other/fire/10",
+	  "woowz/other/fire/11",
+	  "woowz/other/fire/12",
+	  "woowz/other/fire/13",
+	  "woowz/other/fire/14",
+	  "woowz/other/fire/15",
+	  "woowz/other/fire/16",
+	  "woowz/other/fire/17",
+	  "woowz/other/fire/18",
+	  "woowz/other/fire/19"
+    ],
+    "subtitle": "subtitles.block.furnace.fire_crackle"
+  },
+  "block.fire.ambient": {
+    "replace" : true,
+    "sounds": [
+      "woowz/other/fire/1",
+      "woowz/other/fire/2",
+	  "woowz/other/fire/3",
+	  "woowz/other/fire/4",
+	  "woowz/other/fire/5",
+	  "woowz/other/fire/6",
+	  "woowz/other/fire/7",
+	  "woowz/other/fire/8",
+	  "woowz/other/fire/9",
+	  "woowz/other/fire/10",
+	  "woowz/other/fire/11",
+	  "woowz/other/fire/12",
+	  "woowz/other/fire/13",
+	  "woowz/other/fire/14",
+	  "woowz/other/fire/15",
+	  "woowz/other/fire/16",
+	  "woowz/other/fire/17",
+	  "woowz/other/fire/18",
+	  "woowz/other/fire/19"
+    ],
+    "subtitle": "subtitles.block.fire.ambient"
+  },
+  "entity.splash_potion.break": {
+    "replace" : true,
+	"sounds": [
+      "woowz/other/potion/broke/1",
+      "woowz/other/potion/broke/2",
+	  "woowz/other/potion/broke/3",
+	  "woowz/other/potion/broke/4",
+	  "woowz/other/potion/broke/5"
+    ],
+    "subtitle": "subtitles.entity.potion.splash"
+  },
+  "entity.cow.ambient": {
+    "replace" : true,
+    "sounds": [
+      "woowz/entity/cow/living/1",
+	  "woowz/entity/cow/living/2",
+	  "woowz/entity/cow/living/3",
+	  "woowz/entity/cow/living/4",
+	  "woowz/entity/cow/living/5",
+	  "woowz/entity/cow/living/6",
+	  "woowz/entity/cow/living/7",
+	  "woowz/entity/cow/living/8"
+    ],
+    "subtitle": "subtitles.entity.cow.ambient"
+  },
+  "entity.cow.death": {
+    "replace" : true,
+    "sounds": [
+      "woowz/entity/cow/hurt/1",
+	  "woowz/entity/cow/hurt/2",
+	  "woowz/entity/cow/hurt/3",
+	  "woowz/entity/cow/hurt/4",
+	  "woowz/entity/cow/hurt/5",
+	  "woowz/entity/cow/living/5"
+    ],
+    "subtitle": "subtitles.entity.cow.death"
+  },
+  "entity.cow.hurt": {
+    "replace" : true,
+    "sounds": [
+      "woowz/entity/cow/hurt/1",
+	  "woowz/entity/cow/hurt/2",
+	  "woowz/entity/cow/hurt/3",
+	  "woowz/entity/cow/hurt/4",
+	  "woowz/entity/cow/hurt/5",
+	  "woowz/entity/cow/living/5"
+    ],
+    "subtitle": "subtitles.entity.cow.hurt"
+  },
+  "entity.pig.ambient": {
+    "replace" : true,
+    "sounds": [
+      "woowz/entity/pig/living/1",
+	  "woowz/entity/pig/living/2",
+	  "woowz/entity/pig/living/3",
+	  "woowz/entity/pig/living/4",
+	  "woowz/entity/pig/living/5",
+	  "woowz/entity/pig/living/6",
+	  "woowz/entity/pig/living/7",
+	  "woowz/entity/pig/living/8",
+	  "woowz/entity/pig/living/9",
+	  "woowz/entity/pig/living/10"
+    ],
+    "subtitle": "subtitles.entity.pig.ambient"
+  },
+  "entity.pig.death": {
+    "replace" : true,
+    "sounds": [
+      "woowz/entity/pig/hurt/1",
+	  "woowz/entity/pig/hurt/2",
+	  "woowz/entity/pig/hurt/3",
+	  "woowz/entity/pig/hurt/4",
+	  "woowz/entity/pig/hurt/6",
+	  "woowz/entity/pig/hurt/8",
+	  "woowz/entity/pig/hurt/10",
+	  "woowz/entity/pig/hurt/11"
+    ],
+    "subtitle": "subtitles.entity.pig.death"
+  },
+  "entity.pig.hurt": {
+    "replace" : true,
+    "sounds": [
+      "woowz/entity/pig/hurt/1",
+	  "woowz/entity/pig/hurt/2",
+	  "woowz/entity/pig/hurt/3",
+	  "woowz/entity/pig/hurt/4",
+	  "woowz/entity/pig/hurt/5",
+	  "woowz/entity/pig/hurt/6",
+	  "woowz/entity/pig/hurt/7",
+	  "woowz/entity/pig/hurt/9"
+    ],
+    "subtitle": "subtitles.entity.pig.hurt"
+  },
+  "ui.button.click": {
+    "replace" : true,
+    "sounds": [
+      { "name": "woowz/ui/click", "volume": 0.25 }
+    ]
+  },
   "entity.generic.explode": {
   	"replace" : true,
     "sounds": [
@@ -49,7 +198,8 @@
 		{ "name": "woowz/ambient/cave/11", "stream": true  },
 		{ "name": "woowz/ambient/cave/12", "stream": true  },
 		{ "name": "woowz/ambient/cave/13", "stream": true  },
-		{ "name": "woowz/ambient/cave/14", "stream": true  }
+		{ "name": "woowz/ambient/cave/14", "stream": true  },
+		{ "name": "woowz/ambient/cave/15", "stream": true  }
     ],
     "subtitle": "subtitles.ambient.cave"
   },
@@ -101,7 +251,7 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
-    "block.grass.step": {
+  "block.grass.step": {
 	"replace" : true,
     "sounds": [
       "woowz/block/grass/step/1",
@@ -119,7 +269,7 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
-    "block.gravel.step": {
+  "block.gravel.step": {
 	"replace" : true,
     "sounds": [
       "woowz/block/ground/step/1",
@@ -136,7 +286,7 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
-    "block.sand.step": {
+  "block.sand.step": {
 	"replace" : true,
     "sounds": [
       "woowz/block/sand/step/1",
@@ -154,7 +304,7 @@
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.snow.step": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       { "name": "woowz/block/snow/step/1", "volume": 0.5  },
 	  { "name": "woowz/block/snow/step/2", "volume": 0.5  },
@@ -171,7 +321,7 @@
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.wood.step": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/wood/step/1",
 	  "woowz/block/wood/step/2",
@@ -195,7 +345,7 @@
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.metal.step": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/metal/step/1",
 	  "woowz/block/metal/step/2",
@@ -218,7 +368,7 @@
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.anvil.step": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/anvil/step/1",
 	  "woowz/block/anvil/step/2",
@@ -237,7 +387,7 @@
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.glass.step": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/glass/step/1",
 	  "woowz/block/glass/step/2",
@@ -246,8 +396,24 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.glass.break": {
+    "replace" : true,
+    "sounds": [
+      { "name": "woowz/block/glass/broke/1", "volume": 0.5 },
+      { "name": "woowz/block/glass/broke/2", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/3", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/4", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/5", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/6", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/7", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/8", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/9", "volume": 0.5 },
+	  { "name": "woowz/block/glass/broke/10", "volume": 0.5 }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
   "block.slime.step": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/slime/1",
 	  "woowz/block/slime/2",
@@ -344,7 +510,7 @@
   },
   
   "entity.generic.swim": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/water/swim/1",
 	  "woowz/block/water/swim/2",
@@ -355,7 +521,7 @@
     "subtitle": "subtitles.entity.generic.swim"
   },
   "entity.generic.splash": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
 	  { "name": "woowz/block/water/splash/1", "volume": 0.75  },
 	  { "name": "woowz/block/water/splash/2", "volume": 0.75  },
@@ -364,7 +530,7 @@
     "subtitle": "subtitles.entity.generic.splash"
   },
   "entity.hostile.splash": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
 	  { "name": "woowz/block/water/splash/1", "volume": 0.75  },
 	  { "name": "woowz/block/water/splash/2", "volume": 0.75  },
@@ -373,7 +539,7 @@
     "subtitle": "subtitles.entity.generic.splash"
   },
   "entity.hostile.swim": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/water/swim/1",
 	  "woowz/block/water/swim/2",
@@ -384,7 +550,7 @@
     "subtitle": "subtitles.entity.generic.swim"
   },
   "entity.player.splash": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
 	  { "name": "woowz/block/water/splash/1", "volume": 0.75  },
 	  { "name": "woowz/block/water/splash/2", "volume": 0.75  },
@@ -393,7 +559,7 @@
     "subtitle": "subtitles.entity.generic.splash"
   },
   "entity.player.swim": {
-  "replace" : true,
+    "replace" : true,
     "sounds": [
       "woowz/block/water/swim/1",
 	  "woowz/block/water/swim/2",

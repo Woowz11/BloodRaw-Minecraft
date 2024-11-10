@@ -1,6 +1,7 @@
 {
-    "parent": "block/orientable",
+    "parent": "block/orientable_wb",
     "textures": {
+		"bottom": "blocks/pumpkin_bottom",
         "top": "blocks/pumpkin_top",
         "front": "blocks/pumpkin_face_on",
         "side": "blocks/pumpkin_side_on"
