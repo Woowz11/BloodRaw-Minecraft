@@ -59,7 +59,9 @@ Details/Smooth Biomes: ON
 
 # Supported Versions
 
-Soon [1.9]
+Soon [1.10]
+
+[[1.9]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/1.0.4)
 
 [[1.8]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.8.8)
 

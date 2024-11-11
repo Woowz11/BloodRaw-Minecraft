@@ -28,7 +28,7 @@
 §fDon't look at the texture pack history
 §fI don't know what to make up
 §fIT'S NOT A MINECRAFT CLONE!
-§fWhen is 1.10?
+§fWhen is 1.11?
 §fWho am I?
 §fWhen Garry's Mod?
 §fRIP rose
@@ -53,7 +53,6 @@
 §fRelax horror
 §fAlso try WRF in Roblox!
 §fAlso try ExtraBackrooms in Roblox and Minecraft!
-§f1.9 very laggy version...
 §fBloodRaw realms
 §fExtraBackrooms
 §fWoowzcore 2!!!
