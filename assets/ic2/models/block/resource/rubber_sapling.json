@@ -1,0 +1,13 @@
+{
+	"parent": "block/cross",
+	"textures": {
+		"cross": "ic2:blocks/resource/rubber_sapling"
+	},
+	"display": {
+		"gui": {
+			"rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1, 1, 1 ]
+		}
+	}
+}

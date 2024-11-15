@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld_big",
+	"textures": {
+		"layer0": "ic2:items/tool/bronze_pickaxe"
+	}
+}

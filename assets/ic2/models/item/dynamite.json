@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld_default",
+	"textures": {
+		"layer0": "ic2:items/dynamite"
+	}
+}

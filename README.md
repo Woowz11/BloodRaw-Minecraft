@@ -6,12 +6,12 @@
 
 [Texture Pack Site](https://woowz11.github.io/woowzsite/bloodraw.html)
 
-Author: Woowz11
+Author: [Woowz11](https://github.com/Woowz11)
 
 > [!IMPORTANT]
 > Please, read [license.txt](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/license.txt) [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
-Testers: [Wldoui](https://github.com/wldoui), Have a nice day., [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
+Testers: [Wldoui](https://github.com/wldoui), Beryx, Your local russian., [Have a nice day.](https://github.com/haveanicedaay), [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
 
 Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
 
@@ -45,17 +45,17 @@ Details/Smooth Biomes: ON
 
 # Music Credits
 
-[[minecraft/sounds/records/stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey — Brazilian Flower
+[[Chirp](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg)] - The Daniel Pemberton TV Orchestra — The Orb Of Dreamers
 
-[[minecraft/sounds/records/chirp](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg)] - The Daniel Pemberton TV Orchestra — The Orb Of Dreamers
+[[Stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey — Brazilian Flower
 
-[[minecraft/sounds/records/wait](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg)] - Lifeformed — Undiscovery
+[[Strad](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/strad.ogg)] - Bebromet2k18 — TROLL MEGA HIT
 
-[[minecraft/sounds/records/13](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/13.ogg)] - Notch — Calm 4
+[[Wait](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg)] - Lifeformed — Undiscovery
 
-[[minecraft/sounds/records/11](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/11.ogg)] - Hzlancer — Superfighters DELUXE Theme
+[[13](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/13.ogg)] - Notch — Calm 4
 
-[[minecraft/sounds/records/strad](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/strad.ogg)] - Bebromet2k18 — TROLL MEGA HIT
+[[11](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/11.ogg)] - Hzlancer — Superfighters DELUXE Theme
 
 # Supported Versions
 

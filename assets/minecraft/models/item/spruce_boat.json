@@ -1,0 +1,7 @@
+{
+    "parent": "item/oak_boat",
+	"credit": "Specially for Blood Raw Texture Pack! By Woowz11",
+	"textures": {
+        "0": "items/boat_spruce"
+    }
+}
