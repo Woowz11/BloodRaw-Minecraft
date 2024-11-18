@@ -11,7 +11,7 @@ Author: [Woowz11](https://github.com/Woowz11)
 > [!IMPORTANT]
 > Please, read [license.txt](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/license.txt) [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
-Testers: [Wldoui](https://github.com/wldoui), Beryx, Your local russian., [Have a nice day.](https://github.com/haveanicedaay), [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
+Testers: [Wldoui](https://github.com/wldoui), Beryx, Ne1roX, Your local russian., [Have a nice day.](https://github.com/haveanicedaay), [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
 
 Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
 
@@ -109,7 +109,7 @@ JEI - [50%] - Soon
 
 NEI - [70%] - [Download Link <1.8](https://www.curseforge.com/minecraft/mc-mods/notenoughitems) [Download Link >=1.8](https://legacy.curseforge.com/minecraft/mc-mods/not-enough-items-1-8)
 
-IC2 - [0%] - Soon
+IC2 - [10%] - Soon
 
 ✔️ Lucky Block - [100%] - [Download Link](https://www.curseforge.com/minecraft/mc-mods/lucky-block)
 
