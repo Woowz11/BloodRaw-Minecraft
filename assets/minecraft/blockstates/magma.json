@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "magma" },
+            { "model": "magma", "y": 90 },
+            { "model": "magma", "y": 180 },
+            { "model": "magma", "y": 270 }
+        ]
+    }
+}
