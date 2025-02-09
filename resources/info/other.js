@@ -1,4 +1,4 @@
-ResourcePackInfo_Other = {}
+ResourcePackInfo_Other = {};
 
 var SelectedTexture = "";
 

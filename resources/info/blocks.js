@@ -1,4 +1,4 @@
-ResourcePackInfo_Blocks = {}
+ResourcePackInfo_Blocks = {};
 
 var SelectedTexture = "";
 
@@ -46,7 +46,7 @@ ADD("bricks_stone_silverfish"       ,1,1);
 ADD("bricks_stone_crack_silverfish" ,2,1);
 ADD("bricks_stone_moss_silverfish"  ,3,1);
 ADD("bricks_stone_carved_silverfish",4,1);
-ADD("slab_stone_side"               ,5,1);
+ADD("slab_stone"                    ,5,1);
 ADD("obsidian"                      ,6,1);
 
 ADD("granite"                       ,0,2);
@@ -75,7 +75,7 @@ ADD("ore_quartz"     ,3,1);
 ADD("ore_redstone_on",0,2);
 
 SelectedTexture = "farm"; /* ======================================== */
-ADD("farmland_dry"          ,0,0);
+ADD("farmland_"             ,0,0);
 ADD("farmland_1"            ,1,0);
 ADD("farmland_2"            ,2,0);
 ADD("farmland_3"            ,3,0);
@@ -180,6 +180,7 @@ ADD("beacon"    ,2,1);
 
 SelectedTexture = "compact"; /* ======================================== */
 ADD("iron"   ,0,0);
+ADD("slime"  ,1,0);
 
 ADD("coal"   ,0,1);
 
@@ -206,28 +207,28 @@ ADD("redsandstone_smooth_carved",2,2);
 ADD("redsand"                   ,3,2);
 
 SelectedTexture = "wool"; /* ======================================== */
-ADD("wool"        ,0,0);
-ADD("wool_silver" ,0,0);
-ADD("wool_gray"   ,0,0);
-ADD("wool_black"  ,0,0);
-ADD("wool_red"    ,0,0);
-ADD("wool_orange" ,0,0);
-ADD("wool_yellow" ,0,0);
-ADD("wool_lime"   ,0,0);
-ADD("wool_aqua"   ,0,0);
-ADD("wool_blue"   ,0,0);
-ADD("wool_purple" ,0,0);
-ADD("wool_magenta",0,0);
-ADD("wool_pink"   ,0,0);
-ADD("wool_brown"  ,0,0);
-ADD("wool_green"  ,0,0);
-ADD("wool_cyan"   ,0,0);
+ADD("wool"        ,0 ,0);
+ADD("wool_silver" ,1 ,0);
+ADD("wool_gray"   ,2 ,0);
+ADD("wool_black"  ,3 ,0);
+ADD("wool_red"    ,4 ,0);
+ADD("wool_orange" ,5 ,0);
+ADD("wool_yellow" ,6 ,0);
+ADD("wool_lime"   ,7 ,0);
+ADD("wool_aqua"   ,8 ,0);
+ADD("wool_blue"   ,9 ,0);
+ADD("wool_purple" ,10,0);
+ADD("wool_magenta",11,0);
+ADD("wool_pink"   ,12,0);
+ADD("wool_brown"  ,13,0);
+ADD("wool_green"  ,14,0);
+ADD("wool_cyan"   ,15,0);
 
 SelectedTexture = "plants"; /* ======================================== */
 ADD("tallgrass"     ,0,0);
 ADD("fern"          ,1,0);
 ADD("vine"          ,2,0);
-ADD("mushroom"      ,3,0);
+ADD("mushroom_brown",3,0);
 ADD("mushroom_red"  ,4,0);
 ADD("sunflower"     ,5,0);
 ADD("sunflower_back",6,0);
@@ -259,6 +260,18 @@ ADD("bush_dead"          ,4,3);
 ADD("flower_allium"      ,5,3);
 ADD("flower_orchid"      ,6,3);
 ADD("flower_houstonia"   ,7,3);
+
+ADD("cactus_top"         ,0,4);
+ADD("mushroom"           ,1,4);
+ADD("mushroom_brown_skin",2,4);
+
+ADD("cactus"           ,0,5);
+ADD("mushroom_stew"    ,1,5);
+ADD("mushroom_red_skin",2,5);
+
+ADD("cactus_bottom",0,6);
+ADD("mycelium"     ,1,6);
+ADD("mycelium_side",2,6);
 
 SelectedTexture = "door"; /* ======================================== */
 ADD("oak_door"      ,0,0);
@@ -302,3 +315,270 @@ ADD("bars"        ,1,2);
 ADD("beacon_frame",2,2,2,2);
 
 ADD("hopper_inner",0,3);
+
+SelectedTexture = "planks"; /* ======================================== */
+ADD("oak_planks"       ,0,0);
+ADD("spruce_planks"    ,1,0);
+ADD("birch_planks"     ,2,0);
+ADD("jungle_planks"    ,3,0);
+ADD("acacia_planks"    ,4,0);
+ADD("darkoak_planks"   ,5,0);
+
+SelectedTexture = "trees"; /* ======================================== */
+ADD("oak_top"         ,0,0);
+ADD("spruce_top"      ,1,0);
+ADD("birch_top"       ,2,0);
+ADD("jungle_top"      ,3,0);
+ADD("acacia_top"      ,4,0);
+ADD("darkoak_top"     ,5,0);
+
+ADD("oak"         ,0,1);
+ADD("spruce"      ,1,1);
+ADD("birch"       ,2,1);
+ADD("jungle"      ,3,1);
+ADD("acacia"      ,4,1);
+ADD("darkoak"     ,5,1);
+
+ADD("oak_leaves"         ,0,2);
+ADD("spruce_leaves"      ,1,2);
+ADD("birch_leaves"       ,2,2);
+ADD("jungle_leaves"      ,3,2);
+ADD("acacia_leaves"      ,4,2);
+ADD("darkoak_leaves"     ,5,2);
+
+ADD("oak_sapling"         ,0,3);
+ADD("spruce_sapling"      ,1,3);
+ADD("birch_sapling"       ,2,3);
+ADD("jungle_sapling"      ,3,3);
+ADD("acacia_sapling"      ,4,3);
+ADD("darkoak_sapling"     ,5,3);
+
+SelectedTexture = "furniture"; /* ======================================== */
+ADD("bookshelf"         ,0,0);
+ADD("bookshelf_top"     ,1,0);
+
+SelectedTexture = "clay"; /* ======================================== */
+ADD("clay"         ,0,0);
+ADD("hardenedclay" ,1,0);
+ADD("bricks"       ,2,0);
+
+ADD("hardenedclay_white"  ,0 ,1);
+ADD("hardenedclay_silver" ,1 ,1);
+ADD("hardenedclay_gray"   ,2 ,1);
+ADD("hardenedclay_black"  ,3 ,1);
+ADD("hardenedclay_red"    ,4 ,1);
+ADD("hardenedclay_orange" ,5 ,1);
+ADD("hardenedclay_yellow" ,6 ,1);
+ADD("hardenedclay_lime"   ,7 ,1);
+ADD("hardenedclay_aqua"   ,8 ,1);
+ADD("hardenedclay_blue"   ,9 ,1);
+ADD("hardenedclay_purple" ,10,1);
+ADD("hardenedclay_magenta",11,1);
+ADD("hardenedclay_pink"   ,12,1);
+ADD("hardenedclay_brown"  ,13,1);
+ADD("hardenedclay_green"  ,14,1);
+ADD("hardenedclay_cyan"   ,15,1);
+
+SelectedTexture = "trapdoor"; /* ======================================== */
+ADD("oak_trapdoor"   ,0,0);
+ADD("iron_trapdoor"  ,6,0);
+
+SelectedTexture = "glass"; /* ======================================== */
+ADD("glass"     ,0,0);
+ADD("glass_pane",1,0);
+
+ADD("glass_white"  ,0 ,1);
+ADD("glass_silver" ,1 ,1);
+ADD("glass_gray"   ,2 ,1);
+ADD("glass_black"  ,3 ,1);
+ADD("glass_red"    ,4 ,1);
+ADD("glass_orange" ,5 ,1);
+ADD("glass_yellow" ,6 ,1);
+ADD("glass_lime"   ,7 ,1);
+ADD("glass_aqua"   ,8 ,1);
+ADD("glass_blue"   ,9 ,1);
+ADD("glass_purple" ,10,1);
+ADD("glass_magenta",11,1);
+ADD("glass_pink"   ,12,1);
+ADD("glass_brown"  ,13,1);
+ADD("glass_green"  ,14,1);
+ADD("glass_cyan"   ,15,1);
+
+SelectedTexture = "portal"; /* ======================================== */
+ADD("portal"       ,0,0);
+ADD("endframe"     ,1,0);
+ADD("endframe_side",2,0);
+ADD("endframe_eye" ,3,0);
+
+SelectedTexture = "fire"; /* ======================================== */
+ADD("fire" ,0,0);
+ADD("fire2",1,0);
+
+SelectedTexture = "lighting"; /* ======================================== */
+ADD("torch"   ,0,0);
+ADD("lamp"    ,1,0);
+ADD("lamp_on" ,2,0);
+
+SelectedTexture = "archeology"; /* ======================================== */
+ADD("bone_top",0,0);
+
+ADD("bone"    ,0,1);
+
+SelectedTexture = "potion"; /* ======================================== */
+ADD("brewingstand"     ,0,0);
+ADD("brewingstand_base",1,0);
+
+SelectedTexture = "redstone"; /* ======================================== */
+ADD("lightdetector_day"  ,0,0);
+ADD("lightdetector_night",1,0);
+ADD("lightdetector"      ,2,0);
+ADD("lever"              ,3,0);
+
+ADD("repeater_on"       ,0,1);
+ADD("comparator_on"     ,1,1);
+ADD("string"            ,2,1);
+ADD("torch_redstone"    ,3,1);
+
+ADD("repeater"          ,0,2);
+ADD("comparator"        ,1,2);
+ADD("trip"              ,2,2);
+ADD("torch_redstone_off",3,2);
+
+ADD("redstone_cross",0,3);
+ADD("redstone_line" ,1,3);
+ADD("redstone_dot"  ,2,3);
+ADD("redstone_line2",3,3);
+
+ADD("redstone_cross_overlay",0,4);
+ADD("redstone_line_overlay" ,1,4);
+
+SelectedTexture = "mechanism"; /* ======================================== */
+ADD("cobblestone_top",0,0);
+ADD("furnace"        ,1,0);
+ADD("dispenser"      ,2,0);
+ADD("dropper"        ,3,0);
+
+ADD("cobblestone_side",0,1);
+ADD("furnace_on"      ,1,1);
+ADD("dispenser_top"   ,2,1);
+ADD("dropper_top"     ,3,1);
+
+ADD("piston_side" ,0,2);
+ADD("piston"      ,1,2);
+ADD("piston_slime",2,2);
+
+ADD("piston_bottom",0,3);
+ADD("piston_inner" ,1,3);
+
+SelectedTexture = "rails"; /* ======================================== */
+ADD("rail_corner"      ,0,0);
+ADD("railgold_on"      ,1,0);
+ADD("rail_detector_on" ,2,0);
+ADD("rail_activator_on",3,0);
+
+ADD("rail"          ,0,1);
+ADD("railgold"      ,1,1);
+ADD("rail_detector" ,2,1);
+ADD("rail_activator",3,1);
+
+ADD("rail_plank"    ,0,2);
+
+SelectedTexture = "nether"; /* ======================================== */
+ADD("netherrack_top",0,0);
+ADD("soulsand"      ,1,0);
+ADD("netherbricks"  ,2,0);
+ADD("wart"          ,3,0);
+
+ADD("netherrack"      ,0,1);
+ADD("glowstone"       ,1,1);
+ADD("netherbricks_red",2,1);
+
+ADD("wart_0",0,2);
+ADD("wart_1",1,2);
+ADD("wart_2",2,2);
+
+SelectedTexture = "grass"; /* ======================================== */
+ADD("grass"     ,0,0);
+ADD("grass_dirt",1,0);
+
+ADD("grass_side_overlay",0,1);
+ADD("grass_side"        ,1,1);
+
+SelectedTexture = "music"; /* ======================================== */
+ADD("noteblock"   ,0,0);
+ADD("jukebox"     ,1,0);
+ADD("jukebox_on"  ,2,0);
+
+ADD("jukebox_bottom",0,1);
+ADD("jukebox_side"  ,1,1);
+ADD("jukebox_detail",2,1);
+
+SelectedTexture = "end"; /* ======================================== */
+ADD("endstone" ,0,0);
+ADD("endrod"   ,1,0);
+ADD("purpur"   ,2,0);
+
+ADD("endstone_bricks"  ,0,1);
+ADD("chorus"           ,1,1);
+ADD("purpur_pillar_top",2,1);
+
+ADD("purpur_pillar"   ,2,2);
+
+SelectedTexture = "lava"; /* ======================================== */
+ADD("lava_flow" ,0,0,2,2);
+ADD("lava"      ,2,0);
+ADD("magma"     ,2,1);
+
+SelectedTexture = "nature"; /* ======================================== */
+ADD("cobweb" ,0,0);
+
+SelectedTexture = "quartz"; /* ======================================== */
+ADD("quartz"           ,0,0);
+ADD("quartz_pillar_top",1,0);
+ADD("quartz_carved_top",2,0);
+
+ADD("quartz_smooth",0,1);
+ADD("quartz_pillar",1,1);
+ADD("quartz_carved",2,1);
+
+SelectedTexture = "prismarine"; /* ======================================== */
+ADD("prismarine"       ,0,0);
+ADD("prismarine_bricks",1,0);
+
+ADD("prismarine_carved",0,1);
+ADD("prismarine_lamp  ",1,1);
+
+SelectedTexture = "tools"; /* ======================================== */
+ADD("sponge"    ,0,0);
+ADD("sponge_wet",1,0);
+
+SelectedTexture = "construction"; /* ======================================== */
+ADD("ladder",0,0);
+
+SelectedTexture = "enchantment"; /* ======================================== */
+ADD("enchantmenttable"       ,0,0);
+ADD("enchantmenttable_side"  ,1,0);
+
+ADD("enchantmenttable_bottom",0,1);
+
+SelectedTexture = "water"; /* ======================================== */
+ADD("water_flow" ,0,0,2,2);
+ADD("water"      ,2,0);
+
+SelectedTexture = "debug"; /* ======================================== */
+ADD("command"       ,0,0);
+ADD("command_c"     ,1,0);
+ADD("command_off"   ,2,0);
+ADD("command_detail",3,0);
+
+ADD("command_chain"   ,0,1);
+ADD("command_c_chain" ,1,1);
+ADD("structure"       ,2,1);
+ADD("structure_corner",3,1);
+
+ADD("command_repeat"  ,0,2);
+ADD("command_c_repeat",1,2);
+ADD("structure_data"  ,2,2);
+ADD("structure_load"  ,3,2);
+
+ADD("structure_save"  ,3,3);
