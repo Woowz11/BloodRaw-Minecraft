@@ -75,7 +75,7 @@ ADD("ore_quartz"     ,3,1);
 ADD("ore_redstone_on",0,2);
 
 SelectedTexture = "farm"; /* ======================================== */
-ADD("farmland_"             ,0,0);
+ADD("farmland"              ,0,0);
 ADD("farmland_1"            ,1,0);
 ADD("farmland_2"            ,2,0);
 ADD("farmland_3"            ,3,0);
@@ -132,7 +132,7 @@ SelectedTexture = "alpha"; /* ======================================== */
 ADD("flower_rose"   ,0,0);
 ADD("bed_foot"      ,1,0);
 ADD("bed_head"      ,2,0);
-ADD("dragonegg"     ,4,0);
+ADD("dragonegg"     ,3,0);
 
 ADD("bed_foot_end"  ,0,1);
 ADD("bed_foot_side" ,1,1);
@@ -266,7 +266,7 @@ ADD("mushroom"           ,1,4);
 ADD("mushroom_brown_skin",2,4);
 
 ADD("cactus"           ,0,5);
-ADD("mushroom_stew"    ,1,5);
+ADD("mushroom_stem"    ,1,5);
 ADD("mushroom_red_skin",2,5);
 
 ADD("cactus_bottom",0,6);
