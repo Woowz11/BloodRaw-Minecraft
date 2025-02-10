@@ -1,24 +1,28 @@
 ResourcePackInfo_Items = {};
+var RPI = ResourcePackInfo_Items;
+var Path = "textures/items/";
+var SelectedX = 16;
+var SelectedY = 16;
 
 var SelectedTexture = "";
 
-function ADD(ItemName,x,y,w,h,Extra){
-	if(ItemName==""){return;}
+function ADD(Name,x,y,w,h,Extra){
+	if(Name==""){return;}
 	if(Extra==null){Extra = {};}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
-	if(x!=null){x *= 16;} if(y!=null){y *= 16;} if(w!=null){w *= 16;} if(h!=null){h *= 16;}
+	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
-		"Name": ItemName,
+		"Name": Name,
 		"Extra": Extra,
 		"Texture": {
-			"Path": "textures/items/"+SelectedTexture+".png",
+			"Path": Path+SelectedTexture+".png",
 			"x": x,
 			"y": y,
 			"w": w,
 			"h": h
 		}
 	};
-	ResourcePackInfo_Items[ItemName] = Result;
+	RPI[Name] = Result;
 }
 
 /* ================================================================================================================================================================================ */
@@ -97,7 +101,7 @@ ADD("spawn_overlay",1,1);
 SelectedTexture = "doors"; /* ======================================== */
 ADD("oak_door"    ,0,0);
 ADD("spruce_door" ,1,0);
-ADD("birth_door"  ,2,0);
+ADD("birch_door"  ,2,0);
 ADD("jungle_door" ,3,0);
 ADD("acacia_door" ,4,0);
 ADD("darkoak_door",5,0);
@@ -191,10 +195,8 @@ ADD("glowstone",2,0);
 ADD("bonedust" ,4,0);
 
 SelectedTexture = "rocks"; /* ======================================== */
-ADD("coal"     ,0,0);
-ADD("coal_wood",1,0);
-ADD("lapis"    ,2,0);
-ADD("flint"    ,3,0);
+ADD("lapis"    ,0,0);
+ADD("flint"    ,1,0);
 
 SelectedTexture = "farmer"; /* ======================================== */
 ADD("wheat",0,0);
@@ -254,8 +256,132 @@ ADD("firework_base"        ,1,0);
 ADD("firework_base_overlay",2,0);
 
 SelectedTexture = "end"; /* ======================================== */
-ADD("endeye"    ,0,0);
-ADD("endcrystal",1,0);
+ADD("endeye"          ,0,0);
+ADD("endcrystal"      ,1,0);
+ADD("enderdragon_fire",2,0);
 
 ADD("chorus",0,1);
 ADD("purpur",1,1);
+
+SelectedTexture = "prismarine"; /* ======================================== */
+ADD("prismarine"        ,0,0);
+ADD("prismarine_crystal",1,0);
+
+SelectedTexture = "books"; /* ======================================== */
+ADD("book"            ,0,0);
+ADD("book_writable"   ,1,0);
+ADD("book_written"    ,2,0);
+ADD("book_enchantment",3,0);
+
+ADD("paper",0,1);
+
+SelectedTexture = "potion"; /* ======================================== */
+ADD("spidereye_fermented",0,0);
+
+SelectedTexture = "snow"; /* ======================================== */
+ADD("snow",0,0);
+
+SelectedTexture = "debug"; /* ======================================== */
+ADD("barrier",0,0);
+ADD("structure_void",1,0);
+
+SelectedTexture = "cloth"; /* ======================================== */
+ADD("string",0,0);
+
+SelectedTexture = "fuel"; /* ======================================== */
+ADD("coal"     ,0,0);
+ADD("coal_wood",1,0);
+
+SelectedTexture = "records"; /* ======================================== */
+ADD("record_strad"  ,0 ,0);
+ADD("record_stal"   ,1 ,0);
+ADD("record_11"     ,2 ,0);
+ADD("record_13"     ,3 ,0);
+ADD("record_blocks" ,4 ,0);
+ADD("record_cat"    ,5 ,0);
+ADD("record_chirp"  ,6 ,0);
+ADD("record_far"    ,7 ,0);
+ADD("record_mall"   ,8 ,0);
+ADD("record_mellohi",9 ,0);
+ADD("record_wait"   ,10,0);
+ADD("record_ward"   ,11,0);
+
+ADD("record_superfightersdeluxetheme",0 ,1);
+ADD("record_calm4"                   ,1 ,1);
+ADD("record_theorbofdreamers"        ,2 ,1);
+ADD("record_brazilianflower"         ,3 ,1);
+ADD("record_trollmegahit"            ,4 ,1);
+ADD("record_undiscovery"             ,5 ,1);
+
+SelectedTexture = "boats"; /* ======================================== */
+ADD("oak_boat"    ,0,0);
+ADD("spruce_boat" ,1,0);
+ADD("birch_boat"  ,2,0);
+ADD("jungle_boat" ,3,0);
+ADD("acacia_boat" ,4,0);
+ADD("darkoak_boat",5,0);
+
+SelectedTexture = "buckets"; /* ======================================== */
+ADD("bucket"      ,0,0);
+ADD("bucket_water",1,0);
+ADD("bucket_lava" ,2,0);
+ADD("bucket_milk" ,3,0);
+
+SelectedTexture = "arrows"; /* ======================================== */
+ADD("arrow"               ,0,0);
+ADD("arrow_effect"        ,1,0);
+ADD("arrow_effect_overlay",2,0);
+ADD("arrow_spectral"      ,3,0);
+
+SelectedTexture = "trees"; /* ======================================== */
+ADD("oak_sapling"    ,0,0);
+ADD("spruce_sapling" ,1,0);
+ADD("birch_sapling"  ,2,0);
+ADD("jungle_sapling" ,3,0);
+ADD("acacia_sapling" ,4,0);
+ADD("darkoak_sapling",5,0);
+
+SelectedTexture = "minecarts"; /* ======================================== */
+ADD("minecart"        ,0,0);
+ADD("minecart_chest"  ,1,0);
+ADD("minecart_furnace",2,0);
+ADD("minecart_hopper" ,3,0);
+ADD("minecart_tnt"    ,4,0);
+ADD("minecart_command",5,0);
+
+SelectedTexture = "nuggets"; /* ======================================== */
+ADD(""           ,0,0);
+ADD("gold_nugget",1,0);
+
+SelectedTexture = "armor"; /* ======================================== */
+ADD("iron_helmet"           ,0,0);
+ADD("chain_helmet"          ,1,0);
+ADD("gold_helmet"           ,2,0);
+ADD("diamond_helmet"        ,3,0);
+ADD("leather_helmet"        ,4,0);
+ADD("leather_helmet_overlay",5,0);
+ADD(""                      ,6,0);
+
+ADD("iron_chest"           ,0,1);
+ADD("chain_chest"          ,1,1);
+ADD("gold_chest"           ,2,1);
+ADD("diamond_chest"        ,3,1);
+ADD("leather_chest"        ,4,1);
+ADD("leather_chest_overlay",5,1);
+ADD("elytra"               ,6,1);
+
+ADD("iron_pants"           ,0,2);
+ADD("chain_pants"          ,1,2);
+ADD("gold_pants"           ,2,2);
+ADD("diamond_pants"        ,3,2);
+ADD("leather_pants"        ,4,2);
+ADD("leather_pants_overlay",5,2);
+ADD("elytra_broken"        ,6,2);
+
+ADD("iron_boots"           ,0,3);
+ADD("chain_boots"          ,1,3);
+ADD("gold_boots"           ,2,3);
+ADD("diamond_boots"        ,3,3);
+ADD("leather_boots"        ,4,3);
+ADD("leather_boots_overlay",5,3);
+ADD(""                     ,6,3);

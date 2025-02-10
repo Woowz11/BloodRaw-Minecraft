@@ -1,24 +1,28 @@
 ResourcePackInfo_Blocks = {};
+var RPI = ResourcePackInfo_Blocks;
+var Path = "textures/blocks/";
+var SelectedX = 16;
+var SelectedY = 16;
 
 var SelectedTexture = "";
 
-function ADD(BlockName,x,y,w,h,Extra){
-	if(BlockName==""){return;}
+function ADD(Name,x,y,w,h,Extra){
+	if(Name==""){return;}
 	if(Extra==null){Extra = {};}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
-	if(x!=null){x *= 16;} if(y!=null){y *= 16;} if(w!=null){w *= 16;} if(h!=null){h *= 16;}
+	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
-		"Name": BlockName,
+		"Name": Name,
 		"Extra": Extra,
 		"Texture": {
-			"Path": "textures/blocks/"+SelectedTexture+".png",
+			"Path": Path+SelectedTexture+".png",
 			"x": x,
 			"y": y,
 			"w": w,
 			"h": h
 		}
 	};
-	ResourcePackInfo_Blocks[BlockName] = Result;
+	RPI[Name] = Result;
 }
 
 /* ================================================================================================================================================================================ */
