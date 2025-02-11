@@ -5,6 +5,7 @@ var SelectedX = 16;
 var SelectedY = 16;
 
 var SelectedTexture = "";
+var n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}

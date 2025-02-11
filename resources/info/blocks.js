@@ -5,7 +5,7 @@ var SelectedX = 16;
 var SelectedY = 16;
 
 var SelectedTexture = "";
-const n = null;
+var n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
@@ -467,10 +467,10 @@ ADD("torch_redstone_off",3,2);
 
 ADD("redstone_cross"    ,0,3);
 ADD("redstone_line"     ,1,3);
-ADD("redstone_cross_off",0,3,n,n,[["Gradient","redstone"   ],["Overlay":"redstone_cross_overlay"]]);
-ADD("redstone_line_off" ,1,3,n,n,[["Gradient","redstone"   ],["Overlay":"redstone_line_overlay" ]]);
-ADD("redstone_cross_on" ,0,3,n,n,[["Gradient","redstone_on"],["Overlay":"redstone_cross_overlay"]]);
-ADD("redstone_line_on"  ,1,3,n,n,[["Gradient","redstone_on"],["Overlay":"redstone_line_overlay" ]]);
+ADD("redstone_cross_off",0,3,n,n,[["Gradient","redstone"   ],["Overlay","redstone_cross_overlay"]]);
+ADD("redstone_line_off" ,1,3,n,n,[["Gradient","redstone"   ],["Overlay","redstone_line_overlay" ]]);
+ADD("redstone_cross_on" ,0,3,n,n,[["Gradient","redstone_on"],["Overlay","redstone_cross_overlay"]]);
+ADD("redstone_line_on"  ,1,3,n,n,[["Gradient","redstone_on"],["Overlay","redstone_line_overlay" ]]);
 ADD("redstone_dot"      ,2,3);
 ADD("redstone_line2"    ,3,3);
 

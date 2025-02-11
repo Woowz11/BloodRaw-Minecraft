@@ -5,7 +5,7 @@ var SelectedX = 128;
 var SelectedY = 128;
 
 var SelectedTexture = "";
-const n = null;
+var n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
