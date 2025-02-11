@@ -5,6 +5,7 @@ var SelectedX = 16;
 var SelectedY = 16;
 
 var SelectedTexture = "";
+const n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
@@ -165,6 +166,16 @@ ADD("destroy_6",6,0);
 ADD("destroy_7",7,0);
 ADD("destroy_8",8,0);
 ADD("destroy_9",9,0);
+ADD("destroy_0_old",0,0,n,n,[["Alpha255",true]]);
+ADD("destroy_1_old",1,0,n,n,[["Alpha255",true]]);
+ADD("destroy_2_old",2,0,n,n,[["Alpha255",true]]);
+ADD("destroy_3_old",3,0,n,n,[["Alpha255",true]]);
+ADD("destroy_4_old",4,0,n,n,[["Alpha255",true]]);
+ADD("destroy_5_old",5,0,n,n,[["Alpha255",true]]);
+ADD("destroy_6_old",6,0,n,n,[["Alpha255",true]]);
+ADD("destroy_7_old",7,0,n,n,[["Alpha255",true]]);
+ADD("destroy_8_old",8,0,n,n,[["Alpha255",true]]);
+ADD("destroy_9_old",9,0,n,n,[["Alpha255",true]]);
 
 SelectedTexture = "food"; /* ======================================== */
 ADD("cake"       ,0,0);
@@ -344,11 +355,17 @@ ADD("acacia"      ,4,1);
 ADD("darkoak"     ,5,1);
 
 ADD("oak_leaves"         ,0,2);
+ADD("oak_leaves_fast"    ,0,2,n,n,[["Alpha255",true]]);
 ADD("spruce_leaves"      ,1,2);
+ADD("spruce_leaves_fast" ,1,2,n,n,[["Alpha255",true]]);
 ADD("birch_leaves"       ,2,2);
+ADD("birch_leaves_fast"  ,2,2,n,n,[["Alpha255",true]]);
 ADD("jungle_leaves"      ,3,2);
+ADD("jungle_leaves_fast" ,3,2,n,n,[["Alpha255",true]]);
 ADD("acacia_leaves"      ,4,2);
+ADD("acacia_leaves_fast" ,4,2,n,n,[["Alpha255",true]]);
 ADD("darkoak_leaves"     ,5,2);
+ADD("darkoak_leaves_fast",5,2,n,n,[["Alpha255",true]]);
 
 ADD("oak_sapling"         ,0,3);
 ADD("spruce_sapling"      ,1,3);
@@ -448,10 +465,14 @@ ADD("comparator"        ,1,2);
 ADD("trip"              ,2,2);
 ADD("torch_redstone_off",3,2);
 
-ADD("redstone_cross",0,3);
-ADD("redstone_line" ,1,3);
-ADD("redstone_dot"  ,2,3);
-ADD("redstone_line2",3,3);
+ADD("redstone_cross"    ,0,3);
+ADD("redstone_line"     ,1,3);
+ADD("redstone_cross_off",0,3,n,n,[["Gradient","redstone"   ],["Overlay":"redstone_cross_overlay"]]);
+ADD("redstone_line_off" ,1,3,n,n,[["Gradient","redstone"   ],["Overlay":"redstone_line_overlay" ]]);
+ADD("redstone_cross_on" ,0,3,n,n,[["Gradient","redstone_on"],["Overlay":"redstone_cross_overlay"]]);
+ADD("redstone_line_on"  ,1,3,n,n,[["Gradient","redstone_on"],["Overlay":"redstone_line_overlay" ]]);
+ADD("redstone_dot"      ,2,3);
+ADD("redstone_line2"    ,3,3);
 
 ADD("redstone_cross_overlay",0,4);
 ADD("redstone_line_overlay" ,1,4);
@@ -566,8 +587,10 @@ ADD("enchantmenttable_side"  ,1,0);
 ADD("enchantmenttable_bottom",0,1);
 
 SelectedTexture = "water"; /* ======================================== */
-ADD("water_flow" ,0,0,2,2);
-ADD("water"      ,2,0);
+ADD("water_flow"     ,0,0,2,2);
+ADD("water"          ,2,0);
+ADD("water_flow_old" ,0,0,2,2,[["Gradient","water"]]);
+ADD("water_old"      ,2,0,n,n,[["Gradient","water"]]);
 
 SelectedTexture = "debug"; /* ======================================== */
 ADD("command"       ,0,0);

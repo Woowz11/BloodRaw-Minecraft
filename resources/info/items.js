@@ -68,7 +68,7 @@ ADD(""                   ,3,2);
 
 SelectedTexture = "bowl"; /* ======================================== */
 ADD("bowl"         ,0,0);
-ADD("stew_mushroom",1,0);
+ADD("stew"         ,1,0);
 
 ADD("stew_rabbit"  ,0,1);
 ADD("stew_beetroot",1,1);
@@ -192,7 +192,7 @@ SelectedTexture = "dust"; /* ======================================== */
 ADD("gunpowder",0,0);
 ADD("redstone" ,1,0);
 ADD("glowstone",2,0);
-ADD("bonedust" ,4,0);
+ADD("bonedust" ,3,0);
 
 SelectedTexture = "rocks"; /* ======================================== */
 ADD("lapis"    ,0,0);
@@ -213,7 +213,7 @@ ADD("leash"  ,2,1);
 
 ADD("map"       ,0,2);
 ADD("map_filled",1,2);
-ADD("scissors"  ,2,2);
+ADD("shears"    ,2,2);
 
 SelectedTexture = "nether"; /* ======================================== */
 ADD("netherstar" ,0,0);

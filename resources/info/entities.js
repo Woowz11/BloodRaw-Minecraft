@@ -5,6 +5,7 @@ var SelectedX = 64;
 var SelectedY = 32;
 
 var SelectedTexture = "";
+const n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
@@ -53,7 +54,7 @@ ADD("enderchest"       ,0,3);
 
 SelectedTexture = "endercrystals"; /* ======================================== */
 SelectedX = 128;
-ADD("endercrystal",0,0);
+ADD("endcrystal",0,0);
 
 SelectedTexture = "armorstands"; /* ======================================== */
 SelectedX = 64;

@@ -5,6 +5,7 @@ var SelectedX = 64;
 var SelectedY = 32;
 
 var SelectedTexture = "";
+const n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
@@ -67,8 +68,8 @@ ADD("golem_snow",0,2);
 
 SelectedTexture = "spiders"; /* ======================================== */
 SelectedY = 32;
-ADD("spider"     ,0,0,null,null,{"Overlay":"spider_eyes"});
-ADD("spider_cave",0,1,null,null,{"Overlay":"spider_eyes"});
+ADD("spider"     ,0,0,n,n,[["Overlay","spider_eyes"]]);
+ADD("spider_cave",0,1,n,n,[["Overlay","spider_eyes"]]);
 ADD("spider_eyes",0,2);
 
 SelectedTexture = "slimes"; /* ======================================== */
@@ -76,9 +77,11 @@ ADD("slime",0,0);
 ADD("magma",0,1);
 
 SelectedTexture = "zombies"; /* ======================================== */
-ADD("zombie"         ,0,0);
-ADD("zombie_pig"     ,0,1);
-ADD("zombie_husk"    ,0,2);
+ADD("zombie"         ,0,0,1,2);
+ADD("zombie_old"     ,0,0);
+ADD("zombie_pig"     ,0,1,1,2);
+ADD("zombie_pig_old" ,0,1);
+ADD("zombie_husk"    ,0,2,1,2);
 ADD("zombie_villager",0,3,1,2);
 
 SelectedTexture = "skeletons"; /* ======================================== */
@@ -88,10 +91,12 @@ ADD("skeleton_stray"        ,0,2);
 ADD("skeleton_stray_overlay",0,3);
 
 SelectedTexture = "wolfs"; /* ======================================== */
-ADD("wolf"            ,0,0);
-ADD("wolf_angry"      ,0,1);
-ADD("wolf_pet"        ,0,2);
-ADD("wolf_pet_overlay",0,3);
+ADD("wolf"                ,0,0);
+ADD("wolf_angry"          ,0,1);
+ADD("wolf_pet"            ,0,2);
+ADD("wolf_pet_old"        ,0,2,n,n,[["Overlay","wolf_pet_overlay_old"]]);
+ADD("wolf_pet_overlay"    ,0,3);
+ADD("wolf_pet_overlay_old",0,3,n,n,[["Gradient","redstone_on"]]);
 
 SelectedTexture = "villagers_old"; /* ======================================== */
 SelectedY = 64;
@@ -124,12 +129,12 @@ ADD("bear_polar",0,0);
 SelectedTexture = "endermans"; /* ======================================== */
 SelectedX = 64;
 SelectedY = 32;
-ADD("enderman"     ,0,0,null,null,{"Overlay":"enderman_eyes"});
+ADD("enderman"     ,0,0,n,n,[["Overlay","enderman_eyes"]]);
 ADD("enderman_eyes",0,1);
 
 SelectedTexture = "creepers"; /* ======================================== */
 ADD("creeper"      ,0,0);
-ADD("creeper_armor",0,1);
+ADD("creeper_power",0,1);
 
 SelectedTexture = "pigs"; /* ======================================== */
 ADD("pig"       ,0,0);
@@ -157,7 +162,7 @@ ADD("shulker_projectile",0,1,1,0.5);
 SelectedTexture = "dragons"; /* ======================================== */
 SelectedX = 512;
 SelectedY = 512;
-ADD("enderdragon"          ,0,0,null,null,{"Overlay":"enderdragon_eyes"});
+ADD("enderdragon"          ,0,0,n,n,[["Overlay","enderdragon_eyes"]]);
 ADD("enderdragon_eyes"     ,1,0);
 ADD("enderdragon_exploding",2,0);
 
@@ -171,7 +176,7 @@ SelectedTexture = "withers"; /* ======================================== */
 SelectedY = 64;
 ADD("wither"             ,0,0);
 ADD("wither_invulnerable",0,1);
-ADD("wither_armor"       ,0,2);
+ADD("wither_power"       ,0,2);
 
 SelectedTexture = "illagers"; /* ======================================== */
 ADD("witch",0,0,1,2);

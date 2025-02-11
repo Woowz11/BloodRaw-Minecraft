@@ -33,7 +33,10 @@ ADD("beam_gateway"   ,0,1);
 ADD("beam_guardian"  ,0,2);
 ADD("beam_endcrystal",0,3,1,16);
 
-SelectedTexture = "beams"; /* ======================================== */
+SelectedTexture = "shadows"; /* ======================================== */
+ADD("shadow",0,0);
+
+SelectedTexture = "leads"; /* ======================================== */
 SelectedX = 32;
 SelectedY = 32;
 ADD("lead",0,0);
