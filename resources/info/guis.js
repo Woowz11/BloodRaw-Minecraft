@@ -9,7 +9,7 @@ var n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
-	if(Extra==null){Extra = {};}
+	if(Extra==null){Extra = [];}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
 	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
@@ -44,7 +44,7 @@ ADD("realms"       ,0,1,3,1);
 ADD("title_realms" ,0,0,4,1,[["Resize",192,64],["Overlay","realms"]]);
 ADD("crash"        ,0,0,4,1,[["Resize",274,44]]);
 ADD("title_line"   ,0,0,4,4,[["Clear"],["Overlay","title"]]);
-ADD("title_default",0,0,4,4,[["Clear"],["Overlay","title"],["Overlay","title",64,-128],["Overlay","title_realms",128]]);
+ADD("title_default",0,0,4,4,[["Clear"],["Overlay","title"],["Overlay","title",-128,64],["Overlay","title_realms",0,128]]);
 
 SelectedTexture = "vanilla_processors"; /* ======================================== */
 SelectedX = 256;
@@ -57,7 +57,7 @@ ADD("furnace_overlay"     ,0,1);
 ADD("anvil_overlay"       ,0,2,1,2);
 ADD("brewingstand_overlay",1,2);
 
-ADD("villager_overlay"    ,0,3);
+ADD("villager_overlay"    ,1,3);
 
 SelectedTexture = "vanilla_actions"; /* ======================================== */
 ADD("dispenser_overlay" ,0,0);

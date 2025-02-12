@@ -9,7 +9,7 @@ var n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
-	if(Extra==null){Extra = {};}
+	if(Extra==null){Extra = [];}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
 	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
@@ -35,6 +35,7 @@ ADD("moon_phases",0,0,4,2);
 ADD("sun"        ,0,2);
 
 SelectedTexture = "precipitation"; /* ======================================== */
+SelectedX = 32;
 SelectedY = 128;
 ADD("rain",0,0);
 ADD("snow",1,0);
@@ -42,10 +43,10 @@ ADD("snow",1,0);
 SelectedTexture = "vanilla_colormaps"; /* ======================================== */
 SelectedX = 512;
 SelectedY = 512;
-ADD("colomap_foliage",0,0);
-ADD("colomap_grass"  ,1,0);
+ADD("colormap_foliage",0,0);
+ADD("colormap_grass"  ,1,0);
 
-ADD("colomap_water"  ,0,1);
+ADD("colormap_water"  ,0,1);
 
 SelectedTexture = "clouds"; /* ======================================== */
 SelectedX = 256;

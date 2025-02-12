@@ -9,7 +9,7 @@ var n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
-	if(Extra==null){Extra = {};}
+	if(Extra==null){Extra = [];}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
 	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
@@ -160,8 +160,8 @@ ADD("shulker"           ,0,0);
 ADD("shulker_projectile",0,1,1,0.5);
 
 SelectedTexture = "dragons"; /* ======================================== */
-SelectedX = 512;
-SelectedY = 512;
+SelectedX = 256;
+SelectedY = 256;
 ADD("enderdragon"          ,0,0,n,n,[["Overlay","enderdragon_eyes"]]);
 ADD("enderdragon_eyes"     ,1,0);
 ADD("enderdragon_exploding",2,0);

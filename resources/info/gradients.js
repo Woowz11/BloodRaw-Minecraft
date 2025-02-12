@@ -9,7 +9,7 @@ var n = null;
 
 function ADD(Name,x,y,w,h,Extra){
 	if(Name==""){return;}
-	if(Extra==null){Extra = {};}
+	if(Extra==null){Extra = [];}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
 	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
@@ -29,6 +29,9 @@ function ADD(Name,x,y,w,h,Extra){
 /* ================================================================================================================================================================================ */
 
 SelectedTexture = "basegradients"; /* ======================================== */
-ADD("water"      ,0,0);
-ADD("redstone"   ,0,1);
-ADD("redstone_on",0,2);
+ADD("water"      ,0,0,1,16);
+ADD("redstone"   ,0,1,1,16);
+ADD("redstone_on",0,2,1,16);
+
+SelectedTexture = "other"; /* ======================================== */
+ADD("rainbow",0,0,1,256);
