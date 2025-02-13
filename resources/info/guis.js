@@ -44,7 +44,7 @@ ADD("realms"       ,0,1,3,1);
 ADD("title_realms" ,0,0,4,1,[["Resize",192,64],["Overlay","realms"]]);
 ADD("crash"        ,0,0,4,1,[["Resize",274,44]]);
 ADD("title_line"   ,0,0,4,4,[["Clear"],["Overlay","title"]]);
-ADD("title_default",0,0,4,4,[["Clear"],["Overlay","title"],["Overlay","title",-128,64],["Overlay","title_realms",0,128]]);
+ADD("title_default",0,0,4,4,[["Clear"],["Overlay","title"],["Overlay","title",-100,45],["Overlay","title_realms",0,92],["Clear",156,0,100,90]]);
 
 SelectedTexture = "vanilla_processors"; /* ======================================== */
 SelectedX = 256;
@@ -114,3 +114,8 @@ SelectedTexture = "unknown"; /* ======================================== */
 SelectedX = 32;
 SelectedY = 32;
 ADD("unknown",0,0);
+
+SelectedTexture = "blank"; /* ======================================== */
+SelectedX = 256;
+SelectedY = 256;
+ADD("demo",0,0);
