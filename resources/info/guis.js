@@ -44,7 +44,7 @@ ADD("realms"       ,0,1,3,1);
 ADD("title_realms" ,0,0,4,1,[["Resize",192,64],["Overlay","realms"]]);
 ADD("crash"        ,0,0,4,1,[["Resize",274,44]]);
 ADD("title_line"   ,0,0,4,4,[["Clear"],["Overlay","title"]]);
-ADD("title_default",0,0,4,4,[["Clear"],["Overlay","title"],["Overlay","title",-100,45],["Overlay","title_realms",0,92],["Clear",156,0,100,90]]);
+ADD("title_default",0,0,4,4,[["Clear"],["Overlay","title"],["Overlay","title",-156,45],["Overlay","title_realms",0,92],["Clear",156,0,100,90]]);
 
 SelectedTexture = "vanilla_processors"; /* ======================================== */
 SelectedX = 256;
@@ -73,7 +73,9 @@ ADD("chest_overlay",0,0,0.75,0.75);
 
 SelectedTexture = "inventory"; /* ======================================== */
 ADD("inventory_processor"       ,0,0);
-ADD("inventory"                 ,1,0);
+ADD("inventory"                 ,1,0,n,n,[["Overlay","inventory_potion"]]);
+ADD("inventory_alpha"           ,0,1,n,n,[["Overlay","inventory_potion"]]);
+ADD("inventory_potion"          ,1,1);
 ADD("inventory_processor_top"   ,0,0,1,1,[["Clear"],["Overlay","inventory_processor",0,-32]]);
 ADD("inventory_processor_bottom",0,0,1,1,[["Clear"],["Overlay","inventory_processor",0, 56]]);
 ADD("craftingtable"             ,0,0,n,n,[["Overlay","craftingtable_overlay"]]);
@@ -94,7 +96,7 @@ ADD("creative_tabs"     ,0,1);
 ADD("creative_inventory",1,1);
 
 SelectedTexture = "other"; /* ======================================== */
-ADD("widgets" ,0,0);
+ADD("widgets" ,0,0,n,n,[["Clear",128,128,128,128]]);
 ADD("icons"   ,1,0);
 
 ADD("stats"   ,0.5,0.5,0.5,0.5);

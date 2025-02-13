@@ -45,8 +45,10 @@ ADD("diamond"      ,0,0);
 ADD("diamond_pants",0,1);
 
 SelectedTexture = "leather"; /* ======================================== */
-ADD("leather"      ,0,0);
-ADD("leather_pants",0,1);
+ADD("leather"          ,0,0);
+ADD("leather_pants"    ,0,1);
+ADD("leather_old"      ,0,0,n,n,[["Gradient","leather"],["Overlay","leather_overlay"]]);
+ADD("leather_pants_old",0,1,n,n,[["Gradient","leather"],["Overlay","leather_pants_overlay"]]);
 
 ADD("leather_overlay"      ,1,0);
 ADD("leather_pants_overlay",1,1);

@@ -43,7 +43,7 @@ ADD("overlay_4x2",0,3,4,2);
 
 ADD("overlay_4x3",4,4,4,3);
 
-ADD("overlay_4x4_update",4,5,4,4);
+ADD("overlay_4x4_update",0,5,4,4);
 
 var Size = "1x1";
 SelectedTexture = Size; /* ======================================== */

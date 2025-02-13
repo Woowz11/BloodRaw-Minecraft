@@ -1,7 +1,7 @@
 ResourcePackInfo_Gradients = {};
 var RPI = ResourcePackInfo_Gradients;
 var Path = "textures/gradients/";
-var SelectedX = 1;
+var SelectedX = 255;
 var SelectedY = 1;
 
 var SelectedTexture = "";
@@ -29,13 +29,19 @@ function ADD(Name,x,y,w,h,Extra){
 /* ================================================================================================================================================================================ */
 
 SelectedTexture = "basegradients"; /* ======================================== */
-ADD("water"      ,0,0,16,1);
-ADD("redstone"   ,0,1,16,1);
-ADD("redstone_on",0,2,16,1);
+ADD("water"      ,0,0);
+ADD("redstone"   ,0,1);
+ADD("redstone_on",0,2);
+ADD("leather"    ,0,4);
 
 SelectedTexture = "other"; /* ======================================== */
-ADD("rainbow"  ,0,0,255,1);
-ADD("alpha"    ,0,1,255,1);
-ADD("grayscale",0,2,255,1);
-ADD("waves"    ,0,3,255,1);
-ADD("random"   ,0,4,255,1);
+ADD("rainbow"  ,0,0);
+ADD("alpha"    ,0,1);
+ADD("grayscale",0,2);
+ADD("waves"    ,0,3);
+ADD("random"   ,0,4);
+ADD("dots"     ,0,5);
+ADD("white"    ,0,6);
+ADD("2colors"  ,0,7);
+ADD("4colors"  ,0,8);
+ADD("8colors"  ,0,9);
