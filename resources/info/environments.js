@@ -41,16 +41,14 @@ ADD("rain",0,0);
 ADD("snow",1,0);
 
 SelectedTexture = "vanilla_colormaps"; /* ======================================== */
-SelectedX = 512;
-SelectedY = 512;
+SelectedX = 256;
+SelectedY = 256;
 ADD("colormap_foliage",0,0);
 ADD("colormap_grass"  ,1,0);
 
 ADD("colormap_water"  ,0,1);
 
 SelectedTexture = "clouds"; /* ======================================== */
-SelectedX = 256;
-SelectedY = 256;
 ADD("clouds",0,0);
 
 SelectedTexture = "other"; /* ======================================== */
