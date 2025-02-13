@@ -34,4 +34,8 @@ ADD("redstone"   ,0,1,16,1);
 ADD("redstone_on",0,2,16,1);
 
 SelectedTexture = "other"; /* ======================================== */
-ADD("rainbow",0,0,256,1);
+ADD("rainbow"  ,0,0,255,1);
+ADD("alpha"    ,0,1,255,1);
+ADD("grayscale",0,2,255,1);
+ADD("waves"    ,0,3,255,1);
+ADD("random"   ,0,4,255,1);
