@@ -166,16 +166,17 @@ ADD("destroy_6",6,0);
 ADD("destroy_7",7,0);
 ADD("destroy_8",8,0);
 ADD("destroy_9",9,0);
-ADD("destroy_0_old",0,0,n,n,[["Alpha255",true]]);
-ADD("destroy_1_old",1,0,n,n,[["Alpha255",true]]);
-ADD("destroy_2_old",2,0,n,n,[["Alpha255",true]]);
-ADD("destroy_3_old",3,0,n,n,[["Alpha255",true]]);
-ADD("destroy_4_old",4,0,n,n,[["Alpha255",true]]);
-ADD("destroy_5_old",5,0,n,n,[["Alpha255",true]]);
-ADD("destroy_6_old",6,0,n,n,[["Alpha255",true]]);
-ADD("destroy_7_old",7,0,n,n,[["Alpha255",true]]);
-ADD("destroy_8_old",8,0,n,n,[["Alpha255",true]]);
-ADD("destroy_9_old",9,0,n,n,[["Alpha255",true]]);
+
+ADD("destroy_0_old",0,1);
+ADD("destroy_1_old",1,1);
+ADD("destroy_2_old",2,1);
+ADD("destroy_3_old",3,1);
+ADD("destroy_4_old",4,1);
+ADD("destroy_5_old",5,1);
+ADD("destroy_6_old",6,1);
+ADD("destroy_7_old",7,1);
+ADD("destroy_8_old",8,1);
+ADD("destroy_9_old",9,1);
 
 SelectedTexture = "food"; /* ======================================== */
 ADD("cake"       ,0,0);
@@ -355,24 +356,25 @@ ADD("acacia"      ,4,1);
 ADD("darkoak"     ,5,1);
 
 ADD("oak_leaves"         ,0,2);
-ADD("oak_leaves_fast"    ,0,2,n,n,[["Alpha255",true]]);
 ADD("spruce_leaves"      ,1,2);
-ADD("spruce_leaves_fast" ,1,2,n,n,[["Alpha255",true]]);
 ADD("birch_leaves"       ,2,2);
-ADD("birch_leaves_fast"  ,2,2,n,n,[["Alpha255",true]]);
 ADD("jungle_leaves"      ,3,2);
-ADD("jungle_leaves_fast" ,3,2,n,n,[["Alpha255",true]]);
 ADD("acacia_leaves"      ,4,2);
-ADD("acacia_leaves_fast" ,4,2,n,n,[["Alpha255",true]]);
 ADD("darkoak_leaves"     ,5,2);
-ADD("darkoak_leaves_fast",5,2,n,n,[["Alpha255",true]]);
 
-ADD("oak_sapling"         ,0,3);
-ADD("spruce_sapling"      ,1,3);
-ADD("birch_sapling"       ,2,3);
-ADD("jungle_sapling"      ,3,3);
-ADD("acacia_sapling"      ,4,3);
-ADD("darkoak_sapling"     ,5,3);
+ADD("oak_leaves_fast"    ,0,3);
+ADD("spruce_leaves_fast" ,1,3);
+ADD("birch_leaves_fast"  ,2,3);
+ADD("jungle_leaves_fast" ,3,3);
+ADD("acacia_leaves_fast" ,4,3);
+ADD("darkoak_leaves_fast",5,3);
+
+ADD("oak_sapling"         ,0,4);
+ADD("spruce_sapling"      ,1,4);
+ADD("birch_sapling"       ,2,4);
+ADD("jungle_sapling"      ,3,4);
+ADD("acacia_sapling"      ,4,4);
+ADD("darkoak_sapling"     ,5,4);
 
 SelectedTexture = "furniture"; /* ======================================== */
 ADD("bookshelf"         ,0,0);
