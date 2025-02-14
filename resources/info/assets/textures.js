@@ -324,8 +324,8 @@ ADD([T,"cobweb"     ],[[-1,a+"web"+png]],true);
 
 /* Предметы Minecraft */ /* ======================================== */
 T = "item";
-a = b;
-ma = mtb;
+a = i;
+ma = mti;
 
 /* Еда */
 ADD([T,"apple"              ],[[-1,a+"apple"+png]],true);
@@ -416,7 +416,7 @@ ADD([T,"gold_chest"            ],[[-1,a+"chestplateGold"+png]],true);
 ADD([T,"iron_chest"            ],[[-1,a+"chestplateIron"+png]],true);
 ADD([T,"chain_pants"           ],[[-1,a+"leggingsChain"+png]],true);
 ADD([T,"leather_pants"         ],[[-1,a+"leggingsCloth"+png]],true);
-ADD([T,"leather_overlay_pants" ],[[-1,a+"leggingsCloth_overlay"+png]],true);
+ADD([T,"leather_pants_overlay" ],[[-1,a+"leggingsCloth_overlay"+png]],true);
 ADD([T,"diamond_pants"         ],[[-1,a+"leggingsDiamond"+png]],true);
 ADD([T,"gold_pants"            ],[[-1,a+"leggingsGold"+png]],true);
 ADD([T,"iron_pants"            ],[[-1,a+"leggingsIron"+png]],true);
@@ -443,7 +443,7 @@ ADD([T,"oak_sign"    ],[[-1,a+"sign"+png]],true);
 ADD([T,"head"        ],[[-1,a+"skull_char"+png]],true);
 ADD([T,"head_creeper"],[[-1,a+"skull_creeper"+png]],true);
 ADD([T,"skull"       ],[[-1,a+"skull_skeleton"+png]],true);
-ADD([T,"skulL_wither"],[[-1,a+"skull_wither"+png]],true);
+ADD([T,"skull_wither"],[[-1,a+"skull_wither"+png]],true);
 ADD([T,"head_zombie" ],[[-1,a+"skull_zombie"+png]],true);
 
 /* Сущности предметы */
