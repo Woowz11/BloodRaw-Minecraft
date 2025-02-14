@@ -309,7 +309,7 @@ ADD("iron_door_bottom"   ,6,1);
 SelectedTexture = "workbench"; /* ======================================== */
 ADD("craftingtable"      ,0,0);
 ADD("craftingtable_side" ,1,0);
-ADD("craftingtable_side2",2,0);
+ADD("craftingtable_side_2",2,0);
 
 SelectedTexture = "decorations"; /* ======================================== */
 ADD("pot"      ,0,0);
@@ -435,7 +435,7 @@ ADD("endframe_eye" ,3,0);
 
 SelectedTexture = "fire"; /* ======================================== */
 ADD("fire" ,0,0);
-ADD("fire2",1,0);
+ADD("fire_2",1,0);
 
 SelectedTexture = "lighting"; /* ======================================== */
 ADD("torch"   ,0,0);
