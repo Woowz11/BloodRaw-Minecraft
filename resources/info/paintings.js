@@ -84,7 +84,4 @@ ADD("br_dragonegg"  ,0,0,n,n,[["Overlay","overlay_"+Size]]);
 ADD("br_jungle_tree",1,0,n,n,[["Overlay","overlay_"+Size]]);
 
 SelectedTexture = "update"; /* ======================================== */
-SelectedX = 1;
-SelectedY = 1;
-ADD("update_raw",0,0,62,48);
-ADD("update"    ,0,0,64,64,[["Clear"],["Overlay","update_raw",1,1],["Overlay","overlay_4x4_update"]]);
+ADD("update"    ,0,0,n,n,[["Clear"],["Special_Update"],["Overlay","overlay_4x4_update"]]);
