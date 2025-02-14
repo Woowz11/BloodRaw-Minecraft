@@ -15,9 +15,9 @@ function ADD(Resource,Path,Condition){
 
 Base = "Minecraft";
 var T = "block";
-var png = ""+png;
-var b = b+"";
-var mtb = mtb+"";
+var png = ".png";
+var b = "blocks/";
+var mtb = "minecraft/textures/blocks/";
 /* Блоки Minecraft */ /* ======================================== */
 
 /* Камень */
