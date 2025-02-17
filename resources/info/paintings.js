@@ -30,6 +30,7 @@ function ADD(Name,x,y,w,h,Extra){
 
 SelectedTexture = "other"; /* ======================================== */
 ADD("backside",0,0,4,4);
+ADD("update"  ,0,0,4,4,[["Clear"],["Special_Update"],["Overlay","overlay_4x4_update"]]);
 
 SelectedTexture = "overlays"; /* ======================================== */
 ADD("overlay_1x1",0,0,1,1);
@@ -82,6 +83,3 @@ SelectedX = 64;
 SelectedY = 64;
 ADD("br_dragonegg"  ,0,0,n,n,[["Overlay","overlay_"+Size]]);
 ADD("br_jungle_tree",1,0,n,n,[["Overlay","overlay_"+Size]]);
-
-SelectedTexture = "update"; /* ======================================== */
-ADD("update"    ,0,0,n,n,[["Clear"],["Special_Update"],["Overlay","overlay_4x4_update"]]);
