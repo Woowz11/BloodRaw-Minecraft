@@ -31,7 +31,7 @@ function ADD(Name,x,y,w,h,Extra){
 SelectedTexture = "other"; /* ======================================== */
 ADD("backside",0,0,4,4);
 ADD("update"  ,0,0,4,4,[["Clear"],["Special_Update"],["Overlay","overlay_4x4_update"]]);
-ADD("atlas"   ,0,0,16,16,[["Atlas","Painting"]]);
+ADD("atlas"   ,0,0,16,16,[["Atlas","Paintings"]]);
 
 SelectedTexture = "overlays"; /* ======================================== */
 ADD("overlay_1x1",0,0,1,1);

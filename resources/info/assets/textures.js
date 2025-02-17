@@ -161,7 +161,6 @@ ADD([T,"trip"                  ],[ [-1,a+"tripWireSource"+png            ],[0,ma
 /* Мебель/Декорации */
 ADD([T,"bed_foot_end"    ],[ [-1,a+"bed_feet_end"+png  ],[0,ma+"bed_feet_end"+png] ]);
 ADD([T,"bed_foot_side"   ],[ [-1,a+"bed_feet_side"+png ],[0,ma+"bed_feet_side"+png] ]);
-ADD([T,"bed_foot_side"   ],[ [-1,a+"bed_feet_side"+png ],[0,ma+"bed_feet_side"+png] ]);
 ADD([T,"bed_foot"        ],[ [-1,a+"bed_feet_top"+png  ],[0,ma+"bed_feet_top"+png] ]);
 ADD([T,"bed_head_end"    ],[ [-1,a+"bed_head_end"+png  ],[0,ma+"bed_head_end"+png] ]);
 ADD([T,"bed_head_side"   ],[ [-1,a+"bed_head_side"+png ],[0,ma+"bed_head_side"+png] ]);
@@ -682,7 +681,7 @@ T = Te;
 ADD([T,"arrow"            ],[ [ 0,ma+"arrow"+png] ]);
 ADD([T,"boat"             ],[ [ 0,ma+"boat"+png] ]);
 ADD([T,"minecart"         ],[ [ 0,ma+"minecart"+png] ]);
-ADD([T,"sign"             ],[ [ 0,ma+"sign"+png] ]);
+ADD([T,"oak_sign"         ],[ [ 0,ma+"sign"+png] ]);
 ADD([T,"chest"            ],[ [ 0,ma+"chest/normal"+png] ]);
 ADD([T,"chest_double"     ],[ [ 0,ma+"chest/normal_double"+png] ]);
 ADD([T,"chest_trap"       ],[ [ 0,ma+"chest/trapped"+png] ]);

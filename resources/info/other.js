@@ -31,6 +31,7 @@ function ADD(Name,x,y,w,h,Extra){
 SelectedTexture = "other"; /* ======================================== */
 ADD("empty"   ,0,0);
 ADD("notfound",1,0);
+ADD("badgeneration",2,0);
 
 SelectedTexture = "clocks"; /* ======================================== */
 ADD("dial",0,0);

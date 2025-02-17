@@ -35,12 +35,14 @@ SelectedTexture = "signs"; /* ======================================== */
 ADD("oak_sign",0,0);
 
 SelectedTexture = "arrows"; /* ======================================== */
-SelectedY = 64;
+SelectedX = 32;
 ADD("arrow"         ,0,0);
 ADD("arrow_poison"  ,0,1);
 ADD("arrow_spectral",0,2);
 
 SelectedTexture = "chests"; /* ======================================== */
+SelectedX = 64;
+SelectedY = 64;
 ADD("chest"       ,0,0);
 ADD("chest_double",1,0,2,1);
 
