@@ -14,11 +14,13 @@ function ADD(Resource,Path,Condition){
 /* ================================================================================================================================================================================ */
 
 var To  = "other";
+var Tb  = "block";
 var Te  = "entity";
 var Ten = "environment";
 var Tp  = "particle";
 var Tg  = "gui";
 var Tpa = "painting";
+var Ta  = "armor";
 
 var png     = ".png";
 var b       = "blocks/";
@@ -32,6 +34,8 @@ var mten    = mt+"entity/";
 var mtp     = mt+"particle/";
 var mtpaint = mt+"painting/";
 var mtg     = mt+"gui/";
+var mtm     = mt+"misc/";
+var mta     = mt+"models/armor";
 
 /* Блоки Minecraft */ /* ======================================== */
 Base = "Minecraft";
@@ -732,10 +736,10 @@ ADD([T,"stats"           ],[ [ 0,ma+"container/stats_icons"+png             ] ])
 ADD([T,"villager_old"    ],[ [ 0,ma+"container/villager"+png                ] ]);
 
 /* Креатив */
-ADD([T,"creative"          ],[ [ 0,ma+"container/anvilcreative_inventory/tab_items"+png       ] ]);
-ADD([T,"creative_search"   ],[ [ 0,ma+"container/anvilcreative_inventory/tab_item_search"+png ] ]);
-ADD([T,"creative_inventory"],[ [ 0,ma+"container/anvilcreative_inventory/tab_inventory"+png   ] ]);
-ADD([T,"creative_tabs"     ],[ [ 0,ma+"container/anvilcreative_inventory/tabs"+png            ] ]);
+ADD([T,"creative"          ],[ [ 0,ma+"container/creative_inventory/tab_items"+png       ] ]);
+ADD([T,"creative_search"   ],[ [ 0,ma+"container/creative_inventory/tab_item_search"+png ] ]);
+ADD([T,"creative_inventory"],[ [ 0,ma+"container/creative_inventory/tab_inventory"+png   ] ]);
+ADD([T,"creative_tabs"     ],[ [ 0,ma+"container/creative_inventory/tabs"+png            ] ]);
 
 /* Остальное */
 ADD([To,"panorama_mainmenu_0"],[ [ 0,ma+"title/background/panorama_0"+png] ]);
@@ -760,9 +764,36 @@ T = Tp;
 /* Атлас партиклов */
 ADD([T,"atlas_old"],[ [ 0,ma+"particles"+png] ]);
 
+/* Модели Minecraft */ /* ======================================== */
+ma = mta;
+T = Ta;
+
+/* Броня */
+ADD([Tg,"chain"                ],[ [ 0,ma+"chainmail_layer_1"+png      ] ]);
+ADD([Tg,"chain_pants"          ],[ [ 0,ma+"chainmail_layer_2"+png      ] ]);
+ADD([Tg,"diamond"              ],[ [ 0,ma+"diamond_layer_1"+png        ] ]);
+ADD([Tg,"diamond_pants"        ],[ [ 0,ma+"diamond_layer_2"+png        ] ]);
+ADD([Tg,"gold"                 ],[ [ 0,ma+"gold_layer_1"+png           ] ]);
+ADD([Tg,"gold_pants"           ],[ [ 0,ma+"gold_layer_2"+png           ] ]);
+ADD([Tg,"iron"                 ],[ [ 0,ma+"iron_layer_1"+png           ] ]);
+ADD([Tg,"iron_pants"           ],[ [ 0,ma+"iron_layer_2"+png           ] ]);
+ADD([Tg,"leather"              ],[ [ 0,ma+"leather_layer_1"+png        ] ]);
+ADD([Tg,"leather_pants"        ],[ [ 0,ma+"leather_layer_2"+png        ] ]);
+ADD([Tg,"leather_overlay"      ],[ [ 0,ma+"leather_layer_1_overlay"+png] ]);
+ADD([Tg,"leather_pants_overlay"],[ [ 0,ma+"leather_layer_2_overlay"+png] ]);
+
 /* Другое Minecraft */ /* ======================================== */
 ma = mt;
 
 /* Карта */
 ADD([Tg,"map"          ],[ [ 0,ma+"map/map_background"+png] ]);
 ADD([Tg,"map_icons_old"],[ [ 0,ma+"map/map_icons"+png     ] ]);
+
+/* Папка Misc */
+ma = mtm;
+ADD([Tg,"overlay_pumpkin"],[ [ 0,ma+"pumpkinblur"+png         ] ]);
+ADD([Tg,"unknown"        ],[ [ 0,ma+"unknown_pack"+png        ] ]);
+ADD([To,"enchant"        ],[ [ 0,ma+"enchanted_item_glint"+png] ]);
+ADD([To,"vignette"       ],[ [ 0,ma+"vignette"+png            ] ]);
+ADD([Tp,"shadow"         ],[ [ 0,ma+"shadow"+png              ] ]);
+ADD([Tb,"water_old"      ],[ [ 0,ma+"underwater"+png          ] ]);
