@@ -57,7 +57,7 @@ ADD("furnace_overlay"     ,0,1);
 ADD("anvil_overlay"       ,0,2,1,2);
 ADD("brewingstand_overlay",1,2);
 
-ADD("villager_overlay"    ,1,3);
+ADD("villager_old_overlay",1,3);
 
 SelectedTexture = "vanilla_actions"; /* ======================================== */
 ADD("dispenser_overlay" ,0,0);
@@ -70,11 +70,12 @@ ADD("creative_old"    ,1,0);
 
 SelectedTexture = "vanilla_storage"; /* ======================================== */
 ADD("chest_overlay",0,0,0.75,0.75);
+ADD("horse_overlay",1,0);
 
 SelectedTexture = "inventory"; /* ======================================== */
 ADD("inventory_processor"       ,0,0);
 ADD("inventory"                 ,1,0,n,n,[["Overlay","inventory_potion"]]);
-ADD("inventory_alpha"           ,0,1,n,n,[["Overlay","inventory_potion"]]);
+ADD("inventory_old"             ,0,1,n,n,[["Overlay","inventory_potion"]]);
 ADD("inventory_potion"          ,1,1);
 ADD("inventory_processor_top"   ,0,0,1,1,[["Clear"],["Overlay","inventory_processor",0,-32]]);
 ADD("inventory_processor_bottom",0,0,1,1,[["Clear"],["Overlay","inventory_processor",0, 56]]);
@@ -84,9 +85,10 @@ ADD("dispenser"                 ,0,0,n,n,[["Overlay","dispenser_overlay"]]);
 ADD("hopper"                    ,0,0,1,1,[["Clear"],["Overlay","inventory_processor_top"],["Overlay","hopper_overlay"]]);
 ADD("anvil"                     ,0,0,n,n,[["Overlay","anvil_overlay"]]);
 ADD("brewingstand"              ,0,0,n,n,[["Overlay","brewingstand_overlay"]]);
-ADD("villager"                  ,0,0,n,n,[["Overlay","villager_overlay"]]);
+ADD("villager_old"              ,0,0,n,n,[["Overlay","villager_old_overlay"]]);
 ADD("enchantmenttable"          ,0,0,n,n,[["Overlay","enchantmenttable_overlay"]]);
 ADD("chest"                     ,0,0,1,1,[["Clear"],["Overlay","inventory_processor_bottom"],["Overlay","chest_overlay"]]);
+ADD("horse"                     ,0,0,n,n,[["Overlay","horse_overlay"]]);
 
 SelectedTexture = "creative"; /* ======================================== */
 ADD("creative"          ,0,0);
@@ -94,6 +96,9 @@ ADD("creative_search"   ,1,0);
 
 ADD("creative_tabs"     ,0,1);
 ADD("creative_inventory",1,1);
+
+SelectedTexture = "vanilla"; /* ======================================== */
+ADD("beacon"            ,0,0);
 
 SelectedTexture = "other"; /* ======================================== */
 ADD("widgets" ,0,0,n,n,[["Clear",128,128,128,128]]);

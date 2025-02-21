@@ -31,6 +31,7 @@ var mtf     = mt+"font/";
 var mten    = mt+"entity/";
 var mtp     = mt+"particle/";
 var mtpaint = mt+"painting/";
+var mtg     = mt+"gui/";
 
 /* Блоки Minecraft */ /* ======================================== */
 Base = "Minecraft";
@@ -359,8 +360,8 @@ ADD([T,"tnt_top"    ],[ [-1,a+"tnt_top"+png     ],[0,ma+"tnt_top"+png] ]);
 ADD([T,"tnt"        ],[ [-1,a+"tnt_side"+png    ],[0,ma+"tnt_side"+png] ]);
 ADD([T,"tnt_bottom" ],[ [-1,a+"tnt_bottom"+png  ],[0,ma+"tnt_bottom"+png] ]);
 ADD([T,"cobweb"     ],[ [-1,a+"web"+png         ],[0,ma+"web"+png] ]);
-ADD([T,"hay"        ],[ [ 0,ma+"hay_block_side"+png] ]);
-ADD([T,"hay_top"    ],[ [ 0,ma+"hay_block_top"+png] ]);
+ADD([T,"hay_side"   ],[ [ 0,ma+"hay_block_side"+png] ]);
+ADD([T,"hay"        ],[ [ 0,ma+"hay_block_top"+png] ]);
 ADD([T,"coal"       ],[ [ 0,ma+"coal_block"+png] ]);
 
 /* Предметы Minecraft */ /* ======================================== */
@@ -694,13 +695,56 @@ ADD([T,"endercrystal"     ],[ [ 0,ma+"endercrystal/endercrystal"+png] ]);
 T = Tp;
 
 /* Эффектовые энтити */
-ADD([T  ,"beam"             ],[ [ 0,ma+"beacon_beam"+png] ]);
+ADD([T  ,"beam"             ],[ [ 0,ma+"beacon_beam"+png                   ] ]);
 ADD([T  ,"beam_endercrystal"],[ [ 0,ma+"endercrystal/endercrystal_beam"+png] ]);
-ADD([T  ,"book"             ],[ [ 0,ma+"enchanting_table_book"+png] ]);
-ADD([Ten,"endportal"        ],[ [ 0,ma+"end_portal"+png] ]);
-ADD([T  ,"xp"               ],[ [ 0,ma+"experience_orb"+png] ]);
-ADD([T  ,"explosion"        ],[ [ 0,ma+"explosion"+png] ]);
-ADD([T  ,"lead"             ],[ [ 0,ma+"lead"+png] ]);
+ADD([T  ,"book"             ],[ [ 0,ma+"enchanting_table_book"+png         ] ]);
+ADD([Ten,"endportal"        ],[ [ 0,ma+"end_portal"+png                    ] ]);
+ADD([T  ,"xp"               ],[ [ 0,ma+"experience_orb"+png                ] ]);
+ADD([T  ,"explosion"        ],[ [ 0,ma+"explosion"+png                     ] ]);
+ADD([T  ,"lead"             ],[ [ 0,ma+"lead"+png                          ] ]);
+
+/* Интерфейс Minecraft */ /* ======================================== */
+ma = mtg;
+T = Tg;
+
+/* Главное */
+ADD([T,"background"         ],[ [ 0,ma+"options_background"+png         ] ]);
+ADD([T,"widgets"            ],[ [ 0,ma+"widgets"+png                    ] ]);
+ADD([T,"icons"              ],[ [ 0,ma+"icons"+png                      ] ]);
+ADD([T,"loadingscreen"      ],[ [ 0,ma+"title/mojang"+png               ] ]);
+ADD([T,"title_default"      ],[ [ 0,ma+"title/minecraft"+png            ] ]);
+
+/* Интерфейс */
+ADD([T,"book"            ],[ [ 0,ma+"book"+png                              ] ]);
+ADD([T,"achievements_old"],[ [ 0,ma+"achievement/achievement_background"+png] ]);
+ADD([T,"anvil"           ],[ [ 0,ma+"container/anvil"+png                   ] ]);
+ADD([T,"beacon"          ],[ [ 0,ma+"container/beacon"+png                  ] ]);
+ADD([T,"brewingstand"    ],[ [ 0,ma+"container/brewing_stand"+png           ] ]);
+ADD([T,"craftingtable"   ],[ [ 0,ma+"container/crafting_table"+png          ] ]);
+ADD([T,"dispenser"       ],[ [ 0,ma+"container/dispenser"+png               ] ]);
+ADD([T,"enchantingtable" ],[ [ 0,ma+"container/enchanting_table"+png        ] ]);
+ADD([T,"furnace"         ],[ [ 0,ma+"container/furnace"+png                 ] ]);
+ADD([T,"chest"           ],[ [ 0,ma+"container/generic_54"+png              ] ]);
+ADD([T,"hopper"          ],[ [ 0,ma+"container/hopper"+png                  ] ]);
+ADD([T,"horse"           ],[ [ 0,ma+"container/horse"+png                   ] ]);
+ADD([T,"inventory_old"   ],[ [ 0,ma+"container/inventory"+png               ] ]);
+ADD([T,"stats"           ],[ [ 0,ma+"container/stats_icons"+png             ] ]);
+ADD([T,"villager_old"    ],[ [ 0,ma+"container/villager"+png                ] ]);
+
+/* Креатив */
+ADD([T,"creative"          ],[ [ 0,ma+"container/anvilcreative_inventory/tab_items"+png       ] ]);
+ADD([T,"creative_search"   ],[ [ 0,ma+"container/anvilcreative_inventory/tab_item_search"+png ] ]);
+ADD([T,"creative_inventory"],[ [ 0,ma+"container/anvilcreative_inventory/tab_inventory"+png   ] ]);
+ADD([T,"creative_tabs"     ],[ [ 0,ma+"container/anvilcreative_inventory/tabs"+png            ] ]);
+
+/* Остальное */
+ADD([To,"panorama_mainmenu_0"],[ [ 0,ma+"title/background/panorama_0"+png] ]);
+ADD([To,"panorama_mainmenu_1"],[ [ 0,ma+"title/background/panorama_1"+png] ]);
+ADD([To,"panorama_mainmenu_2"],[ [ 0,ma+"title/background/panorama_2"+png] ]);
+ADD([To,"panorama_mainmenu_3"],[ [ 0,ma+"title/background/panorama_3"+png] ]);
+ADD([To,"panorama_mainmenu_4"],[ [ 0,ma+"title/background/panorama_4"+png] ]);
+ADD([To,"panorama_mainmenu_5"],[ [ 0,ma+"title/background/panorama_5"+png] ]);
+ADD([T ,"demo"],[ [ 0,ma+"demo_background"+png] ]);
 
 /* Картины Minecraft */ /* ======================================== */
 ma = mtpaint;
@@ -721,4 +765,4 @@ ma = mt;
 
 /* Карта */
 ADD([Tg,"map"          ],[ [ 0,ma+"map/map_background"+png] ]);
-ADD([Tg,"map_icons_old"],[ [ 0,ma+"map/map_icons"+png] ]);
+ADD([Tg,"map_icons_old"],[ [ 0,ma+"map/map_icons"+png     ] ]);
