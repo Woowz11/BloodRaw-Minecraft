@@ -1,17 +1,17 @@
-![Texture Pack Icon](https://raw.githubusercontent.com/Woowz11/BloodRaw-Minecraft/main/woowz/logo.png)
+![Pack Logo](https://raw.githubusercontent.com/Woowz11/BloodRaw-Minecraft/main/woowz/logo.png)
 
-## Minecraft Texture/Resource Pack - Blood Raw
+## Blood Raw - Minecraft Texture & Resource Pack
 
 > [!IMPORTANT]
 > Please, read [license.txt](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/license.txt) [[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
-[Download Texture Pack](https://github.com/Woowz11/BloodRaw-Minecraft/releases) | [Texture Pack Site](https://woowz11.github.io/woowzsite/bloodraw.html) *WIP*
+[Pack Site](https://woowz11.github.io/woowzsite/bloodraw) | [Download Pack](https://woowz11.github.io/woowzsite/bloodraw#download)
 
 Author: [Woowz11](https://github.com/Woowz11)
 
 Testers: [Wldoui](https://github.com/wldoui), Beryx, Ne1roX, Your local russian., [Have a nice day.](https://github.com/haveanicedaay), [Cyberpaul Red](https://github.com/red-pr), Klaver, [SetnaM](https://github.com/youwillseelowskill), [PavkaLakar](https://github.com/PavkaLakar), Kotyara228, Thewindowskrepka, [Nekit](https://github.com/nekitplay155), Deer, Kemrouz
 
-Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)
+~~Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11original)~~
 
 ## Desirable graphics settings:
 * Graphics: Fancy (Or Details/Trees: Fancy)
@@ -58,18 +58,18 @@ Support Author: [DonationAlerts](https://www.donationalerts.com/r/woowz11origina
 * [[Beta 1.2]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.1)
 * [[Alpha 1.2.6]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.0.9)
 ## Supported Mods
-|🏁|NAME|PROGRESS|LINK|
-|:-:|:--:|:------:|:--:|
-||FORGE|65%|[LINK](https://files.minecraftforge.net/net/minecraftforge/forge/)|
-||HBM|1.75%|[LINK](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)|
-||JEI|50%|[?]()|
-||NEI|70%|[<1.8](https://www.curseforge.com/minecraft/mc-mods/notenoughitems) **\|** [>=1.8](https://legacy.curseforge.com/minecraft/mc-mods/not-enough-items-1-8)|
-||IC2|25%|[?]()|
-|✔️|Lucky Block|100%|[LINK](https://www.curseforge.com/minecraft/mc-mods/lucky-block)|
-||Xaeros Minimap|0%|[?]()|
-||MrCrayfish Furniture|30%|[LINK](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod)|
-||Damage Indicators|0%|[?]()|
-|✔️|Better Foliage|100%|[LINK](https://www.curseforge.com/minecraft/mc-mods/better-foliage)|
-||Chisel and Bits|0%|[?]()|
-||Iron Chest|25%|[?]()|
-||Trap Craft|50%|[?]()|
+|🏁 |NAME          |PROGRESS|LINK|
+|:-:|:-------------|:------:|:--:|
+|   |FORGE         |65%|[LINK](https://files.minecraftforge.net/net/minecraftforge/forge/)|
+|   |HBM           |1.75%|[LINK](https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod)|
+|   |JEI           |50%|[?]()|
+|   |NEI           |70%|[<1.8](https://www.curseforge.com/minecraft/mc-mods/notenoughitems) **\|** [>=1.8](https://legacy.curseforge.com/minecraft/mc-mods/not-enough-items-1-8)|
+|   |IC2           |25%|[?]()|
+|✔️ |Lucky Block   |100%|[LINK](https://www.curseforge.com/minecraft/mc-mods/lucky-block)|
+|   |Xaeros Minimap|0%|[?]()|
+|   |MrCrayfish Furniture|30%|[LINK](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod)|
+|   |Damage Indicators|0%|[?]()|
+|✔️ |Better Foliage|100%|[LINK](https://www.curseforge.com/minecraft/mc-mods/better-foliage)|
+|   |Chisel and Bits|0%|[?]()|
+|   |Iron Chest|25%|[?]()|
+|   |Trap Craft|50%|[?]()|

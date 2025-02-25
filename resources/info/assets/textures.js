@@ -35,7 +35,7 @@ var mtp     = mt+"particle/";
 var mtpaint = mt+"painting/";
 var mtg     = mt+"gui/";
 var mtm     = mt+"misc/";
-var mta     = mt+"models/armor";
+var mta     = mt+"models/armor/";
 
 /* Блоки Minecraft */ /* ======================================== */
 Base = "Minecraft";
