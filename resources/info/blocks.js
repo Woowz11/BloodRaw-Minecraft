@@ -7,14 +7,16 @@ var SelectedY = 16;
 var SelectedTexture = "";
 var n = null;
 
-function ADD(Name,x,y,w,h,Extra){
+function ADD(Name,x,y,w,h,Extra,Info){
 	if(Name==""){return;}
 	if(Extra==null){Extra = [];}
+	if(Info==null){Info = {};}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
 	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
-		"Name": Name,
+		"Name" : Name,
 		"Extra": Extra,
+		"Info" : Info,
 		"Texture": {
 			"Path": Path+SelectedTexture+".png",
 			"x": x,
@@ -129,8 +131,8 @@ ADD("watermelon"            ,6,4);
 ADD("watermelon_bottom"     ,7,4);
 
 ADD("pumpkin_bottom"        ,0,5);
-ADD("pumpkin_on"            ,1,5);
-ADD("pumpkin_face_on"       ,2,5);
+ADD("pumpkin_on"            ,1,5,n,n,n,{"anim":"pumpkin"});
+ADD("pumpkin_face_on"       ,2,5,n,n,n,{"anim":"pumpkin_f"});
 ADD("hay_side"              ,3,5);
 ADD("cocoa_0"               ,4,5);
 ADD("cocoa_1"               ,5,5);
@@ -191,11 +193,11 @@ ADD("cake_inner" ,1,1);
 SelectedTexture = "jewelry"; /* ======================================== */
 ADD("diamond"   ,0,0);
 ADD("emerald"   ,1,0);
-ADD("redstone"  ,2,0);
+ADD("redstone"  ,2,0,n,n,n,{"anim":"redstone_b"});
 
 ADD("lapis"     ,0,1);
 ADD("gold"      ,1,1);
-ADD("beacon"    ,2,1);
+ADD("beacon"    ,2,1,n,n,n,{"anim":"beacon"});
 
 SelectedTexture = "compact"; /* ======================================== */
 ADD("iron"   ,0,0);
@@ -431,19 +433,19 @@ ADD("glass_green"  ,14,1);
 ADD("glass_cyan"   ,15,1);
 
 SelectedTexture = "portal"; /* ======================================== */
-ADD("portal"       ,0,0);
+ADD("portal"       ,0,0,n,n,n,{"anim":"portal"});
 ADD("endframe"     ,1,0);
 ADD("endframe_side",2,0);
-ADD("endframe_eye" ,3,0);
+ADD("endframe_eye" ,3,0,n,n,n,{"anim":"eye"});
 
 SelectedTexture = "fire"; /* ======================================== */
-ADD("fire" ,0,0);
-ADD("fire_2",1,0);
+ADD("fire"  ,0,0,n,n,n,{"anim":"fire"});
+ADD("fire_2",1,0,n,n,n,{"anim":"fire2"});
 
 SelectedTexture = "lighting"; /* ======================================== */
-ADD("torch"   ,0,0);
+ADD("torch"   ,0,0,n,n,n,{"anim":"torch"});
 ADD("lamp"    ,1,0);
-ADD("lamp_on" ,2,0);
+ADD("lamp_on" ,2,0,n,n,n,{"anim":"lamp"});
 
 SelectedTexture = "archeology"; /* ======================================== */
 ADD("bone_top",0,0);
@@ -489,7 +491,7 @@ ADD("dispenser"      ,2,0);
 ADD("dropper"        ,3,0);
 
 ADD("cobblestone_side",0,1);
-ADD("furnace_on"      ,1,1);
+ADD("furnace_on"      ,1,1,n,n,n,{"anim":"furnace_f"});
 ADD("dispenser_top"   ,2,1);
 ADD("dropper_top"     ,3,1);
 
@@ -520,7 +522,7 @@ ADD("netherbricks"  ,2,0);
 ADD("wart"          ,3,0);
 
 ADD("netherrack"      ,0,1);
-ADD("glowstone"       ,1,1);
+ADD("glowstone"       ,1,1,n,n,n,{"anim":"glowstone"});
 ADD("netherbricks_red",2,1);
 
 ADD("wart_0",0,2);
@@ -537,7 +539,7 @@ ADD("grass_side"        ,1,1);
 SelectedTexture = "music"; /* ======================================== */
 ADD("noteblock"   ,0,0);
 ADD("jukebox"     ,1,0);
-ADD("jukebox_on"  ,2,0);
+ADD("jukebox_on"  ,2,0,n,n,n,{"anim":"juke"});
 
 ADD("jukebox_bottom",0,1);
 ADD("jukebox_side"  ,1,1);
@@ -545,7 +547,7 @@ ADD("jukebox_detail",2,1);
 
 SelectedTexture = "end"; /* ======================================== */
 ADD("endstone" ,0,0);
-ADD("endrod"   ,1,0);
+ADD("endrod"   ,1,0,n,n,n,{"anim":"endrod"});
 ADD("purpur"   ,2,0);
 
 ADD("endstone_bricks"  ,0,1);
@@ -555,9 +557,9 @@ ADD("purpur_pillar_top",2,1);
 ADD("purpur_pillar"   ,2,2);
 
 SelectedTexture = "lava"; /* ======================================== */
-ADD("lava_flow" ,0,0,2,2);
-ADD("lava"      ,2,0);
-ADD("magma"     ,2,1);
+ADD("lava_flow" ,0,0,2,2,n,{"anim":"lava_flow"});
+ADD("lava"      ,2,0,n,n,n,{"anim":"lava"});
+ADD("magma"     ,2,1,n,n,n,{"anim":"magma"});
 
 SelectedTexture = "nature"; /* ======================================== */
 ADD("cobweb" ,0,0);
@@ -576,7 +578,7 @@ ADD("prismarine"       ,0,0);
 ADD("prismarine_bricks",1,0);
 
 ADD("prismarine_carved",0,1);
-ADD("prismarine_lamp  ",1,1);
+ADD("prismarine_lamp  ",1,1,n,n,n,{"anim":"sea"});
 
 SelectedTexture = "tools"; /* ======================================== */
 ADD("sponge"    ,0,0);
@@ -586,30 +588,30 @@ SelectedTexture = "construction"; /* ======================================== */
 ADD("ladder",0,0);
 
 SelectedTexture = "enchantment"; /* ======================================== */
-ADD("enchantmenttable"       ,0,0);
-ADD("enchantmenttable_side"  ,1,0);
+ADD("enchantmenttable"       ,0,0,n,n,n,{"anim":"ench_tab"});
+ADD("enchantmenttable_side"  ,1,0,n,n,n,{"anim":"ench_tab2"});
 
 ADD("enchantmenttable_bottom",0,1);
 
 SelectedTexture = "water"; /* ======================================== */
-ADD("water_flow"     ,0,0,2,2);
-ADD("water"          ,2,0);
+ADD("water_flow"     ,0,0,2,2,n,{"anim":"water_flow"});
+ADD("water"          ,2,0,n,n,n,{"anim":"water"});
 ADD("water_flow_old" ,0,0,2,2,[["Gradient","water"]]);
 ADD("water_old"      ,2,0,n,n,[["Gradient","water"]]);
 
 SelectedTexture = "debug"; /* ======================================== */
-ADD("command"       ,0,0);
-ADD("command_c"     ,1,0);
+ADD("command"       ,0,0,n,n,n,{"anim":"command"});
+ADD("command_c"     ,1,0,n,n,n,{"anim":"c"});
 ADD("command_off"   ,2,0);
-ADD("command_detail",3,0);
+ADD("command_detail",3,0,n,n,n,{"anim":"command_f"});
 
-ADD("command_chain"   ,0,1);
-ADD("command_c_chain" ,1,1);
+ADD("command_chain"   ,0,1,n,n,n,{"anim":"command_a"});
+ADD("command_c_chain" ,1,1,n,n,n,{"anim":"command_ac"});
 ADD("structure"       ,2,1);
 ADD("structure_corner",3,1);
 
-ADD("command_repeat"  ,0,2);
-ADD("command_c_repeat",1,2);
+ADD("command_repeat"  ,0,2,n,n,n,{"anim":"command_r"});
+ADD("command_c_repeat",1,2,n,n,n,{"anim":"command_rc"});
 ADD("structure_data"  ,2,2);
 ADD("structure_load"  ,3,2);
 

@@ -7,14 +7,16 @@ var SelectedY = 256;
 var SelectedTexture = "";
 var n = null;
 
-function ADD(Name,x,y,w,h,Extra){
+function ADD(Name,x,y,w,h,Extra,Info){
 	if(Name==""){return;}
 	if(Extra==null){Extra = [];}
+	if(Info==null){Info = {};}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
 	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
-		"Name": Name,
+		"Name" : Name,
 		"Extra": Extra,
+		"Info" : Info,
 		"Texture": {
 			"Path": Path+SelectedTexture+".png",
 			"x": x,

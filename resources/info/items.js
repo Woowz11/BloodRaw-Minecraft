@@ -7,14 +7,16 @@ var SelectedY = 16;
 var SelectedTexture = "";
 var n = null;
 
-function ADD(Name,x,y,w,h,Extra){
+function ADD(Name,x,y,w,h,Extra,Info){
 	if(Name==""){return;}
 	if(Extra==null){Extra = [];}
+	if(Info==null){Info = {};}
 	if(x!=null&&y!=null){if(w==null){w=1;}if(h==null){h=1;}}
 	if(x!=null){x *= SelectedX;} if(y!=null){y *= SelectedY;} if(w!=null){w *= SelectedX;} if(h!=null){h *= SelectedY;}
 	var Result = {
-		"Name": Name,
+		"Name" : Name,
 		"Extra": Extra,
+		"Info" : Info,
 		"Texture": {
 			"Path": Path+SelectedTexture+".png",
 			"x": x,
@@ -389,3 +391,7 @@ ADD("diamond_boots"        ,3,3);
 ADD("leather_boots"        ,4,3);
 ADD("leather_boots_overlay",5,3);
 ADD(""                     ,6,3);
+
+SelectedTexture = "special"; /* ======================================== */
+ADD("clock"  ,0,0,1,64);
+ADD("compass",1,0,1,32);
