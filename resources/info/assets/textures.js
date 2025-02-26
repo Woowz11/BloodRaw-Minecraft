@@ -11,7 +11,7 @@ function ADD(Resource,Path,Condition){
 	if(RPI[Base]==null){RPI[Base] = [];}
 	var P = [];
 	for(var p of Path){
-		P.push([p[0],(typeof element == "string"?p[1]+Type:p[1])]);
+		P.push([p[0],(p[1].constructor === String?p[1]+Type:p[1])]);
 	}
 	RPI[Base].push([[ResourceType,Resource],P,Condition]);
 }

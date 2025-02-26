@@ -16,7 +16,7 @@ function ADDA(Name,x,y,w,h,Extra,AnimProperties){
 			"Path": Path+SelectedTexture+".png",
 			"x": x*16,
 			"y": y*16,
-			"w": 1,
+			"w": w*16,
 			"h": h*16
 		},
 		"Animation": {
