@@ -27,15 +27,15 @@ Testers: [Wldoui](https://github.com/wldoui), Beryx, Ne1roX, Your local russian.
 * Quality/Custom Sky: ON
 * Details/Swamp Colors: ON
 * Details/Smooth Biomes: ON
+
 ## Music Credits
-* [[Chirp](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg)] - The Daniel Pemberton TV Orchestra — The Orb Of Dreamers
-* [[Stal](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg)] - Jean Jacques Perrey — Brazilian Flower
-* [[Strad](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/strad.ogg)] - Bebromet2k18 — TROLL MEGA HIT
-* [[Wait](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg)] - Lifeformed — Undiscovery
-* [[13](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/13.ogg)] - Notch — Calm 4
-* [[11](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/11.ogg)] - Hzlancer — Superfighters DELUXE Theme
-## For commits
-**It is forbidden to create pull requests, you can only leave issues and discussions**
+* [[Chirp]](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/chirp.ogg) - The Daniel Pemberton TV Orchestra — The Orb Of Dreamers
+* [[Stal]](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/stal.ogg) - Jean Jacques Perrey — Brazilian Flower
+* [[Strad]](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/strad.ogg) - Bebromet2k18 — TROLL MEGA HIT
+* [[Wait]](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/wait.ogg) - Lifeformed — Undiscovery
+* [[13]](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/13.ogg) - Notch — Calm 4
+* [[11]](https://github.com/Woowz11/BloodRaw-Minecraft/blob/main/assets/minecraft/sounds/records/11.ogg) - Hzlancer — Superfighters DELUXE Theme
+
 ## Supported Versions
 * Soon [1.10]
 * [[1.9]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/1.0.4)
@@ -57,6 +57,7 @@ Testers: [Wldoui](https://github.com/wldoui), Beryx, Ne1roX, Your local russian.
 * [[Beta 1.3]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.2)
 * [[Beta 1.2]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.1.1)
 * [[Alpha 1.2.6]](https://github.com/Woowz11/BloodRaw-Minecraft/releases/tag/0.0.9)
+
 ## Supported Mods
 |🏁 |NAME          |PROGRESS|LINK|
 |:-:|:-------------|:------:|:--:|
@@ -73,3 +74,6 @@ Testers: [Wldoui](https://github.com/wldoui), Beryx, Ne1roX, Your local russian.
 |   |Chisel and Bits|0%|[?]()|
 |   |Iron Chest|25%|[?]()|
 |   |Trap Craft|50%|[?]()|
+
+## For commits
+**It is forbidden to create pull requests, you can only leave issues and discussions**

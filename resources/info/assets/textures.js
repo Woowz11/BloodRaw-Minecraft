@@ -43,7 +43,7 @@ var T = "block";
 var a = b;
 var ma = mtb;
 
-/* Камень */
+/* ==== Камень ==== */
 ADD([T,"stone"              ],[ [-1,a+"stone"+png                   ],[0,ma+"stone"+png      ] ]);
 ADD([T,"stone_smooth"       ],[ [-1,a+"stoneslab_top"+png           ],[0,ma+"stone_slab_top"+png] ]);
 ADD([T,"slab_stone"         ],[ [-1,a+"stoneslab_side"+png          ],[0,ma+"stone_slab_side"+png] ]);
@@ -64,20 +64,27 @@ ADD([T,"quartz_pillar"      ],[ [-1,a+"quartzblock_lines"+png       ],[0,ma+"qua
 ADD([T,"quartz_carved_top"  ],[ [-1,a+"quartzblock_chiseled_top"+png],[0,ma+"quartz_block_chiseled_top"+png] ]);
 ADD([T,"quartz_carved"      ],[ [-1,a+"quartzblock_chiseled"+png    ],[0,ma+"quartz_block_chiseled"+png] ]);
 
-/* Земля */
+/* ==== Земля ==== */
 ADD([T,"dirt"        ],[ [-1,a+"dirt"+png        ],[0,ma+"dirt"+png] ]);
 ADD([T,"farmland"    ],[ [-1,a+"farmland_dry"+png],[0,ma+"farmland_dry"+png] ]);
 ADD([T,"farmland_wet"],[ [-1,a+"farmland_wet"+png],[0,ma+"farmland_wet"+png] ]);
 
-/* Песок */
-ADD([T,"sand"                   ],[ [-1,a+"sand"+png           ],[0,ma+"sand"+png] ]);
-ADD([T,"sandstone_smooth"       ],[ [-1,a+"sandstone_top"+png  ],[0,ma+"sandstone_top"+png] ]);
-ADD([T,"sandstone"              ],[ [-1,a+"sandstone_side"+png ],[0,ma+"sandstone_normal"+png] ]);
+/*1.7.2*/
+ADD([T,"podzol"        ],[ [1,ma+"dirt_podzol_top"+png ] ]);
+ADD([T,"podzol_side"   ],[ [1,ma+"dirt_podzol_side"+png] ]);
+
+/* ==== Песок ==== */
+ADD([T,"sand"                   ],[ [-1,a+"sand"+png            ],[0,ma+"sand"+png            ] ]);
+ADD([T,"sandstone_smooth"       ],[ [-1,a+"sandstone_top"+png   ],[0,ma+"sandstone_top"+png   ] ]);
+ADD([T,"sandstone"              ],[ [-1,a+"sandstone_side"+png  ],[0,ma+"sandstone_normal"+png] ]);
 ADD([T,"sandstone"              ],[ [-1,a+"sandstone_bottom"+png],[0,ma+"sandstone_bottom"+png] ]);
 ADD([T,"sandstone_smooth_carved"],[ [-1,a+"sandstone_smooth"+png],[0,ma+"sandstone_smooth"+png] ]);
 ADD([T,"sandstone_carved"       ],[ [-1,a+"sandstone_carved"+png],[0,ma+"sandstone_carved"+png] ]);
 
-/* Руды */
+/*1.7.2*/
+ADD([T,"redsand"                ],[ [ 1,ma+"red_sand"+png] ]);
+
+/* ==== Руды ==== */
 ADD([T,"ore_coal"    ],[ [-1,a+"oreCoal"+png     ],[0,ma+"coal_ore"+png] ]);
 ADD([T,"ore_iron"    ],[ [-1,a+"oreIron"+png     ],[0,ma+"iron_ore"+png] ]);
 ADD([T,"ore_gold"    ],[ [-1,a+"oreGold"+png     ],[0,ma+"gold_ore"+png] ]);
@@ -87,15 +94,21 @@ ADD([T,"ore_emerald" ],[ [-1,a+"oreEmerald"+png  ],[0,ma+"emerald_ore"+png] ]);
 ADD([T,"ore_lapis"   ],[ [-1,a+"oreLapis"+png    ],[0,ma+"lapis_ore"+png] ]);
 ADD([T,"ore_quartz"  ],[ [-1,a+"netherquartz"+png],[0,ma+"quartz_ore"+png] ]);
 
-/* Доски */
+/* ==== Доски ==== */
 ADD([T,"oak_planks"   ],[ [-1,a+"wood"+png       ],[0,ma+"planks_oak"+png] ]);
 ADD([T,"birch_planks" ],[ [-1,a+"wood_birch"+png ],[0,ma+"planks_birch"+png] ]);
 ADD([T,"spruce_planks"],[ [-1,a+"wood_spruce"+png],[0,ma+"planks_spruce"+png] ]);
 ADD([T,"jungle_planks"],[ [-1,a+"wood_jungle"+png],[0,ma+"planks_jungle"+png] ]);
 
-/* Глина */
+/*1.7.2*/
+ADD([T,"acacia_planks"   ],[ [1,ma+"planks_acacia"+png] ]);
+ADD([T,"darkoak_planks"   ],[ [1,ma+"planks_big_oak"+png] ]);
+
+/* ==== Глина ==== */
 ADD([T,"clay"                ],[ [-1,a+"clay"+png],[0,ma+"clay"+png] ]);
 ADD([T,"bricks"              ],[ [-1,a+"brick"+png],[0,ma+"brick"+png] ]);
+
+/*1.6.1*/
 ADD([T,"hardenedclay"        ],[ [ 0,ma+"hardened_clay"+png] ]);
 ADD([T,"hardenedclay_white"  ],[ [ 0,ma+"hardened_clay_stained_white"+png] ]);
 ADD([T,"hardenedclay_silver" ],[ [ 0,ma+"hardened_clay_stained_silver"+png] ]);
@@ -113,11 +126,45 @@ ADD([T,"hardenedclay_brown"  ],[ [ 0,ma+"hardened_clay_stained_brown"+png] ]);
 ADD([T,"hardenedclay_green"  ],[ [ 0,ma+"hardened_clay_stained_green"+png] ]);
 ADD([T,"hardenedclay_cyan"   ],[ [ 0,ma+"hardened_clay_stained_cyan"+png] ]);
 
-/* Стекло */
+/* ==== Стекло ==== */
 ADD([T,"glass"     ],[ [-1,a+"glass"+png],[0,ma+"glass"+png] ]);
 ADD([T,"glass_pane"],[ [-1,a+"thinglass_top"+png],[0,ma+"glass_pane_top"+png] ]);
 
-/* Металл */
+/*1.7.2*/
+ADD([T,"glass_white"  ],[ [1,ma+"glass_white"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_white_pane_top"+png] ]);
+ADD([T,"glass_silver" ],[ [1,ma+"glass_silver"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_silver_pane_top"+png] ]);
+ADD([T,"glass_gray"   ],[ [1,ma+"glass_gray"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_gray_pane_top"+png] ]);
+ADD([T,"glass_black"  ],[ [1,ma+"glass_black"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_black_pane_top"+png] ]);
+ADD([T,"glass_red"    ],[ [1,ma+"glass_red"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_red_pane_top"+png] ]);
+ADD([T,"glass_orange" ],[ [1,ma+"glass_orange"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_orange_pane_top"+png] ]);
+ADD([T,"glass_yellow" ],[ [1,ma+"glass_yellow"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_yellow_pane_top"+png] ]);
+ADD([T,"glass_lime"   ],[ [1,ma+"glass_lime"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_lime_pane_top"+png] ]);
+ADD([T,"glass_aqua"   ],[ [1,ma+"glass_light_blue"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_light_blue_pane_top"+png] ]);
+ADD([T,"glass_blue"   ],[ [1,ma+"glass_blue"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_blue_pane_top"+png] ]);
+ADD([T,"glass_purple" ],[ [1,ma+"glass_purple"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_purple_pane_top"+png] ]);
+ADD([T,"glass_magenta"],[ [1,ma+"glass_magenta"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_magenta_pane_top"+png] ]);
+ADD([T,"glass_pink"   ],[ [1,ma+"glass_pink"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pink_pane_top"+png] ]);
+ADD([T,"glass_brown"  ],[ [1,ma+"glass_brown"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_brown_pane_top"+png] ]);
+ADD([T,"glass_green"  ],[ [1,ma+"glass_green"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_green_pane_top"+png] ]);
+ADD([T,"glass_cyan"   ],[ [1,ma+"glass_cyan"+png] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_cyan_pane_top"+png] ]);
+
+/* ==== Металл ==== */
 ADD([T,"iron"           ],[ [-1,a+"blockIron"+png      ],[0,ma+"block_iron"+png] ]);
 ADD([T,"gold"           ],[ [-1,a+"blockGold"+png      ],[0,ma+"block_gold"+png] ]);
 ADD([T,"cauldron_bottom"],[ [-1,a+"cauldron_bottom"+png],[0,ma+"cauldron_bottom"+png] ]);
@@ -129,12 +176,12 @@ ADD([T,"hopper"         ],[ [-1,a+"hopper"+png         ],[0,ma+"hopper"+png] ]);
 ADD([T,"hopper_inner"   ],[ [-1,a+"hopper_inside"+png  ],[0,ma+"hopper_inside"+png] ]);
 ADD([T,"cauldron_top"   ],[ [-1,a+"hopper_top"+png     ],[0,ma+"hopper_top"+png] ]);
 
-/* Кристаллы/Камни */
+/* ==== Кристаллы/Камни ==== */
 ADD([T,"diamond"],[ [-1,a+"blockDiamond"+png],[0,ma+"diamond_block"+png] ]);
 ADD([T,"emerald"],[ [-1,a+"blockEmerald"+png],[0,ma+"emerald_block"+png] ]);
 ADD([T,"lapis"  ],[ [-1,a+"blockLapis"+png  ],[0,ma+"lapis_block"+png] ]);
 
-/* Редстоун/Механизмы */
+/* ==== Редстоун/Механизмы ==== */
 ADD([T,"redstone"              ],[ [-1,a+"blockRedstone"+png             ],[0,ma+"redstone_block"+png] ]);
 ADD([T,"comparator"            ],[ [-1,a+"comparator"+png                ],[0,ma+"comparator_off"+png] ]);
 ADD([T,"comparator_on"         ],[ [-1,a+"comparator_lit"+png            ],[0,ma+"comparator_on"+png] ]);
@@ -163,7 +210,7 @@ ADD([T,"repeater_on"           ],[ [-1,a+"repeater_lit"+png              ],[0,ma
 ADD([T,"string"                ],[ [-1,a+"tripWire"+png                  ],[0,ma+"trip_wire"+png] ]);
 ADD([T,"trip"                  ],[ [-1,a+"tripWireSource"+png            ],[0,ma+"trip_wire_source"+png] ]);
 
-/* Мебель/Декорации */
+/* ==== Мебель/Декорации ==== */
 ADD([T,"bed_foot_end"    ],[ [-1,a+"bed_feet_end"+png  ],[0,ma+"bed_feet_end"+png] ]);
 ADD([T,"bed_foot_side"   ],[ [-1,a+"bed_feet_side"+png ],[0,ma+"bed_feet_side"+png] ]);
 ADD([T,"bed_foot"        ],[ [-1,a+"bed_feet_top"+png  ],[0,ma+"bed_feet_top"+png] ]);
@@ -180,30 +227,27 @@ ADD([T,"ladder"          ],[ [-1,a+"ladder"+png        ],[0,ma+"ladder"+png] ]);
 ADD([T,"itemframe"       ],[ [-1,a+"itemframe_back"+png],[0,ma+"itemframe_background"+png] ]);
 ADD([T,"jukebox"         ],[ [-1,a+"jukebox_top"+png   ],[0,ma+"jukebox_top"+png] ]);
 ADD([T,"noteblock"       ],[ [-1,a+"musicBlock"+png    ],[0,ma+"noteblock"+png] ]);
-ADD([T,"jukebox_side"    ],[ [ 0,ma+"jukebox_side"+png] ]);
 ADD([T,"torch"           ],[ [-1,a+"torch"+png         ],[0,ma+"torch_on"+png] ]);
 ADD([T,"oak_trapdoor"    ],[ [-1,a+"trapdoor"+png      ],[0,ma+"trapdoor"+png] ]);
 
-/* Трава */
+/*1.6.1*/
+ADD([T,"jukebox_side"    ],[ [0,ma+"jukebox_side"+png] ]);
+
+/* ==== Трава ==== */
 ADD([T,"grass"             ],[ [-1,a+"grass_top"+png],[0,ma+"grass_top"+png] ]);
 ADD([T,"grass_side"        ],[ [-1,a+"grass_side"+png],[0,ma+"grass_side"+png] ]);
 ADD([T,"grass_side_overlay"],[ [-1,a+"grass_side_overlay"+png],[0,ma+"grass_side_overlay"+png] ]);
 ADD([T,"mycelium"          ],[ [-1,a+"mycel_top"+png],[0,ma+"mycelium_top"+png] ]);
 ADD([T,"mycelium_side"     ],[ [-1,a+"mycel_side"+png],[0,ma+"mycelium_side"+png] ]);
 
-/* Деревья */
-ADD([T,"oak_top"           ],[ [-1,a+"tree_top"+png],[0,ma+"log_oak_top"+png] ]);
+/* ==== Деревья ==== */
 ADD([T,"oak"               ],[ [-1,a+"tree_side"+png],[0,ma+"log_oak"+png] ]);
-ADD([T,"birch_top"         ],[ [ 0,ma+"log_birch_top"+png] ]);
+ADD([T,"oak_top"           ],[ [-1,a+"tree_top"+png],[0,ma+"log_oak_top"+png] ]);
 ADD([T,"birch"             ],[ [-1,a+"tree_birch"+png],[0,ma+"log_birch"+png] ]);
-ADD([T,"spruce_top"        ],[ [ 0,ma+"log_spruce_top"+png] ]);
 ADD([T,"spruce"            ],[ [-1,a+"tree_spruce"+png],[0,ma+"log_spruce"+png] ]);
-ADD([T,"jungle_top"        ],[ [ 0,ma+"log_jungle_top"+png] ]);
 ADD([T,"jungle"            ],[ [-1,a+"tree_jungle"+png],[0,ma+"log_jungle"+png] ]);
 ADD([T,"oak_leaves"        ],[ [-1,a+"leaves"+png],[0,ma+"leaves_oak"+png] ]);
 ADD([T,"oak_leaves_fast"   ],[ [-1,a+"leaves_opaque"+png],[0,ma+"leaves_oak_opaque"+png] ]);
-ADD([T,"birch_leaves"      ],[ [ 0,ma+"leaves_birch"+png] ]);
-ADD([T,"birch_leaves_fast" ],[ [ 0,ma+"leaves_birch_opaque"+png] ]);
 ADD([T,"jungle_leaves"     ],[ [-1,a+"leaves_jungle"+png],[0,ma+"leaves_jungle"+png] ]);
 ADD([T,"jungle_leaves_fast"],[ [-1,a+"leaves_jungle_opaque"+png],[0,ma+"leaves_jungle_opaque"+png] ]);
 ADD([T,"spruce_leaves"     ],[ [-1,a+"leaves_spruce"+png],[0,ma+"leaves_spruce"+png] ]);
@@ -213,7 +257,26 @@ ADD([T,"birch_sapling"     ],[ [-1,a+"sapling_birch"+png],[0,ma+"sapling_birch"+
 ADD([T,"spruce_sapling"    ],[ [-1,a+"sapling_spruce"+png],[0,ma+"sapling_spruce"+png] ]);
 ADD([T,"jungle_sapling"    ],[ [-1,a+"sapling_jungle"+png],[0,ma+"sapling_jungle"+png] ]);
 
-/* Транспортировка */
+/*1.6.1*/
+ADD([T,"birch_top"         ],[ [0,ma+"log_birch_top"+png] ]);
+ADD([T,"spruce_top"        ],[ [0,ma+"log_spruce_top"+png] ]);
+ADD([T,"jungle_top"        ],[ [0,ma+"log_jungle_top"+png] ]);
+ADD([T,"birch_leaves"      ],[ [0,ma+"leaves_birch"+png] ]);
+ADD([T,"birch_leaves_fast" ],[ [0,ma+"leaves_birch_opaque"+png] ]);
+
+/*1.7.2*/
+ADD([T,"acacia"             ],[ [1,ma+"log_acacia_top"+png] ]);
+ADD([T,"acacia_top"         ],[ [1,ma+"log_acacia"+png] ]);
+ADD([T,"acacia_leaves"      ],[ [1,ma+"leaves_acacia"+png] ]);
+ADD([T,"acacia_leaves_fast" ],[ [1,ma+"leaves_acacia_opaque"+png] ]);
+ADD([T,"darkoak"            ],[ [1,ma+"log_big_oak_top"+png] ]);
+ADD([T,"darkaok_top"        ],[ [1,ma+"log_big_oak"+png] ]);
+ADD([T,"darkoak_leaves"     ],[ [1,ma+"leaves_big_oak"+png] ]);
+ADD([T,"darkoak_leaves_fast"],[ [1,ma+"leaves_big_oak_opaque"+png] ]);
+ADD([T,"acacia_sapling"     ],[ [1,ma+"sapling_acacia"+png] ]);
+ADD([T,"darkoak_sapling"    ],[ [1,ma+"sapling_roofed_oak"+png] ]);
+
+/* ==== Транспортировка ==== */
 ADD([T,"rail_corner"      ],[ [-1,a+"rail_turn"+png],[0,ma+"rail_normal_turned"+png] ]);
 ADD([T,"rail"             ],[ [-1,a+"rail"+png],[0,ma+"rail_normal"+png] ]);
 ADD([T,"railgold"         ],[ [-1,a+"goldenRail"+png],[0,ma+"rail_golden"+png] ]);
@@ -223,7 +286,7 @@ ADD([T,"rail_detector_on" ],[ [-1,a+"detectorRail_on"+png],[0,ma+"rail_detector_
 ADD([T,"rail_activator"   ],[ [-1,a+"activatorRail"+png],[0,ma+"rail_activator"+png] ]);
 ADD([T,"rail_activator_on"],[ [-1,a+"activatorRail_powered"+png],[0,ma+"rail_activator_powered"+png] ]);
 
-/* Магия */
+/* ==== Магия ==== */
 ADD([T,"beacon"                 ],[ [-1,a+"beacon"+png            ],[0,ma+"beacon"+png] ]);
 ADD([T,"enchantmenttable"       ],[ [-1,a+"enchantment_top"+png   ],[0,ma+"enchanting_table_top"+png] ]);
 ADD([T,"enchantmenttable_side"  ],[ [-1,a+"enchantment_side"+png  ],[0,ma+"enchanting_table_side"+png] ]);
@@ -231,7 +294,7 @@ ADD([T,"enchantmenttable_bottom"],[ [-1,a+"enchantment_bottom"+png],[0,ma+"encha
 ADD([T,"brewingstand"           ],[ [-1,a+"brewingStand"+png      ],[0,ma+"brewing_stand"+png] ]);
 ADD([T,"brewingstand_base"      ],[ [-1,a+"brewingStand_base"+png ],[0,ma+"brewing_stand_base"+png] ]);
 
-/* Инструменты/Верстаки/Переработчики */
+/* ==== Инструменты/Верстаки/Переработчики ==== */
 ADD([T,"craftingtable"       ],[ [-1,a+"workbench_top"+png],[0,ma+"crafting_table_top"+png] ]);
 ADD([T,"craftingtable_side"  ],[ [-1,a+"workbench_side"+png],[0,ma+"crafting_table_side"+png] ]);
 ADD([T,"craftingtable_side_2"],[ [-1,a+"workbench_front"+png],[0,ma+"crafting_table_front"+png] ]);
@@ -244,7 +307,7 @@ ADD([T,"anvil_0"             ],[ [-1,a+"anvil_top"+png          ],[0,ma+"anvil_t
 ADD([T,"anvil_1"             ],[ [-1,a+"anvil_top_damaged_1"+png],[0,ma+"anvil_top_damaged_1"+png] ]);
 ADD([T,"anvil_2"             ],[ [-1,a+"anvil_top_damaged_2"+png],[0,ma+"anvil_top_damaged_2"+png] ]);
 
-/* Растения */
+/* ==== Растения ==== */
 ADD([T,"cactus_bottom"      ],[ [-1,a+"cactus_bottom"+png],[0,ma+"cactus_bottom"+png] ]);
 ADD([T,"cactus"             ],[ [-1,a+"cactus_side"+png],[0,ma+"cactus_side"+png] ]);
 ADD([T,"cactus_top"         ],[ [-1,a+"cactus_top"+png],[0,ma+"cactus_top"+png] ]);
@@ -264,10 +327,10 @@ ADD([T,"wheat_5"            ],[ [-1,a+"crops_5"+png],[0,ma+"wheat_stage_5"+png] 
 ADD([T,"wheat_6"            ],[ [-1,a+"crops_6"+png],[0,ma+"wheat_stage_6"+png] ]);
 ADD([T,"wheat"              ],[ [-1,a+"crops_7"+png],[0,ma+"wheat_stage_7"+png] ]);
 ADD([T,"bush_dead"          ],[ [-1,a+"deadbush"+png],[0,ma+"deadbush"+png] ]);
-ADD([T,"fern"               ],[ [-1,a+"fern"+png],[0,ma+"fern"+png] ]);
 ADD([T,"tallgrass"          ],[ [-1,a+"tallgrass"+png],[0,ma+"tallgrass"+png] ]);
+ADD([T,"fern"               ],[ [-1,a+"fern"+png],[0,ma+"fern"+png] ]);
 ADD([T,"flower_dandelion"   ],[ [-1,a+"flower"+png],[0,ma+"flower_dandelion"+png] ]);
-ADD([T,"flower_rose"        ],[ [-1,a+"rose"+png],[0,ma+"flower_rose"+png] ]);
+ADD([T,"flower_rose"        ],[ [-1,a+"rose"+png],[0,ma+"flower_rose"+png],[1,false] ]);
 ADD([T,"mushroom_brown"     ],[ [-1,a+"mushroom_brown"+png],[0,ma+"mushroom_brown"+png] ]);
 ADD([T,"mushroom_red"       ],[ [-1,a+"mushroom_red"+png],[0,ma+"mushroom_red"+png] ]);
 ADD([T,"mushroom_stem"      ],[ [-1,a+"mushroom_skin_stem"+png],[0,ma+"mushroom_block_skin_stem"+png] ]);
@@ -280,8 +343,6 @@ ADD([T,"potato_2"           ],[ [-1,a+"potatoes_2"+png],[0,ma+"potatoes_stage_2"
 ADD([T,"potato"             ],[ [-1,a+"potatoes_3"+png],[0,ma+"potatoes_stage_3"+png] ]);
 ADD([T,"stem"               ],[ [-1,a+"stem_straight"+png],[0,ma+"pumpkin_stem_disconnected"+png] ]);
 ADD([T,"stem_corner"        ],[ [-1,a+"stem_bent"+png],[0,ma+"pumpkin_stem_connected"+png] ]);
-ADD([T,"stem"               ],[ [ 0,ma+"melon_stem_disconnected"+png] ]);
-ADD([T,"stem_corner"        ],[ [ 0,ma+"melon_stem_connected"+png] ]);
 ADD([T,"pumpkin_face"       ],[ [-1,a+"pumpkin_face"+png],[0,ma+"pumpkin_face_off"+png] ]);
 ADD([T,"pumpkin_face_on"    ],[ [-1,a+"pumpkin_jack"+png],[0,ma+"pumpkin_face_on"+png] ]);
 ADD([T,"pumpkin"            ],[ [-1,a+"pumpkin_side"+png],[0,ma+"pumpkin_side"+png] ]);
@@ -292,7 +353,36 @@ ADD([T,"sugarcane"          ],[ [-1,a+"reeds"+png],[0,ma+"reeds"+png] ]);
 ADD([T,"vine"               ],[ [-1,a+"vine"+png],[0,ma+"vine"+png] ]);
 ADD([T,"waterlily"          ],[ [-1,a+"waterlily"+png],[0,ma+"waterlily"+png] ]);
 
-/*Разноцветное*/
+/*1.6.1*/
+ADD([T,"stem"               ],[ [ 0,ma+"melon_stem_disconnected"+png] ]);
+ADD([T,"stem_corner"        ],[ [ 0,ma+"melon_stem_connected"+png] ]);
+
+/*1.7.2*/
+ADD([T,"tallgrass_big"          ],[ [1,ma+"double_plant_grass_top"+png] ]);
+ADD([T,"tallgrass_big_bottom"   ],[ [1,ma+"double_plant_grass_bottom"+png] ]);
+ADD([T,"fern_big"               ],[ [1,ma+"double_plant_fern_top"+png] ]);
+ADD([T,"fern_big_bottom"        ],[ [1,ma+"double_plant_fern_bottom"+png] ]);
+ADD([T,"flower_paeonia"         ],[ [1,ma+"double_plant_paeonia_top"+png] ]);
+ADD([T,"flower_paeonia_bottom"  ],[ [1,ma+"double_plant_paeonia_bottom"+png] ]);
+ADD([T,"flower_rose_big"        ],[ [1,ma+"double_plant_rose_top"+png] ]);
+ADD([T,"flower_rose_big_bottom" ],[ [1,ma+"double_plant_rose_bottom"+png] ]);
+ADD([T,"flower_syringa"         ],[ [1,ma+"double_plant_syringa_top"+png] ]);
+ADD([T,"flower_syringa_bottom"  ],[ [1,ma+"double_plant_syringa_bottom"+png] ]);
+ADD([T,"flower_sunflower"       ],[ [1,ma+"double_plant_sunflower_top"+png] ]);
+ADD([T,"flower_sunflower_bottom"],[ [1,ma+"double_plant_sunflower_bottom"+png] ]);
+ADD([T,"sunflower"              ],[ [1,ma+"double_plant_sunflower_front"+png] ]);
+ADD([T,"sunflower_back"         ],[ [1,ma+"double_plant_sunflower_back"+png] ]);
+ADD([T,"flower_poppy"           ],[ [1,ma+"flower_rose"+png] ]);
+ADD([T,"flower_allium"          ],[ [1,ma+"flower_allium"+png] ]);
+ADD([T,"flower_orchid"          ],[ [1,ma+"flower_blue_orchid"+png] ]);
+ADD([T,"flower_houstonia"       ],[ [1,ma+"flower_houstonia"+png] ]);
+ADD([T,"flower_daisy"           ],[ [1,ma+"flower_oxeye_daisy"+png] ]);
+ADD([T,"flower_tulip_orange"    ],[ [1,ma+"flower_tulip_orange"+png] ]);
+ADD([T,"flower_tulip_pink"      ],[ [1,ma+"flower_tulip_pink"+png] ]);
+ADD([T,"flower_tulip_red"       ],[ [1,ma+"flower_tulip_red"+png] ]);
+ADD([T,"flower_tulip"           ],[ [1,ma+"flower_tulip_white"+png] ]);
+
+/* ==== Разноцветное ==== */
 ADD([T,"wool"        ],[ [-1,a+"cloth_0"+png ],[0,ma+"wool_colored_white"+png] ]);
 ADD([T,"wool_silver" ],[ [-1,a+"cloth_8"+png ],[0,ma+"wool_colored_silver"+png] ]);
 ADD([T,"wool_gray"   ],[ [-1,a+"cloth_7"+png ],[0,ma+"wool_colored_gray"+png] ]);
@@ -310,27 +400,30 @@ ADD([T,"wool_brown"  ],[ [-1,a+"cloth_12"+png],[0,ma+"wool_colored_brown"+png] ]
 ADD([T,"wool_green"  ],[ [-1,a+"cloth_13"+png],[0,ma+"wool_colored_green"+png] ]);
 ADD([T,"wool_cyan"   ],[ [-1,a+"cloth_9"+png ],[0,ma+"wool_colored_cyan"+png] ]);
 
-/* Снег */
-ADD([T,"ice"            ],[ [-1,a+"ice"+png],[0,ma+"ice"+png] ]);
-ADD([T,"snow"           ],[ [-1,a+"snow"+png],[0,ma+"snow"+png] ]);
+/* ==== Снег ==== */
+ADD([T,"ice"            ],[ [-1,a+"ice"+png      ],[0,ma+"ice"+png] ]);
+ADD([T,"snow"           ],[ [-1,a+"snow"+png     ],[0,ma+"snow"+png] ]);
 ADD([T,"grass_side_snow"],[ [-1,a+"snow_side"+png],[0,ma+"grass_side_snowed"+png] ]);
 
-/* Незер */
-ADD([T,"netherrack"  ],[ [-1,a+"hellrock"+png],[0,ma+"netherrack"+png] ]);
-ADD([T,"soulsand"    ],[ [-1,a+"hellsand"+png],[0,ma+"soul_sand"+png] ]);
-ADD([T,"glowstone"   ],[ [-1,a+"lightgem"+png],[0,ma+"glowstone"+png] ]);
-ADD([T,"netherbricks"],[ [-1,a+"netherBrick"+png],[0,ma+"nether_brick"+png] ]);
+/*1.7.2*/
+ADD([T,"ice_packed"     ],[ [1,a+"ice_packed"+png],[0,ma+"ice"+png] ]);
+
+/* ==== Незер ==== */
+ADD([T,"netherrack"  ],[ [-1,a+"hellrock"+png     ],[0,ma+"netherrack"+png] ]);
+ADD([T,"soulsand"    ],[ [-1,a+"hellsand"+png     ],[0,ma+"soul_sand"+png] ]);
+ADD([T,"glowstone"   ],[ [-1,a+"lightgem"+png     ],[0,ma+"glowstone"+png] ]);
+ADD([T,"netherbricks"],[ [-1,a+"netherBrick"+png  ],[0,ma+"nether_brick"+png] ]);
 ADD([T,"wart_0"      ],[ [-1,a+"netherStalk_0"+png],[0,ma+"nether_wart_stage_0"+png] ]);
 ADD([T,"wart_1"      ],[ [-1,a+"netherStalk_1"+png],[0,ma+"nether_wart_stage_1"+png] ]);
 ADD([T,"wart_2"      ],[ [-1,a+"netherStalk_2"+png],[0,ma+"nether_wart_stage_2"+png] ]);
 
-/* Энд */
+/* ==== Энд ==== */
 ADD([T,"endframe"     ],[ [-1,a+"endframe_top"+png],[0,ma+"endframe_top"+png] ]);
 ADD([T,"endframe_side"],[ [-1,a+"endframe_side"+png],[0,ma+"endframe_side"+png] ]);
 ADD([T,"endframe_eye" ],[ [-1,a+"endframe_eye"+png],[0,ma+"endframe_eye"+png] ]);
 ADD([T,"endstone"     ],[ [-1,a+"whiteStone"+png],[0,ma+"end_stone"+png] ]);
 
-/* Необычное */
+/* ==== Необычное ==== */
 ADD([T,"destroy_0"],[ [-1,a+"destroy_0"+png],[0,ma+"destroy_stage_0"+png] ]);
 ADD([T,"destroy_1"],[ [-1,a+"destroy_1"+png],[0,ma+"destroy_stage_1"+png] ]);
 ADD([T,"destroy_2"],[ [-1,a+"destroy_2"+png],[0,ma+"destroy_stage_2"+png] ]);
@@ -345,13 +438,13 @@ ADD([T,"fire"     ],[ [-1,a+"fire_0"+png   ],[0,ma+"fire_layer_0"+png] ]);
 ADD([T,"fire_2"   ],[ [-1,a+"fire_1"+png   ],[0,ma+"fire_layer_1"+png] ]);
 ADD([T,"portal"   ],[ [-1,a+"portal"+png   ],[0,ma+"portal"+png] ]);
 
-/* Жидкости */
+/* ==== Жидкости ==== */
 ADD([T,"water_old"     ],[ [-1,a+"water"+png     ],[0,ma+"water_still"+png] ]);
 ADD([T,"water_flow_old"],[ [-1,a+"water_flow"+png],[0,ma+"water_flow"+png] ]);
 ADD([T,"lava"          ],[ [-1,a+"lava"+png      ],[0,ma+"lava_still"+png] ]);
 ADD([T,"lava_flow"     ],[ [-1,a+"lava_flow"+png ],[0,ma+"lava_flow"+png] ]);
 
-/* Остальное */
+/* ==== Остальное ==== */
 ADD([T,"cake_bottom"],[ [-1,a+"cake_bottom"+png ],[0,ma+"cake_bottom"+png] ]);
 ADD([T,"cake_inner" ],[ [-1,a+"cake_inner"+png  ],[0,ma+"cake_inner"+png] ]);
 ADD([T,"cake_side"  ],[ [-1,a+"cake_side"+png   ],[0,ma+"cake_side"+png] ]);
@@ -364,6 +457,8 @@ ADD([T,"tnt_top"    ],[ [-1,a+"tnt_top"+png     ],[0,ma+"tnt_top"+png] ]);
 ADD([T,"tnt"        ],[ [-1,a+"tnt_side"+png    ],[0,ma+"tnt_side"+png] ]);
 ADD([T,"tnt_bottom" ],[ [-1,a+"tnt_bottom"+png  ],[0,ma+"tnt_bottom"+png] ]);
 ADD([T,"cobweb"     ],[ [-1,a+"web"+png         ],[0,ma+"web"+png] ]);
+
+/*1.6.1*/
 ADD([T,"hay_side"   ],[ [ 0,ma+"hay_block_side"+png] ]);
 ADD([T,"hay"        ],[ [ 0,ma+"hay_block_top"+png] ]);
 ADD([T,"coal"       ],[ [ 0,ma+"coal_block"+png] ]);
@@ -373,7 +468,7 @@ T = "item";
 a = i;
 ma = mti;
 
-/* Еда */
+/* ==== Еда ==== */
 ADD([T,"apple"              ],[ [-1,a+"apple"+png          ],[0,ma+"apple"+png] ]);
 ADD([T,"apple_gold"         ],[ [-1,a+"appleGold"+png      ],[0,ma+"apple_golden"+png] ]);
 ADD([T,"meat_cow"           ],[ [-1,a+"beefRaw"+png        ],[0,ma+"beef_raw"+png] ]);
@@ -383,8 +478,8 @@ ADD([T,"meat_pig_cooked"    ],[ [-1,a+"porkchopCooked"+png ],[0,ma+"porkchop_coo
 ADD([T,"meat_chicken"       ],[ [-1,a+"chickenRaw"+png     ],[0,ma+"chicken_raw"+png] ]);
 ADD([T,"meat_chicken_cooked"],[ [-1,a+"chickenCooked"+png  ],[0,ma+"chicken_cooked"+png] ]);
 ADD([T,"meat_rotten"        ],[ [-1,a+"rottenFlesh"+png    ],[0,ma+"rotten_flesh"+png] ]);
-ADD([T,"fish"               ],[ [-1,a+"fishRaw"+png        ],[0,ma+"fish_raw"+png] ]);
-ADD([T,"fish_cooked"        ],[ [-1,a+"fishCooked"+png     ],[0,ma+"fish_cooked"+png] ]);
+ADD([T,"fish"               ],[ [-1,a+"fishRaw"+png        ],[0,ma+"fish_raw"+png],[1,ma+"fish_cod_raw"+png] ]);
+ADD([T,"fish_cooked"        ],[ [-1,a+"fishCooked"+png     ],[0,ma+"fish_cooked"+png],[1,ma+"fish_cod_cooked"+png] ]);
 ADD([T,"bread"              ],[ [-1,a+"bread"+png          ],[0,ma+"bread"+png] ]);
 ADD([T,"cake"               ],[ [-1,a+"cake"+png           ],[0,ma+"cake"+png] ]);
 ADD([T,"pie"                ],[ [-1,a+"pumpkinPie"+png     ],[0,ma+"pumpkin_pie"+png] ]);
@@ -401,7 +496,13 @@ ADD([T,"potion_overlay"     ],[ [-1,a+"potion_contents"+png],[0,ma+"potion_overl
 ADD([T,"potion_splash"      ],[ [-1,a+"potion_splash"+png  ],[0,ma+"potion_bottle_splash"+png] ]);
 ADD([T,"spidereye"          ],[ [-1,a+"spiderEye"+png      ],[0,ma+"spider_eye"+png] ]);
 
-/* Оружие */
+/*1.7.2*/
+ADD([T,"fish_salmon"       ],[ [1,ma+"fish_salmon_raw"+png    ] ]);
+ADD([T,"fish_salmon_cooked"],[ [1,ma+"fish_salmon_cooked"+png ] ]);
+ADD([T,"fish_clown"        ],[ [1,ma+"fish_clownfish_raw"+png ] ]);
+ADD([T,"fish_puffer"       ],[ [1,ma+"fish_pufferfish_raw"+png] ]);
+
+/* ==== Оружие ==== */
 ADD([T,"diamond_sword"],[ [-1,a+"swordDiamond"+png],[0,ma+"swordDiamond"+png] ]);
 ADD([T,"gold_sword"   ],[ [-1,a+"swordGold"+png   ],[0,ma+"swordGold"+png] ]);
 ADD([T,"iron_sword"   ],[ [-1,a+"swordIron"+png   ],[0,ma+"swordIron"+png] ]);
@@ -413,7 +514,7 @@ ADD([T,""             ],[ [-1,a+"bow_pull_1"+png  ],[0,ma+"bow_pulling_1"+png] ]
 ADD([T,""             ],[ [-1,a+"bow_pull_2"+png  ],[0,ma+"bow_pulling_2"+png] ]);
 ADD([T,"arrow"        ],[ [-1,a+"arrow"+png       ],[0,ma+"arrow"+png] ]);
 
-/* Инструменты */
+/* ==== Инструменты ==== */
 ADD([T,"diamond_pickaxe"],[ [-1,a+"pickaxeDiamond"+png  ],[0,ma+"diamond_pickaxe"+png] ]);
 ADD([T,"gold_pickaxe"   ],[ [-1,a+"pickaxeGold"+png     ],[0,ma+"gold_pickaxe"+png] ]);
 ADD([T,"iron_pickaxe"   ],[ [-1,a+"pickaxeIron"+png     ],[0,ma+"iron_pickaxe"+png] ]);
@@ -450,7 +551,7 @@ ADD([T,"map_filled"     ],[ [-1,a+"map"+png             ],[0,ma+"map_filled"+png
 ADD([T,"lead"           ],[ [ 0,ma+"lead"+png] ]);
 ADD([T,"nametag"        ],[ [ 0,ma+"name_tag"+png] ]);
 
-/* Броня */
+/* ==== Броня ==== */
 ADD([T,"chain_helmet"          ],[ [-1,a+"helmetChain"+png            ],[0,ma+"chainmail_helmet"+png] ]);
 ADD([T,"leather_helmet"        ],[ [-1,a+"helmetCloth"+png            ],[0,ma+"leather_helmet"+png] ]);
 ADD([T,"leather_helmet_overlay"],[ [-1,a+"helmetCloth_overlay"+png    ],[0,ma+"leather_helmet_overlay"+png] ]);
@@ -476,7 +577,7 @@ ADD([T,"diamond_boots"         ],[ [-1,a+"bootsDiamond"+png           ],[0,ma+"d
 ADD([T,"gold_boots"            ],[ [-1,a+"bootsGold"+png              ],[0,ma+"gold_boots"+png] ]);
 ADD([T,"iron_boots"            ],[ [-1,a+"bootsIron"+png              ],[0,ma+"iron_boots"+png] ]);
 
-/* Блоки предметы */
+/* ==== Блоки предметы ==== */
 ADD([T,"bed"         ],[ [-1,a+"bed"+png           ],[0,ma+"bed"+png] ]);
 ADD([T,"brewingstand"],[ [-1,a+"brewingStand"+png  ],[0,ma+"brewing_stand"+png] ]);
 ADD([T,"cauldron"    ],[ [-1,a+"cauldron"+png      ],[0,ma+"cauldron"+png] ]);
@@ -495,7 +596,7 @@ ADD([T,"skull"       ],[ [-1,a+"skull_skeleton"+png],[0,ma+"skull_skeleton"+png]
 ADD([T,"skull_wither"],[ [-1,a+"skull_wither"+png  ],[0,ma+"skull_wither"+png] ]);
 ADD([T,"head_zombie" ],[ [-1,a+"skull_zombie"+png  ],[0,ma+"skull_zombie"+png] ]);
 
-/* Сущности предметы */
+/* ==== Сущности предметы ==== */
 ADD([T,"boat"            ],[ [-1,a+"boat"+png           ],[0,ma+"boat"+png] ]);
 ADD([T,"minecart"        ],[ [-1,a+"minecart"+png       ],[0,ma+"minecart_normal"+png] ]);
 ADD([T,"minecart_chest"  ],[ [-1,a+"minecartChest"+png  ],[0,ma+"minecart_chest"+png] ]);
@@ -503,7 +604,10 @@ ADD([T,"minecart_furnace"],[ [-1,a+"minecartFurnace"+png],[0,ma+"minecart_furnac
 ADD([T,"minecart_hopper" ],[ [-1,a+"minecartHopper"+png ],[0,ma+"minecart_hopper"+png] ]);
 ADD([T,"minecart_tnt"    ],[ [-1,a+"minecartTnt"+png    ],[0,ma+"minecart_tnt"+png] ]);
 
-/* Ресурсы */
+/*1.7.2*/
+ADD([T,"minecart_command"],[ [1,ma+"minecart_command_block"+png] ]);
+
+/* ==== Ресурсы ==== */
 ADD([T,"stick"              ],[ [-1,a+"stick"+png              ],[0,ma+"stick"+png] ]);
 ADD([T,"string"             ],[ [-1,a+"string"+png             ],[0,ma+"string"+png] ]);
 ADD([T,"sugar"              ],[ [-1,a+"sugar"+png              ],[0,ma+"sugar"+png] ]);
@@ -519,7 +623,6 @@ ADD([T,"bowl"               ],[ [-1,a+"bowl"+png               ],[0,ma+"bowl"+pn
 ADD([T,"clay"               ],[ [-1,a+"clay"+png               ],[0,ma+"clay_ball"+png] ]);
 ADD([T,"brick"              ],[ [-1,a+"brick"+png              ],[0,ma+"brick"+png] ]);
 ADD([T,"coal"               ],[ [-1,a+"coal"+png               ],[0,ma+"coal"+png] ]);
-ADD([T,"coal_wood"          ],[ [ 0,ma+"charcoal"+png          ] ]);
 ADD([T,"diamond"            ],[ [-1,a+"diamond"+png            ],[0,ma+"diamond"+png] ]);
 ADD([T,"ink"                ],[ [-1,a+"dyePowder_black"+png    ],[0,ma+"dye_powder_black"+png] ]);
 ADD([T,"lapis"              ],[ [-1,a+"dyePowder_blue"+png     ],[0,ma+"dye_powder_blue"+png] ]);
@@ -566,7 +669,10 @@ ADD([T,"watermelon_gold"    ],[ [-1,a+"speckledMelon"+png      ],[0,ma+"melon_sp
 ADD([T,"wheat"              ],[ [-1,a+"wheat"+png              ],[0,ma+"wheat"+png] ]);
 ADD([T,"glowstone"          ],[ [-1,a+"yellowDust"+png         ],[0,ma+"glowstone_dust"+png] ]);
 
-/* Остальное */
+/*1.6.1*/
+ADD([T,"coal_wood"          ],[ [ 0,ma+"charcoal"+png          ] ]);
+
+/* ==== Остальное ==== */
 ADD([T,"book_enchantment"     ],[ [-1,a+"enchantedBook"+png          ],[0,ma+"book_enchanted"+png] ]);
 ADD([T,"book_writable"        ],[ [-1,a+"writingBook"+png            ],[0,ma+"book_writable"+png] ]);
 ADD([T,"book_written"         ],[ [-1,a+"writtenBook"+png            ],[0,ma+"book_written"+png] ]);
@@ -593,6 +699,8 @@ ADD([T,"slot_boots"           ],[ [-1,a+"slot_empty_boots"+png       ],[0,ma+"em
 ADD([T,"slot_chest"           ],[ [-1,a+"slot_empty_chestplate"+png  ],[0,ma+"empty_armor_slot_chestplate"+png] ]);
 ADD([T,"slot_helmet"          ],[ [-1,a+"slot_empty_helmet"+png      ],[0,ma+"empty_armor_slot_helmet"+png] ]);
 ADD([T,"slot_pants"           ],[ [-1,a+"slot_empty_leggings"+png    ],[0,ma+"empty_armor_slot_leggings"+png] ]);
+
+/*1.6.1*/
 ADD([T,"horsearmor_iron"      ],[ [ 0,ma+"iron_horse_armor"+png] ]);
 ADD([T,"horsearmor_gold"      ],[ [ 0,ma+"gold_horse_armor"+png] ]);
 ADD([T,"horsearmor_diamond"   ],[ [ 0,ma+"diamond_horse_armor"+png] ]);
@@ -601,11 +709,11 @@ ADD([T,"horsearmor_diamond"   ],[ [ 0,ma+"diamond_horse_armor"+png] ]);
 T = "environment";
 ma = mte;
 
-/* Колормапы */
+/* ==== Колормапы ==== */
 ADD([T,"colormap_grass"  ],[ [ 0,mt+"colormap/grass"+png] ]);
 ADD([T,"colormap_foliage"],[ [ 0,mt+"colormap/foliage"+png] ]);
 
-/* Остальное */
+/* ==== Остальное ==== */
 ADD([T ,"rain"       ],[ [ 0,ma+"rain"+png] ]);
 ADD([T ,"snow"       ],[ [ 0,ma+"snow"+png] ]);
 ADD([T ,"moon_phases"],[ [ 0,ma+"moon_phases"+png] ]);
@@ -623,10 +731,10 @@ ADD([T,"ascii"],[ [ 0,ma+"ascii"+png] ]);
 T = "mob";
 ma = mten;
 
-/* Игрок */
+/* ==== Игрок ==== */
 ADD([T,"player_old"],[ [ 0,ma+"steve"+png] ]);
 
-/* Нейтральные мобы */
+/* ==== Нейтральные мобы ==== */
 ADD([T,"bat"                   ],[ [ 0,ma+"bat"+png] ]);
 ADD([T,"chicken"               ],[ [ 0,ma+"chicken"+png] ]);
 ADD([T,"golem_iron"            ],[ [ 0,ma+"iron_golem"+png] ]);
@@ -653,7 +761,7 @@ ADD([T,"wolf_angry"            ],[ [ 0,ma+"wolf/wolf_angry"+png] ]);
 ADD([T,"wolf_pet"              ],[ [ 0,ma+"wolf/wolf_tame"+png] ]);
 ADD([T,"wolf_pet_overlay"      ],[ [ 0,ma+"wolf/wolf_collar"+png] ]);
 
-/* Враждебные мобы */
+/* ==== Враждебные мобы ==== */
 ADD([T,"creeper"              ],[ [ 0,ma+"creeper/creeper"+png] ]);
 ADD([T,"creeper_power"        ],[ [ 0,ma+"creeper/creeper_armor"+png] ]);
 ADD([T,"enderdragon"          ],[ [ 0,ma+"enderdragon/dragon"+png] ]);
@@ -682,7 +790,7 @@ ADD([T,"zombie_pig"           ],[ [ 0,ma+"creeper/zombie_pigman"+png] ]);
 
 T = Te;
 
-/* Энтити */
+/* ==== Энтити ==== */
 ADD([T,"arrow"            ],[ [ 0,ma+"arrow"+png] ]);
 ADD([T,"boat"             ],[ [ 0,ma+"boat"+png] ]);
 ADD([T,"minecart"         ],[ [ 0,ma+"minecart"+png] ]);
@@ -698,7 +806,7 @@ ADD([T,"endercrystal"     ],[ [ 0,ma+"endercrystal/endercrystal"+png] ]);
 
 T = Tp;
 
-/* Эффектовые энтити */
+/* ==== Эффектовые энтити ==== */
 ADD([T  ,"beam"             ],[ [ 0,ma+"beacon_beam"+png                   ] ]);
 ADD([T  ,"beam_endercrystal"],[ [ 0,ma+"endercrystal/endercrystal_beam"+png] ]);
 ADD([T  ,"book"             ],[ [ 0,ma+"enchanting_table_book"+png         ] ]);
@@ -711,14 +819,14 @@ ADD([T  ,"lead"             ],[ [ 0,ma+"lead"+png                          ] ]);
 ma = mtg;
 T = Tg;
 
-/* Главное */
+/* ==== Главное ==== */
 ADD([T,"background"         ],[ [ 0,ma+"options_background"+png         ] ]);
 ADD([T,"widgets"            ],[ [ 0,ma+"widgets"+png                    ] ]);
 ADD([T,"icons"              ],[ [ 0,ma+"icons"+png                      ] ]);
 ADD([T,"loadingscreen"      ],[ [ 0,ma+"title/mojang"+png               ] ]);
 ADD([T,"title_default"      ],[ [ 0,ma+"title/minecraft"+png            ] ]);
 
-/* Интерфейс */
+/* ==== Интерфейс ==== */
 ADD([T,"book"            ],[ [ 0,ma+"book"+png                              ] ]);
 ADD([T,"achievements_old"],[ [ 0,ma+"achievement/achievement_background"+png] ]);
 ADD([T,"anvil"           ],[ [ 0,ma+"container/anvil"+png                   ] ]);
@@ -735,13 +843,13 @@ ADD([T,"inventory_old"   ],[ [ 0,ma+"container/inventory"+png               ] ])
 ADD([T,"stats"           ],[ [ 0,ma+"container/stats_icons"+png             ] ]);
 ADD([T,"villager_old"    ],[ [ 0,ma+"container/villager"+png                ] ]);
 
-/* Креатив */
+/* ==== Креатив ==== */
 ADD([T,"creative"          ],[ [ 0,ma+"container/creative_inventory/tab_items"+png       ] ]);
 ADD([T,"creative_search"   ],[ [ 0,ma+"container/creative_inventory/tab_item_search"+png ] ]);
 ADD([T,"creative_inventory"],[ [ 0,ma+"container/creative_inventory/tab_inventory"+png   ] ]);
 ADD([T,"creative_tabs"     ],[ [ 0,ma+"container/creative_inventory/tabs"+png            ] ]);
 
-/* Остальное */
+/* ==== Остальное ==== */
 ADD([To,"panorama_mainmenu_0"],[ [ 0,ma+"title/background/panorama_0"+png] ]);
 ADD([To,"panorama_mainmenu_1"],[ [ 0,ma+"title/background/panorama_1"+png] ]);
 ADD([To,"panorama_mainmenu_2"],[ [ 0,ma+"title/background/panorama_2"+png] ]);
@@ -750,25 +858,31 @@ ADD([To,"panorama_mainmenu_4"],[ [ 0,ma+"title/background/panorama_4"+png] ]);
 ADD([To,"panorama_mainmenu_5"],[ [ 0,ma+"title/background/panorama_5"+png] ]);
 ADD([T ,"demo"],[ [ 0,ma+"demo_background"+png] ]);
 
+/*1.7.2*/
+ADD([T ,"select_pack"],[ [ 1,ma+"resource_packs"+png] ]);
+
+/*1.7.4*/
+ADD([T ,"stream"     ],[ [ 1.1,ma+"stream_indicator"+png] ]);
+
 /* Картины Minecraft */ /* ======================================== */
 ma = mtpaint;
 T = Tpa;
 
-/* Атлас картин */
+/* ==== Атлас картин ==== */
 ADD([T,"atlas"],[ [ 0,ma+"paintings_kristoffer_zetterstrand"+png] ]);
 
 /* Партиклы Minecraft */ /* ======================================== */
 ma = mtp;
 T = Tp;
 
-/* Атлас партиклов */
+/* ==== Атлас партиклов ==== */
 ADD([T,"atlas_old"],[ [ 0,ma+"particles"+png] ]);
 
 /* Модели Minecraft */ /* ======================================== */
 ma = mta;
 T = Ta;
 
-/* Броня */
+/* ==== Броня ==== */
 ADD([Tg,"chain"                ],[ [ 0,ma+"chainmail_layer_1"+png      ] ]);
 ADD([Tg,"chain_pants"          ],[ [ 0,ma+"chainmail_layer_2"+png      ] ]);
 ADD([Tg,"diamond"              ],[ [ 0,ma+"diamond_layer_1"+png        ] ]);
@@ -785,11 +899,11 @@ ADD([Tg,"leather_pants_overlay"],[ [ 0,ma+"leather_layer_2_overlay"+png] ]);
 /* Другое Minecraft */ /* ======================================== */
 ma = mt;
 
-/* Карта */
+/* ==== Карта ==== */
 ADD([Tg,"map"          ],[ [ 0,ma+"map/map_background"+png] ]);
 ADD([Tg,"map_icons_old"],[ [ 0,ma+"map/map_icons"+png     ] ]);
 
-/* Папка Misc */
+/* ==== Папка Misc ==== */
 ma = mtm;
 ADD([Tg,"overlay_pumpkin"],[ [ 0,ma+"pumpkinblur"+png         ] ]);
 ADD([Tg,"unknown"        ],[ [ 0,ma+"unknown_pack"+png        ] ]);
