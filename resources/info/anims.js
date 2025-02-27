@@ -66,13 +66,42 @@ ADDA("eye"       ,8,33,1,4 ,n,{"speed":8,"smooth":true});
 
 ADDA("endrod"    ,9 ,0,1,40,n,{"smooth":true});
 
-ADDA("water_flow"  ,10,0,2,64,[["Gradient","water"]],{"smooth":true});
+ADDA("water_flow"  ,10,0,2,64,n,{"smooth":true});
 ADDA("water_flow_o",10,0,2,64,[["Gradient","water"]],{"smooth":true});
 
 ADDA("water"     ,12,0 ,1,40,n,{"speed":3,"smooth":true});
-ADDA("water_o"   ,12,0 ,1,40,n,{"speed":3,"smooth":true});
+ADDA("water_o"   ,12,0 ,1,40,[["Gradient","water"]],{"speed":3,"smooth":true});
 ADDA("torch"     ,12,40,1,8 ,n,{"speed":2});
 ADDA("lamp"      ,12,48,1,2 ,n,{"smooth":true});
 ADDA("ench_tab2" ,12,50,1,40,n,{"speed":2,"smooth":true});
 
 ADDA("lava_flow" ,13,0,2,72,n,{"speed":5,"smooth":true});
+
+SelectedTexture = "items"; /* ======================================== */ 
+ADDA("bot_xp"       ,0 ,0 ,1,40  ,n,{"smooth":true});
+
+ADDA("glowstone_i"  ,1 ,0 ,1,40  ,n,{"speed":4,"smooth":true});
+
+ADDA("glow_arrow"   ,2 ,0 ,1,40  ,n,{"speed":4,"smooth":true});
+
+ADDA("elytr"        ,3 ,0 ,1,40  ,n,{"smooth":true});
+
+ADDA("elytr_broken" ,4 ,0 ,1,40  ,n,{"smooth":true});
+
+ADDA("potion"       ,5 ,0 ,1,40  ,n,{"speed":3,"smooth":true});
+
+ADDA("dragon_breath",6 ,0 ,1,40  ,n,{"smooth":true});
+
+ADDA("nether"       ,7 ,0 ,1,40  ,n,{"smooth":true});
+
+ADDA("water_b"      ,8 ,0 ,1,40  ,n,{"speed":3,"smooth":true});
+
+ADDA("lava_b"       ,9 ,0 ,1,19  ,n,{"speed":5,"smooth":true,"frames":[0,0,0,0,1,1,1,2,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,7,7,7,7,8,8,8,9,9,9,9,9,9,10,10,10,10,10,11,11,11,11,12,12,12,13,13,13,13,13,14,14,14,14,15,15,15,16,16,16,16,17,17,17,17,18,18,18,18,18,17,17,17,16,16,16,15,15,15,16,16,16,16,17,17,17,18,18,17,17,17,17,16,16,16,16,16,16,15,15,15,14,14,14,14,13,13,13,13,12,12,12,12,12,12,11,11,11,11,10,10,10,10,11,11,11,12,12,12,12,13,13,13,13,12,12,12,12,11,11,11,11,10,10,10,10,10,9,9,9,9,8,8,8,8,7,7,7,8,8,8,7,7,7,7,7,6,6,6,6,6,6,5,5,5,5,4,4,4,4,3,3,3,3,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,6,6,6,6,6,5,5,5,5,4,4,4,4,3,3,3,3,2,2,2,2,1,1,1,0,0,0,0,1,1,1,2,2,2,2,3,3,3,4,4,4,3,3,3,2,2,2,1,1,1,1]});
+ADDA("sea_i"        ,9 ,19,1,4   ,n,{"speed":5,"smooth":true,"frames":[0,1,2,3,2,1]});
+ADDA("rotten"       ,9 ,23,1,4   ,n,{"frames":[0,0,1,1,0,0,1,1,1,0,0,1,1,1,0,0,0,1,1,2,2,3,3,3,2,2,2,2,3,3,3,3,2,2,3,3,2,2,2,3,3,2,2,3,3,3,2,2,2,2,3,3,0,0,0,1,1,0,0,0,1,1,1,1,0,0,0,0,1,1,1,2,2,3,3,3,2,2,3,3,3,2,2,3,3]});
+
+ADDA("blaze"        ,10,0 ,1,8   ,n,{"smooth":true});
+ADDA("eye_i"        ,10,8 ,1,4   ,n,{"speed":8,"smooth":true});
+ADDA("fire_i"       ,10,12,1,4   ,n,{"speed":30,"smooth":true});
+ADDA("magma_i"      ,10,16,1,4   ,n,{"speed":31,"smooth":true});
+ADDA("spe_melon"    ,10,20,1,4   ,n,{"speed":2,"smooth":true});
