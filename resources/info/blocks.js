@@ -596,8 +596,8 @@ ADD("enchantmenttable_bottom",0,1);
 SelectedTexture = "water"; /* ======================================== */
 ADD("water_flow"     ,0,0,2,2,n,{"anim":"water_flow"});
 ADD("water"          ,2,0,n,n,n,{"anim":"water"});
-ADD("water_flow_old" ,0,0,2,2,[["Gradient","water"]]);
-ADD("water_old"      ,2,0,n,n,[["Gradient","water"]]);
+ADD("water_flow_old" ,0,0,2,2,[["Gradient","water"]],{"anim":"water_flow_o"});
+ADD("water_old"      ,2,0,n,n,[["Gradient","water"]],{"anim":"water_o"});
 
 SelectedTexture = "debug"; /* ======================================== */
 ADD("command"       ,0,0,n,n,n,{"anim":"command"});

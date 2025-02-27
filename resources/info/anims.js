@@ -56,19 +56,21 @@ ADDA("magma"     ,5,27,1,19,n,{"speed":5,"smooth":true,"frames":[0,0,0,0,1,1,1,2
 ADDA("command_f" ,5,46,1,2 ,n,{"speed":30,"smooth":true});
 
 ADDA("fire"      ,6 ,0,1,33,n,{"speed":2});
-ADDA("pimpkin"   ,6,33,1,4 ,n,{"speed":6,"smooth":true});
+ADDA("pumpkin"   ,6,33,1,4 ,n,{"speed":6,"smooth":true});
 
 ADDA("fire2"     ,7 ,0,1,33,n,{"speed":2});
-ADDA("pimpkin_f" ,7,33,1,4 ,n,{"speed":6,"smooth":true});
+ADDA("pumpkin_f" ,7,33,1,4 ,n,{"speed":6,"smooth":true});
 
-ADDA("furnface_f",8 ,0,1,33,n,{"speed":2,"smooth":true});
+ADDA("furnace_f" ,8 ,0,1,33,n,{"speed":2,"smooth":true});
 ADDA("eye"       ,8,33,1,4 ,n,{"speed":8,"smooth":true});
 
 ADDA("endrod"    ,9 ,0,1,40,n,{"smooth":true});
 
-ADDA("water_flow",10,0,2,64,n,{"smooth":true});
+ADDA("water_flow"  ,10,0,2,64,[["Gradient","water"]],{"smooth":true});
+ADDA("water_flow_o",10,0,2,64,[["Gradient","water"]],{"smooth":true});
 
 ADDA("water"     ,12,0 ,1,40,n,{"speed":3,"smooth":true});
+ADDA("water_o"   ,12,0 ,1,40,n,{"speed":3,"smooth":true});
 ADDA("torch"     ,12,40,1,8 ,n,{"speed":2});
 ADDA("lamp"      ,12,48,1,2 ,n,{"smooth":true});
 ADDA("ench_tab2" ,12,50,1,40,n,{"speed":2,"smooth":true});

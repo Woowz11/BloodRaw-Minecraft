@@ -107,7 +107,7 @@ ADD("select_packs",0,0);
 
 SelectedTexture = "other"; /* ======================================== */
 ADD("widgets" ,0    ,0,n,n,[["Clear",128,128,128,128]]);
-ADD("icons"   ,1    ,0,n,n,[["Clear",512,0  ,112,128]]);
+ADD("icons"   ,1    ,0,n,n,[["Clear",240,0  ,16,64]]);
 ADD("stream"  ,0.875,0,0.125,0.5);
 
 ADD("stats"   ,0.5,0.5,0.5,0.5);

@@ -106,7 +106,7 @@ ADD([T,"spruce_planks"],[ [-1,a+"wood_spruce"],[0,ma+"planks_spruce"] ]);
 ADD([T,"jungle_planks"],[ [-1,a+"wood_jungle"],[0,ma+"planks_jungle"] ]);
 
 /*1.7.2*/
-ADD([T,"acacia_planks"   ],[ [1,ma+"planks_acacia"] ]);
+ADD([T,"acacia_planks"    ],[ [1,ma+"planks_acacia"] ]);
 ADD([T,"darkoak_planks"   ],[ [1,ma+"planks_big_oak"] ]);
 
 /* ==== Глина ==== */
@@ -137,41 +137,41 @@ ADD([T,"glass_pane"],[ [-1,a+"thinglass_top"],[0,ma+"glass_pane_top"] ]);
 
 /*1.7.2*/
 ADD([T,"glass_white"  ],[ [1,ma+"glass_white"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_white_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_white"] ]);
 ADD([T,"glass_silver" ],[ [1,ma+"glass_silver"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_silver_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_silver"] ]);
 ADD([T,"glass_gray"   ],[ [1,ma+"glass_gray"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_gray_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_gray"] ]);
 ADD([T,"glass_black"  ],[ [1,ma+"glass_black"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_black_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_black"] ]);
 ADD([T,"glass_red"    ],[ [1,ma+"glass_red"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_red_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_red"] ]);
 ADD([T,"glass_orange" ],[ [1,ma+"glass_orange"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_orange_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_orange"] ]);
 ADD([T,"glass_yellow" ],[ [1,ma+"glass_yellow"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_yellow_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_yellow"] ]);
 ADD([T,"glass_lime"   ],[ [1,ma+"glass_lime"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_lime_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_lime"] ]);
 ADD([T,"glass_aqua"   ],[ [1,ma+"glass_light_blue"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_light_blue_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_light_blue"] ]);
 ADD([T,"glass_blue"   ],[ [1,ma+"glass_blue"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_blue_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_blue"] ]);
 ADD([T,"glass_purple" ],[ [1,ma+"glass_purple"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_purple_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_purple"] ]);
 ADD([T,"glass_magenta"],[ [1,ma+"glass_magenta"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_magenta_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_magenta"] ]);
 ADD([T,"glass_pink"   ],[ [1,ma+"glass_pink"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_pink_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_pink"] ]);
 ADD([T,"glass_brown"  ],[ [1,ma+"glass_brown"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_brown_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_brown"] ]);
 ADD([T,"glass_green"  ],[ [1,ma+"glass_green"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_green_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_green"] ]);
 ADD([T,"glass_cyan"   ],[ [1,ma+"glass_cyan"] ]);
-ADD([T,"glass_pane"   ],[ [1,ma+"glass_cyan_pane_top"] ]);
+ADD([T,"glass_pane"   ],[ [1,ma+"glass_pane_top_cyan"] ]);
 
 /* ==== Металл ==== */
-ADD([T,"iron"           ],[ [-1,a+"blockIron"      ],[0,ma+"block_iron"] ]);
-ADD([T,"gold"           ],[ [-1,a+"blockGold"      ],[0,ma+"block_gold"] ]);
+ADD([T,"iron"           ],[ [-1,a+"blockIron"      ],[0,ma+"iron_block"] ]);
+ADD([T,"gold"           ],[ [-1,a+"blockGold"      ],[0,ma+"gold_block"] ]);
 ADD([T,"cauldron_bottom"],[ [-1,a+"cauldron_bottom"],[0,ma+"cauldron_bottom"] ]);
 ADD([T,"cauldron_inner" ],[ [-1,a+"cauldron_inner" ],[0,ma+"cauldron_inner"] ]);
 ADD([T,"cauldron"       ],[ [-1,a+"cauldron_side"  ],[0,ma+"cauldron_side"] ]);
@@ -270,8 +270,8 @@ ADD([T,"birch_leaves"      ],[ [0,ma+"leaves_birch"] ]);
 ADD([T,"birch_leaves_fast" ],[ [0,ma+"leaves_birch_opaque"] ]);
 
 /*1.7.2*/
-ADD([T,"acacia_top"         ],[ [1,ma+"log_acacia"] ]);
-ADD([T,"acacia"             ],[ [1,ma+"log_acacia_top"] ]);
+ADD([T,"acacia"             ],[ [1,ma+"log_acacia"] ]);
+ADD([T,"acacia_top"         ],[ [1,ma+"log_acacia_top"] ]);
 ADD([T,"acacia_leaves"      ],[ [1,ma+"leaves_acacia"] ]);
 ADD([T,"acacia_leaves_fast" ],[ [1,ma+"leaves_acacia_opaque"] ]);
 ADD([T,"darkoak"            ],[ [1,ma+"log_big_oak"] ]);
@@ -411,7 +411,7 @@ ADD([T,"snow"           ],[ [-1,a+"snow"     ],[0,ma+"snow"] ]);
 ADD([T,"grass_side_snow"],[ [-1,a+"snow_side"],[0,ma+"grass_side_snowed"] ]);
 
 /*1.7.2*/
-ADD([T,"ice_packed"     ],[ [1,a+"ice_packed"],[0,ma+"ice"] ]);
+ADD([T,"ice_packed"     ],[ [1,a+"ice_packed"] ]);
 
 /* ==== Незер ==== */
 ADD([T,"netherrack"  ],[ [-1,a+"hellrock"     ],[0,ma+"netherrack"] ]);
@@ -635,7 +635,7 @@ ADD([T,"cocoa"              ],[ [-1,a+"dyePowder_brown"    ],[0,ma+"dye_powder_b
 ADD([T,"cyan"               ],[ [-1,a+"dyePowder_cyan"     ],[0,ma+"dye_powder_cyan"] ]);
 ADD([T,"gray"               ],[ [-1,a+"dyePowder_gray"     ],[0,ma+"dye_powder_gray"] ]);
 ADD([T,"green"              ],[ [-1,a+"dyePowder_green"    ],[0,ma+"dye_powder_green"] ]);
-ADD([T,"aqua"               ],[ [-1,a+"dyePowder_lightBlue"],[0,ma+"dye_powder_lightBlue"] ]);
+ADD([T,"aqua"               ],[ [-1,a+"dyePowder_lightBlue"],[0,ma+"dye_powder_light_blue"] ]);
 ADD([T,"lime"               ],[ [-1,a+"dyePowder_lime"     ],[0,ma+"dye_powder_lime"] ]);
 ADD([T,"magenta"            ],[ [-1,a+"dyePowder_magenta"  ],[0,ma+"dye_powder_magenta"] ]);
 ADD([T,"orange"             ],[ [-1,a+"dyePowder_orange"   ],[0,ma+"dye_powder_orange"] ]);
