@@ -144,7 +144,7 @@ ADD("pig_saddle",0,1);
 
 SelectedTexture = "sheeps"; /* ======================================== */
 ADD("sheep"        ,0,0);
-ADD("sheep_overlay",0,0);
+ADD("sheep_overlay",0,1);
 
 SelectedTexture = "rabbits"; /* ======================================== */
 ADD("rabbit"           ,0,0);

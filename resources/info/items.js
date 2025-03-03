@@ -38,7 +38,7 @@ ADD("apple"          ,0,0);
 ADD("apple_gold"     ,1,0);
 
 ADD("watermelon"     ,0,1);
-ADD("watermelon_gold",1,1);
+ADD("watermelon_gold",1,1,n,n,{"anim":"spe_melon"});
 
 SelectedTexture = "fish"; /* ======================================== */
 ADD("fish"       ,0,0);
@@ -69,7 +69,7 @@ ADD("meat_sheep_cooked"  ,3,1);
 
 ADD("meat_rabbit"        ,0,2);
 ADD("meat_rabbit_cooked" ,1,2);
-ADD("meat_rotten"        ,2,2);
+ADD("meat_rotten"        ,2,2,n,n,{"anim":"rotten"});
 ADD(""                   ,3,2);
 
 SelectedTexture = "bowl"; /* ======================================== */
@@ -160,11 +160,11 @@ SelectedTexture = "bottles"; /* ======================================== */
 ADD("bottle"             ,0,0);
 ADD("potion_splash"      ,1,0);
 ADD("potion_lingering"   ,2,0);
-ADD("bottle_dragonbreath",3,0);
+ADD("bottle_dragonbreath",3,0,n,n,{"anim":"dragon_breath"});
 
 ADD("potion"        ,0,1);
-ADD("potion_overlay",1,1);
-ADD("bottle_xp"     ,2,1);
+ADD("potion_overlay",1,1,n,n,{"anim":"potion"});
+ADD("bottle_xp"     ,2,1,n,n,{"anim":"bot_xp"});
 
 SelectedTexture = "monster"; /* ======================================== */
 ADD("spidereye" ,0,0);
@@ -172,7 +172,7 @@ ADD("slime"     ,1,0);
 ADD("endereye"  ,2,0);
 
 ADD("blaze"       ,0,1);
-ADD("blaze_powder",1,1);
+ADD("blaze_powder",1,1,n,n,{"anim":"blaze"});
 ADD("tear"        ,2,1);
 
 SelectedTexture = "prey"; /* ======================================== */
@@ -197,7 +197,7 @@ ADD("seeds_beetroot"  ,3,0);
 SelectedTexture = "dust"; /* ======================================== */
 ADD("gunpowder",0,0);
 ADD("redstone" ,1,0);
-ADD("glowstone",2,0);
+ADD("glowstone",2,0,n,n,{"anim":"glowstone_i"});
 ADD("bonedust" ,3,0);
 
 SelectedTexture = "rocks"; /* ======================================== */
@@ -222,11 +222,11 @@ ADD("map_filled",1,2);
 ADD("shears"    ,2,2);
 
 SelectedTexture = "nether"; /* ======================================== */
-ADD("netherstar" ,0,0);
+ADD("netherstar" ,0,0,n,n,{"anim":"nether"});
 ADD("wart"       ,1,0);
-ADD("magma"      ,2,0);
+ADD("magma"      ,2,0,n,n,{"anim":"magma_i"});
 
-ADD("fire",0,1);
+ADD("fire",0,1,n,n,{"anim":"fire_i"});
 
 SelectedTexture = "colors"; /* ======================================== */
 ADD(""       ,0 ,0);
@@ -262,7 +262,7 @@ ADD("firework_base"        ,1,0);
 ADD("firework_base_overlay",2,0);
 
 SelectedTexture = "end"; /* ======================================== */
-ADD("endeye"          ,0,0);
+ADD("endeye"          ,0,0,n,n,{"anim":"eye_i"});
 ADD("endcrystal"      ,1,0);
 ADD("enderdragon_fire",2,0);
 
@@ -271,7 +271,7 @@ ADD("purpur",1,1);
 
 SelectedTexture = "prismarine"; /* ======================================== */
 ADD("prismarine"        ,0,0);
-ADD("prismarine_crystal",1,0);
+ADD("prismarine_crystal",1,0,n,n,{"anim":"sea_i"});
 
 SelectedTexture = "books"; /* ======================================== */
 ADD("book"            ,0,0);
@@ -329,15 +329,15 @@ ADD("darkoak_boat",5,0);
 
 SelectedTexture = "buckets"; /* ======================================== */
 ADD("bucket"      ,0,0);
-ADD("bucket_water",1,0);
-ADD("bucket_lava" ,2,0);
+ADD("bucket_water",1,0,n,n,{"anim":"water_b"});
+ADD("bucket_lava" ,2,0,n,n,{"anim":"lava_b"});
 ADD("bucket_milk" ,3,0);
 
 SelectedTexture = "arrows"; /* ======================================== */
 ADD("arrow"               ,0,0);
 ADD("arrow_effect"        ,1,0);
 ADD("arrow_effect_overlay",2,0);
-ADD("arrow_spectral"      ,3,0);
+ADD("arrow_spectral"      ,3,0,n,n,{"anim":"glow_arrow"});
 
 SelectedTexture = "trees"; /* ======================================== */
 ADD("oak_sapling"    ,0,0);
@@ -374,7 +374,7 @@ ADD("gold_chest"           ,2,1);
 ADD("diamond_chest"        ,3,1);
 ADD("leather_chest"        ,4,1);
 ADD("leather_chest_overlay",5,1);
-ADD("elytra"               ,6,1);
+ADD("elytra"               ,6,1,n,n,{"anim":"elytr"});
 
 ADD("iron_pants"           ,0,2);
 ADD("chain_pants"          ,1,2);
@@ -382,7 +382,7 @@ ADD("gold_pants"           ,2,2);
 ADD("diamond_pants"        ,3,2);
 ADD("leather_pants"        ,4,2);
 ADD("leather_pants_overlay",5,2);
-ADD("elytra_broken"        ,6,2);
+ADD("elytra_broken"        ,6,2,n,n,{"anim":"elytr_broken"});
 
 ADD("iron_boots"           ,0,3);
 ADD("chain_boots"          ,1,3);
