@@ -1,0 +1,176 @@
+{
+	"Version"        : "1.2.2",
+	"Type"           : "Alpha",
+	"ID"             : 0,
+	"ThatTexturePack": true,
+	
+	"Files": {
+		"pack.txt"   : ["Create", "<Version> | <MinecraftVersion> - By <Author> ©"],
+		"pack.png"   : ["Texture", "Icon.png", [{ "Action":"Compress", "W":128, "H":128 }]],
+		"terrain.png": [ "Atlas", {
+				"Empty": ["Texture", "R/T/Error.png"],
+				"Size" : [16, 16],
+				"1" : {
+					"1"  : ["Texture", "R/T/B/Grass.png"],
+					"2"  : ["Texture", "R/T/B/Stone.png"],
+					"3"  : ["Texture", "R/T/B/Dirt.png"],
+					"4"  : ["Texture", "R/T/B/Dirt_Grass_Side.png"],
+					"5"  : ["Texture", "R/T/B/Wood.png"],
+					"6"  : ["Texture", "R/T/B/Stone_Slab_Side.png"],
+					"7"  : ["Texture", "R/T/B/Stone_Slab.png"],
+					"8"  : ["Texture", "R/T/B/Bricks.png"],
+					"9"  : ["Texture", "R/T/B/TNT.png"],
+					"10" : ["Texture", "R/T/B/TNT_Top.png"],
+					"11" : ["Texture", "R/T/B/TNT_Bottom.png"],
+					"12" : ["Texture", "R/T/B/Web.png"],
+					"13" : ["Texture", "R/T/B/Flower.png"],
+					"14" : ["Texture", "R/T/B/Flower_Dandelion.png"],
+					"15" : ["Texture", "R/T/B/Portal.png"],
+					"16" : ["Texture", "R/T/B/Sapling.png"]
+				},
+				"2" : {
+					"1"  : ["Texture", "R/T/B/Cobblestone.png"],
+					"2"  : ["Texture", "R/T/B/Bedrock.png"],
+					"3"  : ["Texture", "R/T/B/Sand.png"],
+					"4"  : ["Texture", "R/T/B/Gravel.png"],
+					"5"  : ["Texture", "R/T/B/Tree.png"],
+					"6"  : ["Texture", "R/T/B/Tree_Top.png"],
+					"7"  : ["Texture", "R/T/B/Iron.png"],
+					"8"  : ["Texture", "R/T/B/Gold.png"],
+					"9"  : ["Texture", "R/T/B/Diamond.png"],
+					
+					"13" : ["Texture", "R/T/B/Mushroom_Red.png"],
+					"14" : ["Texture", "R/T/B/Mushroom.png"],
+					
+					"16" : ["Texture", "R/T/B/Fire.png"]
+				},
+				"3" : {
+					"1"  : ["Texture", "R/T/B/Gold_Ore.png"],
+					"2"  : ["Texture", "R/T/B/Iron_Ore.png"],
+					"3"  : ["Texture", "R/T/B/Coal_Ore.png"],
+					"4"  : ["Texture", "R/T/B/Bookshelf.png"],
+					"5"  : ["Texture", "R/T/B/Cobblestone_Moss.png"],
+					"6"  : ["Texture", "R/T/B/Obsidian.png"],
+					"7"  : ["Texture", "R/T/B/Iron.png"],
+					"8"  : ["Texture", "R/T/B/Gold.png"],
+					"9"  : ["Texture", "R/T/B/Diamond.png"],
+					
+					"12" : ["Texture", "R/T/B/Workbench.png"],
+					"13" : ["Texture", "R/T/B/Furnace.png"],
+					"14" : ["Texture", "R/T/B/Mechanism.png"],
+					
+					"16" : ["Texture", "R/T/B/Fire_2.png"]
+				},
+				"4" : {
+					"1"  : ["Texture", "R/T/B/Sponge.png"],
+					"2"  : ["Texture", "R/T/B/Glass.png"],
+					"3"  : ["Texture", "R/T/B/Diamond_Ore.png"],
+					"4"  : ["Texture", "R/T/B/Redstone_Ore.png"],
+					"5"  : ["Texture", "R/T/B/Leaves.png"],
+					"6"  : ["Texture", "R/T/B/Leaves_Solid.png"],
+					"7"  : ["Texture", "R/T/B/Iron.png"],
+					"8"  : ["Texture", "R/T/B/Gold.png"],
+					"9"  : ["Texture", "R/T/B/Diamond.png"],
+					
+					"12" : ["Texture", "R/T/B/Workbench_Side.png"],
+					"13" : ["Texture", "R/T/B/Workbench_Side_2.png"],
+					"14" : ["Texture", "R/T/B/Furnace_On.png"]
+				},
+				"5" : {
+					"1"  : ["Texture", "R/T/B/Wool.png"],
+					"2"  : ["Texture", "R/T/B/Spawner.png"],
+					"3"  : ["Texture", "R/T/B/Snow.png"],
+					"4"  : ["Texture", "R/T/B/Ice.png"],
+					"5"  : ["Texture", "R/T/B/Dirt_Snow_Side.png"],
+					"6"  : ["Texture", "R/T/B/Cactus_Top.png"],
+					"7"  : ["Texture", "R/T/B/Cactus.png"],
+					"8"  : ["Texture", "R/T/B/Cactus_Bottom.png"],
+					"9"  : ["Texture", "R/T/B/Clay.png"],
+					"10" : ["Texture", "R/T/B/Sugarcane.png"],
+					"11" : ["Texture", "R/T/B/Note.png"],
+					"12" : ["Texture", "R/T/B/Jukebox.png"]
+				},
+				"6" : {
+					"1"  : ["Texture", "R/T/B/Torch.png"],
+					"2"  : ["Texture", "R/T/B/Door.png"],
+					"3"  : ["Texture", "R/T/B/Door_Iron.png"],
+					"4"  : ["Texture", "R/T/B/Ladder.png"],
+					"5"  : ["Texture", "R/T/B/Redstone_Cross.png"],
+					"6"  : ["Texture", "R/T/B/Redstone_Line.png"],
+					"7"  : ["Texture", "R/T/B/Farmland_Wet.png"],
+					"8"  : ["Texture", "R/T/B/Farmland.png"],
+					"9"  : ["Texture", "R/T/B/Wheat_0.png"],
+					"10" : ["Texture", "R/T/B/Wheat_1.png"],
+					"11" : ["Texture", "R/T/B/Wheat_2.png"],
+					"12" : ["Texture", "R/T/B/Wheat_3.png"],
+					"13" : ["Texture", "R/T/B/Wheat_4.png"],
+					"14" : ["Texture", "R/T/B/Wheat_5.png"],
+					"15" : ["Texture", "R/T/B/Wheat_6.png"],
+					"16" : ["Texture", "R/T/B/Wheat.png"]
+				},
+				"7" : {
+					"1"  : ["Texture", "R/T/B/Lever.png"],
+					"2"  : ["Texture", "R/T/B/Door_Bottom.png"],
+					"3"  : ["Texture", "R/T/B/Door_Iron_Bottom.png"],
+					"4"  : ["Texture", "R/T/B/Torch_Redstone.png"],
+					"5"  : ["Texture", "R/T/B/Redstone_Cross.png"],
+					"6"  : ["Texture", "R/T/B/Redstone_Line.png"],
+					"7"  : ["Texture", "R/T/B/Pumpkin_Top.png"],
+					"8"  : ["Texture", "R/T/B/Nether.png"],
+					"9"  : ["Texture", "R/T/B/Soulsand.png"],
+					"10" : ["Texture", "R/T/B/Glowstone.png"]
+				},
+				"8" : {
+					"1"  : ["Texture", "R/T/B/Rail_Corner.png"],
+					
+					"4"  : ["Texture", "R/T/B/Torch_Redstone_Off.png"],
+					
+					"7"  : ["Texture", "R/T/B/Pumpkin.png"],
+					"8"  : ["Texture", "R/T/B/Pumpkin_Face.png"],
+					"9"  : ["Texture", "R/T/B/Pumpkin_Face_On.png"]
+				},
+				"9" : {
+					"1"  : ["Texture", "R/T/B/Rail.png"]
+				},
+				"10": {
+					
+				},
+				"11": {
+					
+				},
+				"12": {
+					
+				},
+				"13": {
+					"14" : ["Texture", "R/T/B/Water.png"],
+					"15" : ["Texture", "R/T/B/Water_Flow.png"],
+					"16" : false
+				},
+				"14": {
+					"15" : false,
+					"16" : false
+				},
+				"15": {
+					"14" : ["Texture", "R/T/B/Lava.png"],
+					"15" : ["Texture", "R/T/B/Lava_Flow.png"],
+					"16" : false
+				},
+				"16": {
+					"1"  : ["Texture", "R/T/B/Destroy_0.png"],
+					"2"  : ["Texture", "R/T/B/Destroy_1.png"],
+					"3"  : ["Texture", "R/T/B/Destroy_2.png"],
+					"4"  : ["Texture", "R/T/B/Destroy_3.png"],
+					"5"  : ["Texture", "R/T/B/Destroy_4.png"],
+					"6"  : ["Texture", "R/T/B/Destroy_5.png"],
+					"7"  : ["Texture", "R/T/B/Destroy_6.png"],
+					"8"  : ["Texture", "R/T/B/Destroy_7.png"],
+					"9"  : ["Texture", "R/T/B/Destroy_8.png"],
+					"10" : ["Texture", "R/T/B/Destroy.png"],
+					
+					"15" : false,
+					"16" : false
+				}
+			}
+		]
+	}
+}
