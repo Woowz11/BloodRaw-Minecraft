@@ -1,0 +1,10 @@
+{
+	"Parent": "Pack.json",
+	
+	"Name": "TexturePack",
+	
+	"Files": {
+		"pack.txt"   : ["Create", "<Version> | <MinecraftVersion> - By <Author> ©"],
+		"pack.png"   : ["Texture", "Icon.png", [[ "Resize", 128, 128 ]]]
+	}
+}

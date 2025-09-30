@@ -1,0 +1,9 @@
+{
+	"Name": "Pack",
+	
+	"Files": {
+		"License.txt" : ["Create", "License: <License>\n\nBy <Author>\n\nContact:\nDiscord: <Discord>\nGitHub: <GitHub>\n\nDownload Pack: <Generator>"],
+		"Readme.md"   : ["Create", "OMG"],
+		"Site.url"    : ["File", "Link.url"]
+	}
+}

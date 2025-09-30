@@ -1,12 +1,10 @@
 {
-	"Version"        : "1.2.2",
-	"Type"           : "Alpha",
-	"ID"             : 0,
-	"ThatTexturePack": true,
+	"Name": "1.2.2a",
+	"Type": "Version",
+	
+	"Add": ["TexturePack.json"],
 	
 	"Files": {
-		"pack.txt"   : ["Create", "<Version> | <MinecraftVersion> - By <Author> ©"],
-		"pack.png"   : ["Texture", "Icon.png", [[ "Resize", 128, 128 ]]],
 		"terrain.png": [ "Atlas", {
 				"Empty": ["Texture", "R/T/Error.png"],
 				"Size" : [16, 16],
@@ -38,7 +36,9 @@
 					"7"  : ["Texture", "R/T/B/Iron.png"],
 					"8"  : ["Texture", "R/T/B/Gold.png"],
 					"9"  : ["Texture", "R/T/B/Diamond.png"],
-					
+					"10" : ["Texture", "R/T/B/Chest_Top.png"],
+					"11" : ["Texture", "R/T/B/Chest_Side.png"],
+					"12" : ["Texture", "R/T/B/Chest.png"],
 					"13" : ["Texture", "R/T/B/Mushroom_Red.png"],
 					"14" : ["Texture", "R/T/B/Mushroom.png"],
 					
@@ -54,7 +54,8 @@
 					"7"  : ["Texture", "R/T/B/Iron.png"],
 					"8"  : ["Texture", "R/T/B/Gold.png"],
 					"9"  : ["Texture", "R/T/B/Diamond.png"],
-					
+					"10" : ["Texture", "R/T/B/Chest_Left.png"],
+					"11" : ["Texture", "R/T/B/Chest_Right.png"],
 					"12" : ["Texture", "R/T/B/Workbench.png"],
 					"13" : ["Texture", "R/T/B/Furnace.png"],
 					"14" : ["Texture", "R/T/B/Mechanism.png"],
@@ -71,7 +72,8 @@
 					"7"  : ["Texture", "R/T/B/Iron.png"],
 					"8"  : ["Texture", "R/T/B/Gold.png"],
 					"9"  : ["Texture", "R/T/B/Diamond.png"],
-					
+					"10" : ["Texture", "R/T/B/Chest_Back_Left.png"],
+					"11" : ["Texture", "R/T/B/Chest_Back_Right.png"],
 					"12" : ["Texture", "R/T/B/Workbench_Side.png"],
 					"13" : ["Texture", "R/T/B/Workbench_Side_2.png"],
 					"14" : ["Texture", "R/T/B/Furnace_On.png", [["Frame", 0]]]
@@ -95,8 +97,8 @@
 					"2"  : ["Texture", "R/T/B/Door.png"],
 					"3"  : ["Texture", "R/T/B/Door_Iron.png"],
 					"4"  : ["Texture", "R/T/B/Ladder.png"],
-					"5"  : ["Texture", "R/T/B/Redstone_Cross.png"],
-					"6"  : ["Texture", "R/T/B/Redstone_Line.png"],
+					"5"  : ["Texture", "R/T/B/Redstone_Cross.texture"],
+					"6"  : ["Texture", "R/T/B/Redstone_Line.texture"],
 					"7"  : ["Texture", "R/T/B/Farmland_Wet.png"],
 					"8"  : ["Texture", "R/T/B/Farmland.png"],
 					"9"  : ["Texture", "R/T/B/Wheat_0.png"],
@@ -113,8 +115,8 @@
 					"2"  : ["Texture", "R/T/B/Door_Bottom.png"],
 					"3"  : ["Texture", "R/T/B/Door_Iron_Bottom.png"],
 					"4"  : ["Texture", "R/T/B/Torch_Redstone.png"],
-					"5"  : ["Texture", "R/T/B/Redstone_Cross.png"],
-					"6"  : ["Texture", "R/T/B/Redstone_Line.png"],
+					"5"  : ["Texture", "R/T/B/Redstone_Cross_On.texture"],
+					"6"  : ["Texture", "R/T/B/Redstone_Line_On.texture"],
 					"7"  : ["Texture", "R/T/B/Pumpkin_Top.png"],
 					"8"  : ["Texture", "R/T/B/Nether.png"],
 					"9"  : ["Texture", "R/T/B/Soulsand.png"],
@@ -133,8 +135,8 @@
 					"1"  : ["Texture", "R/T/B/Rail.png"]
 				},
 				"13": {
-					"14" : ["Texture", "R/T/B/Water.png", [["Frame", 0]]],
-					"15" : ["Texture", "R/T/B/Water_Flow.png", [["Frame", 0]]],
+					"14" : ["Texture", "R/T/B/Water_Single.texture"],
+					"15" : ["Texture", "R/T/B/Water_Flow.texture", [["Frame", 0]]],
 					"16" : false
 				},
 				"14": {
@@ -222,7 +224,7 @@
 					"3"  : ["Texture", "R/T/I/Iron_Chestplate.png"],
 					"4"  : ["Texture", "R/T/I/Diamond_Chestplate.png"],
 					"5"  : ["Texture", "R/T/I/Gold_Chestplate.png"],
-					
+					"6"  : ["Texture", "R/T/I/Bow.png"],
 					"7"  : ["Texture", "R/T/I/Brick.png"],
 					"8"  : ["Texture", "R/T/I/Iron.png"],
 					"9"  : ["Texture", "R/T/I/Feather.png"],
@@ -240,7 +242,7 @@
 					"4"  : ["Texture", "R/T/I/Diamond_Leggings.png"],
 					"5"  : ["Texture", "R/T/I/Gold_Leggings.png"],
 					"6"  : ["Texture", "R/T/I/Arrow.png"],
-					
+					"7"  : ["Texture", "R/T/I/Quiver.png"],
 					"8"  : ["Texture", "R/T/I/Gold.png"],
 					"9"  : ["Texture", "R/T/I/Gunpowder.png"],
 					"10" : ["Texture", "R/T/I/Bread.png"],
@@ -257,7 +259,7 @@
 					"4"  : ["Texture", "R/T/I/Diamond_Boots.png"],
 					"5"  : ["Texture", "R/T/I/Gold_Boots.png"],
 					"6"  : ["Texture", "R/T/I/Stick.png"],
-					
+					"7"  : ["Texture", "R/T/I/Compass.png"],
 					"8"  : ["Texture", "R/T/I/Diamond.png"],
 					"9"  : ["Texture", "R/T/I/Redstone.png"],
 					"10" : ["Texture", "R/T/I/Clay.png"],
@@ -267,8 +269,13 @@
 					"16" : ["Texture", "R/T/I/Slot_Boots.png"]
 				},
 				"5" : {
+					"1"  : ["Texture", "R/T/I/Wood_Sword.png"],
+					"2"  : ["Texture", "R/T/I/Stone_Sword.png"],
+					"3"  : ["Texture", "R/T/I/Iron_Sword.png"],
+					"4"  : ["Texture", "R/T/I/Diamond_Sword.png"],
+					"5"  : ["Texture", "R/T/I/Gold_Sword.png"],
 					"6"  : ["Texture", "R/T/I/Fishing.png"],
-					
+					"7"  : ["Texture", "R/T/I/Clock.png"],
 					"8"  : ["Texture", "R/T/I/Bowl.png"],
 					"9"  : ["Texture", "R/T/I/Bowl_Mushroom.png"],
 					"10" : ["Texture", "R/T/I/Glowstone.png"],
@@ -278,23 +285,48 @@
 					"14" : ["Texture", "R/T/I/Bucket_Milk.png"]
 				},
 				"6" : {
+					"1"  : ["Texture", "R/T/I/Wood_Shovel.png"],
+					"2"  : ["Texture", "R/T/I/Stone_Shovel.png"],
+					"3"  : ["Texture", "R/T/I/Iron_Shovel.png"],
+					"4"  : ["Texture", "R/T/I/Diamond_Shovel.png"],
+					"5"  : ["Texture", "R/T/I/Gold_Shovel.png"],
+					
 					"8"  : ["Texture", "R/T/I/Meat.png"],
 					"9"  : ["Texture", "R/T/I/Meat_Cooked.png"],
 					"10" : ["Texture", "R/T/I/Fish.png"],
 					"11" : ["Texture", "R/T/I/Fish_Cooked.png"]
 				},
 				"7" : {
+					"1"  : ["Texture", "R/T/I/Wood_Pickaxe.png"],
+					"2"  : ["Texture", "R/T/I/Stone_Pickaxe.png"],
+					"3"  : ["Texture", "R/T/I/Iron_Pickaxe.png"],
+					"4"  : ["Texture", "R/T/I/Diamond_Pickaxe.png"],
+					"5"  : ["Texture", "R/T/I/Gold_Pickaxe.png"],
+					
 					"8"  : ["Texture", "R/T/I/Leather.png"],
 					"9"  : ["Texture", "R/T/I/Saddle.png"]
 				},
 				"9" : {
+					"1"  : ["Texture", "R/T/I/Wood_Axe.png"],
+					"2"  : ["Texture", "R/T/I/Stone_Axe.png"],
+					"3"  : ["Texture", "R/T/I/Iron_Axe.png"],
+					"4"  : ["Texture", "R/T/I/Diamond_Axe.png"],
+					"5"  : ["Texture", "R/T/I/Gold_Axe.png"]
+				},
+				"10": {
+					"1"  : ["Texture", "R/T/I/Wood_Hoe.png"],
+					"2"  : ["Texture", "R/T/I/Stone_Hoe.png"],
+					"3"  : ["Texture", "R/T/I/Iron_Hoe.png"],
+					"4"  : ["Texture", "R/T/I/Diamond_Hoe.png"],
+					"5"  : ["Texture", "R/T/I/Gold_Hoe.png"],
+					
 					"8"  : ["Texture", "R/T/I/Minecart.png"],
 					"9"  : ["Texture", "R/T/I/Boat.png"]
 				},
-				"10": {
+				"11": {
 					"8"  : ["Texture", "R/T/I/Minecart_Chest.png"]
 				},
-				"11": {
+				"12": {
 					"8"  : ["Texture", "R/T/I/Minecart_Furnace.png"]
 				},
 				"16": {
@@ -479,6 +511,7 @@
 		"misc/vignette.png"    : ["Texture", "R/T/O/Vignette.png"],
 		"misc/shadow.png"      : ["Texture", "R/T/P/Shadow.png"],
 		"misc/pumpkinblur.png" : ["Texture", "R/T/GUI/Overlay_Pumpkin.png"],
+		"misc/water.png"       : ["Texture", "R/T/B/Water_Single.texture"],
 		
 		"font/default.png" : ["Texture", "R/T/GUI/Font_ASCII.png"],
 		
@@ -493,7 +526,7 @@
 		"armor/iron_1.png"   : ["Texture", "R/T/E/Player_Armor_Iron.png"],
 		"armor/iron_2.png"   : ["Texture", "R/T/E/Player_Armor_Iron_2.png"],
 		
-		"mob/char.png"       : ["Texture", "R/T/E/Player_Old.texture"],
+		"mob/char.png"       : ["Texture", "R/T/E/Player.texture"],
 		"mob/chicken.png"    : ["Texture", "R/T/E/Chicken.png"],
 		"mob/cow.png"        : ["Texture", "R/T/E/Cow.png"],
 		"mob/creeper.png"    : ["Texture", "R/T/E/Creeper.png"],
