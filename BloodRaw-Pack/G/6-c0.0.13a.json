@@ -1,0 +1,18 @@
+{
+	"Parent": "5-rd-20090515.json",
+	
+	"Name"  : "c0.0.13a",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"default.gif": [ "Texture", "R/T/GUI/Font_ASCII.png" ],
+		
+		"dirt.png" : [ "Texture", "R/T/B/Dirt.png" ],
+		"grass.png": [ "Texture", "R/T/B/Grass.texture" ],
+		"rock.png" : [ "Texture", "R/T/B/Bedrock.png" ],
+		"water.png": [ "Texture", "R/T/B/Water_Single.texture" ]
+	}
+}

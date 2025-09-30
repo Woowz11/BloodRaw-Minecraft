@@ -1,0 +1,174 @@
+{
+	"Parent": "7-c0.0.13a_03.json",
+	
+	"Name"  : "c0.30_01c",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"clouds.png" : ["Texture", "R/T/O/Clouds.png"],
+		"default.png": ["Texture", "R/T/GUI/Font_ASCII.png"],
+		
+		"terrain.png": [ "Atlas", {
+				"1" : {
+					"6"  : ["Texture", "R/T/B/Stone_Slab_Side.png"],
+					"7"  : ["Texture", "R/T/B/Stone_Slab.png"],
+					"8"  : ["Texture", "R/T/B/Bricks.png"],
+					"9"  : ["Texture", "R/T/B/TNT.png"],
+					"10" : ["Texture", "R/T/B/TNT_Top.png"],
+					"11" : ["Texture", "R/T/B/TNT_Bottom.png"],
+					"12" : ["Texture", "R/T/B/Web.png"],
+					"13" : ["Texture", "R/T/B/Flower.png"],
+					"14" : ["Texture", "R/T/B/Flower_Yellow.png"]
+				},
+				"2" : {
+					"3"  : ["Texture", "R/T/B/Sand.png"],
+					"4"  : ["Texture", "R/T/B/Gravel.png"],
+					"5"  : ["Texture", "R/T/B/Tree.png"],
+					"6"  : ["Texture", "R/T/B/Tree_Top.png"],
+					"7"  : ["Texture", "R/T/B/Leaves_Tint_Solid.texture"],
+					"8"  : ["Texture", "R/T/B/Iron.png"],
+					"9"  : ["Texture", "R/T/B/Gold.png"],
+					
+					"13" : ["Texture", "R/T/B/Mushroom_Red.png"],
+					"14" : ["Texture", "R/T/B/Mushroom.png"]
+				},
+				"3" : {
+					"1"  : ["Texture", "R/T/B/Gold_Ore.png"],
+					"2"  : ["Texture", "R/T/B/Iron_Ore.png"],
+					"3"  : ["Texture", "R/T/B/Coal_Ore.png"],
+					"4"  : ["Texture", "R/T/B/Bookshelf.png"],
+					"5"  : ["Texture", "R/T/B/Cobblestone_Moss.png"],
+					"6"  : ["Texture", "R/T/B/Obsidian.png"],
+					
+					"8"  : ["Texture", "R/T/B/Iron.png"],
+					"9"  : ["Texture", "R/T/B/Gold.png"]
+				},
+				"4" : {
+					"1"  : ["Texture", "R/T/B/Sponge.png"],
+					"2"  : ["Texture", "R/T/B/Glass.png"],
+					
+					"8"  : ["Texture", "R/T/B/Iron.png"],
+					"9"  : ["Texture", "R/T/B/Gold.png"]
+				},
+				"5" : {
+					"1"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#FE3939"]]],
+					"2"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#FE9B39"]]],
+					"3"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#FEFE39"]]],
+					"4"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#9BFE39"]]],
+					"5"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#39FE39"]]],
+					"6"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#39FE9B"]]],
+					"7"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#39FEFE"]]],
+					"8"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#78BAFE"]]],
+					"9"  : ["Texture", "R/T/B/Wool.png", [["Multiply", "#8A8AFE"]]],
+					"10" : ["Texture", "R/T/B/Wool.png", [["Multiply", "#9B39FE"]]],
+					"11" : ["Texture", "R/T/B/Wool.png", [["Multiply", "#C754FE"]]],
+					"12" : ["Texture", "R/T/B/Wool.png", [["Multiply", "#FE39FE"]]],
+					"13" : ["Texture", "R/T/B/Wool.png", [["Multiply", "#FE399B"]]],
+					"14" : ["Texture", "R/T/B/Wool.png", [["Multiply", "#5E5E5E"]]],
+					"15" : ["Texture", "R/T/B/Wool.png", [["Multiply", "#A6A6A6"]]],
+					"16" : ["Texture", "R/T/B/Wool.png"]
+				},
+				
+				"16" : {
+					"1"  : ["Texture", "R/T/B/Destroy_0.png", [["Background", "#7F7F7F"]]],
+					"2"  : ["Texture", "R/T/B/Destroy_1.png", [["Background", "#7F7F7F"]]],
+					"3"  : ["Texture", "R/T/B/Destroy_2.png", [["Background", "#7F7F7F"]]],
+					"4"  : ["Texture", "R/T/B/Destroy_3.png", [["Background", "#7F7F7F"]]],
+					"5"  : ["Texture", "R/T/B/Destroy_4.png", [["Background", "#7F7F7F"]]],
+					"6"  : ["Texture", "R/T/B/Destroy_5.png", [["Background", "#7F7F7F"]]],
+					"7"  : ["Texture", "R/T/B/Destroy_6.png", [["Background", "#7F7F7F"]]],
+					"8"  : ["Texture", "R/T/B/Destroy_7.png", [["Background", "#7F7F7F"]]],
+					"9"  : ["Texture", "R/T/B/Destroy_8.png", [["Background", "#7F7F7F"]]],
+					"10" : ["Texture", "R/T/B/Destroy.png"  , [["Background", "#7F7F7F"]]]
+				}
+			}
+		],
+		
+		"rain.png": ["Texture", "R/T/O/Rain.png"],
+		
+		"armor/chain.png": ["Texture", "R/T/E/Player_Armor_Chain.png"],
+		
+		"item/sign.png"  : ["Texture", "R/T/E/Sign.png"],
+		"item/arrows.png": ["Texture", "R/T/E/Arrow.texture"],
+		
+		"mob/creeper.png"  : ["Texture", "R/T/E/Creeper.png"],
+		"mob/pig.png"      : ["Texture", "R/T/E/Pig.png"],
+		"mob/sheep.png"    : ["Texture", "R/T/E/Sheep.png"],
+		"mob/sheep_fur.png": ["Texture", "R/T/E/Sheep_Fur.png"],
+		"mob/skeleton.png" : ["Texture", "R/T/E/Skeleton.png"],
+		"mob/spider.png"   : ["Texture", "R/T/E/Spider.texture"],
+		"mob/zombie.png"   : ["Texture", "R/T/E/Zombie.png"],
+		
+		"particles.png": [ "Atlas", {
+				"Size" : [16, 16],
+				"Scale": [8 , 8 ],
+				"1" : {
+					"1"  : ["Texture", "R/T/P/Cloud_0.png"],
+					"2"  : ["Texture", "R/T/P/Cloud_1.png"],
+					"3"  : ["Texture", "R/T/P/Cloud_2.png"],
+					"4"  : ["Texture", "R/T/P/Cloud_3.png"],
+					"5"  : ["Texture", "R/T/P/Cloud_4.png"],
+					"6"  : ["Texture", "R/T/P/Cloud_5.png"],
+					"7"  : ["Texture", "R/T/P/Cloud_6.png"],
+					"8"  : ["Texture", "R/T/P/Cloud.png"]
+				},
+				"2" : {
+					"1"  : ["Texture", "R/T/P/Splash_0.png"]
+				}
+			}
+		],
+		
+		"gui/gui.png": [ "Atlas", {
+				"Size" : [256, 256],
+				"Scale": true,
+				"0"  : {
+					"0"  : ["Texture", "R/T/GUI/Hotbar.png"],
+					"208": ["Texture", "R/T/GUI/Realms_Bulb.png"],
+					"224": ["Texture", "R/T/GUI/Realms_Bulb_Disabled.png"],
+					"240": ["Texture", "R/T/GUI/Realms_Crosshair.png"]
+				},
+				"22" : {
+					"0"  : ["Texture", "R/T/GUI/Hotbar_Selected.png"]
+				},
+				"46" : {
+					"0"  : ["Texture", "R/T/GUI/Button_Disabled.png"]
+				},
+				"66" : {
+					"0"  : ["Texture", "R/T/GUI/Button.png"]
+				},
+				"86" : {
+					"0"  : ["Texture", "R/T/GUI/Button_Hover.png"]
+				}
+			}
+		],
+		
+		"gui/icons.png": [ "Atlas", {
+				"Size" : [256, 256],
+				"Scale": true,
+				"0"  : {
+					"0"  : ["Texture", "R/T/GUI/Crosshair.png"],
+					"16" : ["Texture", "R/T/GUI/Health_Empty.png"],
+					"25" : ["Texture", "R/T/GUI/Health_Empty.png"],
+					"34" : ["Texture", "R/T/GUI/Health_Empty.png"],
+					"43" : ["Texture", "R/T/GUI/Health_Empty.png"],
+					"52" : ["Texture", "R/T/GUI/Health.png"],
+					"61" : ["Texture", "R/T/GUI/Health_Half.png"],
+					"70" : ["Texture", "R/T/GUI/Health.png"],
+					"79" : ["Texture", "R/T/GUI/Health_Half.png"]
+				},
+				"9" : {
+					"16" : ["Texture", "R/T/GUI/Armor.png"],
+					"25" : ["Texture", "R/T/GUI/Armor_Half.png"],
+					"34" : ["Texture", "R/T/GUI/Armor_Empty.png"]
+				},
+				"18" : {
+					"16" : ["Texture", "R/T/GUI/Oxygen.png"],
+					"25" : ["Texture", "R/T/GUI/Oxygen_Pop.png"]
+				}
+			}
+		]
+	}
+}
