@@ -1,0 +1,23 @@
+{
+	"Parent": "rd-160052.json",
+	
+	"Name"  : "c0.0.11a",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"1" : {
+					"16" : ["Texture", "R/T/B/Sapling.png"]
+				},
+				"2" : {
+					"16" : ["Texture", "R/T/B/Grass.texture"]
+				}
+			}
+		],
+		
+		"default.gif": [ "Texture", "R/T/GUI/Font_ASCII.png" ]
+	}
+}

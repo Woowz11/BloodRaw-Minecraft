@@ -3,7 +3,7 @@
 	
 	"Name"  : "rd-132328",
 	"Type"  : "Version",
-	"Status": "Finish",
+	"Dev"   : false,
 	
 	"Add": ["ReplacePack.json"],
 	
