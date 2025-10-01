@@ -1,0 +1,18 @@
+{
+	"Parent": "15-a1.0.17.json",
+	
+	"Name"  : "a1.1.0",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+		"Files": {
+		"gui/items.png": [ "Atlas", {
+				"7" : {
+					"4" : ["Texture", "R/T/I/Compass.png"]
+				}
+			}
+		]
+	}
+}

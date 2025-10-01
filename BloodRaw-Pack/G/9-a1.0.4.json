@@ -1,0 +1,110 @@
+{
+	"Parent": "8-inf-20100618.json",
+	
+	"Name"  : "a1.0.4",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"snow.png": ["Texture", "R/T/O/Snow.png"],
+		
+		"terrain.png": [ "Atlas", {
+				"1" : {
+					"5" : ["Texture", "R/T/B/Wool_White.texture"],
+					"7" : ["Texture", "R/T/B/Lever.png"]
+				},
+				"2" : {
+					"5" : ["Texture", "R/T/B/Spawner.png"]
+				},
+				"3" : {
+					"5" : ["Texture", "R/T/B/Snow.png"],
+					"6" : ["Texture", "R/T/B/Door_Iron.png"],
+					"7" : ["Texture", "R/T/B/Door_Iron_Bottom.png"]
+				},
+				"4" : {
+					"4" : ["Texture", "R/T/B/Redstone_Ore.png"],
+					"5" : ["Texture", "R/T/B/Ice.png"],
+					"7" : ["Texture", "R/T/B/Torch_Redstone.png"],
+					"8" : ["Texture", "R/T/B/Torch_Redstone_Off.png"]
+				},
+				"5" : {
+					"5" : ["Texture", "R/T/B/Dirt_Snow_Side.png"],
+					"6" : ["Texture", "R/T/B/Redstone_Cross.texture"],
+					"7" : ["Texture", "R/T/B/Redstone_Cross_On.texture"]
+				},
+				"6" : {
+					"5" : null,
+					"6" : ["Texture", "R/T/B/Redstone_Line.texture"],
+					"7" : ["Texture", "R/T/B/Redstone_Line_On.texture"]
+				},
+				"7" : {
+					"5" : null
+				},
+				"8" : {
+					"5" : null
+				},
+				"9" : {
+					"5" : null
+				},
+				"10" : {
+					"5" : null
+				},
+				"11" : {
+					"5" : null
+				},
+				"12" : {
+					"5" : null
+				},
+				"13" : {
+					"5" : null
+				},
+				"14" : {
+					"5" : null
+				},
+				"15" : {
+					"5" : null
+				},
+				"16" : {
+					"5" : null
+				}
+			}
+		],
+		
+		"gui/items.png": [ "Atlas", {
+				"9" : {
+					"4" : ["Texture", "R/T/I/Redstone.png"],
+					"7" : ["Texture", "R/T/I/Saddle.png"]
+				},
+				"13" : {
+					"3" : ["Texture", "R/T/I/Door_Iron.png"]
+				}
+			}
+		],
+		
+		"misc/vignette.png": ["Texture", "R/T/O/Vignette.texture"],
+		"mob/saddle.png"   : ["Texture", "R/T/E/Pig_Saddle.png"],
+		
+		"title/mojang.png": ["Texture", "R/T/GUI/Loading.png"],
+		
+		"particles.png": [ "Atlas", {
+				"3" : {
+					"2" : ["Texture", "R/T/P/Splash_2.texture"]
+				},
+				"4" : {
+					"2" : ["Texture", "R/T/P/Splash_3.texture"]
+				},
+				"5" : {
+					"2" : ["Texture", "R/T/P/Splash_4.texture"]
+				},
+				"6" : {
+					"2" : ["Texture", "R/T/P/Splash_5.texture"]
+				},
+				"7" : {
+					"2" : ["Texture", "R/T/P/Splash_6.texture"]
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"Parent": "16-a1.1.0.json",
+	
+	"Name"  : "a1.1.2",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"gui/items.png": [ "Atlas", {
+				"6" : {
+					"5" : ["Texture", "R/T/I/Fishing.png"]
+				}
+			}
+		],
+		"art/kz.png": [ "Atlas", {
+				"2" : {
+					"5" : ["Painting", 1, 2],
+					"6" : false
+				},
+				"5" : {
+					"13" : ["Painting", 4, 4],
+					"14" : false,
+					"15" : false,
+					"16" : false
+				},
+				"6" : {
+					"13" : false,
+					"14" : false,
+					"15" : false,
+					"16" : false
+				},
+				"7" : {
+					"13" : false,
+					"14" : false,
+					"15" : false,
+					"16" : false
+				},
+				"8" : {
+					"13" : false,
+					"14" : false,
+					"15" : false,
+					"16" : false
+				},
+				"9" : {
+					"3" : ["Painting", 2, 1]
+				},
+				"10" : {
+					"3" : false
+				},
+				"13" : {
+					"4" : false,
+					"5" : ["Painting", 4, 3],
+					"6" : false,
+					"7" : false,
+					"8" : ["Painting", 4, 3],
+					"9" : false,
+					"10" : false
+				},
+				"14" : {
+					"4" : false,
+					"5" : false,
+					"6" : false,
+					"7" : false,
+					"8" : false,
+					"9" : false,
+					"10" : false
+				},
+				"15" : {
+					"4" : false,
+					"5" : false,
+					"6" : false,
+					"7" : false,
+					"8" : false,
+					"9" : false,
+					"10" : false
+				},
+				"16" : {
+					"4" : false,
+					"5" : false,
+					"6" : false,
+					"7" : false,
+					"8" : false,
+					"9" : false,
+					"10" : false
+				}
+			}
+		]
+	}
+}

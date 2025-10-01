@@ -1,0 +1,79 @@
+{
+	"Parent": "27-b1.2.json",
+	
+	"Name"  : "b1.3",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["TexturePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"4": {
+					"9" : ["Texture", "R/T/B/Repeater.png"],
+					"10": ["Texture", "R/T/B/Repeater_On.png"]
+				},
+				"5": {
+					"6": null,
+					"7": null,
+					
+					"11": ["Texture", "R/T/B/Redstone_Cross.png"]
+				},
+				"6": {
+					"6": null,
+					"7": null,
+					
+					"10": ["Texture", "R/T/B/Bed_Back.png", [["Move", 0, -7]]],
+					"11": ["Texture", "R/T/B/Redstone_Line.png"]
+				},
+				"7": {
+					"9" : ["Texture", "R/T/B/Bed_Bottom.png"],
+					"10": ["Texture", "R/T/B/Bed_Left.png", [["Move", 0, -7]]]
+				},
+				"8": {
+					"9" : ["Texture", "R/T/B/Bed.png"],
+					"10": ["Texture", "R/T/B/Bed_Right.png", [["Move", 0, -7]]]
+				},
+				"9": {
+					"10": ["Texture", "R/T/B/Bed_Front.png", [["Move", 0, -7]]]
+				}
+			}	
+		],
+		"art/kz.png": [ "Atlas", {
+				"9": {
+					"13": ["Painting", 4, 4],
+					"14": false,
+					"15": false,
+					"16": false
+				},
+				"10": {
+					"13": false,
+					"14": false,
+					"15": false,
+					"16": false
+				},
+				"11": {
+					"13": false,
+					"14": false,
+					"15": false,
+					"16": false
+				},
+				"12": {
+					"13": false,
+					"14": false,
+					"15": false,
+					"16": false
+				}
+			}	
+		],
+		"gui/items.png": [ "Atlas", {
+				"7": {
+					"6": ["Texture", "R/T/I/Repeater.png"]
+				},
+				"14": {
+					"3": ["Texture", "R/T/I/Bed.png"]
+				}
+			}	
+		]
+	}
+}

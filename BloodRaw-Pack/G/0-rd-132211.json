@@ -10,8 +10,10 @@
 				"Empty": ["Texture", "R/T/Error.png"],
 				"Size" : [16, 16],
 				"1" : {
-					"1"  : ["Texture", "R/T/B/Grass.texture"],
-					"2"  : ["Texture", "R/T/B/Cobblestone.png"]
+					"1" : ["Texture", "R/T/B/Grass.texture"]
+				},
+				"2" : {
+					"1" : ["Texture", "R/T/B/Stone.png"]
 				}
 			}
 		]

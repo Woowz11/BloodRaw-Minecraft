@@ -9,11 +9,9 @@
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
-				"1" : {
-					"16" : ["Texture", "R/T/B/Sapling.png"]
-				},
-				"2" : {
-					"16" : ["Texture", "R/T/B/Grass.texture"]
+				"16" : {
+					"1" : ["Texture", "R/T/B/Sapling.png"],
+					"2" : ["Texture", "R/T/B/Grass.texture"]
 				}
 			}
 		],

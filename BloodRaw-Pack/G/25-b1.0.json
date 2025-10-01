@@ -1,0 +1,9 @@
+{
+	"Parent": "24-a1.2.6.json",
+	
+	"Name"  : "b1.0",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["TexturePack.json"]
+}

@@ -1,0 +1,61 @@
+{
+	"Parent": "10-a1.0.5.json",
+	
+	"Name"  : "a1.0.11",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"6" : {
+					"5" : ["Texture", "R/T/B/Cactus_Top.png"]
+				},
+				"7" : {
+					"5" : ["Texture", "R/T/B/Cactus.png"]
+				},
+				"8" : {
+					"5" : ["Texture", "R/T/B/Cactus_Bottom.png"]
+				},
+				"9" : {
+					"5" : ["Texture", "R/T/B/Clay.png"]
+				},
+				"10" : {
+					"5" : ["Texture", "R/T/B/Sugarcane.png"]
+				}
+			}
+		],
+		"gui/items.png": [ "Atlas", {
+				"7" : {
+					"2" : ["Texture", "R/T/I/Brick.png"]
+				},
+				"8" : {
+					"7" : ["Texture", "R/T/I/Leather.png"]
+				},
+				"9" : {
+					"9" : ["Texture", "R/T/I/Boat.png"]
+				},
+				"10" : {
+					"4" : ["Texture", "R/T/I/Clay.png"]
+				},
+				"11" : {
+					"4" : ["Texture", "R/T/I/Paper.png"]
+				},
+				"12" : {
+					"2" : ["Texture", "R/T/I/Sugarcane.png"],
+					"4" : ["Texture", "R/T/I/Book.png"]
+				},
+				"14" : {
+					"5" : ["Texture", "R/T/I/Bucket_Milk.png"]
+				},
+				"15" : {
+					"2" : ["Texture", "R/T/I/Slime.png"]
+				}
+			}
+		],
+		"item/boat.png": ["Texture", "R/T/E/Boat.png"],
+		"mob/cow.png"  : ["Texture", "R/T/E/Cow.png"],
+		"mob/slime.png": ["Texture", "R/T/E/Slime.png"]
+	}
+}
