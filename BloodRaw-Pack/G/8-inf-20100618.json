@@ -338,7 +338,7 @@
 					"3" : ["Texture", "R/T/I/Gold.png"],
 					"4" : ["Texture", "R/T/I/Diamond.png"],
 					"5" : ["Texture", "R/T/I/Bowl.png"],
-					"6" : ["Texture", "R/T/I/Meat.png"],
+					"6" : ["Texture", "R/T/I/Meat_Pig.png"],
 					"9" : ["Texture", "R/T/I/Minecart.png"]
 				},
 				"9" : {
@@ -346,7 +346,7 @@
 					"2" : ["Texture", "R/T/I/Feather.png"],
 					"3" : ["Texture", "R/T/I/Gunpowder.png"],
 					"5" : ["Texture", "R/T/I/Bowl_Mushroom.png"],
-					"6" : ["Texture", "R/T/I/Meat_Cooked.png"]
+					"6" : ["Texture", "R/T/I/Meat_Pig_Cooked.png"]
 				},
 				"10" : {
 					"1" : ["Texture", "R/T/I/Seeds.png"],

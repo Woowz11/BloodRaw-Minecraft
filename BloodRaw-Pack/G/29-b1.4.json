@@ -1,0 +1,58 @@
+{
+	"Parent": "28-b1.3.json",
+	
+	"Name"  : "b1.4",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["TexturePack.json"],
+	
+	"Files": {
+		"particles.png": [ "Atlas", {
+				"1": {
+					"6": ["Texture", "R/T/P/Love.png"]
+				}
+			}
+		],
+		"gui/particles.png": [ "Atlas", {
+				"Size" : [16, 16],
+				"Scale": [8 , 8 ],
+				"1" : {
+					"1" : ["Texture", "R/T/P/Cloud_0.png"]
+				},
+				"2" : {
+					"1" : ["Texture", "R/T/P/Cloud_1.png"]
+				},
+				"3" : {
+					"1" : ["Texture", "R/T/P/Cloud_2.png"]
+				},
+				"4" : {
+					"1" : ["Texture", "R/T/P/Cloud_3.png"]
+				},
+				"5" : {
+					"1" : ["Texture", "R/T/P/Cloud_4.png"]
+				},
+				"6" : {
+					"1" : ["Texture", "R/T/P/Cloud_5.png"]
+				},
+				"7" : {
+					"1" : ["Texture", "R/T/P/Cloud_6.png"]
+				},
+				"8" : {
+					"1" : ["Texture", "R/T/P/Cloud.png"]
+				}
+			}
+		],
+		"gui/items.png": [ "Atlas", {
+				"13": {
+					"6": ["Texture", "R/T/I/Cookie.png"]
+				}
+			}
+		],
+		"mob/wolf.png"      : ["Texture", "R/T/E/Wolf.png"],
+		"mob/wolf_angry.png": ["Texture", "R/T/E/Wolf_Angry.png"],
+		"mob/wolf_tame.png" : ["Texture", "R/T/E/Wolf_Pet.texture"],
+		
+		"title/mclogo.png": ["Texture", "R/T/GUI/Logo.texture"]
+	}
+}

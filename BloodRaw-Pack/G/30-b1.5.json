@@ -1,0 +1,39 @@
+{
+	"Parent": "29-b1.4.json",
+	
+	"Name"  : "b1.5",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["TexturePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"4": {
+					"1": ["Texture", "R/T/B/Dirt_Grass_Side.png"],
+					
+					"11": ["Texture", "R/T/B/Rail_Accelerator.png"],
+					"12": ["Texture", "R/T/B/Rail_Accelerator_On.png"],
+					"13": ["Texture", "R/T/B/Rail_Detector.png"]
+				},
+				"5": {
+					"12": ["Texture", "R/T/B/Redstone_Cross_Overlay.png"]
+				},
+				"6": {
+					"12": ["Texture", "R/T/B/Redstone_Line_Overlay.png"]
+				},
+				"7": {
+					"3": ["Texture", "R/T/B/Dirt_Grass_Side_Overlay.png"]
+				},
+				"16": {
+					"4": ["Texture", "R/T/B/Sapling_Spruce.png"],
+					"5": ["Texture", "R/T/B/Sapling_Birch.png"]
+				}
+			}
+		],
+		
+		"gui/slot.png"      : ["Texture", "R/T/GUI/Stats.texture"],
+		"armor/power.png"   : ["Texture", "R/T/E/Creeper_Charge.png"],
+		"achievement/bg.png": ["Texture", "R/T/GUI/Achievement_Old.png"]
+	}
+}

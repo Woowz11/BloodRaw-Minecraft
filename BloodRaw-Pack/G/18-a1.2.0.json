@@ -44,11 +44,11 @@
 					"5" : ["Texture", "R/T/I/Clock.png"]
 				},
 				"10" : {
-					"7" : ["Texture", "R/T/I/Glowstone.png", [["Frame"]]],
-					"8" : ["Texture", "R/T/I/Fish.png", [["Frame"]]]
+					"5" : ["Texture", "R/T/I/Glowstone.png", [["Frame"]]],
+					"6" : ["Texture", "R/T/I/Fish.png", [["Frame"]]]
 				},
 				"11" : {
-					"8" : ["Texture", "R/T/I/Fish_Cooked.png", [["Frame"]]]
+					"6" : ["Texture", "R/T/I/Fish_Cooked.png", [["Frame"]]]
 				}
 			}
 		],

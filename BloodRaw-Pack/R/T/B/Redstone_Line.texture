@@ -1,1 +1,1 @@
-["Texture", "R/T/B/Redstone_Line.png", [["Gradient", ["Texture", "R/T/G/Redstone.png"]]]]
+["Texture", "R/T/B/Redstone_Line.png", [["Gradient", ["Texture", "R/T/G/Redstone.png"]], ["Put", ["Texture", "R/T/B/Redstone_Line_Overlay.png"]]]]

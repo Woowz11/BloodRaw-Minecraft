@@ -1,0 +1,176 @@
+{
+	"Parent": "32-b1.7.json",
+	
+	"Name"  : "b1.8",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["TexturePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"5": {
+					"7" : ["Texture", "R/T/B/Bricks_Stone_Moss.png"],
+					"10": ["Texture", "R/T/B/Glass_Side.png"]
+				},
+				"6": {
+					"6" : ["Texture", "R/T/B/Bars.png"],
+					"7" : ["Texture", "R/T/B/Bricks_Stone_Crack.png"]
+				},
+				"7": {
+					"4": ["Texture", "R/T/B/Bricks_Stone.png"]
+				},
+				"9": {
+					"9": ["Texture", "R/T/B/Watermelon.png"]
+				},
+				"10": {
+					"9": ["Texture", "R/T/B/Watermelon_Top.png"]
+				},
+				"14": {
+					"8": ["Texture", "R/T/B/Mushroom_Block_Skin_Red.png"],
+					"9": ["Texture", "R/T/B/Mushroom_Block_Stem.png"]
+				},
+				"15": {
+					"8": ["Texture", "R/T/B/Mushroom_Block_Skin.png"],
+					"9": ["Texture", "R/T/B/Mushroom_Block.png"]
+				},
+				"16": {
+					"7": ["Texture", "R/T/B/Stem.png"],
+					"8": ["Texture", "R/T/B/Stem_Corner.png"],
+					"9": ["Texture", "R/T/B/Vines.png"]
+				}
+			}
+		],
+		"particles.png": [ "Atlas", {
+				"2": {
+					"5" : ["Texture", "R/T/P/Crit.png"]
+				}
+			}
+		],
+		"title/bg/panorama0.png": ["Texture", "R/T/O/Panorama_Menu_0.texture"],
+		"title/bg/panorama1.png": ["Texture", "R/T/O/Panorama_Menu_1.texture"],
+		"title/bg/panorama2.png": ["Texture", "R/T/O/Panorama_Menu_2.texture"],
+		"title/bg/panorama3.png": ["Texture", "R/T/O/Panorama_Menu_3.texture"],
+		"title/bg/panorama4.png": ["Texture", "R/T/O/Panorama_Menu_4.texture"],
+		"title/bg/panorama5.png": ["Texture", "R/T/O/Panorama_Menu_5.texture"],
+		
+		"mob/cavespider.png"   : ["Texture", "R/T/E/Spider_Poison.png"],
+		"mob/enderman.png"     : ["Texture", "R/T/E/Enderman.png"],
+		"mob/enderman_eyes.png": ["Texture", "R/T/E/Enderman_Eyes.png"],
+		
+		"misc/explosion.png"    : ["Texture", "R/T/P/Explosion.png"],
+		"misc/particlefield.png": ["Texture", "R/T/O/Portal_End.png"],
+		
+		"item/chest.png"     : ["Texture", "R/T/E/Chest.png"],
+		"item/largechest.png": ["Texture", "R/T/E/Chest_Double.png"],
+		"item/xporb.png"     : ["Texture", "R/T/P/XP.png"],
+		
+		"gui/crash_logo.png": "gui/logo.png",
+		"gui/logo.png"      : null,
+		
+		"gui/allitems.png": ["Texture", "R/T/GUI/Creative_Old.png"],
+		
+		"gui/items.png": [ "Atlas", {
+				"6" : {
+					"7" : ["Texture", "R/T/I/Bow_Stage_0.png"],
+					"8" : ["Texture", "R/T/I/Bow_Stage_1.png"],
+					"9" : ["Texture", "R/T/I/Bow_Stage_2.png"]
+				},
+				"10" : {
+					"7" : ["Texture", "R/T/I/Meat.png"],
+					"8" : ["Texture", "R/T/I/Meat_Chicken.png"]
+				},
+				"11" : {
+					"7" : ["Texture", "R/T/I/Meat_Cooked.png"],
+					"8" : ["Texture", "R/T/I/Meat_Chicken_Cooked.png"]
+				},
+				"12" : {
+					"6" : ["Texture", "R/T/I/Meat_Rotten.png"],
+					"7" : ["Texture", "R/T/I/Pearl.png"]
+				},
+				"14" : {
+					"4" : ["Texture", "R/T/I/Seeds_Pumpkin.png"],
+					"7" : ["Texture", "R/T/I/Watermelon.png"]
+				},
+				"15" : {
+					"4" : ["Texture", "R/T/I/Seeds_Watermelon.png"]
+				}
+			}
+		],
+		"gui/icons.png": [ "Atlas", {
+				"0" : {
+					"16" : ["Texture", "R/T/GUI/Ping_0.png"],
+					"24" : ["Texture", "R/T/GUI/Ping_1.png"],
+					"32" : ["Texture", "R/T/GUI/Ping_2.png"],
+					"40" : ["Texture", "R/T/GUI/Ping_3.png"],
+					"48" : ["Texture", "R/T/GUI/Ping_4.png"],
+					"56" : ["Texture", "R/T/GUI/Ping.png"],
+					
+					"64" : ["Texture", "R/T/GUI/Bar_XP_Empty.png"],
+					"69" : ["Texture", "R/T/GUI/Bar_XP.png"],
+					
+					"177" : ["Texture", "R/T/GUI/Host_0.png"],
+					"185" : ["Texture", "R/T/GUI/Host_1.png"],
+					"193" : ["Texture", "R/T/GUI/Host_2.png"],
+					"201" : ["Texture", "R/T/GUI/Host_3.png"],
+					"209" : ["Texture", "R/T/GUI/Host_4.png"],
+					"217" : ["Texture", "R/T/GUI/Host.png"]
+				},
+				"10" : {
+					"177" : ["Texture", "R/T/GUI/Host_Search_0.png"],
+					"185" : ["Texture", "R/T/GUI/Host_Search_1.png"],
+					"193" : ["Texture", "R/T/GUI/Host_Search_2.png"],
+					"201" : ["Texture", "R/T/GUI/Host_Search_3.png"],
+					"209" : ["Texture", "R/T/GUI/Host_Search_4.png"]
+				},
+				"16" : {
+					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+				},
+				"25" : {
+					"9" : ["Texture", "R/T/GUI/Armor_Half.png"],
+					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+				},
+				"34" : {
+					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+				},
+				"43" : {
+					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+				},
+				"52" : {
+					"27" : ["Texture", "R/T/GUI/Food.png"]
+				},
+				"61" : {
+					"27" : ["Texture", "R/T/GUI/Food_Half.png"]
+				},
+				"70" : {
+					"27" : ["Texture", "R/T/GUI/Food.png"]
+				},
+				"79" : {
+					"27" : ["Texture", "R/T/GUI/Food_Half.png"]
+				},
+				"88" : {
+					"0" : ["Texture", "R/T/GUI/Health_Poison.png"],
+					"27" : ["Texture", "R/T/GUI/Food_Poison.png"]
+				},
+				"97" : {
+					"0" : ["Texture", "R/T/GUI/Health_Poison_Half.png"],
+					"27" : ["Texture", "R/T/GUI/Food_Poison_Half.png"]
+				},
+				"106" : {
+					"0" : ["Texture", "R/T/GUI/Health_Poison.png"],
+					"27" : ["Texture", "R/T/GUI/Food_Poison.png"]
+				},
+				"115" : {
+					"0" : ["Texture", "R/T/GUI/Health_Poison_Half.png"],
+					"27" : ["Texture", "R/T/GUI/Food_Poison_Half.png"]
+				},
+				"124" : {
+					"27" : ["Texture", "R/T/GUI/Food_Poison_Empty.png"]
+				},
+				"133" : {
+					"27" : ["Texture", "R/T/GUI/Food_Poison_Empty.png"]
+				}
+			}
+		]
+	}
+}

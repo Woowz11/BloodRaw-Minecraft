@@ -12,9 +12,9 @@
 				"1": {
 					"10": ["Texture", "R/T/B/Lapis.png"],
 					"11": ["Texture", "R/T/B/Lapis_Ore.png"],
-					"12": ["Texture", "R/T/B/Sandstone.png"],
+					"12": ["Texture", "R/T/B/Sandstone_Smooth.png"],
 					"13": ["Texture", "R/T/B/Sandstone.png"],
-					"14": ["Texture", "R/T/B/Sandstone.png"]
+					"14": ["Texture", "R/T/B/Sandstone_Smooth.png"]
 				},
 				"2": {
 					"8" : ["Texture", "R/T/B/Wool_Black.texture"],
@@ -113,6 +113,7 @@
 					"12": ["Texture", "R/T/I/Bone_Dust.png"]
 				}
 			}
-		]
+		],
+		"gui/trap.png": ["Texture", "R/T/GUI/Dispenser.texture"]
 	}
 }
