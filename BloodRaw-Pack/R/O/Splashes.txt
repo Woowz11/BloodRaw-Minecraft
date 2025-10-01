@@ -1,0 +1,62 @@
+§fThe first splash in the §mtexture§r§f resource pack!
+§fRIP rock buttons
+§fBy Woowz11!
+§fHello!
+§fShould I have removed the vanilla splashes?
+§fWhen's Blood Eye V?
+§fYou're not a very good modder
+§7gh release create
+§fIt's so hard
+§fStroke or heart attack?
+§fWhen
+§f§lBold
+§f§oItalic
+§f§nStrike
+§f§mUnderline
+§fDon't play at People Playground
+§fNo icon
+§fGrandson of WVirus
+§fBLOOD RAW
+§fBLOOD EYE
+§fsplashes.txt
+§fPLAYERNAME
+§fDON'T REMOVE THIS SPLASH, okay, it's a joke
+§fQuit game
+§fNew splashe
+§fFat font
+§fThin font
+§fDon't look at the texture pack history
+§fI don't know what to make up
+§fIT'S NOT A MINECRAFT CLONE!
+§fWho am I?
+§fWhen Garry's Mod?
+§fRIP rose
+§fHBM is the Best?
+§fOld NEI ugly!!!
+§fRandom creeper's
+§fMods
+§fCreepy cave
+§fYou podzol
+§fWhen PtTR?
+§fNew sounds!
+§fFLOWERS!!!
+§f<License>
+§f>>return GetRandomSplashe();
+§fUse MCPatcher noob!
+§fAfter a long time...
+§fClownfish!
+§fUPDATE!!!
+§fWhen Lethal Company?
+§fSAMSA
+§fWhen Content Warning?
+§fRelax horror
+§fAlso try WRF in Roblox!
+§fAlso try ExtraBackrooms in Roblox and Minecraft!
+§fBloodRaw realms
+§fExtraBackrooms
+§fWoowzcore 2!!!
+§fЭто будет в woowzcore...
+§fДрисня
+§fBro, wtf
+§fNow Generated!
+§fAlso try SurvivalTools!

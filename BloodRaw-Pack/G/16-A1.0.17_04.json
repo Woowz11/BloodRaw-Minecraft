@@ -1,0 +1,9 @@
+{
+	"Parent": "15-A1.0.16.json",
+	
+	"Name"  : "A1.0.17_04",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"]
+}

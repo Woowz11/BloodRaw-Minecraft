@@ -1,0 +1,9 @@
+License: <License>
+
+By <Author>
+
+Contact:
+Discord: <Discord>
+GitHub: <GitHub>
+
+Download Pack: <Generator>

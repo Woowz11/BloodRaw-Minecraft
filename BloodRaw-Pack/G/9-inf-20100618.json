@@ -3,7 +3,7 @@
 	
 	"Name"  : "inf-20100618",
 	"Type"  : "Version",
-	//"Dev"   : false,
+	"Dev"   : false,
 	
 	"Add": ["ReplacePack.json"],
 	
@@ -156,19 +156,22 @@
 		
 		"particles.png": [ "Atlas", {
 				"2" : {
-					"2"  : ["Texture", "R/T/P/Splash_1.png"]
+					"2"  : ["Texture", "R/T/P/Splash_1.texture"]
 				},
 				"3" : {
 					"1"  : ["Texture", "R/T/P/Bubble.png"]
 				},
 				"4" : {
-					"1"  : ["Texture", "R/T/P/Fire.png"],
+					"1"  : ["Texture", "R/T/P/Fire.texture"],
 					"2"  : ["Texture", "R/T/P/Lava.png"]
 				}
 			}
 		],
 		
 		"terrain.png": [ "Atlas", {
+				"1" : {
+					"15" : null
+				},
 				"2" : {
 					"7"  : ["Texture", "R/T/B/Iron.png"],
 					"8"  : ["Texture", "R/T/B/Gold.png"],
@@ -177,6 +180,7 @@
 					"11" : ["Texture", "R/T/B/Chest_Side.png"],
 					"12" : ["Texture", "R/T/B/Chest.png"],
 					
+					"15" : null,
 					"16" : ["Texture", "R/T/B/Fire.texture", [["Frame", 0]]]
 				},
 				"3" : {
@@ -204,7 +208,7 @@
 					"14" : ["Texture", "R/T/B/Furnace_On.png", [["Frame", 0]]]
 				},
 				"6" : {
-					"1"  : ["Texture", "R/T/B/Torch.png", [["Frame", 0]]],
+					"1"  : ["Texture", "R/T/B/Torch.texture", [["Frame", 0]]],
 					"2"  : ["Texture", "R/T/B/Door.png"],
 					"3"  : ["Texture", "R/T/B/Door.png", [["Flip", true]]],
 					"4"  : ["Texture", "R/T/B/Ladder.png"],
@@ -299,7 +303,7 @@
 					"9"  : ["Texture", "R/T/I/Gunpowder.png"],
 					"10" : ["Texture", "R/T/I/Bread.png"],
 					"11" : ["Texture", "R/T/I/Sign.png"],
-					"11" : ["Texture", "R/T/I/Door.png"],
+					"12" : ["Texture", "R/T/I/Door.png"],
 					
 					"16" : ["Texture", "R/T/I/Slot_Pants.png"]
 				},
@@ -326,8 +330,8 @@
 					"9"  : ["Texture", "R/T/I/Bowl_Mushroom.png"],
 					
 					"11" : ["Texture", "R/T/I/Bucket.png"],
-					"12" : ["Texture", "R/T/I/Bucket_Water.png"],
-					"13" : ["Texture", "R/T/I/Bucket_Lava.png"]
+					"12" : ["Texture", "R/T/I/Bucket_Water.png", [["Frame"]]],
+					"13" : ["Texture", "R/T/I/Bucket_Lava.png", [["Frame"]]]
 				},
 				"6" : {
 					"1"  : ["Texture", "R/T/I/Wood_Shovel.png"],

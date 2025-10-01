@@ -116,7 +116,7 @@
 					"8"  : ["Texture", "R/T/P/Cloud.png"]
 				},
 				"2" : {
-					"1"  : ["Texture", "R/T/P/Splash_0.png"]
+					"1"  : ["Texture", "R/T/P/Splash_0.texture"]
 				}
 			}
 		],
