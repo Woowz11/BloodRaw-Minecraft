@@ -164,7 +164,6 @@
 					"4" : ["Texture", "R/T/P/Fire.texture"]
 				},
 				"2" : {
-					"2" : ["Texture", "R/T/P/Splash_1.texture"],
 					"4" : ["Texture", "R/T/P/Lava.png"]
 				}
 			}

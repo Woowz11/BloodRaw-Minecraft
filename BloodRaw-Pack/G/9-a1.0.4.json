@@ -86,25 +86,6 @@
 		"misc/vignette.png": ["Texture", "R/T/O/Vignette.texture"],
 		"mob/saddle.png"   : ["Texture", "R/T/E/Pig_Saddle.png"],
 		
-		"title/mojang.png": ["Texture", "R/T/GUI/Loading.png"],
-		
-		"particles.png": [ "Atlas", {
-				"3" : {
-					"2" : ["Texture", "R/T/P/Splash_2.texture"]
-				},
-				"4" : {
-					"2" : ["Texture", "R/T/P/Splash_3.texture"]
-				},
-				"5" : {
-					"2" : ["Texture", "R/T/P/Splash_4.texture"]
-				},
-				"6" : {
-					"2" : ["Texture", "R/T/P/Splash_5.texture"]
-				},
-				"7" : {
-					"2" : ["Texture", "R/T/P/Splash_6.texture"]
-				}
-			}
-		]
+		"title/mojang.png": ["Texture", "R/T/GUI/Loading.png"]
 	}
 }

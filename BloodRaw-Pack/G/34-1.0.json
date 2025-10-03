@@ -1,0 +1,113 @@
+{
+	"Parent": "33-b1.8.json",
+	
+	"Name"  : "1.0",
+	"Type"  : "Version",
+	//"Dev"   : false,
+	
+	"Add": ["TexturePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"1": {
+					"15": ["Texture", "R/T/B/Bricks_Nether.png"]
+				},
+				"3": {
+					"15": ["Texture", "R/T/B/Wart_0.png"]
+				},
+				"4": {
+					"15": ["Texture", "R/T/B/Wart_1.png"]
+				},
+				"5": {
+					"15": ["Texture", "R/T/B/Wart.png"]
+				},
+				"7": {
+					"11": ["Texture", "R/T/B/Enchanting.png"],
+					"12": ["Texture", "R/T/B/Enchanting_Side.png"]
+				},
+				"8": {
+					"11": ["Texture", "R/T/B/Egg_Dragon.png"],
+					"12": ["Texture", "R/T/B/Enchanting_Bottom.png"]
+				},
+				"11": {
+					"9" : ["Texture", "R/T/B/Cauldron_Top.png"],
+					"10": ["Texture", "R/T/B/Cauldron.png"]
+				},
+				"12": {
+					"9" : ["Texture", "R/T/B/Cauldron_Inner.png"],
+					"10": ["Texture", "R/T/B/Cauldron_Bottom.png"]
+				},
+				"13": {
+					"5" : ["Texture", "R/T/B/Lily.png"],
+					"10": ["Texture", "R/T/B/Brewing_Bottom.png"]
+				},
+				"14": {
+					"5" : ["Texture", "R/T/B/Dirt_Mycelium_Side.png"],
+					"10": ["Texture", "R/T/B/Brewing.png"]
+				},
+				"15": {
+					"5" : ["Texture", "R/T/B/Mycelium.png"],
+					"10": ["Texture", "R/T/B/Portal_End_Frame.png"],
+					"11": ["Texture", "R/T/B/Portal_End_Frame_Pearl.png"]
+				},
+				"16": {
+					"10": ["Texture", "R/T/B/Portal_End_Frame_Side.png"],
+					"11": ["Texture", "R/T/B/End.png"]
+				}
+			}
+		],
+		"particles.png": [ "Atlas", {
+				"1": {
+					"8" : ["Texture", "R/T/P/Drops.png"],
+					"9" : ["Texture", "R/T/P/Potion.png"],
+					"10": ["Texture", "R/T/P/Potion_Instant.png"],
+					"16": ["Texture", "R/T/P/Runes.png", [["Move", -120, 0]]]
+				},
+				"2": {
+					"15": ["Texture", "R/T/P/Runes.png"]
+				},
+				"3": {
+					"5": ["Texture", "R/T/P/Crit_Enchant.png"]
+				}
+			}
+		],
+		"terrain/moon_phases.png" : ["Texture", "R/T/O/Moon.png"],
+		
+		"mob/fire.png"   : ["Texture", "R/T/E/Blaze.png"],
+		"mob/lava.png"   : ["Texture", "R/T/E/Slime_Lava.png"],
+		"mob/redcow.png" : ["Texture", "R/T/E/Cow_Mushroom_Red.png"],
+		"mob/snowman.png": ["Texture", "R/T/E/Golem_Snow.png"],
+		
+		"mob/villager/villager.png" : ["Texture", "R/T/E/Villager_Old.png"],
+		"mob/villager/butcher.png"  : ["Texture", "R/T/E/Villager_Old_Butcher.png"],
+		"mob/villager/farmer.png"   : ["Texture", "R/T/E/Villager_Old_Farmer.png"],
+		"mob/villager/librarian.png": ["Texture", "R/T/E/Villager_Old_Librarian.png"],
+		"mob/villager/priest.png"   : ["Texture", "R/T/E/Villager_Old_Priest.png"],
+		"mob/villager/smith.png"    : ["Texture", "R/T/E/Villager_Old_Smith.png"],
+		
+		"mob/enderdragon/ender.png"     : ["Texture", "R/T/E/Dragon_End.png"],
+		"mob/enderdragon/ender_eyes.png": ["Texture", "R/T/E/Dragon_End_Eyes.png"],
+		"mob/enderdragon/shuffle.png"   : ["Texture", "R/T/E/Dragon_End_Explosion.png"],
+		"mob/enderdragon/crystal.png"   : ["Texture", "R/T/E/Crystal_End.png"],
+		"mob/enderdragon/beam.png"      : ["Texture", "R/T/P/Beam_End.png"],
+		
+		"misc/glint.png" : ["Texture", "R/T/O/Enchant.png"],
+		"misc/tunnel.png": ["Texture", "R/T/O/End.png"],
+		
+		"item/book.png": ["Texture", "R/T/P/Book.png"],
+		
+		"font/alternate.png": ["Create", 128, 128, "transparent", [["Put", ["Texture", "R/T/P/Runes.png"], 8, 32], ["Put", ["Texture", "R/T/P/Runes.png"], -120, 40], ["Put", ["Texture", "R/T/P/Runes.png"], 8, 47], ["Put", ["Texture", "R/T/P/Runes.png"], -120, 55]]],
+		
+		"environment/light_normal.png": ["Texture", "R/T/O/Light.png"],
+		
+		"gui/alchemy.png": ["Texture", "R/T/GUI/Brewing.texture"],
+		"gui/enchant.png": ["Texture", "R/T/GUI/Enchant.texture"],
+		
+		"gui/icons.png": [ "Atlas", {
+
+			}
+		],
+		"gui/inventory.png": ["Texture", "R/T/GUI/.texture"],
+		"gui/items.png"    : ["Texture", "R/T/GUI/.texture"]
+	}
+}
