@@ -1,5 +1,5 @@
 {
-	"Parent": "2-rd-160052.json",
+	"Parent": "2-rd160052.json",
 	
 	"Name"  : "c0.0.11a",
 	"Type"  : "Version",
@@ -16,6 +16,6 @@
 			}
 		],
 		
-		"default.gif": [ "Texture", "R/T/UI/Font_ASCII.png" ]
+		"default.gif": [ "Texture", "R/T/UI/Font_ASCII.texture" ]
 	}
 }

@@ -1,0 +1,22 @@
+{
+	"Name"  : "rd132211",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"Empty": ["Texture", "R/T/Error.png"],
+				"Size" : [16, 16],
+				"Scale": [16, 16],
+				"0" : {
+					"0" : ["Texture", "R/T/B/Grass.texture"]
+				},
+				"1" : {
+					"0" : ["Texture", "R/T/B/Stone.png"]
+				}
+			}
+		]
+	}
+}

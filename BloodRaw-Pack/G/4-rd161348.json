@@ -1,0 +1,27 @@
+{
+	"Parent": "3-c0.0.11a.json",
+	
+	"Name"  : "rd161348",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"1" : {
+					"1" : ["Texture", "R/T/B/Bedrock.png"]
+				},
+				"13" : {
+					"0" : ["Texture", "R/T/B/Water_Single.texture", [["Fixed", null, null, null, 255]]]
+				},
+				"14" : {
+					"0" : ["Texture", "R/T/B/Water_Single.texture"],
+					"1" : ["Texture", "R/T/B/Lava.png", [["Frame", 0]]]
+				}
+			}
+		],
+		
+		"default.gif": null
+	}
+}

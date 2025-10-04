@@ -1,0 +1,24 @@
+{
+	"Parent": "34-1.0.json",
+	
+	"Name"  : "1.1",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["TexturePack.json"],
+	
+	"Files": {
+		"gui/gui.png": ["Atlas", {
+			"0": {
+				"106": ["Texture", "R/T/UI/Language.png"],
+				"126": ["Texture", "R/T/UI/Language_Hover.png"]
+			}
+		}],
+		"gui/items.png": ["Atlas", {
+			"9": {
+				"9" : ["Texture", "R/T/I/Egg_Spawn.png"],
+				"10": ["Texture", "R/T/I/Egg_Spawn_Overlay.png"]
+			}
+		}]
+	}
+}

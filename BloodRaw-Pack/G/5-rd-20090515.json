@@ -1,9 +1,0 @@
-{
-	"Parent": "4-rd-161348.json",
-	
-	"Name"  : "rd-20090515",
-	"Type"  : "Version",
-	"Dev"   : false,
-	
-	"Add": ["ReplacePack.json"]
-}

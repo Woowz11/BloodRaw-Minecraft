@@ -1,5 +1,5 @@
 {
-	"Parent": "5-rd-20090515.json",
+	"Parent": "5-rd20090515.json",
 	
 	"Name"  : "c0.0.13a",
 	"Type"  : "Version",
@@ -8,7 +8,7 @@
 	"Add": ["ReplacePack.json"],
 	
 	"Files": {
-		"default.gif": [ "Texture", "R/T/UI/Font_ASCII.png" ],
+		"default.gif": [ "Texture", "R/T/UI/Font_ASCII.texture" ],
 		
 		"dirt.png" : [ "Texture", "R/T/B/Dirt.png" ],
 		"grass.png": [ "Texture", "R/T/B/Grass.texture" ],

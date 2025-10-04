@@ -1,0 +1,27 @@
+{
+	"Parent": "1-rd132328.json",
+	
+	"Name"  : "rd160052",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"0" : {
+					"1" : ["Texture", "R/T/B/Cobblestone.png"]
+				},
+				"2" : {
+					"0" : ["Texture", "R/T/B/Dirt.png"]
+				},
+				"3" : {
+					"0" : ["Texture", "R/T/B/Dirt_Grass_Side.texture"]
+				},
+				"4" : {
+					"0" : ["Texture", "R/T/B/Wood.png"]
+				}
+			}
+		]
+	}
+}

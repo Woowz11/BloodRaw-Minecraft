@@ -85,7 +85,7 @@
 		"mob/villager/priest.png"   : ["Texture", "R/T/E/Villager_Old_Priest.png"],
 		"mob/villager/smith.png"    : ["Texture", "R/T/E/Villager_Old_Smith.png"],
 		
-		"mob/enderdragon/ender.png"     : ["Texture", "R/T/E/Dragon_End.png"],
+		"mob/enderdragon/ender.png"     : ["Texture", "R/T/E/Dragon_End.texture"],
 		"mob/enderdragon/ender_eyes.png": ["Texture", "R/T/E/Dragon_End_Eyes.png"],
 		"mob/enderdragon/shuffle.png"   : ["Texture", "R/T/E/Dragon_End_Explosion.png"],
 		"mob/enderdragon/crystal.png"   : ["Texture", "R/T/E/Crystal_End.png"],
@@ -96,7 +96,7 @@
 		
 		"item/book.png": ["Texture", "R/T/P/Book.png"],
 		
-		"font/alternate.png": ["Create", 128, 128, "transparent", [["Put", ["Texture", "R/T/P/Runes.png"], 8, 32], ["Put", ["Texture", "R/T/P/Runes.png"], -120, 40], ["Put", ["Texture", "R/T/P/Runes.png"], 8, 47], ["Put", ["Texture", "R/T/P/Runes.png"], -120, 55]]],
+		"font/alternate.png": ["Texture", "R/T/UI/Font_Enchant.texture"],
 		
 		"environment/light_normal.png": ["Texture", "R/T/O/Light.png"],
 		

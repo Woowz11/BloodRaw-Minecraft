@@ -1,0 +1,13 @@
+{
+	"Parent": "0-rd132211.json",
+	
+	"Name"  : "rd132328",
+	"Type"  : "Version",
+	"Dev"   : false,
+	
+	"Add": ["ReplacePack.json"],
+	
+	"Files": {
+		"char.png": [ "Texture", "R/T/E/Player.texture" ]
+	}
+}

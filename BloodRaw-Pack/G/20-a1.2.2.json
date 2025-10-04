@@ -26,7 +26,7 @@
 		"environment/rain.png"  : ["Texture", "R/T/O/Rain.png"],
 		"environment/snow.png"  : ["Texture", "R/T/O/Snow.png"],
 		
-		"font/default.png": ["Texture", "R/T/UI/Font_ASCII.png"],
+		"font/default.png": ["Texture", "R/T/UI/Font_ASCII.texture"],
 		
 		"gui/background.png"  : ["Texture", "R/T/UI/Background.png"],
 		"gui/unknown_pack.png": ["Texture", "R/T/UI/Unknown.png"],

@@ -54,8 +54,8 @@
 		"title/bg/panorama4.png": ["Texture", "R/T/O/Panorama_Menu_4.texture"],
 		"title/bg/panorama5.png": ["Texture", "R/T/O/Panorama_Menu_5.texture"],
 		
-		"mob/cavespider.png"   : ["Texture", "R/T/E/Spider_Poison.png"],
-		"mob/enderman.png"     : ["Texture", "R/T/E/Enderman.png"],
+		"mob/cavespider.png"   : ["Texture", "R/T/E/Spider_Poison.texture"],
+		"mob/enderman.png"     : ["Texture", "R/T/E/Enderman.texture"],
 		"mob/enderman_eyes.png": ["Texture", "R/T/E/Enderman_Eyes.png"],
 		
 		"misc/explosion.png"    : ["Texture", "R/T/P/Explosion.png"],
