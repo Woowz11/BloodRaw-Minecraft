@@ -9,8 +9,8 @@
 	
 	"Files": {
 		"gui/items.png": [ "Atlas", {
-				"15" : {
-					"1" : ["Texture", "R/T/I/Snow.png"]
+				"14" : {
+					"0" : ["Texture", "R/T/I/Snow.png"]
 				}
 			}
 		]

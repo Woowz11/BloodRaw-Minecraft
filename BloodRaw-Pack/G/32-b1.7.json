@@ -9,41 +9,41 @@
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
-				"6": {
-					"10": ["Texture", "R/T/B/Bed_Back.png"]
+				"5" : {
+					"9" : ["Texture", "R/T/B/Bed_Back.png"]
 				},
-				"7": {
-					"10": ["Texture", "R/T/B/Bed_Left.png"]
+				"6" : {
+					"9" : ["Texture", "R/T/B/Bed_Left.png"]
 				},
-				"8": {
-					"10": ["Texture", "R/T/B/Bed_Right.png"]
+				"7" : {
+					"9" : ["Texture", "R/T/B/Bed_Right.png"]
 				},
-				"9": {
-					"10": ["Texture", "R/T/B/Bed_Front.png"]
+				"8" : {
+					"9" : ["Texture", "R/T/B/Bed_Front.png"]
 				},
-				"11": {
-					"7": ["Texture", "R/T/B/Piston_Slime.png"],
-					"8": ["Texture", "R/T/B/Cake.png"]
+				"10" : {
+					"6" : ["Texture", "R/T/B/Piston_Slime.png"],
+					"7" : ["Texture", "R/T/B/Cake.png"]
 				},
-				"12": {
-					"7": ["Texture", "R/T/B/Piston.png"],
-					"8": ["Texture", "R/T/B/Cake_Inner.png"]
+				"11" : {
+					"6" : ["Texture", "R/T/B/Piston.png"],
+					"7" : ["Texture", "R/T/B/Cake_Inner.png"]
 				},
-				"13": {
-					"7": ["Texture", "R/T/B/Piston_Side.png"]
+				"12" : {
+					"6" : ["Texture", "R/T/B/Piston_Side.png"]
 				},
-				"14": {
-					"7": ["Texture", "R/T/B/Piston_Bottom.png"]
+				"13" : {
+					"6" : ["Texture", "R/T/B/Piston_Bottom.png"]
 				},
-				"15": {
-					"7": ["Texture", "R/T/B/Piston_Inner.png"]
+				"14" : {
+					"6" : ["Texture", "R/T/B/Piston_Inner.png"]
 				}
 			}
 		],
 		"mob/silverfish.png": ["Texture", "R/T/E/Silverfish.png"],
 		"gui/items.png": [ "Atlas", {
-				"14": {
-					"6": ["Texture", "R/T/I/Shears.png"]
+				"13" : {
+					"5" : ["Texture", "R/T/I/Shears.png"]
 				}
 			}
 		]

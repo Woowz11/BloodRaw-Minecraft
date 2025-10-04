@@ -8,7 +8,7 @@
 	"Add": ["ReplacePack.json"],
 	
 	"Files": {
-		"default.gif": [ "Texture", "R/T/GUI/Font_ASCII.png" ],
+		"default.gif": [ "Texture", "R/T/UI/Font_ASCII.png" ],
 		
 		"dirt.png" : [ "Texture", "R/T/B/Dirt.png" ],
 		"grass.png": [ "Texture", "R/T/B/Grass.texture" ],

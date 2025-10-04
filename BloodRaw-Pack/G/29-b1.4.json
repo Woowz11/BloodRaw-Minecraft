@@ -9,22 +9,22 @@
 	
 	"Files": {
 		"particles.png": [ "Atlas", {
-				"1": {
-					"6": ["Texture", "R/T/P/Love.png"]
+				"0" : {
+					"5" : ["Texture", "R/T/P/Love.png"]
 				}
 			}
 		],
 		"gui/particles.png": [ "Atlas", {
 				"Size" : [16, 16],
 				"Scale": [8 , 8 ],
-				"1" : {
-					"1" : ["Texture", "R/T/P/Cloud.png"]
+				"0" : {
+					"0" : ["Texture", "R/T/P/Cloud.png"]
 				}
 			}
 		],
 		"gui/items.png": [ "Atlas", {
-				"13": {
-					"6": ["Texture", "R/T/I/Cookie.png"]
+				"12": {
+					"5": ["Texture", "R/T/I/Cookie.png"]
 				}
 			}
 		],
@@ -32,6 +32,6 @@
 		"mob/wolf_angry.png": ["Texture", "R/T/E/Wolf_Angry.png"],
 		"mob/wolf_tame.png" : ["Texture", "R/T/E/Wolf_Pet.texture"],
 		
-		"title/mclogo.png": ["Texture", "R/T/GUI/Logo.texture"]
+		"title/mclogo.png": ["Texture", "R/T/UI/Logo.texture"]
 	}
 }

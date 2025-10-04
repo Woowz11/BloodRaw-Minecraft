@@ -9,111 +9,111 @@
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
-				"1": {
-					"10": ["Texture", "R/T/B/Lapis.png"],
-					"11": ["Texture", "R/T/B/Lapis_Ore.png"],
-					"12": ["Texture", "R/T/B/Sandstone_Smooth.png"],
-					"13": ["Texture", "R/T/B/Sandstone.png"],
-					"14": ["Texture", "R/T/B/Sandstone_Smooth.png"]
+				"0" : {
+					"9" : ["Texture", "R/T/B/Lapis.png"],
+					"10" : ["Texture", "R/T/B/Lapis_Ore.png"],
+					"11" : ["Texture", "R/T/B/Sandstone_Smooth.png"],
+					"12" : ["Texture", "R/T/B/Sandstone.png"],
+					"13" : ["Texture", "R/T/B/Sandstone_Smooth.png"]
 				},
-				"2": {
-					"8" : ["Texture", "R/T/B/Wool_Black.texture"],
-					"9" : ["Texture", "R/T/B/Wool_Red.texture"],
-					"10": ["Texture", "R/T/B/Wool_Green.texture"],
-					"11": ["Texture", "R/T/B/Wool_Brown.texture"],
-					"12": ["Texture", "R/T/B/Wool_Blue.texture"],
-					"13": ["Texture", "R/T/B/Wool_Purple.texture"],
-					"14": ["Texture", "R/T/B/Wool_Cyan.texture"],
-					"15": ["Texture", "R/T/B/Wool_Silver.texture"]
+				"1" : {
+					"7" : ["Texture", "R/T/B/Wool_Black.texture"],
+					"8" : ["Texture", "R/T/B/Wool_Red.texture"],
+					"9" : ["Texture", "R/T/B/Wool_Green.texture"],
+					"10" : ["Texture", "R/T/B/Wool_Brown.texture"],
+					"11" : ["Texture", "R/T/B/Wool_Blue.texture"],
+					"12" : ["Texture", "R/T/B/Wool_Purple.texture"],
+					"13" : ["Texture", "R/T/B/Wool_Cyan.texture"],
+					"14" : ["Texture", "R/T/B/Wool_Silver.texture"]
 				},
-				"3": {
-					"8" : ["Texture", "R/T/B/Wool_Gray.texture"],
-					"9" : ["Texture", "R/T/B/Wool_Pink.texture"],
-					"10": ["Texture", "R/T/B/Wool_Lime.texture"],
-					"11": ["Texture", "R/T/B/Wool_Yellow.texture"],
-					"12": ["Texture", "R/T/B/Wool_Aqua.texture"],
-					"13": ["Texture", "R/T/B/Wool_Magenta.texture"],
-					"14": ["Texture", "R/T/B/Wool_Orange.texture"]
+				"2" : {
+					"7" : ["Texture", "R/T/B/Wool_Gray.texture"],
+					"8" : ["Texture", "R/T/B/Wool_Pink.texture"],
+					"9" : ["Texture", "R/T/B/Wool_Lime.texture"],
+					"10" : ["Texture", "R/T/B/Wool_Yellow.texture"],
+					"11" : ["Texture", "R/T/B/Wool_Aqua.texture"],
+					"12" : ["Texture", "R/T/B/Wool_Magenta.texture"],
+					"13" : ["Texture", "R/T/B/Wool_Orange.texture"]
 				},
-				"5": {
-					"8": ["Texture", "R/T/B/Tree_Spruce.png"],
-					"9": ["Texture", "R/T/B/Leaves_Spruce.texture"]
+				"4" : {
+					"7" : ["Texture", "R/T/B/Tree_Spruce.png"],
+					"8" : ["Texture", "R/T/B/Leaves_Spruce.texture"]
 				},
-				"6": {
-					"8": ["Texture", "R/T/B/Tree_Birch.png"],
-					"9": ["Texture", "R/T/B/Leaves_Spruce_Solid.texture"]
+				"5" : {
+					"7" : ["Texture", "R/T/B/Tree_Birch.png"],
+					"8" : ["Texture", "R/T/B/Leaves_Spruce_Solid.texture"]
 				},
-				"7": {
-					"3": null,
-					"4": null
+				"6" : {
+					"2" : null,
+					"3" : null
 				},
-				"8": {
-					"3": null,
-					"4": null
+				"7" : {
+					"2" : null,
+					"3" : null
 				},
-				"9": {
-					"3": null,
-					"4": null
+				"8" : {
+					"2" : null,
+					"3" : null
 				},
-				"10": {
-					"8": ["Texture", "R/T/B/Cake_Top.png"]
+				"9" : {
+					"7" : ["Texture", "R/T/B/Cake_Top.png"]
 				},
-				"11": {
-					"8": ["Texture", "R/T/B/Cake.png", [["Move", 0, -8]]]
+				"10" : {
+					"7" : ["Texture", "R/T/B/Cake.png", [["Move", 0, -8]]]
 				},
-				"12": {
-					"8": ["Texture", "R/T/B/Cake_Inner.png", [["Move", 0, -8]]]
+				"11" : {
+					"7" : ["Texture", "R/T/B/Cake_Inner.png", [["Move", 0, -8]]]
 				},
-				"13": {
-					"8": ["Texture", "R/T/B/Cake_Bottom.png"],
-					"9": ["Texture", "R/T/I/Cake.png"]
+				"12" : {
+					"7" : ["Texture", "R/T/B/Cake_Bottom.png"],
+					"8" : ["Texture", "R/T/I/Cake.png"]
 				},
-				"15": {
-					"3": ["Texture", "R/T/B/Dispenser.png"],
-					"4": ["Texture", "R/T/B/Mechanism_Top.png"]
+				"14" : {
+					"2" : ["Texture", "R/T/B/Dispenser.png"],
+					"3" : ["Texture", "R/T/B/Mechanism_Top.png"]
 				},
-				"16": {
-					"3": ["Texture", "R/T/B/Fire_2.texture", [["Frame"]]]
+				"15" : {
+					"2" : ["Texture", "R/T/B/Fire_2.texture", [["Frame"]]]
 				}
 			}
 		],
 		"particles.png": [ "Atlas", {
-				"1": {
-					"5": ["Texture", "R/T/P/Note.png"]
-				}
+				"0" : {
+					"4" : ["Texture", "R/T/P/Note.png"]
+			}
 			}
 		],
 		"mob/squid.png": ["Texture", "R/T/E/Squid.png"],
 		"gui/items.png": [ "Atlas", {
-				"13": {
-					"2": ["Texture", "R/T/I/Bone.png"]
+				"12" : {
+					"1" : ["Texture", "R/T/I/Bone.png"]
 				},
-				"14": {
-					"1": ["Texture", "R/T/I/Sugar.png"],
-					"2": ["Texture", "R/T/I/Cake.png"]
+				"13" : {
+					"0" : ["Texture", "R/T/I/Sugar.png"],
+					"1" : ["Texture", "R/T/I/Cake.png"]
 				},
-				"15": {
-					"5" : ["Texture", "R/T/I/Ink.png"],
-					"6" : ["Texture", "R/T/I/Dye_Red_Old.png"],
-					"7" : ["Texture", "R/T/I/Dye_Green.png"],
-					"8" : ["Texture", "R/T/I/Cocoa.png"],
-					"9" : ["Texture", "R/T/I/Lapis.png"],
-					"10": ["Texture", "R/T/I/Dye_Purple.png"],
-					"11": ["Texture", "R/T/I/Dye_Cyan.png"],
-					"12": ["Texture", "R/T/I/Dye_Silver.png"]
+				"14" : {
+					"4" : ["Texture", "R/T/I/Ink.png"],
+					"5" : ["Texture", "R/T/I/Dye_Red_Old.png"],
+					"6" : ["Texture", "R/T/I/Dye_Green.png"],
+					"7" : ["Texture", "R/T/I/Cocoa.png"],
+					"8" : ["Texture", "R/T/I/Lapis.png"],
+					"9" : ["Texture", "R/T/I/Dye_Purple.png"],
+					"10" : ["Texture", "R/T/I/Dye_Cyan.png"],
+					"11" : ["Texture", "R/T/I/Dye_Silver.png"]
 				},
-				"16": {
-					"5" : ["Texture", "R/T/I/Dye_Gray.png"],
-					"6" : ["Texture", "R/T/I/Dye_Pink.png"],
-					"7" : ["Texture", "R/T/I/Dye_Lime.png"],
-					"8" : ["Texture", "R/T/I/Dye_Yellow.png"],
-					"9" : ["Texture", "R/T/I/Dye_Aqua.png"],
-					"10": ["Texture", "R/T/I/Dye_Magenta.png"],
-					"11": ["Texture", "R/T/I/Dye_Orange.png"],
-					"12": ["Texture", "R/T/I/Bone_Dust.png"]
+				"15" : {
+					"4" : ["Texture", "R/T/I/Dye_Gray.png"],
+					"5" : ["Texture", "R/T/I/Dye_Pink.png"],
+					"6" : ["Texture", "R/T/I/Dye_Lime.png"],
+					"7" : ["Texture", "R/T/I/Dye_Yellow.png"],
+					"8" : ["Texture", "R/T/I/Dye_Aqua.png"],
+					"9" : ["Texture", "R/T/I/Dye_Magenta.png"],
+					"10" : ["Texture", "R/T/I/Dye_Orange.png"],
+					"11" : ["Texture", "R/T/I/Bone_Dust.png"]
 				}
 			}
 		],
-		"gui/trap.png": ["Texture", "R/T/GUI/Dispenser.texture"]
+		"gui/trap.png": ["Texture", "R/T/UI/Dispenser.texture"]
 	}
 }

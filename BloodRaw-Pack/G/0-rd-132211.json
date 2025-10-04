@@ -9,11 +9,12 @@
 		"terrain.png": [ "Atlas", {
 				"Empty": ["Texture", "R/T/Error.png"],
 				"Size" : [16, 16],
-				"1" : {
-					"1" : ["Texture", "R/T/B/Grass.texture"]
+				"Scale": [16, 16],
+				"0" : {
+					"0" : ["Texture", "R/T/B/Grass.texture"]
 				},
-				"2" : {
-					"1" : ["Texture", "R/T/B/Stone.png"]
+				"1" : {
+					"0" : ["Texture", "R/T/B/Stone.png"]
 				}
 			}
 		]

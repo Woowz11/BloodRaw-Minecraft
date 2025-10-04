@@ -9,81 +9,81 @@
 	
 	"Files": {
 		"gui/items.png": [ "Atlas", {
-				"6" : {
-					"5" : ["Texture", "R/T/I/Fishing.png"]
+				"5" : {
+					"4" : ["Texture", "R/T/I/Fishing.png"]
 				}
 			}
 		],
 		"art/kz.png": [ "Atlas", {
-				"2" : {
-					"5" : ["Painting", 1, 2],
-					"6" : false
+				"1" : {
+					"4" : ["Painting", 1, 2],
+					"5" : false
+				},
+				"4" : {
+					"12" : ["Painting", 4, 4],
+					"13" : false,
+					"14" : false,
+					"15" : false
 				},
 				"5" : {
-					"13" : ["Painting", 4, 4],
+					"12" : false,
+					"13" : false,
 					"14" : false,
-					"15" : false,
-					"16" : false
+					"15" : false
 				},
 				"6" : {
+					"12" : false,
 					"13" : false,
 					"14" : false,
-					"15" : false,
-					"16" : false
+					"15" : false
 				},
 				"7" : {
+					"12" : false,
 					"13" : false,
 					"14" : false,
-					"15" : false,
-					"16" : false
+					"15" : false
 				},
 				"8" : {
-					"13" : false,
-					"14" : false,
-					"15" : false,
-					"16" : false
+					"2" : ["Painting", 2, 1]
 				},
 				"9" : {
-					"3" : ["Painting", 2, 1]
+					"2" : false
 				},
-				"10" : {
-					"3" : false
+				"12" : {
+					"3" : false,
+					"4" : ["Painting", 4, 3],
+					"5" : false,
+					"6" : false,
+					"7" : ["Painting", 4, 3],
+					"8" : false,
+					"9" : false
 				},
 				"13" : {
+					"3" : false,
 					"4" : false,
-					"5" : ["Painting", 4, 3],
+					"5" : false,
 					"6" : false,
 					"7" : false,
-					"8" : ["Painting", 4, 3],
-					"9" : false,
-					"10" : false
+					"8" : false,
+					"9" : false
 				},
 				"14" : {
+					"3" : false,
 					"4" : false,
 					"5" : false,
 					"6" : false,
 					"7" : false,
 					"8" : false,
-					"9" : false,
-					"10" : false
+					"9" : false
 				},
 				"15" : {
+					"3" : false,
 					"4" : false,
 					"5" : false,
 					"6" : false,
 					"7" : false,
 					"8" : false,
-					"9" : false,
-					"10" : false
-				},
-				"16" : {
-					"4" : false,
-					"5" : false,
-					"6" : false,
-					"7" : false,
-					"8" : false,
-					"9" : false,
-					"10" : false
+					"9" : false
 				}
 			}
 		]

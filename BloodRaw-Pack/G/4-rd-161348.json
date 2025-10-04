@@ -9,15 +9,15 @@
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
-				"2" : {
-					"2" : ["Texture", "R/T/B/Bedrock.png"]
+				"1" : {
+					"1" : ["Texture", "R/T/B/Bedrock.png"]
+				},
+				"13" : {
+					"0" : ["Texture", "R/T/B/Water_Single.texture", [["Fixed", null, null, null, 255]]]
 				},
 				"14" : {
-					"1" : ["Texture", "R/T/B/Water_Single.texture", [["Fixed", null, null, null, 255]]]
-				},
-				"15" : {
-					"1" : ["Texture", "R/T/B/Water_Single.texture"],
-					"2" : ["Texture", "R/T/B/Lava.png", [["Frame", 0]]]
+					"0" : ["Texture", "R/T/B/Water_Single.texture"],
+					"1" : ["Texture", "R/T/B/Lava.png", [["Frame", 0]]]
 				}
 			}
 		],

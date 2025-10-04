@@ -26,10 +26,10 @@
 		"environment/rain.png"  : ["Texture", "R/T/O/Rain.png"],
 		"environment/snow.png"  : ["Texture", "R/T/O/Snow.png"],
 		
-		"font/default.png": ["Texture", "R/T/GUI/Font_ASCII.png"],
+		"font/default.png": ["Texture", "R/T/UI/Font_ASCII.png"],
 		
-		"gui/background.png"  : ["Texture", "R/T/GUI/Background.png"],
-		"gui/unknown_pack.png": ["Texture", "R/T/GUI/Unknown.png"],
+		"gui/background.png"  : ["Texture", "R/T/UI/Background.png"],
+		"gui/unknown_pack.png": ["Texture", "R/T/UI/Unknown.png"],
 
 		"misc/water.png" : ["Texture", "R/T/B/Water_Single.texture"],
 		"misc/shadow.png": ["Texture", "R/T/P/Shadow.png"],

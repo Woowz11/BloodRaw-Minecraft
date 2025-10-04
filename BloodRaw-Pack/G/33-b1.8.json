@@ -9,41 +9,41 @@
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
-				"5": {
-					"7" : ["Texture", "R/T/B/Bricks_Stone_Moss.png"],
-					"10": ["Texture", "R/T/B/Glass_Side.png"]
+				"4" : {
+					"6" : ["Texture", "R/T/B/Bricks_Stone_Moss.png"],
+					"9" : ["Texture", "R/T/B/Glass_Side.png"]
 				},
-				"6": {
-					"6" : ["Texture", "R/T/B/Bars.png"],
-					"7" : ["Texture", "R/T/B/Bricks_Stone_Crack.png"]
+				"5" : {
+					"5" : ["Texture", "R/T/B/Bars.png"],
+					"6" : ["Texture", "R/T/B/Bricks_Stone_Crack.png"]
 				},
-				"7": {
-					"4": ["Texture", "R/T/B/Bricks_Stone.png"]
+				"6" : {
+					"3" : ["Texture", "R/T/B/Bricks_Stone.png"]
 				},
-				"9": {
-					"9": ["Texture", "R/T/B/Watermelon.png"]
+				"8" : {
+					"8" : ["Texture", "R/T/B/Watermelon.png"]
 				},
-				"10": {
-					"9": ["Texture", "R/T/B/Watermelon_Top.png"]
+				"9" : {
+					"8" : ["Texture", "R/T/B/Watermelon_Top.png"]
 				},
-				"14": {
-					"8": ["Texture", "R/T/B/Mushroom_Block_Skin_Red.png"],
-					"9": ["Texture", "R/T/B/Mushroom_Block_Stem.png"]
+				"13" : {
+					"7" : ["Texture", "R/T/B/Mushroom_Block_Skin_Red.png"],
+					"8" : ["Texture", "R/T/B/Mushroom_Block_Stem.png"]
 				},
-				"15": {
-					"8": ["Texture", "R/T/B/Mushroom_Block_Skin.png"],
-					"9": ["Texture", "R/T/B/Mushroom_Block.png"]
+				"14" : {
+					"7" : ["Texture", "R/T/B/Mushroom_Block_Skin.png"],
+					"8" : ["Texture", "R/T/B/Mushroom_Block.png"]
 				},
-				"16": {
-					"7": ["Texture", "R/T/B/Stem.png"],
-					"8": ["Texture", "R/T/B/Stem_Corner.png"],
-					"9": ["Texture", "R/T/B/Vines.png"]
+				"15" : {
+					"6" : ["Texture", "R/T/B/Stem.png"],
+					"7" : ["Texture", "R/T/B/Stem_Corner.png"],
+					"8" : ["Texture", "R/T/B/Vines.png"]
 				}
 			}
 		],
 		"particles.png": [ "Atlas", {
-				"2": {
-					"5" : ["Texture", "R/T/P/Crit.png"]
+				"1" : {
+					"4" : ["Texture", "R/T/P/Crit.png"]
 				}
 			}
 		],
@@ -68,107 +68,107 @@
 		"gui/crash_logo.png": "gui/logo.png",
 		"gui/logo.png"      : null,
 		
-		"gui/allitems.png": ["Texture", "R/T/GUI/Creative_Old.png"],
+		"gui/allitems.png": ["Texture", "R/T/UI/Creative_Old.png"],
 		
 		"gui/items.png": [ "Atlas", {
-				"6" : {
-					"7" : ["Texture", "R/T/I/Bow_Stage_0.png"],
-					"8" : ["Texture", "R/T/I/Bow_Stage_1.png"],
-					"9" : ["Texture", "R/T/I/Bow_Stage_2.png"]
+				"5" : {
+					"6" : ["Texture", "R/T/I/Bow_Stage_0.png"],
+					"7" : ["Texture", "R/T/I/Bow_Stage_1.png"],
+					"8" : ["Texture", "R/T/I/Bow_Stage_2.png"]
+				},
+				"9" : {
+					"6" : ["Texture", "R/T/I/Meat.png"],
+					"7" : ["Texture", "R/T/I/Meat_Chicken.png"]
 				},
 				"10" : {
-					"7" : ["Texture", "R/T/I/Meat.png"],
-					"8" : ["Texture", "R/T/I/Meat_Chicken.png"]
+					"6" : ["Texture", "R/T/I/Meat_Cooked.png"],
+					"7" : ["Texture", "R/T/I/Meat_Chicken_Cooked.png"]
 				},
 				"11" : {
-					"7" : ["Texture", "R/T/I/Meat_Cooked.png"],
-					"8" : ["Texture", "R/T/I/Meat_Chicken_Cooked.png"]
+					"5" : ["Texture", "R/T/I/Meat_Rotten.png"],
+					"6" : ["Texture", "R/T/I/Pearl.png"]
 				},
-				"12" : {
-					"6" : ["Texture", "R/T/I/Meat_Rotten.png"],
-					"7" : ["Texture", "R/T/I/Pearl.png"]
+				"13" : {
+					"3" : ["Texture", "R/T/I/Seeds_Pumpkin.png"],
+					"6" : ["Texture", "R/T/I/Watermelon.png"]
 				},
 				"14" : {
-					"4" : ["Texture", "R/T/I/Seeds_Pumpkin.png"],
-					"7" : ["Texture", "R/T/I/Watermelon.png"]
-				},
-				"15" : {
-					"4" : ["Texture", "R/T/I/Seeds_Watermelon.png"]
+					"3" : ["Texture", "R/T/I/Seeds_Watermelon.png"]
 				}
 			}
 		],
 		"gui/icons.png": [ "Atlas", {
 				"0" : {
-					"16" : ["Texture", "R/T/GUI/Ping_0.png"],
-					"24" : ["Texture", "R/T/GUI/Ping_1.png"],
-					"32" : ["Texture", "R/T/GUI/Ping_2.png"],
-					"40" : ["Texture", "R/T/GUI/Ping_3.png"],
-					"48" : ["Texture", "R/T/GUI/Ping_4.png"],
-					"56" : ["Texture", "R/T/GUI/Ping.png"],
+					"16" : ["Texture", "R/T/UI/Ping_0.png"],
+					"24" : ["Texture", "R/T/UI/Ping_1.png"],
+					"32" : ["Texture", "R/T/UI/Ping_2.png"],
+					"40" : ["Texture", "R/T/UI/Ping_3.png"],
+					"48" : ["Texture", "R/T/UI/Ping_4.png"],
+					"56" : ["Texture", "R/T/UI/Ping.png"],
 					
-					"64" : ["Texture", "R/T/GUI/Bar_XP_Empty.png"],
-					"69" : ["Texture", "R/T/GUI/Bar_XP.png"],
+					"64" : ["Texture", "R/T/UI/Bar_XP_Empty.png"],
+					"69" : ["Texture", "R/T/UI/Bar_XP.png"],
 					
-					"177" : ["Texture", "R/T/GUI/Host_0.png"],
-					"185" : ["Texture", "R/T/GUI/Host_1.png"],
-					"193" : ["Texture", "R/T/GUI/Host_2.png"],
-					"201" : ["Texture", "R/T/GUI/Host_3.png"],
-					"209" : ["Texture", "R/T/GUI/Host_4.png"],
-					"217" : ["Texture", "R/T/GUI/Host.png"]
+					"177" : ["Texture", "R/T/UI/Host_0.png"],
+					"185" : ["Texture", "R/T/UI/Host_1.png"],
+					"193" : ["Texture", "R/T/UI/Host_2.png"],
+					"201" : ["Texture", "R/T/UI/Host_3.png"],
+					"209" : ["Texture", "R/T/UI/Host_4.png"],
+					"217" : ["Texture", "R/T/UI/Host.png"]
 				},
 				"10" : {
-					"177" : ["Texture", "R/T/GUI/Host_Search_0.png"],
-					"185" : ["Texture", "R/T/GUI/Host_Search_1.png"],
-					"193" : ["Texture", "R/T/GUI/Host_Search_2.png"],
-					"201" : ["Texture", "R/T/GUI/Host_Search_3.png"],
-					"209" : ["Texture", "R/T/GUI/Host_Search_4.png"]
+					"177" : ["Texture", "R/T/UI/Host_Search_0.png"],
+					"185" : ["Texture", "R/T/UI/Host_Search_1.png"],
+					"193" : ["Texture", "R/T/UI/Host_Search_2.png"],
+					"201" : ["Texture", "R/T/UI/Host_Search_3.png"],
+					"209" : ["Texture", "R/T/UI/Host_Search_4.png"]
 				},
 				"16" : {
-					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
 				},
 				"25" : {
-					"9" : ["Texture", "R/T/GUI/Armor_Half.png"],
-					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+					"9" : ["Texture", "R/T/UI/Armor_Half.png"],
+					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
 				},
 				"34" : {
-					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
 				},
 				"43" : {
-					"27" : ["Texture", "R/T/GUI/Food_Empty.png"]
+					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
 				},
 				"52" : {
-					"27" : ["Texture", "R/T/GUI/Food.png"]
+					"27" : ["Texture", "R/T/UI/Food.png"]
 				},
 				"61" : {
-					"27" : ["Texture", "R/T/GUI/Food_Half.png"]
+					"27" : ["Texture", "R/T/UI/Food_Half.png"]
 				},
 				"70" : {
-					"27" : ["Texture", "R/T/GUI/Food.png"]
+					"27" : ["Texture", "R/T/UI/Food.png"]
 				},
 				"79" : {
-					"27" : ["Texture", "R/T/GUI/Food_Half.png"]
+					"27" : ["Texture", "R/T/UI/Food_Half.png"]
 				},
 				"88" : {
-					"0" : ["Texture", "R/T/GUI/Health_Poison.png"],
-					"27" : ["Texture", "R/T/GUI/Food_Poison.png"]
+					"0" : ["Texture", "R/T/UI/Health_Poison.png"],
+					"27" : ["Texture", "R/T/UI/Food_Poison.png"]
 				},
 				"97" : {
-					"0" : ["Texture", "R/T/GUI/Health_Poison_Half.png"],
-					"27" : ["Texture", "R/T/GUI/Food_Poison_Half.png"]
+					"0" : ["Texture", "R/T/UI/Health_Poison_Half.png"],
+					"27" : ["Texture", "R/T/UI/Food_Poison_Half.png"]
 				},
 				"106" : {
-					"0" : ["Texture", "R/T/GUI/Health_Poison.png"],
-					"27" : ["Texture", "R/T/GUI/Food_Poison.png"]
+					"0" : ["Texture", "R/T/UI/Health_Poison.png"],
+					"27" : ["Texture", "R/T/UI/Food_Poison.png"]
 				},
 				"115" : {
-					"0" : ["Texture", "R/T/GUI/Health_Poison_Half.png"],
-					"27" : ["Texture", "R/T/GUI/Food_Poison_Half.png"]
+					"0" : ["Texture", "R/T/UI/Health_Poison_Half.png"],
+					"27" : ["Texture", "R/T/UI/Food_Poison_Half.png"]
 				},
 				"124" : {
-					"27" : ["Texture", "R/T/GUI/Food_Poison_Empty.png"]
+					"27" : ["Texture", "R/T/UI/Food_Poison_Empty.png"]
 				},
 				"133" : {
-					"27" : ["Texture", "R/T/GUI/Food_Poison_Empty.png"]
+					"27" : ["Texture", "R/T/UI/Food_Poison_Empty.png"]
 				}
 			}
 		]

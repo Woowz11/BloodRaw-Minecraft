@@ -9,48 +9,48 @@
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
+				"5" : {
+					"4" : ["Texture", "R/T/B/Cactus_Top.png"]
+				},
 				"6" : {
-					"5" : ["Texture", "R/T/B/Cactus_Top.png"]
+					"4" : ["Texture", "R/T/B/Cactus.png"]
 				},
 				"7" : {
-					"5" : ["Texture", "R/T/B/Cactus.png"]
+					"4" : ["Texture", "R/T/B/Cactus_Bottom.png"]
 				},
 				"8" : {
-					"5" : ["Texture", "R/T/B/Cactus_Bottom.png"]
+					"4" : ["Texture", "R/T/B/Clay.png"]
 				},
 				"9" : {
-					"5" : ["Texture", "R/T/B/Clay.png"]
-				},
-				"10" : {
-					"5" : ["Texture", "R/T/B/Sugarcane.png"]
+					"4" : ["Texture", "R/T/B/Sugarcane.png"]
 				}
 			}
 		],
 		"gui/items.png": [ "Atlas", {
+				"6" : {
+					"1" : ["Texture", "R/T/I/Brick.png"]
+				},
 				"7" : {
-					"2" : ["Texture", "R/T/I/Brick.png"]
+					"6" : ["Texture", "R/T/I/Leather.png"]
 				},
 				"8" : {
-					"7" : ["Texture", "R/T/I/Leather.png"]
+					"8" : ["Texture", "R/T/I/Boat.png"]
 				},
 				"9" : {
-					"9" : ["Texture", "R/T/I/Boat.png"]
+					"3" : ["Texture", "R/T/I/Clay.png"]
 				},
 				"10" : {
-					"4" : ["Texture", "R/T/I/Clay.png"]
+					"3" : ["Texture", "R/T/I/Paper.png"]
 				},
 				"11" : {
-					"4" : ["Texture", "R/T/I/Paper.png"]
+					"1" : ["Texture", "R/T/I/Sugarcane.png"],
+					"3" : ["Texture", "R/T/I/Book.png"]
 				},
-				"12" : {
-					"2" : ["Texture", "R/T/I/Sugarcane.png"],
-					"4" : ["Texture", "R/T/I/Book.png"]
+				"13" : {
+					"4" : ["Texture", "R/T/I/Bucket_Milk.png"]
 				},
 				"14" : {
-					"5" : ["Texture", "R/T/I/Bucket_Milk.png"]
-				},
-				"15" : {
-					"2" : ["Texture", "R/T/I/Slime.png"]
+					"1" : ["Texture", "R/T/I/Slime.png"]
 				}
 			}
 		],

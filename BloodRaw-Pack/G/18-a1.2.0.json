@@ -9,59 +9,59 @@
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
-				"1" : {
-					"1" : ["Texture", "R/T/B/Grass.png"]
+				"0" : {
+					"0" : ["Texture", "R/T/B/Grass.png"]
+				},
+				"4" : {
+					"3" : ["Texture", "R/T/B/Leaves.texture"]
 				},
 				"5" : {
-					"4" : ["Texture", "R/T/B/Leaves.texture"]
+					"3" : ["Texture", "R/T/B/Leaves_Solid.texture"]
 				},
 				"6" : {
-					"4" : ["Texture", "R/T/B/Leaves_Solid.texture"]
+					"6" : ["Texture", "R/T/B/Pumpkin_Top.png"],
+					"7" : ["Texture", "R/T/B/Pumpkin.png"]
 				},
 				"7" : {
-					"7" : ["Texture", "R/T/B/Pumpkin_Top.png"],
-					"8" : ["Texture", "R/T/B/Pumpkin.png"]
+					"6" : ["Texture", "R/T/B/Nether.png"],
+					"7" : ["Texture", "R/T/B/Pumpkin_Face.png"]
 				},
 				"8" : {
-					"7" : ["Texture", "R/T/B/Nether.png"],
-					"8" : ["Texture", "R/T/B/Pumpkin_Face.png"]
+					"6" : ["Texture", "R/T/B/Soulsand.png"],
+					"7" : ["Texture", "R/T/B/Pumpkin_Face_On.png", [["Frame"]]]
 				},
 				"9" : {
-					"7" : ["Texture", "R/T/B/Soulsand.png"],
-					"8" : ["Texture", "R/T/B/Pumpkin_Face_On.png", [["Frame"]]]
+					"6" : ["Texture", "R/T/B/Glowstone.png", [["Frame"]]]
 				},
-				"10" : {
-					"7" : ["Texture", "R/T/B/Glowstone.png", [["Frame"]]]
-				},
-				"15" : {
-					"1" : ["Texture", "R/T/B/Portal.png", [["Frame"]]]
+				"14" : {
+					"0" : ["Texture", "R/T/B/Portal.png", [["Frame"]]]
 				}
 			}
 		],
 		"pumpkin.png": ["Texture", "R/T/B/Pumpkin_Face.png"],
 		"gui/items.png": [ "Atlas", {
-				"7" : {
-					"5" : ["Texture", "R/T/I/Clock.png"]
+				"6" : {
+					"4" : ["Texture", "R/T/I/Clock.png"]
+				},
+				"9" : {
+					"4" : ["Texture", "R/T/I/Glowstone.png", [["Frame"]]],
+					"5" : ["Texture", "R/T/I/Fish.png", [["Frame"]]]
 				},
 				"10" : {
-					"5" : ["Texture", "R/T/I/Glowstone.png", [["Frame"]]],
-					"6" : ["Texture", "R/T/I/Fish.png", [["Frame"]]]
-				},
-				"11" : {
-					"6" : ["Texture", "R/T/I/Fish_Cooked.png", [["Frame"]]]
+					"5" : ["Texture", "R/T/I/Fish_Cooked.png", [["Frame"]]]
 				}
 			}
 		],
 		"particles.png": [ "Atlas", {
-				"2" : {
-					"3" : ["Texture", "R/T/P/Float.png"]
+				"1" : {
+					"2" : ["Texture", "R/T/P/Float.png"]
 				}
 			}
 		],
 		"misc/dial.png"        : ["Texture", "R/T/O/Clock.png"],
 		"misc/foliagecolor.png": ["Texture", "R/T/O/Colormap_Leaves.png"],
 		"misc/grasscolor.png"  : ["Texture", "R/T/O/Colormap_Grass.png"],
-		"misc/pumpkinblur.png" : ["Texture", "R/T/GUI/Overlay_Pumpkin.png"],
+		"misc/pumpkinblur.png" : ["Texture", "R/T/UI/Overlay_Pumpkin.png"],
 		
 		"mob/ghast.png"     : ["Texture", "R/T/E/Ghast.png"],
 		"mob/ghast_fire.png": ["Texture", "R/T/E/Ghast_Fire.png"],

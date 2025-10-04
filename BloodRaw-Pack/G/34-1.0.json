@@ -3,71 +3,71 @@
 	
 	"Name"  : "1.0",
 	"Type"  : "Version",
-	//"Dev"   : false,
+	"Dev"   : false,
 	
 	"Add": ["TexturePack.json"],
 	
 	"Files": {
 		"terrain.png": [ "Atlas", {
-				"1": {
-					"15": ["Texture", "R/T/B/Bricks_Nether.png"]
+				"0" : {
+					"14" : ["Texture", "R/T/B/Bricks_Nether.png"]
 				},
-				"3": {
-					"15": ["Texture", "R/T/B/Wart_0.png"]
+				"2" : {
+					"14" : ["Texture", "R/T/B/Wart_0.png"]
 				},
-				"4": {
-					"15": ["Texture", "R/T/B/Wart_1.png"]
+				"3" : {
+					"14" : ["Texture", "R/T/B/Wart_1.png"]
 				},
-				"5": {
-					"15": ["Texture", "R/T/B/Wart.png"]
+				"4" : {
+					"14" : ["Texture", "R/T/B/Wart.png"]
 				},
-				"7": {
-					"11": ["Texture", "R/T/B/Enchanting.png"],
-					"12": ["Texture", "R/T/B/Enchanting_Side.png"]
+				"6" : {
+					"10" : ["Texture", "R/T/B/Enchanting.png"],
+					"11" : ["Texture", "R/T/B/Enchanting_Side.png"]
 				},
-				"8": {
-					"11": ["Texture", "R/T/B/Egg_Dragon.png"],
-					"12": ["Texture", "R/T/B/Enchanting_Bottom.png"]
+				"7" : {
+					"10" : ["Texture", "R/T/B/Egg_Dragon.png"],
+					"11" : ["Texture", "R/T/B/Enchanting_Bottom.png"]
 				},
-				"11": {
-					"9" : ["Texture", "R/T/B/Cauldron_Top.png"],
-					"10": ["Texture", "R/T/B/Cauldron.png"]
+				"10" : {
+					"8" : ["Texture", "R/T/B/Cauldron_Top.png"],
+					"9" : ["Texture", "R/T/B/Cauldron.png"]
 				},
-				"12": {
-					"9" : ["Texture", "R/T/B/Cauldron_Inner.png"],
-					"10": ["Texture", "R/T/B/Cauldron_Bottom.png"]
+				"11" : {
+					"8" : ["Texture", "R/T/B/Cauldron_Inner.png"],
+					"9" : ["Texture", "R/T/B/Cauldron_Bottom.png"]
 				},
-				"13": {
-					"5" : ["Texture", "R/T/B/Lily.png"],
-					"10": ["Texture", "R/T/B/Brewing_Bottom.png"]
+				"12" : {
+					"4" : ["Texture", "R/T/B/Lily.png"],
+					"9" : ["Texture", "R/T/B/Brewing_Bottom.png"]
 				},
-				"14": {
-					"5" : ["Texture", "R/T/B/Dirt_Mycelium_Side.png"],
-					"10": ["Texture", "R/T/B/Brewing.png"]
+				"13" : {
+					"4" : ["Texture", "R/T/B/Dirt_Mycelium_Side.png"],
+					"9" : ["Texture", "R/T/B/Brewing.png"]
 				},
-				"15": {
-					"5" : ["Texture", "R/T/B/Mycelium.png"],
-					"10": ["Texture", "R/T/B/Portal_End_Frame.png"],
-					"11": ["Texture", "R/T/B/Portal_End_Frame_Pearl.png"]
+				"14" : {
+					"4" : ["Texture", "R/T/B/Mycelium.png"],
+					"9" : ["Texture", "R/T/B/Portal_End_Frame.png"],
+					"10" : ["Texture", "R/T/B/Portal_End_Frame_Pearl.png"]
 				},
-				"16": {
-					"10": ["Texture", "R/T/B/Portal_End_Frame_Side.png"],
-					"11": ["Texture", "R/T/B/End.png"]
+				"15" : {
+					"9" : ["Texture", "R/T/B/Portal_End_Frame_Side.png"],
+					"10" : ["Texture", "R/T/B/End.png"]
 				}
 			}
 		],
 		"particles.png": [ "Atlas", {
-				"1": {
-					"8" : ["Texture", "R/T/P/Drops.png"],
-					"9" : ["Texture", "R/T/P/Potion.png"],
-					"10": ["Texture", "R/T/P/Potion_Instant.png"],
-					"16": ["Texture", "R/T/P/Runes.png", [["Move", -120, 0]]]
+				"0" : {
+					"7" : ["Texture", "R/T/P/Drops.png"],
+					"8" : ["Texture", "R/T/P/Potion.png"],
+					"9" : ["Texture", "R/T/P/Potion_Instant.png"],
+					"15" : ["Texture", "R/T/P/Runes.png", [["Move", -120, 0]]]
 				},
-				"2": {
-					"15": ["Texture", "R/T/P/Runes.png"]
+				"1" : {
+					"14" : ["Texture", "R/T/P/Runes.png"]
 				},
-				"3": {
-					"5": ["Texture", "R/T/P/Crit_Enchant.png"]
+				"2" : {
+					"4" : ["Texture", "R/T/P/Crit_Enchant.png"]
 				}
 			}
 		],
@@ -100,14 +100,144 @@
 		
 		"environment/light_normal.png": ["Texture", "R/T/O/Light.png"],
 		
-		"gui/alchemy.png": ["Texture", "R/T/GUI/Brewing.texture"],
-		"gui/enchant.png": ["Texture", "R/T/GUI/Enchant.texture"],
+		"gui/alchemy.png": ["Texture", "R/T/UI/Brewing.texture"],
+		"gui/enchant.png": ["Texture", "R/T/UI/Enchant.texture"],
 		
 		"gui/icons.png": [ "Atlas", {
-
+				"0": {
+					"74": ["Texture", "R/T/UI/Bar_Health_Empty.png"],
+					"79": ["Texture", "R/T/UI/Bar_Health.png"]
+				},
+				"16": {
+					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+				},
+				"25": {
+					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+				},
+				"34": {
+					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+				},
+				"43": {
+					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+				},
+				"53": {
+					"45": ["Texture", "R/T/UI/Health_Hardcore.texture"]
+				},
+				"61": {
+					"45": ["Texture", "R/T/UI/Health_Half.png"]
+				},
+				"70": {
+					"45": ["Texture", "R/T/UI/Health_Hardcore.texture"]
+				},
+				"79": {
+					"45": ["Texture", "R/T/UI/Health_Half.png"]
+				},
+				"88": {
+					"45": ["Texture", "R/T/UI/Health_Poison_Hardcore.texture"]
+				},
+				"97": {
+					"45": ["Texture", "R/T/UI/Health_Poison_Half.png"]
+				},
+				"106": {
+					"45": ["Texture", "R/T/UI/Health_Poison_Hardcore.texture"]
+				},
+				"115": {
+					"45": ["Texture", "R/T/UI/Health_Poison_Half.png"]
+				}
 			}
 		],
-		"gui/inventory.png": ["Texture", "R/T/GUI/.texture"],
-		"gui/items.png"    : ["Texture", "R/T/GUI/.texture"]
+		"gui/inventory.png": ["Atlas", {
+			"Size": [256, 256],
+			"0": {
+				"0"  : ["Texture", "R/T/UI/Inventory_Old.texture"],
+				"166": ["Texture", "R/T/UI/Inventory_Potion.png"],
+				
+				"198": ["Texture", "R/T/UI/Effect_Speed+.png"],
+				"216": ["Texture", "R/T/UI/Effect_Invisible.png"],
+				"234": ["Texture", "R/T/UI/Effect_Oxygen.png"]
+			},
+			"18": {
+				"198": ["Texture", "R/T/UI/Effect_Speed-.png"],
+				"216": ["Texture", "R/T/UI/Effect_Hunger.png"]
+			},
+			"36": {
+				"198": ["Texture", "R/T/UI/Effect_Digging+.png"],
+				"216": ["Texture", "R/T/UI/Effect_Jump.png"]
+			},
+			"54": {
+				"198": ["Texture", "R/T/UI/Effect_Digging-.png"],
+				"216": ["Texture", "R/T/UI/Effect_Nausea.png"]
+			},
+			"72": {
+				"198": ["Texture", "R/T/UI/Effect_Strength+.png"],
+				"216": ["Texture", "R/T/UI/Effect_Vision+.png"]
+			},
+			"90": {
+				"198": ["Texture", "R/T/UI/Effect_Strength-.png"],
+				"216": ["Texture", "R/T/UI/Effect_Vision-.png"]
+			},
+			"108": {
+				"198": ["Texture", "R/T/UI/Effect_Poison.png"],
+				"216": ["Texture", "R/T/UI/Effect_Resistance.png"]
+			},
+			"126": {
+				"198": ["Texture", "R/T/UI/Effect_Regeneration.png"],
+				"216": ["Texture", "R/T/UI/Effect_Fire.png"]
+			}
+		}],
+		
+		"gui/items.png": ["Atlas", {
+			"2": {
+				"15": ["Texture", "R/T/I/Record_Blocks.png"]
+			},
+			"3": {
+				"15": ["Texture", "R/T/I/Record_Chirp.png"]
+			},
+			"4": {
+				"15": ["Texture", "R/T/I/Record_Far.png"]
+			},
+			"5": {
+				"15": ["Texture", "R/T/I/Record_Mall.png"]
+			},
+			"6": {
+				"15": ["Texture", "R/T/I/Record_Mellohi.png"]
+			},
+			"7": {
+				"15": ["Texture", "R/T/I/Record_Stal.png"]
+			},
+			"8": {
+				"15": ["Texture", "R/T/I/Record_Strad.png"]
+			},
+			"9": {
+				"8" : ["Texture", "R/T/I/Watermelon_Gold.png"],
+				"15": ["Texture", "R/T/I/Record_Ward.png"]
+			},
+			"10": {
+				"8" : ["Texture", "R/T/I/Eye_Spider_Potion.png"],
+				"9" : ["Texture", "R/T/I/Potion_Splash.png"],
+				"15": ["Texture", "R/T/I/Record_11.png"]
+			},
+			"11": {
+				"7" : ["Texture", "R/T/I/Ghast.png"],
+				"8" : ["Texture", "R/T/I/Eye_Spider.png"],
+				"9" : ["Texture", "R/T/I/Pearl_End.png"]
+			},
+			"12": {
+				"6"  : ["Texture", "R/T/I/Blaze.png"],
+				"7"  : ["Texture", "R/T/I/Gold_Nugget.png"],
+				"8"  : ["Texture", "R/T/I/Potion.png"],
+				"9"  : ["Texture", "R/T/I/Cauldron.png"],
+				"10" : ["Texture", "R/T/I/Brewing.png"]
+			},
+			"13": {
+				"7"  : ["Texture", "R/T/I/Wart.png"],
+				"8"  : ["Texture", "R/T/I/Potion_Overlay.png"],
+				"9"  : ["Texture", "R/T/I/Blaze_Dust.png"],
+				"10" : ["Texture", "R/T/I/Lava.png"]
+			},
+			"14": {
+				"2" : ["Texture", "R/T/I/Fire.png"]
+			}
+		}]
 	}
 }
