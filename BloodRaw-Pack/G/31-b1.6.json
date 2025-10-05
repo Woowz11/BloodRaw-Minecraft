@@ -56,7 +56,7 @@
 			}
 		],
 		"misc/watercolor.png": ["Texture", "R/T/O/Colormap_Water.png"],
-		"misc/mapbg.png"     : ["Texture", "R/T/UI/Map.png"],
-		"misc/mapicons.png"  : ["Texture", "R/T/UI/Map_Icons.png"]
+		"misc/mapbg.png"     : ["Texture", "R/T/U/Map.png"],
+		"misc/mapicons.png"  : ["Texture", "R/T/U/Map_Icons.png"]
 	}
 }

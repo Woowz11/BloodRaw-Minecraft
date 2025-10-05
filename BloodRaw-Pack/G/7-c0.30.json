@@ -1,5 +1,5 @@
 {
-	"Parent": "6-c0.0.13a.json",
+	"Parent": "6-c0.0.13.json",
 	
 	"Name"  : "c0.30",
 	"Type"  : "Version",
@@ -9,7 +9,7 @@
 	
 	"Files": {
 		"clouds.png" : ["Texture", "R/T/O/Clouds.texture"],
-		"default.png": ["Texture", "R/T/UI/Font_ASCII.texture"],
+		"default.png": ["Texture", "R/T/U/Font_ASCII.texture"],
 		
 		"terrain.png": [ "Atlas", {
 				"0" : {
@@ -131,20 +131,20 @@
 		"gui/gui.png": [ "Atlas", {
 				"Size" : [256, 256],
 				"0" : {
-					"0" : ["Texture", "R/T/UI/Hotbar.texture"],
-					"22" : ["Texture", "R/T/UI/Hotbar_Slot_Selected.png"],
-					"46" : ["Texture", "R/T/UI/Button_Disabled.png"],
-					"66" : ["Texture", "R/T/UI/Button.png"],
-					"86" : ["Texture", "R/T/UI/Button_Hover.png"]
+					"0" : ["Texture", "R/T/U/Hotbar.texture"],
+					"22" : ["Texture", "R/T/U/Hotbar_Slot_Selected.png"],
+					"46" : ["Texture", "R/T/U/Button_Disabled.png"],
+					"66" : ["Texture", "R/T/U/Button.png"],
+					"86" : ["Texture", "R/T/U/Button_Hover.png"]
 				},
 				"208" : {
-					"0" : ["Texture", "R/T/UI/Realms_Bulb.png"]
+					"0" : ["Texture", "R/T/U/Realms_Bulb.png"]
 				},
 				"224" : {
-					"0" : ["Texture", "R/T/UI/Realms_Bulb_Disabled.png"]
+					"0" : ["Texture", "R/T/U/Realms_Bulb_Disabled.png"]
 				},
 				"240" : {
-					"0" : ["Texture", "R/T/UI/Realms_Crosshair.png"]
+					"0" : ["Texture", "R/T/U/Realms_Crosshair.png"]
 				}
 			}
 		],
@@ -152,36 +152,36 @@
 		"gui/icons.png": [ "Atlas", {
 				"Size" : [256, 256],
 				"0" : {
-					"0" : ["Texture", "R/T/UI/Crosshair.png"]
+					"0" : ["Texture", "R/T/U/Crosshair.png"]
 				},
 				"16" : {
-					"0" : ["Texture", "R/T/UI/Health_Empty.png"],
-					"9" : ["Texture", "R/T/UI/Armor.png"],
-					"18" : ["Texture", "R/T/UI/Oxygen.png"]
+					"0" : ["Texture", "R/T/U/Health_Empty.png"],
+					"9" : ["Texture", "R/T/U/Armor.png"],
+					"18" : ["Texture", "R/T/U/Oxygen.png"]
 				},
 				"25" : {
-					"0" : ["Texture", "R/T/UI/Health_Empty.png"],
-					"9" : ["Texture", "R/T/UI/Armor_Half.png"],
-					"18" : ["Texture", "R/T/UI/Oxygen_Pop.png"]
+					"0" : ["Texture", "R/T/U/Health_Empty.png"],
+					"9" : ["Texture", "R/T/U/Armor_Half.png"],
+					"18" : ["Texture", "R/T/U/Oxygen_Pop.png"]
 				},
 				"34" : {
-					"0" : ["Texture", "R/T/UI/Health_Empty.png"],
-					"9" : ["Texture", "R/T/UI/Armor_Empty.png"]
+					"0" : ["Texture", "R/T/U/Health_Empty.png"],
+					"9" : ["Texture", "R/T/U/Armor_Empty.png"]
 				},
 				"43" : {
-					"0" : ["Texture", "R/T/UI/Health_Empty.png"]
+					"0" : ["Texture", "R/T/U/Health_Empty.png"]
 				},
 				"52" : {
-					"0" : ["Texture", "R/T/UI/Health.png"]
+					"0" : ["Texture", "R/T/U/Health.png"]
 				},
 				"61" : {
-					"0" : ["Texture", "R/T/UI/Health_Half.png"]
+					"0" : ["Texture", "R/T/U/Health_Half.png"]
 				},
 				"70" : {
-					"0" : ["Texture", "R/T/UI/Health.png"]
+					"0" : ["Texture", "R/T/U/Health.png"]
 				},
 				"79" : {
-					"0" : ["Texture", "R/T/UI/Health_Half.png"]
+					"0" : ["Texture", "R/T/U/Health_Half.png"]
 				}
 			}
 		]

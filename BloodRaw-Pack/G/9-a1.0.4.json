@@ -86,6 +86,6 @@
 		"misc/vignette.png": ["Texture", "R/T/O/Vignette.texture"],
 		"mob/saddle.png"   : ["Texture", "R/T/E/Pig_Saddle.png"],
 		
-		"title/mojang.png": ["Texture", "R/T/UI/Loading.png"]
+		"title/mojang.png": ["Texture", "R/T/U/Loading.png"]
 	}
 }

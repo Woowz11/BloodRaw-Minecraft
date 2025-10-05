@@ -38,14 +38,14 @@
 		
 		"item/enderchest.png": ["Texture", "R/T/E/Chest_End.png"],
 		
-		"gui/allitems.png": ["Texture", "R/T/UI/Creative_Tabs.png"],
-		"gui/book.png"    : ["Texture", "R/T/UI/Book.png"],
-		"gui/demo_bg.png" : ["Texture", "R/T/UI/Demo.png"],
-		"gui/trading.png" : ["Texture", "R/T/UI/Trade.texture"],
+		"gui/allitems.png": ["Texture", "R/T/U/Creative_Tabs.png"],
+		"gui/book.png"    : ["Texture", "R/T/U/Book.png"],
+		"gui/demo_bg.png" : ["Texture", "R/T/U/Demo.png"],
+		"gui/trading.png" : ["Texture", "R/T/U/Trade.texture"],
 		
-		"gui/creative_inv/list_items.png"  : ["Texture", "R/T/UI/Creative.texture"],
-		"gui/creative_inv/search.png"      : ["Texture", "R/T/UI/Creative_Search.texture"],
-		"gui/creative_inv/survival_inv.png": ["Texture", "R/T/UI/Creative_Inventory_Old.texture"],
+		"gui/creative_inv/list_items.png"  : ["Texture", "R/T/U/Creative.texture"],
+		"gui/creative_inv/search.png"      : ["Texture", "R/T/U/Creative_Search.texture"],
+		"gui/creative_inv/survival_inv.png": ["Texture", "R/T/U/Creative_Inventory_Old.texture"],
 		
 		"gui/items.png": ["Atlas", {
 			"10": {

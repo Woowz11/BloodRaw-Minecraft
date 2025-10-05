@@ -68,7 +68,7 @@
 		"gui/crash_logo.png": "gui/logo.png",
 		"gui/logo.png"      : null,
 		
-		"gui/allitems.png": ["Texture", "R/T/UI/Creative_Old.png"],
+		"gui/allitems.png": ["Texture", "R/T/U/Creative_Old.png"],
 		
 		"gui/items.png": [ "Atlas", {
 				"5" : {
@@ -99,76 +99,76 @@
 		],
 		"gui/icons.png": [ "Atlas", {
 				"0" : {
-					"16" : ["Texture", "R/T/UI/Ping_0.png"],
-					"24" : ["Texture", "R/T/UI/Ping_1.png"],
-					"32" : ["Texture", "R/T/UI/Ping_2.png"],
-					"40" : ["Texture", "R/T/UI/Ping_3.png"],
-					"48" : ["Texture", "R/T/UI/Ping_4.png"],
-					"56" : ["Texture", "R/T/UI/Ping.png"],
+					"16" : ["Texture", "R/T/U/Ping_0.png"],
+					"24" : ["Texture", "R/T/U/Ping_1.png"],
+					"32" : ["Texture", "R/T/U/Ping_2.png"],
+					"40" : ["Texture", "R/T/U/Ping_3.png"],
+					"48" : ["Texture", "R/T/U/Ping_4.png"],
+					"56" : ["Texture", "R/T/U/Ping.png"],
 					
-					"64" : ["Texture", "R/T/UI/Bar_XP_Empty.png"],
-					"69" : ["Texture", "R/T/UI/Bar_XP.png"],
+					"64" : ["Texture", "R/T/U/Bar_XP_Empty.png"],
+					"69" : ["Texture", "R/T/U/Bar_XP.png"],
 					
-					"177" : ["Texture", "R/T/UI/Host_0.png"],
-					"185" : ["Texture", "R/T/UI/Host_1.png"],
-					"193" : ["Texture", "R/T/UI/Host_2.png"],
-					"201" : ["Texture", "R/T/UI/Host_3.png"],
-					"209" : ["Texture", "R/T/UI/Host_4.png"],
-					"217" : ["Texture", "R/T/UI/Host.png"]
+					"177" : ["Texture", "R/T/U/Host_0.png"],
+					"185" : ["Texture", "R/T/U/Host_1.png"],
+					"193" : ["Texture", "R/T/U/Host_2.png"],
+					"201" : ["Texture", "R/T/U/Host_3.png"],
+					"209" : ["Texture", "R/T/U/Host_4.png"],
+					"217" : ["Texture", "R/T/U/Host.png"]
 				},
 				"10" : {
-					"177" : ["Texture", "R/T/UI/Host_Search_0.png"],
-					"185" : ["Texture", "R/T/UI/Host_Search_1.png"],
-					"193" : ["Texture", "R/T/UI/Host_Search_2.png"],
-					"201" : ["Texture", "R/T/UI/Host_Search_3.png"],
-					"209" : ["Texture", "R/T/UI/Host_Search_4.png"]
+					"177" : ["Texture", "R/T/U/Host_Search_0.png"],
+					"185" : ["Texture", "R/T/U/Host_Search_1.png"],
+					"193" : ["Texture", "R/T/U/Host_Search_2.png"],
+					"201" : ["Texture", "R/T/U/Host_Search_3.png"],
+					"209" : ["Texture", "R/T/U/Host_Search_4.png"]
 				},
 				"16" : {
-					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food_Empty.png"]
 				},
 				"25" : {
-					"9" : ["Texture", "R/T/UI/Armor_Half.png"],
-					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
+					"9" : ["Texture", "R/T/U/Armor_Half.png"],
+					"27" : ["Texture", "R/T/U/Food_Empty.png"]
 				},
 				"34" : {
-					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food_Empty.png"]
 				},
 				"43" : {
-					"27" : ["Texture", "R/T/UI/Food_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food_Empty.png"]
 				},
 				"52" : {
-					"27" : ["Texture", "R/T/UI/Food.png"]
+					"27" : ["Texture", "R/T/U/Food.png"]
 				},
 				"61" : {
-					"27" : ["Texture", "R/T/UI/Food_Half.png"]
+					"27" : ["Texture", "R/T/U/Food_Half.png"]
 				},
 				"70" : {
-					"27" : ["Texture", "R/T/UI/Food.png"]
+					"27" : ["Texture", "R/T/U/Food.png"]
 				},
 				"79" : {
-					"27" : ["Texture", "R/T/UI/Food_Half.png"]
+					"27" : ["Texture", "R/T/U/Food_Half.png"]
 				},
 				"88" : {
-					"0" : ["Texture", "R/T/UI/Health_Poison.png"],
-					"27" : ["Texture", "R/T/UI/Food_Poison.png"]
+					"0" : ["Texture", "R/T/U/Health_Poison.png"],
+					"27" : ["Texture", "R/T/U/Food_Poison.png"]
 				},
 				"97" : {
-					"0" : ["Texture", "R/T/UI/Health_Poison_Half.png"],
-					"27" : ["Texture", "R/T/UI/Food_Poison_Half.png"]
+					"0" : ["Texture", "R/T/U/Health_Poison_Half.png"],
+					"27" : ["Texture", "R/T/U/Food_Poison_Half.png"]
 				},
 				"106" : {
-					"0" : ["Texture", "R/T/UI/Health_Poison.png"],
-					"27" : ["Texture", "R/T/UI/Food_Poison.png"]
+					"0" : ["Texture", "R/T/U/Health_Poison.png"],
+					"27" : ["Texture", "R/T/U/Food_Poison.png"]
 				},
 				"115" : {
-					"0" : ["Texture", "R/T/UI/Health_Poison_Half.png"],
-					"27" : ["Texture", "R/T/UI/Food_Poison_Half.png"]
+					"0" : ["Texture", "R/T/U/Health_Poison_Half.png"],
+					"27" : ["Texture", "R/T/U/Food_Poison_Half.png"]
 				},
 				"124" : {
-					"27" : ["Texture", "R/T/UI/Food_Poison_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food_Poison_Empty.png"]
 				},
 				"133" : {
-					"27" : ["Texture", "R/T/UI/Food_Poison_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food_Poison_Empty.png"]
 				}
 			}
 		]

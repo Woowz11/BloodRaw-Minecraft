@@ -114,6 +114,6 @@
 				}
 			}
 		],
-		"gui/trap.png": ["Texture", "R/T/UI/Dispenser.texture"]
+		"gui/trap.png": ["Texture", "R/T/U/Dispenser.texture"]
 	}
 }

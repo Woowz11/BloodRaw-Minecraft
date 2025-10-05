@@ -32,6 +32,6 @@
 		"mob/wolf_angry.png": ["Texture", "R/T/E/Wolf_Angry.png"],
 		"mob/wolf_tame.png" : ["Texture", "R/T/E/Wolf_Pet.texture"],
 		
-		"title/mclogo.png": ["Texture", "R/T/UI/Logo.texture"]
+		"title/mclogo.png": ["Texture", "R/T/U/Logo.texture"]
 	}
 }

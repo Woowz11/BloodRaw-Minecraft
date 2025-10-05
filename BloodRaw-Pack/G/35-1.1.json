@@ -10,8 +10,8 @@
 	"Files": {
 		"gui/gui.png": ["Atlas", {
 			"0": {
-				"106": ["Texture", "R/T/UI/Language.png"],
-				"126": ["Texture", "R/T/UI/Language_Hover.png"]
+				"106": ["Texture", "R/T/U/Language.png"],
+				"126": ["Texture", "R/T/U/Language_Hover.png"]
 			}
 		}],
 		"gui/items.png": ["Atlas", {

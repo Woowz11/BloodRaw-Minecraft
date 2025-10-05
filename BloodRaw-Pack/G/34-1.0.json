@@ -96,93 +96,93 @@
 		
 		"item/book.png": ["Texture", "R/T/P/Book.png"],
 		
-		"font/alternate.png": ["Texture", "R/T/UI/Font_Enchant.texture"],
+		"font/alternate.png": ["Texture", "R/T/U/Font_Enchant.texture"],
 		
 		"environment/light_normal.png": ["Texture", "R/T/O/Light.png"],
 		
-		"gui/alchemy.png": ["Texture", "R/T/UI/Brewing.texture"],
-		"gui/enchant.png": ["Texture", "R/T/UI/Enchant.texture"],
+		"gui/alchemy.png": ["Texture", "R/T/U/Brewing.texture"],
+		"gui/enchant.png": ["Texture", "R/T/U/Enchant.texture"],
 		
 		"gui/icons.png": [ "Atlas", {
 				"0": {
-					"74": ["Texture", "R/T/UI/Bar_Health_Empty.png"],
-					"79": ["Texture", "R/T/UI/Bar_Health.png"]
+					"74": ["Texture", "R/T/U/Bar_Health_Empty.png"],
+					"79": ["Texture", "R/T/U/Bar_Health.png"]
 				},
 				"16": {
-					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health_Empty.png"]
 				},
 				"25": {
-					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health_Empty.png"]
 				},
 				"34": {
-					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health_Empty.png"]
 				},
 				"43": {
-					"45": ["Texture", "R/T/UI/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health_Empty.png"]
 				},
 				"53": {
-					"45": ["Texture", "R/T/UI/Health_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Hardcore.texture"]
 				},
 				"61": {
-					"45": ["Texture", "R/T/UI/Health_Half.png"]
+					"45": ["Texture", "R/T/U/Health_Half.png"]
 				},
 				"70": {
-					"45": ["Texture", "R/T/UI/Health_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Hardcore.texture"]
 				},
 				"79": {
-					"45": ["Texture", "R/T/UI/Health_Half.png"]
+					"45": ["Texture", "R/T/U/Health_Half.png"]
 				},
 				"88": {
-					"45": ["Texture", "R/T/UI/Health_Poison_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.texture"]
 				},
 				"97": {
-					"45": ["Texture", "R/T/UI/Health_Poison_Half.png"]
+					"45": ["Texture", "R/T/U/Health_Poison_Half.png"]
 				},
 				"106": {
-					"45": ["Texture", "R/T/UI/Health_Poison_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.texture"]
 				},
 				"115": {
-					"45": ["Texture", "R/T/UI/Health_Poison_Half.png"]
+					"45": ["Texture", "R/T/U/Health_Poison_Half.png"]
 				}
 			}
 		],
 		"gui/inventory.png": ["Atlas", {
 			"Size": [256, 256],
 			"0": {
-				"0"  : ["Texture", "R/T/UI/Inventory_Old.texture"],
-				"166": ["Texture", "R/T/UI/Inventory_Potion.png"],
+				"0"  : ["Texture", "R/T/U/Inventory_Old.texture"],
+				"166": ["Texture", "R/T/U/Inventory_Potion.png"],
 				
-				"198": ["Texture", "R/T/UI/Effect_Speed+.png"],
-				"216": ["Texture", "R/T/UI/Effect_Invisible.png"],
-				"234": ["Texture", "R/T/UI/Effect_Oxygen.png"]
+				"198": ["Texture", "R/T/U/Effect_Speed+.png"],
+				"216": ["Texture", "R/T/U/Effect_Invisible.png"],
+				"234": ["Texture", "R/T/U/Effect_Oxygen.png"]
 			},
 			"18": {
-				"198": ["Texture", "R/T/UI/Effect_Speed-.png"],
-				"216": ["Texture", "R/T/UI/Effect_Hunger.png"]
+				"198": ["Texture", "R/T/U/Effect_Speed-.png"],
+				"216": ["Texture", "R/T/U/Effect_Hunger.png"]
 			},
 			"36": {
-				"198": ["Texture", "R/T/UI/Effect_Digging+.png"],
-				"216": ["Texture", "R/T/UI/Effect_Jump.png"]
+				"198": ["Texture", "R/T/U/Effect_Digging+.png"],
+				"216": ["Texture", "R/T/U/Effect_Jump.png"]
 			},
 			"54": {
-				"198": ["Texture", "R/T/UI/Effect_Digging-.png"],
-				"216": ["Texture", "R/T/UI/Effect_Nausea.png"]
+				"198": ["Texture", "R/T/U/Effect_Digging-.png"],
+				"216": ["Texture", "R/T/U/Effect_Nausea.png"]
 			},
 			"72": {
-				"198": ["Texture", "R/T/UI/Effect_Strength+.png"],
-				"216": ["Texture", "R/T/UI/Effect_Vision+.png"]
+				"198": ["Texture", "R/T/U/Effect_Strength+.png"],
+				"216": ["Texture", "R/T/U/Effect_Vision+.png"]
 			},
 			"90": {
-				"198": ["Texture", "R/T/UI/Effect_Strength-.png"],
-				"216": ["Texture", "R/T/UI/Effect_Vision-.png"]
+				"198": ["Texture", "R/T/U/Effect_Strength-.png"],
+				"216": ["Texture", "R/T/U/Effect_Vision-.png"]
 			},
 			"108": {
-				"198": ["Texture", "R/T/UI/Effect_Poison.png"],
-				"216": ["Texture", "R/T/UI/Effect_Resistance.png"]
+				"198": ["Texture", "R/T/U/Effect_Poison.png"],
+				"216": ["Texture", "R/T/U/Effect_Resistance.png"]
 			},
 			"126": {
-				"198": ["Texture", "R/T/UI/Effect_Regeneration.png"],
-				"216": ["Texture", "R/T/UI/Effect_Fire.png"]
+				"198": ["Texture", "R/T/U/Effect_Regeneration.png"],
+				"216": ["Texture", "R/T/U/Effect_Fire.png"]
 			}
 		}],
 		

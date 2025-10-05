@@ -85,31 +85,31 @@
 			}
 		}],
 		
-		"gui/beacon.png": ["Texture", "R/T/UI/Beacon.png"],
-		"gui/repair.png": ["Texture", "R/T/UI/Anvil.texture"],
+		"gui/beacon.png": ["Texture", "R/T/U/Beacon.png"],
+		"gui/repair.png": ["Texture", "R/T/U/Anvil.texture"],
 		
 		"gui/inventory.png": ["Atlas", {
 			"18": {
-				"234": ["Texture", "R/T/UI/Effect_Wither.png"]
+				"234": ["Texture", "R/T/U/Effect_Wither.png"]
 			}
 		}],
 		
 		"gui/icons.png": ["Atlas", {
 			"124": {
-				"0" : ["Texture", "R/T/UI/Health_Wither.png"],
-				"45": ["Texture", "R/T/UI/Health_Wither_Hardcore.texture"]
+				"0" : ["Texture", "R/T/U/Health_Wither.png"],
+				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.texture"]
 			},
 			"133": {
-				"0" : ["Texture", "R/T/UI/Health_Wither_Half.png"],
-				"45": ["Texture", "R/T/UI/Health_Wither_Half.png"]
+				"0" : ["Texture", "R/T/U/Health_Wither_Half.png"],
+				"45": ["Texture", "R/T/U/Health_Wither_Half.png"]
 			},
 			"142": {
-				"0" : ["Texture", "R/T/UI/Health_Wither.png"],
-				"45": ["Texture", "R/T/UI/Health_Wither_Hardcore.texture"]
+				"0" : ["Texture", "R/T/U/Health_Wither.png"],
+				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.texture"]
 			},
 			"151": {
-				"0" : ["Texture", "R/T/UI/Health_Wither_Half.png"],
-				"45": ["Texture", "R/T/UI/Health_Wither_Half.png"]
+				"0" : ["Texture", "R/T/U/Health_Wither_Half.png"],
+				"45": ["Texture", "R/T/U/Health_Wither_Half.png"]
 			}
 		}],
 		

@@ -30,9 +30,9 @@
 			}
 		],
 		
-		"gui/slot.png"      : ["Texture", "R/T/UI/Stats.texture"],
+		"gui/slot.png"      : ["Texture", "R/T/U/Stats.texture"],
 		"armor/power.png"   : ["Texture", "R/T/E/Creeper_Charge.png"],
-		"achievement/bg.png": ["Texture", "R/T/UI/Achievement_Old.png"],
+		"achievement/bg.png": ["Texture", "R/T/U/Achievement_Old.png"],
 		
 		"misc/footpring.png": ["Texture", "R/T/P/Footprint.png"]
 	}
