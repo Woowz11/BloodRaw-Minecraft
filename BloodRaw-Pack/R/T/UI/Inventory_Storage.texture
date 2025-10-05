@@ -1,1 +1,1 @@
-["Texture", "R/T/UI/Inventory_Storage.png", [["NewSize", null, 81], ["Put", ["Texture", "R/T/UI/Inventory_Hotbar.png"], 0, 58]]]
+["Texture", "R/T/UI/Inventory_Storage.png", [["NewSize", null, 81], ["Put", ["Texture", "R/T/UI/Inventory_Hotbar.texture"], 0, 59]]]

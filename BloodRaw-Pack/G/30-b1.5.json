@@ -10,7 +10,6 @@
 	"Files": {
 		"terrain.png": [ "Atlas", {
 				"3" : {
-					"0" : ["Texture", "R/T/B/Dirt_Grass_Side.png"],
 					"10" : ["Texture", "R/T/B/Rail_Accelerator.png"],
 					"11" : ["Texture", "R/T/B/Rail_Accelerator_On.png"],
 					"12" : ["Texture", "R/T/B/Rail_Detector.png"]

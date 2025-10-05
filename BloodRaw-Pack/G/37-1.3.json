@@ -43,9 +43,9 @@
 		"gui/demo_bg.png" : ["Texture", "R/T/UI/Demo.png"],
 		"gui/trading.png" : ["Texture", "R/T/UI/Trade.texture"],
 		
-		"gui/creative_inv/list_items.png"  : ["Texture", "R/T/UI/Creative.png"],
-		"gui/creative_inv/search.png"      : ["Texture", "R/T/UI/Creative_Search.png"],
-		"gui/creative_inv/survival_inv.png": ["Texture", "R/T/UI/Creative_Inventory_Old.png"],
+		"gui/creative_inv/list_items.png"  : ["Texture", "R/T/UI/Creative.texture"],
+		"gui/creative_inv/search.png"      : ["Texture", "R/T/UI/Creative_Search.texture"],
+		"gui/creative_inv/survival_inv.png": ["Texture", "R/T/UI/Creative_Inventory_Old.texture"],
 		
 		"gui/items.png": ["Atlas", {
 			"10": {

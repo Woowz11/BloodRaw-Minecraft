@@ -1,0 +1,1 @@
+["Texture", "R/T/O/Clouds.png", [["Mask"], ["Multiply", ["Texture", "R/T/O/Noise_Clouds.png"]], ["Gradient", ["Texture", "R/T/G/Cloud.png"]]]]

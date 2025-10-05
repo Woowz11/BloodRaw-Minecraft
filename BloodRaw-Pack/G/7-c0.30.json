@@ -8,7 +8,7 @@
 	"Add": ["ReplacePack.json"],
 	
 	"Files": {
-		"clouds.png" : ["Texture", "R/T/O/Clouds.png"],
+		"clouds.png" : ["Texture", "R/T/O/Clouds.texture"],
 		"default.png": ["Texture", "R/T/UI/Font_ASCII.texture"],
 		
 		"terrain.png": [ "Atlas", {
@@ -131,8 +131,8 @@
 		"gui/gui.png": [ "Atlas", {
 				"Size" : [256, 256],
 				"0" : {
-					"0" : ["Texture", "R/T/UI/Hotbar.png"],
-					"22" : ["Texture", "R/T/UI/Hotbar_Selected.png"],
+					"0" : ["Texture", "R/T/UI/Hotbar.texture"],
+					"22" : ["Texture", "R/T/UI/Hotbar_Slot_Selected.png"],
 					"46" : ["Texture", "R/T/UI/Button_Disabled.png"],
 					"66" : ["Texture", "R/T/UI/Button.png"],
 					"86" : ["Texture", "R/T/UI/Button_Hover.png"]

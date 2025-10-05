@@ -9,7 +9,6 @@
 	
 	"Files": {
 		"char.png"   : null,
-		"clouds.png" : null,
 		"default.gif": null,
 		"default.png": null,
 		"dirt.png"   : null,
@@ -22,7 +21,9 @@
 		"snow.png"   : null,
 		"water.png"  : null,
 		
-		"environment/clouds.png": ["Texture", "R/T/O/Clouds.png"],
+		"environment/clouds.png": "clouds.png",
+		"clouds.png" : null,
+		
 		"environment/rain.png"  : ["Texture", "R/T/O/Rain.png"],
 		"environment/snow.png"  : ["Texture", "R/T/O/Snow.png"],
 		
