@@ -1,0 +1,10 @@
+{
+	"Parent": "Pack.json",
+	
+	"Name": "ResourcePack",
+	
+	"Files": {
+		"pack.mcmeta": ["Create", "{\n\t\"pack\": {\n\t\t\"pack_format\": <PackFormat>,\n\t\t\"description\": \"<Version> | <MinecraftVersion>\\nBy <Author> ©\"\t}\n}"],
+		"pack.png"   : ["Texture", "Icon.png"]
+	}
+}

@@ -34,6 +34,6 @@
 		"armor/power.png"   : ["Texture", "R/T/E/Creeper_Charge.png"],
 		"achievement/bg.png": ["Texture", "R/T/U/Achievement_Old.png"],
 		
-		"misc/footpring.png": ["Texture", "R/T/P/Footprint.png"]
+		"misc/footprint.png": ["Texture", "R/T/P/Footprint.png"]
 	}
 }
