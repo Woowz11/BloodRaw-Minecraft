@@ -85,7 +85,7 @@
 			}
 		}],
 		
-		"gui/beacon.png": ["Texture", "R/T/U/Beacon.png"],
+		"gui/beacon.png": ["Texture", "R/T/U/Beacon.texture"],
 		"gui/repair.png": ["Texture", "R/T/U/Anvil.texture"],
 		
 		"gui/inventory.png": ["Atlas", {

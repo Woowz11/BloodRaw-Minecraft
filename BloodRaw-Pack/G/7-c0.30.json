@@ -74,7 +74,7 @@
 				"9" : {
 					"0" : ["Texture", "R/T/B/TNT_Top.png"],
 					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#9B39FE"]]],
-					"15" : ["Texture", "R/T/B/Destroy.png"  , [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy_9.png"  , [["Background", "#7F7F7F"]]]
 				},
 				"10" : {
 					"0" : ["Texture", "R/T/B/TNT_Bottom.png"],

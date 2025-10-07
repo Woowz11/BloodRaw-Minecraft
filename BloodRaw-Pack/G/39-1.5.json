@@ -171,7 +171,7 @@
 			"destroy_6.png": ["Texture", "R/T/B/Destroy_6.png"],
 			"destroy_7.png": ["Texture", "R/T/B/Destroy_7.png"],
 			"destroy_8.png": ["Texture", "R/T/B/Destroy_8.png"],
-			"destroy_9.png": ["Texture", "R/T/B/Destroy.png"],
+			"destroy_9.png": ["Texture", "R/T/B/Destroy_9.png"],
 			
 			"detectorRail.png"   : ["Texture", "R/T/B/Rail_Detector.png"],
 			"detectorRail_on.png": ["Texture", "R/T/B/Rail_Detector_On.png"],
