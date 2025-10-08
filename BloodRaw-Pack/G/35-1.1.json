@@ -16,8 +16,8 @@
 		}],
 		"gui/items.png": ["Atlas", {
 			"9": {
-				"9" : ["Texture", "R/T/I/Egg_Spawn.png"],
-				"10": ["Texture", "R/T/I/Egg_Spawn_Overlay.png"]
+				"9" : ["Texture", "R/T/I/Spawn.png"],
+				"10": ["Texture", "R/T/I/Spawn_Overlay.png"]
 			}
 		}]
 	}

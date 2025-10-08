@@ -1,9 +1,9 @@
 {
-	"Parent": "40-Minecraft2.0.json",
+	"Parent": "39-1.5.json",
 	
 	"Name"  : "1.6",
 	"Type"  : "Version",
-	//"Dev"   : false,
+	"Dev"   : false,
 	
 	"Add": ["ResourcePack.json"],
 	
@@ -11,7 +11,7 @@
 	
 	"Files": {
 		"assets/minecraft/": {
-			"texts/splashes.txt": ["Splashes", 0],
+			"texts/splashes.txt": ["Splashes"],
 			"textures/": {
 				"particle/particles.png": "particles.png",
 				"particle/footprint.png": "misc/footprint.png",
@@ -19,14 +19,12 @@
 				"blocks/": [ "Actions",
 					"textures/blocks/",
 					{
-						"torchOff.png": null,
-						
 						"rail_activator.png"        : ["Rename", "activatorRail.png"],
 						"rail_activator_powered.png": ["Rename", "activatorRail_powered.png"],
 						"rail_detector.png"         : ["Rename", "detectorRail.png"],
 						"rail_detector_powered.png" : ["Rename", "detectorRail_on.png"],
 						
-						"coal_block.png"    : ["Rename", "blockCoal.png"],
+						"coal_block.png"    : ["Texture", "R/T/B/Coal.png"],
 						"diamond_block.png" : ["Rename", "blockDiamond.png"],
 						"emerald_block.png" : ["Rename", "blockEmerald.png"],
 						"gold_block.png"    : ["Rename", "blockGold.png"],
@@ -255,6 +253,7 @@
 						"hay_block_top.png" : ["Texture", "R/T/B/Hay_Top.png"],
 						"hay_block_side.png": ["Texture", "R/T/B/Hay.png"],
 						
+						"piston_top_normal.png": ["Rename", "piston_top.png"]
 					}
 				],
 				
@@ -713,6 +712,10 @@
 						"name_tag.png": ["Texture", "R/T/I/Tag.png"],
 						
 						"rotten_flesh.png": ["Rename", "rottenFlesh.png"],
+						
+						"iron_horse_armor.png"   : ["Texture", "R/T/I/Iron_Armor_Horse.png"],
+						"gold_horse_armor.png"   : ["Texture", "R/T/I/Gold_Armor_Horse.png"],
+						"diamond_horse_armor.png": ["Texture", "R/T/I/Diamond_Armor_Horse.png"],
 					}
 				]
 			}

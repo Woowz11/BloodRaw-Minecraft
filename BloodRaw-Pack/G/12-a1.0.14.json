@@ -33,7 +33,6 @@
 				}
 			}
 		],
-		"mob/chicken.png"   : ["Texture", "R/T/E/Chicken.png"],
-		"title/splashes.txt": ["Splashes", 0]
+		"mob/chicken.png"   : ["Texture", "R/T/E/Chicken.png"]
 	}
 }

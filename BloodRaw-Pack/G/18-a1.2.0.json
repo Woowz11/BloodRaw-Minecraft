@@ -28,13 +28,13 @@
 				},
 				"8" : {
 					"6" : ["Texture", "R/T/B/Soulsand.png"],
-					"7" : ["Texture", "R/T/B/Pumpkin_Face_On.png", [["Frame"]]]
+					"7" : ["Animation", ["Texture", "R/T/B/Pumpkin_Face_On.png"], false]
 				},
 				"9" : {
-					"6" : ["Texture", "R/T/B/Glowstone.png", [["Frame"]]]
+					"6" : ["Animation", ["Texture", "R/T/B/Glowstone.png"], false]
 				},
 				"14" : {
-					"0" : ["Texture", "R/T/B/Portal.png", [["Frame"]]]
+					"0" : ["Animation", ["Texture", "R/T/B/Portal.png"], false]
 				}
 			}
 		],
@@ -44,11 +44,11 @@
 					"4" : ["Texture", "R/T/I/Clock.png"]
 				},
 				"9" : {
-					"4" : ["Texture", "R/T/I/Glowstone.png", [["Frame"]]],
-					"5" : ["Texture", "R/T/I/Fish.png", [["Frame"]]]
+					"4" : ["Animation", ["Texture", "R/T/I/Glowstone.png"], false],
+					"5" : ["Texture", "R/T/I/Fish.png"]
 				},
 				"10" : {
-					"5" : ["Texture", "R/T/I/Fish_Cooked.png", [["Frame"]]]
+					"5" : ["Texture", "R/T/I/Fish_Cooked.png"]
 				}
 			}
 		],

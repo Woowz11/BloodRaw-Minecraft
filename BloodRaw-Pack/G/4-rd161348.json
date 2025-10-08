@@ -17,7 +17,7 @@
 				},
 				"14" : {
 					"0" : ["Texture", "R/T/B/Water_Single.texture"],
-					"1" : ["Texture", "R/T/B/Lava.png", [["Frame", 0]]]
+					"1" : ["Animation", ["Texture", "R/T/B/Lava.png"], false]
 				}
 			}
 		],

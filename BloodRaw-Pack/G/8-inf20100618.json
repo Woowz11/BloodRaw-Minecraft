@@ -11,17 +11,16 @@
 		"shadow.png"  : ["Texture", "R/T/P/Shadow.png"],
 		"fluff.png"   : ["Texture", "R/T/B/Snow.png"],
 		
-		"armor/chain.png"    : null,
-		"armor/chain_1.png"  : ["Texture", "R/T/E/Player_Armor_Chain.png"],
-		"armor/chain_2.png"  : ["Texture", "R/T/E/Player_Armor_Chain_2.png"],
-		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.texture"],
-		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather_2.texture"],
-		"armor/diamond_1.png": ["Texture", "R/T/E/Player_Armor_Diamond.png"],
-		"armor/diamond_2.png": ["Texture", "R/T/E/Player_Armor_Diamond_2.png"],
-		"armor/gold_1.png"   : ["Texture", "R/T/E/Player_Armor_Gold.png"],
-		"armor/gold_2.png"   : ["Texture", "R/T/E/Player_Armor_Gold_2.png"],
-		"armor/iron_1.png"   : ["Texture", "R/T/E/Player_Armor_Iron.png"],
-		"armor/iron_2.png"   : ["Texture", "R/T/E/Player_Armor_Iron_2.png"],
+		"armor/chain_1.png"  : ["Replace", "armor/chain.png"],
+		"armor/chain_2.png"  : ["Texture", "R/T/E/Player_Armor_Chain.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.texture", [["Crop", 0, 0, 64, 32]]],
+		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather.texture", [["Crop", 0, 32, 64, 32]]],
+		"armor/diamond_1.png": ["Texture", "R/T/E/Player_Armor_Diamond.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/diamond_2.png": ["Texture", "R/T/E/Player_Armor_Diamond.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/gold_1.png"   : ["Texture", "R/T/E/Player_Armor_Gold.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/gold_2.png"   : ["Texture", "R/T/E/Player_Armor_Gold.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/iron_1.png"   : ["Texture", "R/T/E/Player_Armor_Iron.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/iron_2.png"   : ["Texture", "R/T/E/Player_Armor_Iron.png", [["Crop", 0, 32, 64, 32]]],
 		
 		"art/kz.png": [ "Atlas", {
 				"Empty": ["Texture", "R/T/Error.png"],
@@ -171,18 +170,18 @@
 		
 		"terrain.png": [ "Atlas", {
 				"0" : {
-					"5" : ["Texture", "R/T/B/Torch.texture", [["Frame", 0]]],
+					"5" : ["Animation", ["Texture", "R/T/B/Torch.texture"], false],
 					"7" : ["Texture", "R/T/B/Rail_Corner.png"],
 					"8" : ["Texture", "R/T/B/Rail.png"]
 				},
 				"1" : {
 					"5" : ["Texture", "R/T/B/Door.png"],
-					"6" : ["Texture", "R/T/B/Door_Bottom.png"]
+					"6" : false
 				},
 				"2" : {
 					"3" : ["Texture", "R/T/B/Diamond_Ore.png"],
 					"5" : ["Texture", "R/T/B/Door.png", [["Flip", true]]],
-					"6" : ["Texture", "R/T/B/Door_Bottom.png", [["Flip", true]]]
+					"6" : false
 				},
 				"3" : {
 					"5" : ["Texture", "R/T/B/Ladder.png"]
@@ -236,22 +235,22 @@
 				},
 				"13" : {
 					"2" : ["Texture", "R/T/B/Mechanism.png"],
-					"3" : ["Texture", "R/T/B/Furnace_On.png", [["Frame", 0]]],
+					"3" : ["Animation", ["Texture", "R/T/B/Furnace_On.png"], false],
 					"5" : ["Texture", "R/T/B/Wheat_5.png"],
 					"12" : ["Texture", "R/T/B/Water_Single.texture"],
-					"14" : ["Texture", "R/T/B/Lava.png", [["Frame", 0]]]
+					"14" : ["Animation", ["Texture", "R/T/B/Lava.png"], false]
 				},
 				"14" : {
 					"0" : null,
 					"1" : null,
 					"5" : ["Texture", "R/T/B/Wheat_6.png"],
-					"12" : ["Texture", "R/T/B/Water_Flow.texture", [["Frame", 0]]],
+					"12" : ["Animation", ["Texture", "R/T/B/Water_Flow.texture"], false],
 					"13" : false,
-					"14" : ["Texture", "R/T/B/Lava_Flow.png", [["Frame", 0]]],
+					"14" : ["Animation", ["Texture", "R/T/B/Lava_Flow.png"], false],
 					"15" : false
 				},
 				"15" : {
-					"1" : ["Texture", "R/T/B/Fire.texture", [["Frame", 0]]],
+					"1" : ["Animation", ["Texture", "R/T/B/Fire.texture"], false],
 					"5" : ["Texture", "R/T/B/Wheat.png"],
 					"12" : false,
 					"13" : false,
@@ -362,10 +361,10 @@
 				"11" : {
 					"0" : ["Texture", "R/T/I/Apple_Gold.png"],
 					"2" : ["Texture", "R/T/I/Door.png"],
-					"4" : ["Texture", "R/T/I/Bucket_Water.png", [["Frame"]]]
+					"4" : ["Animation", ["Texture", "R/T/I/Bucket_Water.png"], false]
 				},
 				"12" : {
-					"4" : ["Texture", "R/T/I/Bucket_Lava.png", [["Frame"]]]
+					"4" : ["Animation", ["Texture", "R/T/I/Bucket_Lava.png"], false]
 				},
 				"15" : {
 					"0" : ["Texture", "R/T/I/Slot_Helmet.png"],

@@ -21,7 +21,7 @@
 				"2" : {
 					"4" : ["Texture", "R/T/B/Snow.png"],
 					"5" : ["Texture", "R/T/B/Door_Iron.png"],
-					"6" : ["Texture", "R/T/B/Door_Iron_Bottom.png"]
+					"6" : false
 				},
 				"3" : {
 					"3" : ["Texture", "R/T/B/Redstone_Ore.png"],

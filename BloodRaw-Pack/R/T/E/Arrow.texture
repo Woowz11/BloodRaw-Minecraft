@@ -1,1 +1,1 @@
-["Texture", "R/T/E/Arrow.png", [["NewSize", 32, 32], ["Put", ["Texture", "R/T/E/Arrow_Potion.png"], 0, 16]]]
+["Texture", "R/T/E/Arrow.png", [["Put", ["Texture", "R/T/E/Arrow_Potion.png"], 0, 16]]]

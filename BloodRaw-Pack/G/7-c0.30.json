@@ -20,7 +20,7 @@
 				},
 				"1" : {
 					"2" : ["Texture", "R/T/B/Iron_Ore.png"],
-					"3" : ["Texture", "R/T/B/Glass.png"],
+					"3" : ["Texture", "R/T/B/Glass.texture"],
 					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#FE9B39"]]],
 					"15" : ["Texture", "R/T/B/Destroy_1.png", [["Background", "#7F7F7F"]]]
 				},
@@ -105,7 +105,7 @@
 		
 		"rain.png": ["Texture", "R/T/O/Rain.png"],
 		
-		"armor/chain.png": ["Texture", "R/T/E/Player_Armor_Chain.png"],
+		"armor/chain.png": ["Texture", "R/T/E/Player_Armor_Chain.png", [["Crop", 0, 0, 64, 32]]],
 		
 		"item/sign.png"  : ["Texture", "R/T/E/Sign.png"],
 		"item/arrows.png": ["Texture", "R/T/E/Arrow.texture"],

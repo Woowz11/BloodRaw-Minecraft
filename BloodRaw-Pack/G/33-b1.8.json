@@ -85,7 +85,7 @@
 					"7" : ["Texture", "R/T/I/Meat_Chicken_Cooked.png"]
 				},
 				"11" : {
-					"5" : ["Texture", "R/T/I/Meat_Rotten.png"],
+					"5" : ["Animation", ["Texture", "R/T/I/Meat_Rotten.png"], false],
 					"6" : ["Texture", "R/T/I/Pearl.png"]
 				},
 				"13" : {

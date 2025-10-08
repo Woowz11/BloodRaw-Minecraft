@@ -5,6 +5,8 @@
 	"Type"  : "Version",
 	"Dev"   : false,
 	
+	"Icon": ["Texture", "R/V/2.png"],
+	
 	"Add": ["ReplacePack.json"],
 	
 	"Files": {

@@ -45,7 +45,7 @@
 		
 		"gui/items.png": ["Atlas", {
 			"11": {
-				"10": ["Texture", "R/T/I/Potion_Experience.png"]
+				"10": ["Animation", ["Texture", "R/T/I/Potion_Experience.png"], false]
 			}
 		}]
 	}

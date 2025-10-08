@@ -1,0 +1,1 @@
+["Texture", "R/T/U/Logo.png", [["NewSize", 256, 256], ["Fill", 156, 0, 256, 45, "transparent"], ["Put", ["Texture", "R/T/U/Logo.png"], -156, 44]]]

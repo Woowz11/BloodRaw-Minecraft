@@ -28,13 +28,13 @@
 				"14": ["Texture", "R/T/B/Anvil_Top.png"]
 			},
 			"8": {
-				"11": ["Texture", "R/T/B/Creative_Command.png"],
+				"11": ["Animation", ["Texture", "R/T/B/Creative_Command.png"], false],
 				"12": ["Texture", "R/T/B/Potato_0.png"],
 				"13": ["Texture", "R/T/B/Anvil_Top_0.png"],
 				"14": ["Texture", "R/T/B/Anvil_Top_1.png"]
 			},
 			"9": {
-				"2" : ["Texture", "R/T/B/Beacon.png"],
+				"2" : ["Animation", ["Texture", "R/T/B/Beacon.png"], false],
 				"11": ["Texture", "R/T/B/Frame.png"],
 				"12": ["Texture", "R/T/B/Potato_1.png"]
 			},
@@ -69,10 +69,10 @@
 		
 		"armor/witherarmor.png": ["Texture", "R/T/E/Wither_Charge.png"],
 		
-		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.png"],
-		"armor/cloth_1_b.png": ["Texture", "R/T/E/Player_Armor_Leather_Overlay.png"],
-		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather_2.png"],
-		"armor/cloth_2_b.png": ["Texture", "R/T/E/Player_Armor_Leather_2_Overlay.png"],
+		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/cloth_1_b.png": ["Texture", "R/T/E/Player_Armor_Leather_Overlay.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/cloth_2_b.png": ["Texture", "R/T/E/Player_Armor_Leather_Overlay.png", [["Crop", 0, 32, 64, 32]]],
 		
 		"art/kz.png": ["Atlas", {
 			"10": {
@@ -154,7 +154,7 @@
 				"9": ["Texture", "R/T/I/Pie.png"]
 			},
 			"9": {
-				"11": ["Texture", "R/T/I/Star.png"],
+				"11": ["Animation", ["Texture", "R/T/I/Star.png"], false],
 				"12": ["Texture", "R/T/I/Firework.png"]
 			},
 			"10": {

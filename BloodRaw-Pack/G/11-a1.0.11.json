@@ -34,7 +34,7 @@
 					"6" : ["Texture", "R/T/I/Leather.png"]
 				},
 				"8" : {
-					"8" : ["Texture", "R/T/I/Boat.png"]
+					"8" : ["Texture", "R/T/I/Boat_Old.png"]
 				},
 				"9" : {
 					"3" : ["Texture", "R/T/I/Clay.png"]
@@ -54,7 +54,7 @@
 				}
 			}
 		],
-		"item/boat.png": ["Texture", "R/T/E/Boat.png"],
+		"item/boat.png": ["Texture", "R/T/E/Boat_Old.png"],
 		"mob/cow.png"  : ["Texture", "R/T/E/Cow.png"],
 		"mob/slime.png": ["Texture", "R/T/E/Slime.png"]
 	}

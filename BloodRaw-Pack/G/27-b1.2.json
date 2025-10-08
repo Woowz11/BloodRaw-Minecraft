@@ -73,7 +73,7 @@
 					"3" : ["Texture", "R/T/B/Mechanism_Top.png"]
 				},
 				"15" : {
-					"2" : ["Texture", "R/T/B/Fire_2.texture", [["Frame"]]]
+					"2" : ["Animation", ["Texture", "R/T/B/Fire_2.texture"], false]
 				}
 			}
 		],
