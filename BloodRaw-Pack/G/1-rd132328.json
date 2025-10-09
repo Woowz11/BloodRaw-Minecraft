@@ -10,6 +10,6 @@
 	"Add": ["ReplacePack.json"],
 	
 	"Files": {
-		"char.png": [ "Texture", "R/T/E/Player.texture" ]
+		"char.png": [ "Texture", "R/T/E/Player.file" ]
 	}
 }

@@ -13,21 +13,21 @@
 				"13": ["Texture", "R/T/B/Lamp.png"]
 			},
 			"4": {
-				"12": ["Texture", "R/T/B/Leaves_Jungle.texture"],
-				"13": ["Texture", "R/T/B/Lamp_On.png"]
+				"12": ["Texture", "R/T/B/Leaves_Jungle.file"],
+				"13": ["Animation", ["Texture", "R/T/B/Lamp_On.png"], false]
 			},
 			"5": {
-				"12": ["Texture", "R/T/B/Leaves_Jungle_Solid.texture"],
-				"13": ["Texture", "R/T/B/Bricks_Stone_Chiseled.png"],
-				"14": ["Texture", "R/T/B/Stone_Sand_Chiseled.png"]
+				"12": ["Texture", "R/T/B/Leaves_Jungle_Solid.file"],
+				"13": ["Texture", "R/T/B/Stone_Bricks_Chiseled.png"],
+				"14": ["Texture", "R/T/B/Sand_Stone_Chiseled.png"]
 			},
 			"6": {
-				"12": ["Texture", "R/T/B/Wood_Spruce.png"],
-				"13": ["Texture", "R/T/B/Wood_Birch.png"],
-				"14": ["Texture", "R/T/B/Stone_Sand_Smooth_Side.png"]
+				"12": ["Texture", "R/T/B/Planks_Spruce.png"],
+				"13": ["Texture", "R/T/B/Planks_Birch.png"],
+				"14": ["Texture", "R/T/B/Sand_Stone_Smooth_Side.png"]
 			},
 			"7": {
-				"12": ["Texture", "R/T/B/Wood_Jungle.png"]
+				"12": ["Texture", "R/T/B/Planks_Jungle.png"]
 			},
 			"9": {
 				"9": ["Texture", "R/T/B/Tree_Jungle.png"]

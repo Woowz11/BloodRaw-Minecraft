@@ -21,7 +21,7 @@
 				"0": ["Texture", "R/T/U/Realms_Bulb_Red.png"]
 			}
 		}],
-		"gui/hopper.png": ["Texture", "R/T/U/Hopper.texture"],
+		"gui/hopper.png": ["Texture", "R/T/U/Hopper.file"],
 		
 		"item/chests/trap_small.png": ["Texture", "R/T/E/Chest_Trap.png"],
 		"item/chests/trap_large.png": ["Texture", "R/T/E/Chest_Trap_Double.png"],
@@ -92,7 +92,7 @@
 			"blockGold.png"     : ["Texture", "R/T/B/Gold.png"],
 			"blockIron.png"     : ["Texture", "R/T/B/Iron.png"],
 			"blockLapis.png"    : ["Texture", "R/T/B/Lapis.png"],
-			"blockRedstone.png" : ["Animation", ["Texture", "R/T/B/Redstone.png"], {"Smooth": true, "Speed": 5}],
+			"blockRedstone.png" : ["Animation", ["Texture", "R/T/B/Redstone.png"], "Redstone"],
 			
 			"bookshelf.png" : ["Texture", "R/T/B/Bookshelf.png"],
 			
@@ -113,7 +113,7 @@
 			"carrots_0.png"    : ["Texture", "R/T/B/Carrot_0.png"],
 			"carrots_1.png"    : ["Texture", "R/T/B/Carrot_1.png"],
 			"carrots_2.png"    : ["Texture", "R/T/B/Carrot_2.png"],
-			"carrots_3.png"    : ["Texture", "R/T/B/Carrot.png"],
+			"carrots_3.png"    : ["Texture", "R/T/B/Carrot_3.png"],
 			
 			"cauldron_bottom.png": ["Texture", "R/T/B/Cauldron_Bottom.png"],
 			"cauldron_inner.png" : ["Texture", "R/T/B/Cauldron_Inner.png"],
@@ -122,26 +122,26 @@
 			
 			"clay.png"    : ["Texture", "R/T/B/Clay.png"],
 			
-			"cloth_0.png"    : ["Texture", "R/T/B/Wool_White.texture"],
-			"cloth_1.png"    : ["Texture", "R/T/B/Wool_Orange.texture"],
-			"cloth_2.png"    : ["Texture", "R/T/B/Wool_Magenta.texture"],
-			"cloth_3.png"    : ["Texture", "R/T/B/Wool_Aqua.texture"],
-			"cloth_4.png"    : ["Texture", "R/T/B/Wool_Yellow.texture"],
-			"cloth_5.png"    : ["Texture", "R/T/B/Wool_Lime.texture"],
-			"cloth_6.png"    : ["Texture", "R/T/B/Wool_Pink.texture"],
-			"cloth_7.png"    : ["Texture", "R/T/B/Wool_Gray.texture"],
-			"cloth_8.png"    : ["Texture", "R/T/B/Wool_Silver.texture"],
-			"cloth_9.png"    : ["Texture", "R/T/B/Wool_Cyan.texture"],
-			"cloth_10.png"   : ["Texture", "R/T/B/Wool_Purple.texture"],
-			"cloth_11.png"   : ["Texture", "R/T/B/Wool_Blue.texture"],
-			"cloth_12.png"   : ["Texture", "R/T/B/Wool_Brown.texture"],
-			"cloth_13.png"   : ["Texture", "R/T/B/Wool_Green.texture"],
-			"cloth_14.png"   : ["Texture", "R/T/B/Wool_Red.texture"],
-			"cloth_15.png"   : ["Texture", "R/T/B/Wool_Black.texture"],
+			"cloth_0.png"    : ["Texture", "R/T/B/Wool_White.file"],
+			"cloth_1.png"    : ["Texture", "R/T/B/Wool_Orange.file"],
+			"cloth_2.png"    : ["Texture", "R/T/B/Wool_Magenta.file"],
+			"cloth_3.png"    : ["Texture", "R/T/B/Wool_Aqua.file"],
+			"cloth_4.png"    : ["Texture", "R/T/B/Wool_Yellow.file"],
+			"cloth_5.png"    : ["Texture", "R/T/B/Wool_Lime.file"],
+			"cloth_6.png"    : ["Texture", "R/T/B/Wool_Pink.file"],
+			"cloth_7.png"    : ["Texture", "R/T/B/Wool_Gray.file"],
+			"cloth_8.png"    : ["Texture", "R/T/B/Wool_Silver.file"],
+			"cloth_9.png"    : ["Texture", "R/T/B/Wool_Cyan.file"],
+			"cloth_10.png"   : ["Texture", "R/T/B/Wool_Purple.file"],
+			"cloth_11.png"   : ["Texture", "R/T/B/Wool_Blue.file"],
+			"cloth_12.png"   : ["Texture", "R/T/B/Wool_Brown.file"],
+			"cloth_13.png"   : ["Texture", "R/T/B/Wool_Green.file"],
+			"cloth_14.png"   : ["Texture", "R/T/B/Wool_Red.file"],
+			"cloth_15.png"   : ["Texture", "R/T/B/Wool_Black.file"],
 			
 			"cocoa_0.png"    : ["Texture", "R/T/B/Cocoa_0.png"],
 			"cocoa_1.png"    : ["Texture", "R/T/B/Cocoa_1.png"],
-			"cocoa_2.png"    : ["Texture", "R/T/B/Cocoa.png"],
+			"cocoa_2.png"    : ["Texture", "R/T/B/Cocoa_2.png"],
 			
 			"commandBlock.png": ["Animation", ["Texture", "R/T/B/Creative_Command.png"], "Command"],
 			
@@ -155,7 +155,7 @@
 			"crops_4.png": ["Texture", "R/T/B/Wheat_4.png"],
 			"crops_5.png": ["Texture", "R/T/B/Wheat_5.png"],
 			"crops_6.png": ["Texture", "R/T/B/Wheat_6.png"],
-			"crops_7.png": ["Texture", "R/T/B/Wheat.png"],
+			"crops_7.png": ["Texture", "R/T/B/Wheat_7.png"],
 			
 			"daylightDetector_side.png": ["Texture", "R/T/B/Detector_Light.png"],
 			"daylightDetector_top.png" : ["Texture", "R/T/B/Detector_Light_Day.png"],
@@ -207,8 +207,8 @@
 			
 			"fern.png": ["Texture", "R/T/B/Grass_Fern.png"],
 			
-			"fire_0.png": ["Animation", ["Texture", "R/T/B/Fire.texture"], "Fire"],
-			"fire_1.png": ["Animation", ["Texture", "R/T/B/Fire_2.texture"], "Fire"],
+			"fire_0.png": ["Animation", ["Texture", "R/T/B/Fire.file"], "Fire"],
+			"fire_1.png": ["Animation", ["Texture", "R/T/B/Fire_2.file"], "Fire"],
 			
 			"flower.png": ["Texture", "R/T/B/Flower_Yellow.png"],
 			
@@ -219,13 +219,13 @@
 			"furnace_side.png"     : ["Texture", "R/T/B/Mechanism.png"],
 			"furnace_top.png"      : ["Texture", "R/T/B/Mechanism_Top.png"],
 			
-			"glass.png": ["Texture", "R/T/B/Glass.texture"],
+			"glass.png": ["Texture", "R/T/B/Glass.file"],
 			
 			"goldenRail.png"        : ["Texture", "R/T/B/Rail_Accelerator.png"],
 			"goldenRail_powered.png": ["Texture", "R/T/B/Rail_Accelerator_On.png"],
 			
-			"grass_side.png"        : ["Texture", "R/T/B/Dirt_Grass_Side.texture"],
-			"grass_side_overlay.png": ["Texture", "R/T/B/Dirt_Grass_Side_Overlay.png"],
+			"grass_side.png"        : ["Texture", "R/T/B/Grass_Dirt.file"],
+			"grass_side_overlay.png": ["Texture", "R/T/B/Grass_Dirt_Overlay.png"],
 			"grass_top.png"         : ["Texture", "R/T/B/Grass.png"],
 			
 			"gravel.png": ["Texture", "R/T/B/Gravel.png"],
@@ -248,12 +248,12 @@
 			"lava.png"     : ["Animation", ["Texture", "R/T/B/Lava.png"], "Lava"],
 			"lava_flow.png": ["Animation", ["Texture", "R/T/B/Lava_Flow.png"], "Lava_Flow"],
 			
-			"leaves.png"              : ["Texture", "R/T/B/Leaves.texture"],
-			"leaves_jungle.png"       : ["Texture", "R/T/B/Leaves_Jungle.texture"],
-			"leaves_jungle_opaque.png": ["Texture", "R/T/B/Leaves_Jungle_Solid.texture"],
-			"leaves_opaque.png"       : ["Texture", "R/T/B/Leaves_Solid.texture"],
-			"leaves_spruce.png"       : ["Texture", "R/T/B/Leaves_Spruce.texture"],
-			"leaves_spruce_opaque.png": ["Texture", "R/T/B/Leaves_Spruce_Solid.texture"],
+			"leaves.png"              : ["Texture", "R/T/B/Leaves.file"],
+			"leaves_jungle.png"       : ["Texture", "R/T/B/Leaves_Jungle.file"],
+			"leaves_jungle_opaque.png": ["Texture", "R/T/B/Leaves_Jungle_Solid.file"],
+			"leaves_opaque.png"       : ["Texture", "R/T/B/Leaves_Solid.file"],
+			"leaves_spruce.png"       : ["Texture", "R/T/B/Leaves_Spruce.file"],
+			"leaves_spruce_opaque.png": ["Texture", "R/T/B/Leaves_Spruce_Solid.file"],
 			
 			"lever.png": ["Texture", "R/T/B/Lever.png"],
 			
@@ -274,15 +274,15 @@
 			"musicBlock.png": ["Texture", "R/T/B/Note.png"],
 			
 			"mycel_top.png" : ["Texture", "R/T/B/Mycelium.png"],
-			"mycel_side.png": ["Texture", "R/T/B/Dirt_Mycelium_Side.png"],
+			"mycel_side.png": ["Texture", "R/T/B/Mycelium_Dirt.png"],
 			
-			"netherBrick.png": ["Texture", "R/T/B/Bricks_Nether.png"],
+			"netherBrick.png": ["Texture", "R/T/B/Nether_Bricks.png"],
 			
 			"netherquartz.png": ["Texture", "R/T/B/Quartz_Ore_Nether.png"],
 			
 			"netherStalk_0.png": ["Texture", "R/T/B/Wart_0.png"],
 			"netherStalk_1.png": ["Texture", "R/T/B/Wart_1.png"],
-			"netherStalk_2.png": ["Texture", "R/T/B/Wart.png"],
+			"netherStalk_2.png": ["Texture", "R/T/B/Wart_2.png"],
 			
 			"obsidian.png": ["Texture", "R/T/B/Obsidian.png"],
 			
@@ -305,7 +305,7 @@
 			"potatoes_0.png": ["Texture", "R/T/B/Potato_0.png"],
 			"potatoes_1.png": ["Texture", "R/T/B/Potato_1.png"],
 			"potatoes_2.png": ["Texture", "R/T/B/Potato_2.png"],
-			"potatoes_3.png": ["Texture", "R/T/B/Potato.png"],
+			"potatoes_3.png": ["Texture", "R/T/B/Potato_3.png"],
 			
 			"pumpkin_face.png": ["Texture", "R/T/B/Pumpkin_Face.png"],
 			"pumpkin_jack.png": ["Animation", ["Texture", "R/T/B/Pumpkin_Face_On.png"], {"Smooth": true, "Speed": 6}],
@@ -329,10 +329,10 @@
 			"redstoneDust_line_overlay.png" : ["Texture", "R/T/B/Redstone_Line_Overlay.png"],
 			
 			"redstoneLight.png"    : ["Texture", "R/T/B/Lamp.png"],
-			"redstoneLight_lit.png": ["Texture", "R/T/B/Lamp_On.png"],
+			"redstoneLight_lit.png": ["Animation", ["Texture", "R/T/B/Lamp_On.png"], {"Smooth": true}],
 			
 			"redtorch.png"    : ["Texture", "R/T/B/Torch_Redstone_Off.png"],
-			"redtorch_lit.png": ["Texture", "R/T/B/Torch_Redstone.png"],
+			"redtorch_lit.png": ["Animation", ["Texture", "R/T/B/Torch_Redstone.png"], "Redstone"],
 			
 			"reeds.png": ["Texture", "R/T/B/Sugarcane.png"],
 			
@@ -342,11 +342,11 @@
 			"rose.png": ["Texture", "R/T/B/Flower.png"],
 			
 			"sand.png"            : ["Texture", "R/T/B/Sand.png"],
-			"sandstone_bottom.png": ["Texture", "R/T/B/Stone_Sand.png"],
-			"sandstone_carved.png": ["Texture", "R/T/B/Stone_Sand_Chiseled.png"],
-			"sandstone_side.png"  : ["Texture", "R/T/B/Stone_Sand.png"],
-			"sandstone_smooth.png": ["Texture", "R/T/B/Stone_Sand_Smooth_Side.png"],
-			"sandstone_top.png"   : ["Texture", "R/T/B/Stone_Sand_Smooth.png"],
+			"sandstone_bottom.png": ["Texture", "R/T/B/Sand_Stone.png"],
+			"sandstone_carved.png": ["Texture", "R/T/B/Sand_Stone_Chiseled.png"],
+			"sandstone_side.png"  : ["Texture", "R/T/B/Sand_Stone.png"],
+			"sandstone_smooth.png": ["Texture", "R/T/B/Sand_Stone_Smooth_Side.png"],
+			"sandstone_top.png"   : ["Texture", "R/T/B/Sand_Stone_Smooth.png"],
 			
 			"sapling.png"       : ["Texture", "R/T/B/Sapling.png"],
 			"sapling_birch.png" : ["Texture", "R/T/B/Sapling_Birch.png"],
@@ -354,20 +354,20 @@
 			"sapling_spruce.png": ["Texture", "R/T/B/Sapling_Spruce.png"],
 			
 			"snow.png"     : ["Texture", "R/T/B/Snow.png"],
-			"snow_side.png": ["Texture", "R/T/B/Dirt_Snow_Side.png"],
+			"snow_side.png": ["Texture", "R/T/B/Snow_Dirt.png"],
 			
 			"sponge.png": ["Texture", "R/T/B/Sponge.png"],
 			
-			"stem_bent.png"    : ["Texture", "R/T/B/Stem_Corner.png"],
+			"stem_bent.png"    : ["Texture", "R/T/B/Stem_Connect.png"],
 			"stem_straight.png": ["Texture", "R/T/B/Stem.png"],
 			
 			"stone.png"                   : ["Texture", "R/T/B/Stone.png"],
-			"stonebrick.png"              : ["Texture", "R/T/B/Cobblestone.png"],
-			"stonebricksmooth.png"        : ["Texture", "R/T/B/Bricks_Stone.png"],
-			"stonebricksmooth_carved.png" : ["Texture", "R/T/B/Bricks_Stone_Chiseled.png"],
-			"stonebricksmooth_cracked.png": ["Texture", "R/T/B/Bricks_Stone_Crack.png"],
-			"stonebricksmooth_mossy.png"  : ["Texture", "R/T/B/Bricks_Stone_Moss.png"],
-			"stoneMoss.png"               : ["Texture", "R/T/B/Cobblestone_Moss.png"],
+			"stonebrick.png"              : ["Texture", "R/T/B/Stone_Cobblestone.png"],
+			"stonebricksmooth.png"        : ["Texture", "R/T/B/Stone_Bricks.png"],
+			"stonebricksmooth_carved.png" : ["Texture", "R/T/B/Stone_Bricks_Chiseled.png"],
+			"stonebricksmooth_cracked.png": ["Texture", "R/T/B/Stone_Bricks_Crack.png"],
+			"stonebricksmooth_mossy.png"  : ["Texture", "R/T/B/Stone_Bricks_Moss.png"],
+			"stoneMoss.png"               : ["Texture", "R/T/B/Stone_Cobblestone_Moss.png"],
 			"stoneslab_side.png"          : ["Texture", "R/T/B/Stone_Slab_Side.png"],
 			"stoneslab_top.png"           : ["Texture", "R/T/B/Stone_Slab.png"],
 			
@@ -379,7 +379,7 @@
 			"tnt_side.png"  : ["Texture", "R/T/B/TNT.png"],
 			"tnt_top.png"   : ["Texture", "R/T/B/TNT_Top.png"],
 			
-			"torch.png": ["Animation", ["Texture", "R/T/B/Torch.texture"], "Fire"],
+			"torch.png": ["Animation", ["Texture", "R/T/B/Torch.file"], "Fire"],
 			
 			"trapdoor.png": ["Texture", "R/T/B/Trapdoor.png"],
 			
@@ -389,13 +389,13 @@
 			"tree_spruce.png": ["Texture", "R/T/B/Tree_Spruce.png"],
 			"tree_top.png"   : ["Texture", "R/T/B/Tree_Top.png"],
 			
-			"tripWire.png"      : ["Texture", "R/T/B/String.texture"],
+			"tripWire.png"      : ["Texture", "R/T/B/String.file"],
 			"tripWireSource.png": ["Texture", "R/T/B/Trap.png"],
 			
 			"vine.png": ["Texture", "R/T/B/Vines.png"],
 			
-			"water.png"     : ["Animation", ["Texture", "R/T/B/Water.texture"], "Water"],
-			"water_flow.png": ["Animation", ["Texture", "R/T/B/Water_Flow.texture"], "Water_Flow"],
+			"water.png"     : ["Animation", ["Texture", "R/T/B/Water.file"], "Water"],
+			"water_flow.png": ["Animation", ["Texture", "R/T/B/Water_Flow.file"], "Water_Flow"],
 			
 			"waterlily.png": ["Texture", "R/T/B/Lily.png"],
 			
@@ -403,10 +403,10 @@
 			
 			"whiteStone.png" : ["Texture", "R/T/B/End.png"],
 			
-			"wood.png"       : ["Texture", "R/T/B/Wood.png"],
-			"wood_birch.png" : ["Texture", "R/T/B/Wood_Birch.png"],
-			"wood_jungle.png": ["Texture", "R/T/B/Wood_Jungle.png"],
-			"wood_spruce.png": ["Texture", "R/T/B/Wood_Spruce.png"],
+			"wood.png"       : ["Texture", "R/T/B/Planks.png"],
+			"wood_birch.png" : ["Texture", "R/T/B/Planks_Birch.png"],
+			"wood_jungle.png": ["Texture", "R/T/B/Planks_Jungle.png"],
+			"wood_spruce.png": ["Texture", "R/T/B/Planks_Spruce.png"],
 			
 			"workbench_front.png": ["Texture", "R/T/B/Workbench_Side_2.png"],
 			"workbench_side.png" : ["Texture", "R/T/B/Workbench_Side.png"],
@@ -660,11 +660,11 @@
 			"record_wait.png"   : ["Texture", "R/T/I/Record_Wait.png"],
 			"record_ward.png"   : ["Texture", "R/T/I/Record_Ward.png"],
 			
-			"redstone.png": ["Texture", "R/T/I/Redstone.png"],
+			"redstone.png": ["Animation", ["Texture", "R/T/I/Redstone.png"], "Redstone"],
 			
 			"reeds.png": ["Texture", "R/T/I/Sugarcane.png"],
 			
-			"rottenFlesh.png": ["Animation", ["Texture", "R/T/I/Meat_Rotten.png"], {"Frames": [ 1,1,2,2,1,1,2,2,2,1,1,2,2,2,1,1,1,2,2,3,3,4,4,4,3,3,3,3,4,4,4,4,3,3,4,4,3,3,3,4,4,3,3,4,4,4,3,3,3,3,4,4,1,1,1,2,2,1,1,1,2,2,2,2,1,1,1,1,2,2,2,3,3,4,4,4,3,3,4,4,4,3,3,4,4 ]}],
+			"rottenFlesh.png": ["Animation", ["Texture", "R/T/I/Meat_Rotten.png"], {"Frames": [ 1,2,1,2,1,2,1,2,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,3,4,3,4,3,4,3,4,3,4,3,4,2,1,2,1,2,1,2,1,2,1,3,4,3,4,3,4,3,4 ]}],
 			
 			"ruby.png": ["Texture", "R/T/I/Ruby.png"],
 			

@@ -14,12 +14,12 @@
 					"sponge_wet.png": ["Texture", "R/T/B/Sponge_Wet.png"],
 					"slime.png"     : ["Texture", "R/T/B/Slime.png"],
 					
-					"stone_andesite.png"       : ["Texture", "R/T/B/Stone_Andesite.png"],
-					"stone_andesite_smooth.png": ["Texture", "R/T/B/Stone_Andesite_Smooth.png"],
-					"stone_diorite.png"        : ["Texture", "R/T/B/Stone_Diorite.png"],
-					"stone_diorite_smooth.png" : ["Texture", "R/T/B/Stone_Diorite_Smooth.png"],
-					"stone_granite.png"        : ["Texture", "R/T/B/Stone_Granite.png"],
-					"stone_granite_smooth.png" : ["Texture", "R/T/B/Stone_Granite_Smooth.png"],
+					"stone_andesite.png"       : ["Texture", "R/T/B/Andesite.png"],
+					"stone_andesite_smooth.png": ["Texture", "R/T/B/Andesite_Smooth.png"],
+					"stone_diorite.png"        : ["Texture", "R/T/B/Diorite.png"],
+					"stone_diorite_smooth.png" : ["Texture", "R/T/B/Diorite_Smooth.png"],
+					"stone_granite.png"        : ["Texture", "R/T/B/Granite.png"],
+					"stone_granite_smooth.png" : ["Texture", "R/T/B/Granite_Smooth.png"],
 					
 					"door_acacia_upper.png"  : ["Texture", "R/T/B/Door_Acacia.png", [["Crop", 0, 0, 16, 16]]],
 					"door_acacia_lower.png"  : ["Texture", "R/T/B/Door_Acacia.png", [["Crop", 0, 16, 16, 16]]],
@@ -34,7 +34,7 @@
 					
 					"coarse_dirt.png"     : ["Texture", "R/T/B/Dirt_Rocks.png"],
 					"dirt_podzol_top.png" : ["Texture", "R/T/B/Podzol.png"],
-					"dirt_podzol_side.png": ["Texture", "R/T/B/Dirt_Podzol_Side.png"],
+					"dirt_podzol_side.png": ["Texture", "R/T/B/Podzol_Dirt.png"],
 					
 					"daylight_detector_inverted_top.png": ["Texture", "R/T/B/Detector_Light_Night.png"],
 					
@@ -52,11 +52,11 @@
 					"prismarine_rough.png" : ["Texture", "R/T/B/Prismarine.png"],
 					"sea_lantern.png"      : ["Animation", ["Texture", "R/T/B/Prismarine_Lamp.png"], "Prismarine"],
 					
-					"red_sandstone_bottom.png": ["Texture", "R/T/B/Stone_Sand_Red.png"],
-					"red_sandstone_carved.png": ["Texture", "R/T/B/Stone_Sand_Red_Chiseled.png"],
-					"red_sandstone_normal.png": ["Texture", "R/T/B/Stone_Sand_Red.png"],
-					"red_sandstone_smooth.png": ["Texture", "R/T/B/Stone_Sand_Red_Smooth_Side.png"],
-					"red_sandstone_top.png"   : ["Texture", "R/T/B/Stone_Sand_Red_Smooth.png"],
+					"red_sandstone_bottom.png": ["Texture", "R/T/B/Sand_Red_Stone.png"],
+					"red_sandstone_carved.png": ["Texture", "R/T/B/Sand_Red_Stone_Chiseled.png"],
+					"red_sandstone_normal.png": ["Texture", "R/T/B/Sand_Red_Stone.png"],
+					"red_sandstone_smooth.png": ["Texture", "R/T/B/Sand_Red_Stone_Smooth_Side.png"],
+					"red_sandstone_top.png"   : ["Texture", "R/T/B/Sand_Red_Stone_Smooth.png"],
 				},
 				
 				"entity/": {
@@ -154,7 +154,7 @@
 						"water.png"  : ["Texture", "R/T/O/Screenshots/Water.png"],
 					},
 					
-					"title/minecraft.png": ["Texture", "R/T/U/Logo.texture"]
+					"title/minecraft.png": ["Texture", "R/T/U/Logo.file"]
 				},
 				
 				"items/": {

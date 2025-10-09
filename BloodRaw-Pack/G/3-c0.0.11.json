@@ -11,11 +11,11 @@
 		"terrain.png": [ "Atlas", {
 				"15" : {
 					"0" : ["Texture", "R/T/B/Sapling.png"],
-					"1" : ["Texture", "R/T/B/Grass.texture"]
+					"1" : ["Texture", "R/T/B/Grass.file"]
 				}
 			}
 		],
 		
-		"default.gif": [ "Texture", "R/T/U/Font_ASCII.texture" ]
+		"default.gif": [ "Texture", "R/T/U/Font_ASCII.file" ]
 	}
 }

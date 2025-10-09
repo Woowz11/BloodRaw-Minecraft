@@ -10,15 +10,15 @@
 	"Files": {
 		"terrain.png": [ "Atlas", {
 				"4" : {
-					"6" : ["Texture", "R/T/B/Bricks_Stone_Moss.png"],
+					"6" : ["Texture", "R/T/B/Stone_Bricks_Moss.png"],
 					"9" : ["Texture", "R/T/B/Glass_Side.png"]
 				},
 				"5" : {
 					"5" : ["Texture", "R/T/B/Bars.png"],
-					"6" : ["Texture", "R/T/B/Bricks_Stone_Crack.png"]
+					"6" : ["Texture", "R/T/B/Stone_Bricks_Crack.png"]
 				},
 				"6" : {
-					"3" : ["Texture", "R/T/B/Bricks_Stone.png"]
+					"3" : ["Texture", "R/T/B/Stone_Bricks.png"]
 				},
 				"8" : {
 					"8" : ["Texture", "R/T/B/Watermelon.png"]
@@ -36,7 +36,7 @@
 				},
 				"15" : {
 					"6" : ["Texture", "R/T/B/Stem.png"],
-					"7" : ["Texture", "R/T/B/Stem_Corner.png"],
+					"7" : ["Texture", "R/T/B/Stem_Connect.png"],
 					"8" : ["Texture", "R/T/B/Vines.png"]
 				}
 			}
@@ -47,15 +47,15 @@
 				}
 			}
 		],
-		"title/bg/panorama0.png": ["Texture", "R/T/O/Panorama_Menu_0.texture"],
-		"title/bg/panorama1.png": ["Texture", "R/T/O/Panorama_Menu_1.texture"],
-		"title/bg/panorama2.png": ["Texture", "R/T/O/Panorama_Menu_2.texture"],
-		"title/bg/panorama3.png": ["Texture", "R/T/O/Panorama_Menu_3.texture"],
-		"title/bg/panorama4.png": ["Texture", "R/T/O/Panorama_Menu_4.texture"],
-		"title/bg/panorama5.png": ["Texture", "R/T/O/Panorama_Menu_5.texture"],
+		"title/bg/panorama0.png": ["Texture", "R/T/O/Panorama_Menu_0.file"],
+		"title/bg/panorama1.png": ["Texture", "R/T/O/Panorama_Menu_1.file"],
+		"title/bg/panorama2.png": ["Texture", "R/T/O/Panorama_Menu_2.file"],
+		"title/bg/panorama3.png": ["Texture", "R/T/O/Panorama_Menu_3.file"],
+		"title/bg/panorama4.png": ["Texture", "R/T/O/Panorama_Menu_4.file"],
+		"title/bg/panorama5.png": ["Texture", "R/T/O/Panorama_Menu_5.file"],
 		
-		"mob/cavespider.png"   : ["Texture", "R/T/E/Spider_Poison.texture"],
-		"mob/enderman.png"     : ["Texture", "R/T/E/Enderman.texture"],
+		"mob/cavespider.png"   : ["Texture", "R/T/E/Spider_Poison.file"],
+		"mob/enderman.png"     : ["Texture", "R/T/E/Enderman.file"],
 		"mob/enderman_eyes.png": ["Texture", "R/T/E/Enderman_Eyes.png"],
 		
 		"misc/explosion.png"    : ["Texture", "R/T/P/Explosion.png"],

@@ -1,1 +1,0 @@
-["Texture", "R/T/B/Dirt_Grass_Side.png", [["Put", ["Texture", "R/T/B/Dirt_Grass_Side_Overlay.png", [["Multiply", "Grass"]]]]]]

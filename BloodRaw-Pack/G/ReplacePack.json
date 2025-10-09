@@ -4,6 +4,6 @@
 	"Name": "ReplacePack",
 	
 	"Files": {
-		"HowInstall.txt": ["Create", "Что-бы установить пак, нужно заменить файлы внутри .jar версии Minecraft <MinecraftVersion>!"]
+		"HowInstall.txt": ["Create", "Что-бы установить пак, нужно заменить файлы внутри .jar версии Minecraft <D_Version>!"]
 	}
 }

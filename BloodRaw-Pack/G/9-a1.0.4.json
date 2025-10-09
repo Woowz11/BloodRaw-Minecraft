@@ -12,7 +12,7 @@
 		
 		"terrain.png": [ "Atlas", {
 				"0" : {
-					"4" : ["Texture", "R/T/B/Wool_White.texture"],
+					"4" : ["Texture", "R/T/B/Wool_White.file"],
 					"6" : ["Texture", "R/T/B/Lever.png"]
 				},
 				"1" : {
@@ -26,18 +26,18 @@
 				"3" : {
 					"3" : ["Texture", "R/T/B/Redstone_Ore.png"],
 					"4" : ["Texture", "R/T/B/Ice.png"],
-					"6" : ["Texture", "R/T/B/Torch_Redstone.png"],
+					"6" : ["Animation", ["Texture", "R/T/B/Torch_Redstone.png"], false],
 					"7" : ["Texture", "R/T/B/Torch_Redstone_Off.png"]
 				},
 				"4" : {
-					"4" : ["Texture", "R/T/B/Dirt_Snow_Side.png"],
-					"5" : ["Texture", "R/T/B/Redstone_Cross.texture"],
-					"6" : ["Texture", "R/T/B/Redstone_Cross_On.texture"]
+					"4" : ["Texture", "R/T/B/Snow_Dirt.png"],
+					"5" : ["Texture", "R/T/B/Redstone_Cross.file"],
+					"6" : ["Texture", "R/T/B/Redstone_Cross_On.file"]
 				},
 				"5" : {
 					"4" : null,
-					"5" : ["Texture", "R/T/B/Redstone_Line.texture"],
-					"6" : ["Texture", "R/T/B/Redstone_Line_On.texture"]
+					"5" : ["Texture", "R/T/B/Redstone_Line.file"],
+					"6" : ["Texture", "R/T/B/Redstone_Line_On.file"]
 				},
 				"6" : {
 					"4" : null
@@ -74,7 +74,7 @@
 		
 		"gui/items.png": [ "Atlas", {
 				"8" : {
-					"3" : ["Texture", "R/T/I/Redstone.png"],
+					"3" : ["Animation", ["Texture", "R/T/I/Redstone.png"], false],
 					"6" : ["Texture", "R/T/I/Saddle.png"]
 				},
 				"12" : {
@@ -83,7 +83,7 @@
 			}
 		],
 		
-		"misc/vignette.png": ["Texture", "R/T/O/Vignette.texture"],
+		"misc/vignette.png": ["Texture", "R/T/O/Vignette.file"],
 		"mob/saddle.png"   : ["Texture", "R/T/E/Pig_Saddle.png"],
 		
 		"title/mojang.png": ["Texture", "R/T/U/Loading.png"]

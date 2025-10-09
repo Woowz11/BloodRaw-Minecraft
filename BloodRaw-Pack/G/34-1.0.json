@@ -10,7 +10,7 @@
 	"Files": {
 		"terrain.png": [ "Atlas", {
 				"0" : {
-					"14" : ["Texture", "R/T/B/Bricks_Nether.png"]
+					"14" : ["Texture", "R/T/B/Nether_Bricks.png"]
 				},
 				"2" : {
 					"14" : ["Texture", "R/T/B/Wart_0.png"]
@@ -19,7 +19,7 @@
 					"14" : ["Texture", "R/T/B/Wart_1.png"]
 				},
 				"4" : {
-					"14" : ["Texture", "R/T/B/Wart.png"]
+					"14" : ["Texture", "R/T/B/Wart_2.png"]
 				},
 				"6" : {
 					"10" : ["Animation", ["Texture", "R/T/B/Enchanting.png"], false],
@@ -42,7 +42,7 @@
 					"9" : ["Texture", "R/T/B/Brewing_Bottom.png"]
 				},
 				"13" : {
-					"4" : ["Texture", "R/T/B/Dirt_Mycelium_Side.png"],
+					"4" : ["Texture", "R/T/B/Mycelium_Dirt.png"],
 					"9" : ["Texture", "R/T/B/Brewing.png"]
 				},
 				"14" : {
@@ -85,7 +85,7 @@
 		"mob/villager/priest.png"   : ["Texture", "R/T/E/Villager_Old_Priest.png"],
 		"mob/villager/smith.png"    : ["Texture", "R/T/E/Villager_Old_Smith.png"],
 		
-		"mob/enderdragon/ender.png"     : ["Texture", "R/T/E/Dragon_End.texture"],
+		"mob/enderdragon/ender.png"     : ["Texture", "R/T/E/Dragon_End.file"],
 		"mob/enderdragon/ender_eyes.png": ["Texture", "R/T/E/Dragon_End_Eyes.png"],
 		"mob/enderdragon/shuffle.png"   : ["Texture", "R/T/E/Dragon_End_Explosion.png"],
 		"mob/enderdragon/crystal.png"   : ["Texture", "R/T/E/Crystal_End.png"],
@@ -96,12 +96,12 @@
 		
 		"item/book.png": ["Texture", "R/T/P/Book.png"],
 		
-		"font/alternate.png": ["Texture", "R/T/U/Font_Enchant.texture"],
+		"font/alternate.png": ["Texture", "R/T/U/Font_Enchant.file"],
 		
 		"environment/light_normal.png": ["Texture", "R/T/O/Light.png"],
 		
-		"gui/alchemy.png": ["Texture", "R/T/U/Brewing.texture"],
-		"gui/enchant.png": ["Texture", "R/T/U/Enchant.texture"],
+		"gui/alchemy.png": ["Texture", "R/T/U/Brewing.file"],
+		"gui/enchant.png": ["Texture", "R/T/U/Enchant.file"],
 		
 		"gui/icons.png": [ "Atlas", {
 				"0": {
@@ -121,25 +121,25 @@
 					"45": ["Texture", "R/T/U/Health_Empty.png"]
 				},
 				"53": {
-					"45": ["Texture", "R/T/U/Health_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Hardcore.file"]
 				},
 				"61": {
 					"45": ["Texture", "R/T/U/Health_Half.png"]
 				},
 				"70": {
-					"45": ["Texture", "R/T/U/Health_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Hardcore.file"]
 				},
 				"79": {
 					"45": ["Texture", "R/T/U/Health_Half.png"]
 				},
 				"88": {
-					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.file"]
 				},
 				"97": {
 					"45": ["Texture", "R/T/U/Health_Poison_Half.png"]
 				},
 				"106": {
-					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.texture"]
+					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.file"]
 				},
 				"115": {
 					"45": ["Texture", "R/T/U/Health_Poison_Half.png"]
@@ -149,7 +149,7 @@
 		"gui/inventory.png": ["Atlas", {
 			"Size": [256, 256],
 			"0": {
-				"0"  : ["Texture", "R/T/U/Inventory_Old.texture"],
+				"0"  : ["Texture", "R/T/U/Inventory_Old.file"],
 				"166": ["Texture", "R/T/U/Inventory_Potion.png"],
 				
 				"198": ["Texture", "R/T/U/Effect_Speed+.png"],

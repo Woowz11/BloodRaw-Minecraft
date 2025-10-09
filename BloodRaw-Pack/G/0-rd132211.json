@@ -13,7 +13,7 @@
 				"Size" : [16, 16],
 				"Scale": [16, 16],
 				"0" : {
-					"0" : ["Texture", "R/T/B/Grass.texture"]
+					"0" : ["Texture", "R/T/B/Grass.file"]
 				},
 				"1" : {
 					"0" : ["Texture", "R/T/B/Stone.png"]

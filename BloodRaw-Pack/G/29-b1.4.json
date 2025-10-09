@@ -30,8 +30,8 @@
 		],
 		"mob/wolf.png"      : ["Texture", "R/T/E/Wolf.png"],
 		"mob/wolf_angry.png": ["Texture", "R/T/E/Wolf_Angry.png"],
-		"mob/wolf_tame.png" : ["Texture", "R/T/E/Wolf_Pet.texture"],
+		"mob/wolf_tame.png" : ["Texture", "R/T/E/Wolf_Pet.file"],
 		
-		"title/mclogo.png": ["Texture", "R/T/U/Logo_Old.texture"]
+		"title/mclogo.png": ["Texture", "R/T/U/Logo_Old.file"]
 	}
 }

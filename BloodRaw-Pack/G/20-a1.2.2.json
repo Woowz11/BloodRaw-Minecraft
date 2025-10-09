@@ -27,14 +27,14 @@
 		"environment/rain.png"  : ["Texture", "R/T/O/Rain.png"],
 		"environment/snow.png"  : ["Texture", "R/T/O/Snow.png"],
 		
-		"font/default.png": ["Texture", "R/T/U/Font_ASCII.texture"],
+		"font/default.png": ["Texture", "R/T/U/Font_ASCII.file"],
 		
 		"gui/background.png"  : ["Texture", "R/T/U/Background.png"],
 		"gui/unknown_pack.png": ["Texture", "R/T/U/Unknown.png"],
 
-		"misc/water.png" : ["Texture", "R/T/B/Water_Single.texture"],
+		"misc/water.png" : ["Texture", "R/T/B/Water_Single.file"],
 		"misc/shadow.png": ["Texture", "R/T/P/Shadow.png"],
 		
-		"mob/char.png": ["Texture", "R/T/E/Player.texture"]
+		"mob/char.png": ["Texture", "R/T/E/Player.file"]
 	}
 }

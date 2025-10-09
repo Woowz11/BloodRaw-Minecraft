@@ -10,7 +10,7 @@
 	"Files": {
 		"terrain.png": ["Atlas", {
 			"8": {
-				"10": ["Texture", "R/T/B/Cocoa.png"]
+				"10": ["Texture", "R/T/B/Cocoa_2.png"]
 			},
 			"9": {
 				"1" : ["Texture", "R/T/B/Emerald.png"],
@@ -32,7 +32,7 @@
 				"10": ["Texture", "R/T/B/Trap.png"]
 			},
 			"13": {
-				"10": ["Texture", "R/T/B/String.texture"]
+				"10": ["Texture", "R/T/B/String.file"]
 			}
 		}],
 		
@@ -41,11 +41,11 @@
 		"gui/allitems.png": ["Texture", "R/T/U/Creative_Tabs.png"],
 		"gui/book.png"    : ["Texture", "R/T/U/Book.png"],
 		"gui/demo_bg.png" : ["Texture", "R/T/U/Demo.png"],
-		"gui/trading.png" : ["Texture", "R/T/U/Trade.texture"],
+		"gui/trading.png" : ["Texture", "R/T/U/Trade.file"],
 		
-		"gui/creative_inv/list_items.png"  : ["Texture", "R/T/U/Creative.texture"],
-		"gui/creative_inv/search.png"      : ["Texture", "R/T/U/Creative_Search.texture"],
-		"gui/creative_inv/survival_inv.png": ["Texture", "R/T/U/Creative_Inventory_Old.texture"],
+		"gui/creative_inv/list_items.png"  : ["Texture", "R/T/U/Creative.file"],
+		"gui/creative_inv/search.png"      : ["Texture", "R/T/U/Creative_Search.file"],
+		"gui/creative_inv/survival_inv.png": ["Texture", "R/T/U/Creative_Inventory_Old.file"],
 		
 		"gui/items.png": ["Atlas", {
 			"10": {

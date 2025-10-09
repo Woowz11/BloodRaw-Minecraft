@@ -8,51 +8,51 @@
 	"Add": ["ReplacePack.json"],
 	
 	"Files": {
-		"clouds.png" : ["Texture", "R/T/O/Clouds.texture"],
-		"default.png": ["Texture", "R/T/U/Font_ASCII.texture"],
+		"clouds.png" : ["Texture", "R/T/O/Clouds.file"],
+		"default.png": ["Texture", "R/T/U/Font_ASCII.file"],
 		
 		"terrain.png": [ "Atlas", {
 				"0" : {
 					"2" : ["Texture", "R/T/B/Gold_Ore.png"],
 					"3" : ["Texture", "R/T/B/Sponge.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#FE3939"]]],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#FE3939"]]],
 					"15" : ["Texture", "R/T/B/Destroy_0.png", [["Background", "#7F7F7F"]]]
 				},
 				"1" : {
 					"2" : ["Texture", "R/T/B/Iron_Ore.png"],
-					"3" : ["Texture", "R/T/B/Glass.texture"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#FE9B39"]]],
+					"3" : ["Texture", "R/T/B/Glass.file"],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#FE9B39"]]],
 					"15" : ["Texture", "R/T/B/Destroy_1.png", [["Background", "#7F7F7F"]]]
 				},
 				"2" : {
 					"1" : ["Texture", "R/T/B/Sand.png"],
 					"2" : ["Texture", "R/T/B/Coal_Ore.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#FEFE39"]]],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#FEFE39"]]],
 					"15" : ["Texture", "R/T/B/Destroy_2.png", [["Background", "#7F7F7F"]]]
 				},
 				"3" : {
 					"1" : ["Texture", "R/T/B/Gravel.png"],
 					"2" : ["Texture", "R/T/B/Bookshelf.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#9BFE39"]]],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#9BFE39"]]],
 					"15" : ["Texture", "R/T/B/Destroy_3.png", [["Background", "#7F7F7F"]]]
 				},
 				"4" : {
 					"1" : ["Texture", "R/T/B/Tree.png"],
-					"2" : ["Texture", "R/T/B/Cobblestone_Moss.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#39FE39"]]],
+					"2" : ["Texture", "R/T/B/Stone_Cobblestone_Moss.png"],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#39FE39"]]],
 					"15" : ["Texture", "R/T/B/Destroy_4.png", [["Background", "#7F7F7F"]]]
 				},
 				"5" : {
 					"0" : ["Texture", "R/T/B/Stone_Slab_Side.png"],
 					"1" : ["Texture", "R/T/B/Tree_Top.png"],
 					"2" : ["Texture", "R/T/B/Obsidian.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#39FE9B"]]],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#39FE9B"]]],
 					"15" : ["Texture", "R/T/B/Destroy_5.png", [["Background", "#7F7F7F"]]]
 				},
 				"6" : {
 					"0" : ["Texture", "R/T/B/Stone_Slab.png"],
-					"1" : ["Texture", "R/T/B/Leaves_Tint_Solid.texture"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#39FEFE"]]],
+					"1" : ["Texture", "R/T/B/Leaves_Tint_Solid.file"],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#39FEFE"]]],
 					"15" : ["Texture", "R/T/B/Destroy_6.png", [["Background", "#7F7F7F"]]]
 				},
 				"7" : {
@@ -60,7 +60,7 @@
 					"1" : ["Texture", "R/T/B/Iron.png"],
 					"2" : ["Texture", "R/T/B/Iron.png"],
 					"3" : ["Texture", "R/T/B/Iron.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#78BAFE"]]],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#78BAFE"]]],
 					"15" : ["Texture", "R/T/B/Destroy_7.png", [["Background", "#7F7F7F"]]]
 				},
 				"8" : {
@@ -68,37 +68,37 @@
 					"1" : ["Texture", "R/T/B/Gold.png"],
 					"2" : ["Texture", "R/T/B/Gold.png"],
 					"3" : ["Texture", "R/T/B/Gold.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#8A8AFE"]]],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#8A8AFE"]]],
 					"15" : ["Texture", "R/T/B/Destroy_8.png", [["Background", "#7F7F7F"]]]
 				},
 				"9" : {
 					"0" : ["Texture", "R/T/B/TNT_Top.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#9B39FE"]]],
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#9B39FE"]]],
 					"15" : ["Texture", "R/T/B/Destroy_9.png"  , [["Background", "#7F7F7F"]]]
 				},
 				"10" : {
 					"0" : ["Texture", "R/T/B/TNT_Bottom.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#C754FE"]]]
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#C754FE"]]]
 				},
 				"11" : {
 					"0" : ["Texture", "R/T/B/Web.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#FE39FE"]]]
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#FE39FE"]]]
 				},
 				"12" : {
 					"0" : ["Texture", "R/T/B/Flower.png"],
 					"1" : ["Texture", "R/T/B/Mushroom_Red.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#FE399B"]]]
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#FE399B"]]]
 				},
 				"13" : {
 					"0" : ["Texture", "R/T/B/Flower_Yellow.png"],
 					"1" : ["Texture", "R/T/B/Mushroom.png"],
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#5E5E5E"]]]
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#5E5E5E"]]]
 				},
 				"14" : {
-					"4" : ["Texture", "R/T/B/Wool_White.texture", [["Multiply", "#A6A6A6"]]]
+					"4" : ["Texture", "R/T/B/Wool_White.file", [["Multiply", "#A6A6A6"]]]
 				},
 				"15" : {
-					"4" : ["Texture", "R/T/B/Wool_White.texture"]
+					"4" : ["Texture", "R/T/B/Wool_White.file"]
 				}
 			}
 		],
@@ -108,14 +108,14 @@
 		"armor/chain.png": ["Texture", "R/T/E/Player_Armor_Chain.png", [["Crop", 0, 0, 64, 32]]],
 		
 		"item/sign.png"  : ["Texture", "R/T/E/Sign.png"],
-		"item/arrows.png": ["Texture", "R/T/E/Arrow.texture"],
+		"item/arrows.png": ["Texture", "R/T/E/Arrow.file"],
 		
 		"mob/creeper.png"  : ["Texture", "R/T/E/Creeper.png"],
 		"mob/pig.png"      : ["Texture", "R/T/E/Pig.png"],
 		"mob/sheep.png"    : ["Texture", "R/T/E/Sheep.png"],
-		"mob/sheep_fur.png": ["Texture", "R/T/E/Sheep_Fur.texture"],
+		"mob/sheep_fur.png": ["Texture", "R/T/E/Sheep_Fur.file"],
 		"mob/skeleton.png" : ["Texture", "R/T/E/Skeleton.png"],
-		"mob/spider.png"   : ["Texture", "R/T/E/Spider.texture"],
+		"mob/spider.png"   : ["Texture", "R/T/E/Spider.file"],
 		"mob/zombie.png"   : ["Texture", "R/T/E/Zombie.png", [["Crop", 64, 32]]],
 		
 		"particles.png": [ "Atlas", {
@@ -123,7 +123,7 @@
 				"Scale": [8 , 8 ],
 				"0" : {
 					"0" : ["Texture", "R/T/P/Cloud.png"],
-					"1" : ["Texture", "R/T/P/Splash.texture"]
+					"1" : ["Texture", "R/T/P/Splash.file"]
 				}
 			}
 		],
@@ -131,7 +131,7 @@
 		"gui/gui.png": [ "Atlas", {
 				"Size" : [256, 256],
 				"0" : {
-					"0" : ["Texture", "R/T/U/Hotbar.texture"],
+					"0" : ["Texture", "R/T/U/Hotbar.file"],
 					"22" : ["Texture", "R/T/U/Hotbar_Slot_Selected.png"],
 					"46" : ["Texture", "R/T/U/Button_Disabled.png"],
 					"66" : ["Texture", "R/T/U/Button.png"],

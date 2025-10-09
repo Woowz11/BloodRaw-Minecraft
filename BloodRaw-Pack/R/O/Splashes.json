@@ -1,7 +1,7 @@
 [
 	"The first splash in the pack!",
 	"RIP rock buttons",
-	"By Woowz11!",
+	"By <Author>!",
 	"Hello!",
 	"Should I have removed the vanilla splashes?",
 	"When's Blood Eye V?",
@@ -19,7 +19,7 @@
 	"Grandson of WVirus",
 	"BLOOD RAW",
 	"BLOOD EYE",
-	"<CurrentFile>",
+	"<D_CurrentFile>",
 	"PLAYERNAME",
 	"DON'T REMOVE THIS SPLASH, okay, it's a joke",
 	"Quit game",
@@ -53,7 +53,7 @@
 	"Relax horror",
 	"Also try WRF in Roblox!",
 	"Also try ExtraBackrooms in Roblox and Minecraft!",
-	"BloodRaw realms",
+	"<Name> realms",
 	"ExtraBackrooms",
 	"Woowzcore 2!!!",
 	"Это будет в woowzcore...",
@@ -61,6 +61,8 @@
 	"Bro, wtf",
 	"Now Generated!",
 	"Also try SurvivalTools!",
-	"Generated <Date>",
-	"SPECIAL FOR <MinecraftVersion>!"
+	"Generated <D_Date>",
+	"SPECIAL FOR <D_Version>!",
+	"Эти сплеши будут пересозданы...",
+	"<Name>"
 ]

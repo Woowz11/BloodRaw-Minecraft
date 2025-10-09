@@ -1,16 +1,20 @@
-{
-	"Version"    : "1.6.2",
-	
-	"Texts": {
-		"Author" : "Woowz11",
-		"License": "CC BY-NC-SA 4.0",
-		"GitHub" : "https://github.com/Woowz11",
-		"Discord": "woowz11"
+{	
+	"Text": {
+		"Version"  : "1.6.3",
+		"Name"     : "BloodRaw",
+		"Author"   : "Woowz11",
+		"License"  : "CC BY-NC-SA 4.0",
+		"GitHub"   : "https://github.com/Woowz11",
+		"Discord"  : "woowz11",
+		"Link"     : "https://woowz11.github.io/woowzsite/BloodRaw/Main",
+		"Generator": "https://woowz11.github.io/woowzsite/BloodRaw/Generator"
 	},
-	"Colors": {
+	
+	"Color": {
 		"Glass_Red": "red"
 	},
-	"Animations": {
+	
+	"Animation": {
 		"Prismarine" : {"Smooth": true, "Speed": 5, "Frames": [ 0,1,2,3,2,1 ]},
 		"Command"    : {"Frames": [ 0,3,0,3,0,3,0,3,0,3,0,3,0,3,1,2,1,2,1,2,1,2,1,2,1,2,1,2 ]},
 		"Eye_End"    : {"Smooth": true, "Speed": 8},
@@ -21,6 +25,9 @@
 		"Glowstone"  : {"Smooth": true, "Speed": 4},
 		"Water"      : {"Smooth": true, "Speed": 3},
 		"Water_Flow" : {"Smooth": true},
-		"End"        : {"Smooth": true}
-	}
+		"End"        : {"Smooth": true},
+		"Redstone"   : {"Smooth": true, "Speed": 5}
+	},
+	
+	"Out": "<Name> <Version>.zip"
 }

@@ -158,9 +158,9 @@
 					"beetroots_stage_0.png": ["Texture", "R/T/B/Beetroot_0.png"],
 					"beetroots_stage_1.png": ["Texture", "R/T/B/Beetroot_1.png"],
 					"beetroots_stage_2.png": ["Texture", "R/T/B/Beetroot_2.png"],
-					"beetroots_stage_3.png": ["Texture", "R/T/B/Beetroot.png"],
+					"beetroots_stage_3.png": ["Texture", "R/T/B/Beetroot_3.png"],
 					
-					"grass_path_side.png": ["Texture", "R/T/B/Dirt_Path_Side.png"],
+					"grass_path_side.png": ["Texture", "R/T/B/Path_Dirt.png"],
 					"grass_path_top.png" : ["Texture", "R/T/B/Path.png"],
 					
 					"frosted_ice_0.png": ["Texture", "R/T/B/Ice_Frost_0.png"],

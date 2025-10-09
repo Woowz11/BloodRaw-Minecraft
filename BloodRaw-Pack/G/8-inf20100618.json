@@ -13,8 +13,8 @@
 		
 		"armor/chain_1.png"  : ["Replace", "armor/chain.png"],
 		"armor/chain_2.png"  : ["Texture", "R/T/E/Player_Armor_Chain.png", [["Crop", 0, 32, 64, 32]]],
-		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.texture", [["Crop", 0, 0, 64, 32]]],
-		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather.texture", [["Crop", 0, 32, 64, 32]]],
+		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.file", [["Crop", 0, 0, 64, 32]]],
+		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather.file", [["Crop", 0, 32, 64, 32]]],
 		"armor/diamond_1.png": ["Texture", "R/T/E/Player_Armor_Diamond.png", [["Crop", 0, 0, 64, 32]]],
 		"armor/diamond_2.png": ["Texture", "R/T/E/Player_Armor_Diamond.png", [["Crop", 0, 32, 64, 32]]],
 		"armor/gold_1.png"   : ["Texture", "R/T/E/Player_Armor_Gold.png", [["Crop", 0, 0, 64, 32]]],
@@ -155,12 +155,12 @@
 		"mob/spider_eyes.png": ["Texture", "R/T/E/Spider_Eyes.png"],
 		
 		"terrain/sun.png" : ["Texture", "R/T/O/Sun.png"],
-		"terrain/moon.png": ["Texture", "R/T/O/Moon.texture"],
+		"terrain/moon.png": ["Texture", "R/T/O/Moon.file"],
 		
 		"particles.png": [ "Atlas", {
 				"0" : {
 					"2" : ["Texture", "R/T/P/Bubble.png"],
-					"3" : ["Texture", "R/T/P/Fire.texture"]
+					"3" : ["Texture", "R/T/P/Fire.file"]
 				},
 				"1" : {
 					"3" : ["Texture", "R/T/P/Lava.png"]
@@ -170,7 +170,7 @@
 		
 		"terrain.png": [ "Atlas", {
 				"0" : {
-					"5" : ["Animation", ["Texture", "R/T/B/Torch.texture"], false],
+					"5" : ["Animation", ["Texture", "R/T/B/Torch.file"], false],
 					"7" : ["Texture", "R/T/B/Rail_Corner.png"],
 					"8" : ["Texture", "R/T/B/Rail.png"]
 				},
@@ -187,10 +187,10 @@
 					"5" : ["Texture", "R/T/B/Ladder.png"]
 				},
 				"4" : {
-					"3" : ["Texture", "R/T/B/Leaves_Tint.texture"]
+					"3" : ["Texture", "R/T/B/Leaves_Tint.file"]
 				},
 				"5" : {
-					"3" : ["Texture", "R/T/B/Leaves_Tint_Solid.texture"]
+					"3" : ["Texture", "R/T/B/Leaves_Tint_Solid.file"]
 				},
 				"6" : {
 					"1" : ["Texture", "R/T/B/Iron.png"],
@@ -237,21 +237,21 @@
 					"2" : ["Texture", "R/T/B/Mechanism.png"],
 					"3" : ["Animation", ["Texture", "R/T/B/Furnace_On.png"], false],
 					"5" : ["Texture", "R/T/B/Wheat_5.png"],
-					"12" : ["Texture", "R/T/B/Water_Single.texture"],
+					"12" : ["Texture", "R/T/B/Water_Single.file"],
 					"14" : ["Animation", ["Texture", "R/T/B/Lava.png"], false]
 				},
 				"14" : {
 					"0" : null,
 					"1" : null,
 					"5" : ["Texture", "R/T/B/Wheat_6.png"],
-					"12" : ["Animation", ["Texture", "R/T/B/Water_Flow.texture"], false],
+					"12" : ["Animation", ["Texture", "R/T/B/Water_Flow.file"], false],
 					"13" : false,
 					"14" : ["Animation", ["Texture", "R/T/B/Lava_Flow.png"], false],
 					"15" : false
 				},
 				"15" : {
-					"1" : ["Animation", ["Texture", "R/T/B/Fire.texture"], false],
-					"5" : ["Texture", "R/T/B/Wheat.png"],
+					"1" : ["Animation", ["Texture", "R/T/B/Fire.file"], false],
+					"5" : ["Texture", "R/T/B/Wheat_7.png"],
 					"12" : false,
 					"13" : false,
 					"14" : false,
@@ -267,10 +267,10 @@
 				"Size" : [16, 16],
 				"Scale": [16, 16],
 				"0" : {
-					"0" : ["Texture", "R/T/I/Leather_Helmet.texture"],
-					"1" : ["Texture", "R/T/I/Leather_Chestplate.texture"],
-					"2" : ["Texture", "R/T/I/Leather_Pants.texture"],
-					"3" : ["Texture", "R/T/I/Leather_Boots.texture"],
+					"0" : ["Texture", "R/T/I/Leather_Helmet.file"],
+					"1" : ["Texture", "R/T/I/Leather_Chestplate.file"],
+					"2" : ["Texture", "R/T/I/Leather_Pants.file"],
+					"3" : ["Texture", "R/T/I/Leather_Boots.file"],
 					"4" : ["Texture", "R/T/I/Wood_Sword.png"],
 					"5" : ["Texture", "R/T/I/Wood_Shovel.png"],
 					"6" : ["Texture", "R/T/I/Wood_Pickaxe.png"],
@@ -375,9 +375,9 @@
 			}
 		],
 		
-		"gui/inventory.png": ["Texture", "R/T/U/Inventory_Old.texture"],
-		"gui/crafting.png" : ["Texture", "R/T/U/Workbench.texture"],
-		"gui/furnace.png"  : ["Texture", "R/T/U/Furnace.texture"],
-		"gui/container.png": ["Texture", "R/T/U/Container.texture"]
+		"gui/inventory.png": ["Texture", "R/T/U/Inventory_Old.file"],
+		"gui/crafting.png" : ["Texture", "R/T/U/Workbench.file"],
+		"gui/furnace.png"  : ["Texture", "R/T/U/Furnace.file"],
+		"gui/container.png": ["Texture", "R/T/U/Container.file"]
 	}
 }

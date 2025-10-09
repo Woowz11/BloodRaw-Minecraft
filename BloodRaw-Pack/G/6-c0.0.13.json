@@ -8,11 +8,11 @@
 	"Add": ["ReplacePack.json"],
 	
 	"Files": {
-		"default.gif": [ "Texture", "R/T/U/Font_ASCII.texture" ],
+		"default.gif": [ "Texture", "R/T/U/Font_ASCII.file" ],
 		
 		"dirt.png" : [ "Texture", "R/T/B/Dirt.png" ],
-		"grass.png": [ "Texture", "R/T/B/Grass.texture" ],
+		"grass.png": [ "Texture", "R/T/B/Grass.file" ],
 		"rock.png" : [ "Texture", "R/T/B/Bedrock.png" ],
-		"water.png": [ "Texture", "R/T/B/Water_Single.texture" ]
+		"water.png": [ "Texture", "R/T/B/Water_Single.file" ]
 	}
 }

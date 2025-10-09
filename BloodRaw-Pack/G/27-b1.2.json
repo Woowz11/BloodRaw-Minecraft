@@ -12,36 +12,36 @@
 				"0" : {
 					"9" : ["Texture", "R/T/B/Lapis.png"],
 					"10" : ["Texture", "R/T/B/Lapis_Ore.png"],
-					"11" : ["Texture", "R/T/B/Stone_Sand_Smooth.png"],
-					"12" : ["Texture", "R/T/B/Stone_Sand.png"],
-					"13" : ["Texture", "R/T/B/Stone_Sand_Smooth.png"]
+					"11" : ["Texture", "R/T/B/Sand_Stone_Smooth.png"],
+					"12" : ["Texture", "R/T/B/Sand_Stone.png"],
+					"13" : ["Texture", "R/T/B/Sand_Stone_Smooth.png"]
 				},
 				"1" : {
-					"7" : ["Texture", "R/T/B/Wool_Black.texture"],
-					"8" : ["Texture", "R/T/B/Wool_Red.texture"],
-					"9" : ["Texture", "R/T/B/Wool_Green.texture"],
-					"10" : ["Texture", "R/T/B/Wool_Brown.texture"],
-					"11" : ["Texture", "R/T/B/Wool_Blue.texture"],
-					"12" : ["Texture", "R/T/B/Wool_Purple.texture"],
-					"13" : ["Texture", "R/T/B/Wool_Cyan.texture"],
-					"14" : ["Texture", "R/T/B/Wool_Silver.texture"]
+					"7" : ["Texture", "R/T/B/Wool_Black.file"],
+					"8" : ["Texture", "R/T/B/Wool_Red.file"],
+					"9" : ["Texture", "R/T/B/Wool_Green.file"],
+					"10" : ["Texture", "R/T/B/Wool_Brown.file"],
+					"11" : ["Texture", "R/T/B/Wool_Blue.file"],
+					"12" : ["Texture", "R/T/B/Wool_Purple.file"],
+					"13" : ["Texture", "R/T/B/Wool_Cyan.file"],
+					"14" : ["Texture", "R/T/B/Wool_Silver.file"]
 				},
 				"2" : {
-					"7" : ["Texture", "R/T/B/Wool_Gray.texture"],
-					"8" : ["Texture", "R/T/B/Wool_Pink.texture"],
-					"9" : ["Texture", "R/T/B/Wool_Lime.texture"],
-					"10" : ["Texture", "R/T/B/Wool_Yellow.texture"],
-					"11" : ["Texture", "R/T/B/Wool_Aqua.texture"],
-					"12" : ["Texture", "R/T/B/Wool_Magenta.texture"],
-					"13" : ["Texture", "R/T/B/Wool_Orange.texture"]
+					"7" : ["Texture", "R/T/B/Wool_Gray.file"],
+					"8" : ["Texture", "R/T/B/Wool_Pink.file"],
+					"9" : ["Texture", "R/T/B/Wool_Lime.file"],
+					"10" : ["Texture", "R/T/B/Wool_Yellow.file"],
+					"11" : ["Texture", "R/T/B/Wool_Aqua.file"],
+					"12" : ["Texture", "R/T/B/Wool_Magenta.file"],
+					"13" : ["Texture", "R/T/B/Wool_Orange.file"]
 				},
 				"4" : {
 					"7" : ["Texture", "R/T/B/Tree_Spruce.png"],
-					"8" : ["Texture", "R/T/B/Leaves_Spruce.texture"]
+					"8" : ["Texture", "R/T/B/Leaves_Spruce.file"]
 				},
 				"5" : {
 					"7" : ["Texture", "R/T/B/Tree_Birch.png"],
-					"8" : ["Texture", "R/T/B/Leaves_Spruce_Solid.texture"]
+					"8" : ["Texture", "R/T/B/Leaves_Spruce_Solid.file"]
 				},
 				"6" : {
 					"2" : null,
@@ -73,7 +73,7 @@
 					"3" : ["Texture", "R/T/B/Mechanism_Top.png"]
 				},
 				"15" : {
-					"2" : ["Animation", ["Texture", "R/T/B/Fire_2.texture"], false]
+					"2" : ["Animation", ["Texture", "R/T/B/Fire_2.file"], false]
 				}
 			}
 		],
@@ -114,6 +114,6 @@
 				}
 			}
 		],
-		"gui/trap.png": ["Texture", "R/T/U/Dispenser.texture"]
+		"gui/trap.png": ["Texture", "R/T/U/Dispenser.file"]
 	}
 }

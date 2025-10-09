@@ -43,10 +43,10 @@
 				"12": ["Texture", "R/T/B/Potato_2.png"]
 			},
 			"11": {
-				"12": ["Texture", "R/T/B/Carrot.png"]
+				"12": ["Texture", "R/T/B/Carrot_3.png"]
 			},
 			"12": {
-				"12": ["Texture", "R/T/B/Potato.png"]
+				"12": ["Texture", "R/T/B/Potato_3.png"]
 			}
 		}],
 		
@@ -85,8 +85,8 @@
 			}
 		}],
 		
-		"gui/beacon.png": ["Texture", "R/T/U/Beacon.texture"],
-		"gui/repair.png": ["Texture", "R/T/U/Anvil.texture"],
+		"gui/beacon.png": ["Texture", "R/T/U/Beacon.file"],
+		"gui/repair.png": ["Texture", "R/T/U/Anvil.file"],
 		
 		"gui/inventory.png": ["Atlas", {
 			"18": {
@@ -97,7 +97,7 @@
 		"gui/icons.png": ["Atlas", {
 			"124": {
 				"0" : ["Texture", "R/T/U/Health_Wither.png"],
-				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.texture"]
+				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.file"]
 			},
 			"133": {
 				"0" : ["Texture", "R/T/U/Health_Wither_Half.png"],
@@ -105,7 +105,7 @@
 			},
 			"142": {
 				"0" : ["Texture", "R/T/U/Health_Wither.png"],
-				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.texture"]
+				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.file"]
 			},
 			"151": {
 				"0" : ["Texture", "R/T/U/Health_Wither_Half.png"],

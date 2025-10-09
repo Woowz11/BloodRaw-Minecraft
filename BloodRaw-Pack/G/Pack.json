@@ -2,8 +2,8 @@
 	"Name": "Pack",
 	
 	"Files": {
-		"License.txt" : ["Create", ["File", "License.txt"]],
-		"Readme.md"   : [["Create", ["BuildFile"]], ["File", "Readme.md"]],
-		"Site.url"    : ["File", "Link.url"]
+		"License.txt" : ["Create", ["File", "R/O/Pack/License.txt"]],
+		"Readme.md"   : [["Create", ["BuildFile"]], ["File", "R/O/Pack/Readme.md"]],
+		"Site.url"    : ["File", "R/O/Pack/Link.file"]
 	}
 }

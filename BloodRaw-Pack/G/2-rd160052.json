@@ -12,16 +12,16 @@
 	"Files": {
 		"terrain.png": [ "Atlas", {
 				"0" : {
-					"1" : ["Texture", "R/T/B/Cobblestone.png"]
+					"1" : ["Texture", "R/T/B/Stone_Cobblestone.png"]
 				},
 				"2" : {
 					"0" : ["Texture", "R/T/B/Dirt.png"]
 				},
 				"3" : {
-					"0" : ["Texture", "R/T/B/Dirt_Grass_Side.texture"]
+					"0" : ["Texture", "R/T/B/Grass_Dirt.file"]
 				},
 				"4" : {
-					"0" : ["Texture", "R/T/B/Wood.png"]
+					"0" : ["Texture", "R/T/B/Planks.png"]
 				}
 			}
 		]

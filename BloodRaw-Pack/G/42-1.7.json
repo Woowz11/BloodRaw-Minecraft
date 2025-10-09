@@ -11,22 +11,22 @@
 		"assets/minecraft/": {
 			"textures/": {
 				"blocks/": {
-					"glass_black.png"     : ["Texture", "R/T/B/Glass_Black.texture"],
-					"glass_blue.png"      : ["Texture", "R/T/B/Glass_Blue.texture"],
-					"glass_brown.png"     : ["Texture", "R/T/B/Glass_Brown.texture"],
-					"glass_cyan.png"      : ["Texture", "R/T/B/Glass_Cyan.texture"],
-					"glass_gray.png"      : ["Texture", "R/T/B/Glass_Gray.texture"],
-					"glass_green.png"     : ["Texture", "R/T/B/Glass_Green.texture"],
-					"glass_light_blue.png": ["Texture", "R/T/B/Glass_Aqua.texture"],
-					"glass_lime.png"      : ["Texture", "R/T/B/Glass_Lime.texture"],
-					"glass_magenta.png"   : ["Texture", "R/T/B/Glass_Magenta.texture"],
-					"glass_orange.png"    : ["Texture", "R/T/B/Glass_Orange.texture"],
-					"glass_pink.png"      : ["Texture", "R/T/B/Glass_Pink.texture"],
-					"glass_purple.png"    : ["Texture", "R/T/B/Glass_Purple.texture"],
-					"glass_silver.png"    : ["Texture", "R/T/B/Glass_Silver.texture"],
-					"glass_red.png"       : ["Texture", "R/T/B/Glass_Red.texture"],
-					"glass_white.png"     : ["Texture", "R/T/B/Glass_White.texture"],
-					"glass_yellow.png"    : ["Texture", "R/T/B/Glass_Yellow.texture"],
+					"glass_black.png"     : ["Texture", "R/T/B/Glass_Black.file"],
+					"glass_blue.png"      : ["Texture", "R/T/B/Glass_Blue.file"],
+					"glass_brown.png"     : ["Texture", "R/T/B/Glass_Brown.file"],
+					"glass_cyan.png"      : ["Texture", "R/T/B/Glass_Cyan.file"],
+					"glass_gray.png"      : ["Texture", "R/T/B/Glass_Gray.file"],
+					"glass_green.png"     : ["Texture", "R/T/B/Glass_Green.file"],
+					"glass_light_blue.png": ["Texture", "R/T/B/Glass_Aqua.file"],
+					"glass_lime.png"      : ["Texture", "R/T/B/Glass_Lime.file"],
+					"glass_magenta.png"   : ["Texture", "R/T/B/Glass_Magenta.file"],
+					"glass_orange.png"    : ["Texture", "R/T/B/Glass_Orange.file"],
+					"glass_pink.png"      : ["Texture", "R/T/B/Glass_Pink.file"],
+					"glass_purple.png"    : ["Texture", "R/T/B/Glass_Purple.file"],
+					"glass_silver.png"    : ["Texture", "R/T/B/Glass_Silver.file"],
+					"glass_red.png"       : ["Texture", "R/T/B/Glass_Red.file"],
+					"glass_white.png"     : ["Texture", "R/T/B/Glass_White.file"],
+					"glass_yellow.png"    : ["Texture", "R/T/B/Glass_Yellow.file"],
 					
 					"glass_pane_top_black.png"     : ["Texture", "R/T/B/Glass_Side.png"],
 					"glass_pane_top_blue.png"      : ["Texture", "R/T/B/Glass_Side.png"],
@@ -56,7 +56,7 @@
 					"double_plant_sunflower_top.png"   : ["Texture", "R/T/B/Sunflower.png"],
 					"double_plant_sunflower_bottom.png": ["Texture", "R/T/B/Sunflower_Bottom.png"],
 					"double_plant_sunflower_front.png" : ["Texture", "R/T/B/Sunflower_Head.png"],
-					"double_plant_sunflower_back.png"  : ["Texture", "R/T/B/Sunflower_Head_Back.png"],
+					"double_plant_sunflower_back.png"  : ["Texture", "R/T/B/Sunflower_Head_Back.file"],
 					"double_plant_syringa_top.png"     : ["Texture", "R/T/B/Bush_Magenta.png"],
 					"double_plant_syringa_bottom.png"  : ["Texture", "R/T/B/Bush_Magenta_Bottom.png"],
 					
@@ -73,10 +73,10 @@
 					"red_sand.png"  : ["Texture", "R/T/B/Sand_Red.png"],
 					"ice_packed.png": ["Texture", "R/T/B/Ice_Compress.png"],
 					
-					"leaves_acacia.png"        : ["Texture", "R/T/B/Leaves_Acacia.texture"],
-					"leaves_acacia_opaque.png" : ["Texture", "R/T/B/Leaves_Acacia_Solid.texture"],
-					"leaves_big_oak.png"       : ["Texture", "R/T/B/Leaves_Dark.texture"],
-					"leaves_big_oak_opaque.png": ["Texture", "R/T/B/Leaves_Dark_Solid.texture"],
+					"leaves_acacia.png"        : ["Texture", "R/T/B/Leaves_Acacia.file"],
+					"leaves_acacia_opaque.png" : ["Texture", "R/T/B/Leaves_Acacia_Solid.file"],
+					"leaves_big_oak.png"       : ["Texture", "R/T/B/Leaves_Dark.file"],
+					"leaves_big_oak_opaque.png": ["Texture", "R/T/B/Leaves_Dark_Solid.file"],
 					
 					"log_acacia.png"     : ["Texture", "R/T/B/Tree_Acacia.png"],
 					"log_acacia_top.png" : ["Texture", "R/T/B/Tree_Acacia_Top.png"],
@@ -86,8 +86,8 @@
 					"sapling_acacia.png"    : ["Texture", "R/T/B/Sapling_Acacia.png"],
 					"sapling_roofed_oak.png": ["Texture", "R/T/B/Sapling_Dark.png"],
 					
-					"planks_acacia.png" : ["Texture", "R/T/B/Wood_Acacia.png"],
-					"planks_big_oak.png": ["Texture", "R/T/B/Wood_Dark.png"],
+					"planks_acacia.png" : ["Texture", "R/T/B/Planks_Acacia.png"],
+					"planks_big_oak.png": ["Texture", "R/T/B/Planks_Dark.png"],
 				},
 				
 				"gui/": {

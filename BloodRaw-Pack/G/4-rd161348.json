@@ -13,10 +13,10 @@
 					"1" : ["Texture", "R/T/B/Bedrock.png"]
 				},
 				"13" : {
-					"0" : ["Texture", "R/T/B/Water_Single.texture", [["Fixed", null, null, null, 255]]]
+					"0" : ["Texture", "R/T/B/Water_Single.file", [["Fixed", null, null, null, 255]]]
 				},
 				"14" : {
-					"0" : ["Texture", "R/T/B/Water_Single.texture"],
+					"0" : ["Texture", "R/T/B/Water_Single.file"],
 					"1" : ["Animation", ["Texture", "R/T/B/Lava.png"], false]
 				}
 			}
