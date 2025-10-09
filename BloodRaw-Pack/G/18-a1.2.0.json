@@ -59,8 +59,8 @@
 			}
 		],
 		"misc/dial.png"        : ["Texture", "R/T/O/Clock.png"],
-		"misc/foliagecolor.png": ["Texture", "R/T/O/Colormap_Leaves.png"],
-		"misc/grasscolor.png"  : ["Texture", "R/T/O/Colormap_Grass.png"],
+		"misc/foliagecolor.png": ["Texture", "R/T/O/Colormap/Leaves.png"],
+		"misc/grasscolor.png"  : ["Texture", "R/T/O/Colormap/Grass.png"],
 		"misc/pumpkinblur.png" : ["Texture", "R/T/U/Overlay_Pumpkin.png"],
 		
 		"mob/ghast.png"     : ["Texture", "R/T/E/Ghast.png"],

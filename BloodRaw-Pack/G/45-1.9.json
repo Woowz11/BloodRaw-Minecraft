@@ -24,12 +24,12 @@
 				"entity/": {
 					"boat.png": null,
 					"boat/": {
-						"boat_acacia.png" : ["Texture", "R/T/E/Boat_Acacia.png"],
-						"boat_birch.png"  : ["Texture", "R/T/E/Boat_Birch.png"],
-						"boat_darkoak.png": ["Texture", "R/T/E/Boat_Dark.png"],
-						"boat_jungle.png" : ["Texture", "R/T/E/Boat_Jungle.png"],
-						"boat_oak.png"    : ["Texture", "R/T/E/Boat.png"],
-						"boat_spruce.png" : ["Texture", "R/T/E/Boat_Spruce.png"],
+						"boat_acacia.png" : ["Texture", "R/T/E/Boat/Acacia.file"],
+						"boat_birch.png"  : ["Texture", "R/T/E/Boat/Birch.file"],
+						"boat_darkoak.png": ["Texture", "R/T/E/Boat/Dark.file"],
+						"boat_jungle.png" : ["Texture", "R/T/E/Boat/Jungle.file"],
+						"boat_oak.png"    : ["Texture", "R/T/E/Boat/Oak.file"],
+						"boat_spruce.png" : ["Texture", "R/T/E/Boat/Spruce.file"],
 					},
 					
 					"elytra.png"               : ["Texture", "R/T/E/Player_Elytra.png"],
@@ -40,9 +40,9 @@
 					"enderdragon/dragon_fireball.png": ["Texture", "R/T/I/Fire_Dragon.png"],
 					
 					"projectiles/": {
-						"arrow.png"         : ["Texture", "R/T/E/Arrow.png"],
-						"spectral_arrow.png": ["Texture", "R/T/E/Arrow_Spectral.png"],
-						"tipped_arrow.png"  : ["Texture", "R/T/E/Arrow_Potion.png"],
+						"arrow.png"         : ["Texture", "R/T/E/Arrow/Default.png"],
+						"spectral_arrow.png": ["Texture", "R/T/E/Arrow/Spectral.png"],
+						"tipped_arrow.png"  : ["Texture", "R/T/E/Arrow/Effect.png"],
 					},
 					
 					"shield/": {
@@ -126,12 +126,12 @@
 				
 				"items/": {
 					"boat.png"         : null,
-					"acacia_boat.png"  : ["Texture", "R/T/I/Boat_Acacia.png"],
-					"birch_boat.png"   : ["Texture", "R/T/I/Boat_Birch.png"],
-					"dark_oak_boat.png": ["Texture", "R/T/I/Boat_Dark.png"],
-					"jungle_boat.png"  : ["Texture", "R/T/I/Boat_Jungle.png"],
-					"oak_boat.png"     : ["Texture", "R/T/I/Boat.png"],
-					"spruce_boat.png"  : ["Texture", "R/T/I/Boat_Spruce.png"],
+					"acacia_boat.png"  : ["Texture", "R/T/I/Boat/Acacia.file"],
+					"birch_boat.png"   : ["Texture", "R/T/I/Boat/Birch.file"],
+					"dark_oak_boat.png": ["Texture", "R/T/I/Boat/Dark.file"],
+					"jungle_boat.png"  : ["Texture", "R/T/I/Boat/Jungle.file"],
+					"oak_boat.png"     : ["Texture", "R/T/I/Boat/Oak.file"],
+					"spruce_boat.png"  : ["Texture", "R/T/I/Boat/Spruce.file"],
 					
 					"chorus_fruit.png"       : ["Texture", "R/T/I/Chorus_Fruit.png"],
 					"chorus_fruit_popped.png": ["Texture", "R/T/I/Chorus.png"],
@@ -140,9 +140,9 @@
 					
 					"empty_armor_slot_chestplate.png": ["Texture", "R/T/I/Slot_Arm.png"],
 					
-					"spectral_arrow.png"   : ["Animation", ["Texture", "R/T/I/Arrow_Spectral.png"], "Glowstone"],
-					"tipped_arrow_base.png": ["Texture", "R/T/I/Arrow_Potion.png"],
-					"tipped_arrow_head.png": ["Texture", "R/T/I/Arrow_Potion_Overlay.png"],
+					"spectral_arrow.png"   : ["Animation", ["Texture", "R/T/I/Arrow/Spectral.png"], "Glowstone"],
+					"tipped_arrow_base.png": ["Texture", "R/T/I/Arrow/Effect.png"],
+					"tipped_arrow_head.png": ["Texture", "R/T/I/Arrow/Effect_Overlay.png"],
 					
 					"beetroot.png"      : ["Texture", "R/T/I/Beetroot.png"],
 					"beetroot_seeds.png": ["Texture", "R/T/I/Seeds_Beetroot.png"],

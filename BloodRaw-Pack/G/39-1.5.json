@@ -427,7 +427,7 @@
 			"apple.png"    : ["Texture", "R/T/I/Apple.png"],
 			"appleGold.png": ["Texture", "R/T/I/Apple_Gold.png"],
 			
-			"arrow.png": ["Texture", "R/T/I/Arrow.png"],
+			"arrow.png": ["Texture", "R/T/I/Arrow/Default.png"],
 			
 			"bed.png": ["Texture", "R/T/I/Bed.png"],
 			
@@ -437,7 +437,7 @@
 			"blazePowder.png": ["Animation", ["Texture", "R/T/I/Blaze_Dust.png"], {"Smooth": true}],
 			"blazeRod.png"   : ["Texture", "R/T/I/Blaze.png"],
 			
-			"boat.png": ["Texture", "R/T/I/Boat_Old.png"],
+			"boat.png": ["Texture", "R/T/I/Boat/Old.png"],
 			
 			"bone.png": ["Texture", "R/T/I/Bone.png"],
 			
@@ -664,7 +664,7 @@
 			
 			"reeds.png": ["Texture", "R/T/I/Sugarcane.png"],
 			
-			"rottenFlesh.png": ["Animation", ["Texture", "R/T/I/Meat_Rotten.png"], {"Frames": [ 1,2,1,2,1,2,1,2,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,3,4,3,4,3,4,3,4,3,4,3,4,2,1,2,1,2,1,2,1,2,1,3,4,3,4,3,4,3,4 ]}],
+			"rottenFlesh.png": ["Animation", ["Texture", "R/T/I/Meat_Rotten.png", [["Crop", 0, 16, 16, 64]]], {"Frames": [ 0,1,0,1,0,1,0,1,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,2,3,2,3,2,3,2,3,2,3,2,3,1,0,1,0,1,0,1,0,1,0,2,3,2,3,2,3,2,3 ]}],
 			
 			"ruby.png": ["Texture", "R/T/I/Ruby.png"],
 			
@@ -699,7 +699,7 @@
 			
 			"snowball.png": ["Texture", "R/T/I/Snow.png"],
 			
-			"speckledMelon.png": ["Animation", ["Texture", "R/T/I/Watermelon_Gold.png"], {"Smooth": true, "Speed": 2}],
+			"speckledMelon.png": ["Animation", ["Texture", "R/T/I/Watermelon_Gold.png"], {"Smooth": true, "Speed": 10}],
 			
 			"spiderEye.png": ["Texture", "R/T/I/Eye_Spider.png"],
 			

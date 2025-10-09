@@ -108,7 +108,7 @@
 		"armor/chain.png": ["Texture", "R/T/E/Player_Armor_Chain.png", [["Crop", 0, 0, 64, 32]]],
 		
 		"item/sign.png"  : ["Texture", "R/T/E/Sign.png"],
-		"item/arrows.png": ["Texture", "R/T/E/Arrow.file"],
+		"item/arrows.png": ["Texture", "R/T/E/Arrow/Old.file"],
 		
 		"mob/creeper.png"  : ["Texture", "R/T/E/Creeper.png"],
 		"mob/pig.png"      : ["Texture", "R/T/E/Pig.png"],

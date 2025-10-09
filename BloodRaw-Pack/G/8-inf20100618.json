@@ -324,7 +324,7 @@
 				"5" : {
 					"0" : ["Texture", "R/T/I/Lighter.png"],
 					"1" : ["Texture", "R/T/I/Bow.png"],
-					"2" : ["Texture", "R/T/I/Arrow.png"],
+					"2" : ["Texture", "R/T/I/Arrow/Default.png"],
 					"3" : ["Texture", "R/T/I/Stick.png"]
 				},
 				"6" : {
