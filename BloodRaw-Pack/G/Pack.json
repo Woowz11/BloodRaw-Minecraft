@@ -1,5 +1,5 @@
 {
-	"Name": "Pack",
+	"ID": "Pack",
 	
 	"Files": {
 		"License.txt" : ["Create", ["File", "R/O/Pack/License.txt"]],

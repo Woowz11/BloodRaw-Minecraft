@@ -1,0 +1,22 @@
+{
+	"Parent": "rd160052",
+	
+	"ID"  : "c0.0.11",
+	"Name": "Classic 0.0.11",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Add": ["ReplacePack"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"15" : {
+					"0" : ["Texture", "R/T/B/Sapling.png"],
+					"1" : ["Texture", "R/T/B/Grass.file"]
+				}
+			}
+		],
+		
+		"default.gif": [ "Texture", "R/T/U/Font_ASCII.file" ]
+	}
+}

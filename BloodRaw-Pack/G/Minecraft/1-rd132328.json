@@ -1,0 +1,16 @@
+{
+	"Parent": "rd132211",
+	
+	"ID"  : "rd132328",
+	"Name": "RubyDung 132328",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Icon": ["Texture", "R/V/1.png"],
+	
+	"Add": ["ReplacePack"],
+	
+	"Files": {
+		"char.png": [ "Texture", "R/T/E/Player.file" ]
+	}
+}

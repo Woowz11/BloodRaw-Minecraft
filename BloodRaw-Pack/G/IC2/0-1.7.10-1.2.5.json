@@ -1,0 +1,19 @@
+{
+	"ID"  : "IC2_1.7.10",
+	"Name": "IC2",
+	"Type": "Addon",
+	//"Dev" : false,
+	
+	"Icon": ["Texture", "R/V/0.png"],
+	
+	"Mod": {
+		"Version": "1.2.5",
+		"Link"   : ["<CurseForge>ic2-classic/files/5230413"]
+	},
+	
+	"Core": ["Forge"],
+	
+	"Files": {
+		"HELLO2.txt": ["Create", "ЭТО ТЕСТОВЫЙ ФАЙЛ)) не забудь про него!!!!!!!"]
+	}
+}

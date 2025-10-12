@@ -1,0 +1,47 @@
+{
+	"ID"  : "BetterFoliage_1.7.10",
+	"Name": "BetterFoliage",
+	"Type": "Addon",
+	//"Dev" : false,
+	
+	"Mod": {
+		"Version": "2.0.17",
+		"Link"   : ["<CurseForge>better-foliage/files/2500869"]
+	},
+	
+	"Core": ["Forge"],
+	
+	"Files": {
+		"assets/": {
+			"betterfoliage/": {
+				"blocks/blocks/": {
+					"falling_leaf_default_0.png": ["Texture", "R/T/P/Leaf.png", [["Crop", 0 , 0, 4, 4]]],
+					"falling_leaf_default_1.png": ["Texture", "R/T/P/Leaf.png", [["Crop", 4 , 0, 4, 4]]],
+					"falling_leaf_default_2.png": ["Texture", "R/T/P/Leaf.png", [["Crop", 8 , 0, 4, 4]]],
+					"falling_leaf_default_3.png": ["Texture", "R/T/P/Leaf.png", [["Crop", 12, 0, 4, 4]]],
+					"falling_leaf_jungle_0.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 0 , 0, 4, 4]]],
+					"falling_leaf_jungle_1.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 4 , 0, 4, 4]]],
+					"falling_leaf_jungle_2.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 8 , 0, 4, 4]]],
+					"falling_leaf_jungle_3.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 12, 0, 4, 4]]],
+					"falling_leaf_spruce_0.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 0 , 0, 4, 4]]],
+					"falling_leaf_spruce_1.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 4 , 0, 4, 4]]],
+					"falling_leaf_spruce_2.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 8 , 0, 4, 4]]],
+					"falling_leaf_spruce_3.png" : ["Texture", "R/T/P/Leaf.png", [["Crop", 12, 0, 4, 4]]],
+					"missing_leaf.png"          : ["Texture", "R/T/Error.png"],
+				}
+			},
+			"bettergrassandleaves/textures/blocks/": {
+				"better_cactus.png": ["Texture", "R/T/B/Cactus_Dense.png"],
+				
+				"better_leaves_snowed_0.png": ["Texture", "R/T/B/Snow_Leaves_0.png"],
+				"better_leaves_snowed_1.png": ["Texture", "R/T/B/Snow_Leaves_1.png"],
+				"better_leaves_snowed_2.png": ["Texture", "R/T/B/Snow_Leaves_2.png"],
+				
+				"better_reed_0.png": ["Texture", "R/T/B/Reed_0.png"],
+				"better_reed_1.png": ["Texture", "R/T/B/Reed_1.png"],
+				"better_reed_2.png": ["Texture", "R/T/B/Reed_2.png"],
+				"better_reed_3.png": ["Texture", "R/T/B/Reed_3.png"]
+			}
+		}
+	}
+}

@@ -1,9 +1,0 @@
-{
-	"Parent": "18-a1.2.0.json",
-	
-	"Name"  : "a1.2.1",
-	"Type"  : "Version",
-	"Dev"   : false,
-	
-	"Add": ["ReplacePack.json"]
-}

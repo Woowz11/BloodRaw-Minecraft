@@ -1,0 +1,19 @@
+{
+	"Parent": "a1.0.17",
+	
+	"ID"  : "a1.1.0",
+	"Name": "Alpha 1.1.0",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Add": ["ReplacePack"],
+	
+		"Files": {
+		"gui/items.png": [ "Atlas", {
+				"6" : {
+					"3" : ["Texture", "R/T/I/Compass.png"]
+				}
+			}
+		]
+	}
+}

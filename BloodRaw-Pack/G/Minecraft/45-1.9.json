@@ -1,0 +1,183 @@
+{
+	"Parent": "1.8",
+	
+	"ID"  : "1.9",
+	"Type": "Version",
+	//"Dev" : false,
+	
+	"PackFormat": 2,
+	
+	"Desc": "Какое-то описание!!! <License>",
+	
+	"Add": ["ResourcePack"],
+	
+	"Files": {
+		"assets/minecraft/": {			
+			"textures/": {
+				"particle/particles.png": ["Atlas", {
+					"0": {
+						"11": ["Texture", "R/T/P/End.png"]
+					},
+					"3": {
+						"4": ["Texture", "R/T/P/Damage.png"]
+					}
+				}],
+				
+				"entity/": {
+					"boat.png": null,
+					"boat/": {
+						"boat_acacia.png" : ["Texture", "R/T/E/Boat/Acacia.file"],
+						"boat_birch.png"  : ["Texture", "R/T/E/Boat/Birch.file"],
+						"boat_darkoak.png": ["Texture", "R/T/E/Boat/Dark.file"],
+						"boat_jungle.png" : ["Texture", "R/T/E/Boat/Jungle.file"],
+						"boat_oak.png"    : ["Texture", "R/T/E/Boat/Oak.file"],
+						"boat_spruce.png" : ["Texture", "R/T/E/Boat/Spruce.file"],
+					},
+					
+					"elytra.png"               : ["Texture", "R/T/E/Player_Elytra.png"],
+					"end_gateway_beam.png"     : ["Texture", "R/T/P/Beam_Gateway.png"],
+					"shield_base_nopattern.png": ["Texture", "R/T/E/Shield/Shield_Empty.png"],
+					"shield_base.png"          : ["Texture", "R/T/E/Shield/Shield.png"],
+					
+					"enderdragon/dragon_fireball.png": ["Texture", "R/T/I/Fire_Dragon.png"],
+					
+					"projectiles/": {
+						"arrow.png"         : ["Texture", "R/T/E/Arrow/Default.png"],
+						"spectral_arrow.png": ["Texture", "R/T/E/Arrow/Spectral.png"],
+						"tipped_arrow.png"  : ["Texture", "R/T/E/Arrow/Effect.png"],
+					},
+					
+					"shield/": {
+						"base.png"                   : ["Texture", "R/T/E/Shield/Solid.png"],
+						"border.png"                 : ["Texture", "R/T/E/Shield/Border.png"],
+						"bricks.png"                 : ["Texture", "R/T/E/Shield/Bricks.png"],
+						"circle.png"                 : ["Texture", "R/T/E/Shield/Circle.png"],
+						"creeper.png"                : ["Texture", "R/T/E/Shield/Creeper.png"],
+						"cross.png"                  : ["Texture", "R/T/E/Shield/Cross.png"],
+						"curly_border.png"           : ["Texture", "R/T/E/Shield/Curly_Border.png"],
+						"diagonal_left.png"          : ["Texture", "R/T/E/Shield/Diagonal_Left.png"],
+						"diagonal_right.png"         : ["Texture", "R/T/E/Shield/Diagonal_Right.png"],
+						"diagonal_up_left.png"       : ["Texture", "R/T/E/Shield/Diagonal_Up_Left.png"],
+						"diagonal_up_right.png"      : ["Texture", "R/T/E/Shield/Diagonal_Up_Right.png"],
+						"flower.png"                 : ["Texture", "R/T/E/Shield/Flower.png"],
+						"gradient.png"               : ["Texture", "R/T/E/Shield/Gradient.png"],
+						"gradient_up.png"            : ["Texture", "R/T/E/Shield/Gradient_Up.png"],
+						"half_horizontal.png"        : ["Texture", "R/T/E/Shield/Half_Horizontal.png"],
+						"half_horizontal_bottom.png" : ["Texture", "R/T/E/Shield/Half_Horizontal_Bottom.png"],
+						"half_vertical.png"          : ["Texture", "R/T/E/Shield/Half_Vertical.png"],
+						"half_vertical_right.png"    : ["Texture", "R/T/E/Shield/Half_Vertical_Right.png"],
+						"mojang.png"                 : ["Texture", "R/T/E/Shield/Mojang.png"],
+						"rhombus.png"                : ["Texture", "R/T/E/Shield/Rhombus.png"],
+						"skull.png"                  : ["Texture", "R/T/E/Shield/Skull.png"],
+						"small_stripes.png"          : ["Texture", "R/T/E/Shield/Small_Stripes.png"],
+						"square_bottom_left.png"     : ["Texture", "R/T/E/Shield/Square_Bottom_Left.png"],
+						"square_bottom_right.png"    : ["Texture", "R/T/E/Shield/Square_Bottom_Right.png"],
+						"square_top_left.png"        : ["Texture", "R/T/E/Shield/Square_Top_Left.png"],
+						"square_top_right.png"       : ["Texture", "R/T/E/Shield/Square_Top_Right.png"],
+						"straight_cross.png"         : ["Texture", "R/T/E/Shield/Straight_Cross.png"],
+						"stripe_bottom.png"          : ["Texture", "R/T/E/Shield/Stripe_Bottom.png"],
+						"stripe_center.png"          : ["Texture", "R/T/E/Shield/Stripe_Center.png"],
+						"stripe_downleft.png"        : ["Texture", "R/T/E/Shield/Stripe_Downleft.png"],
+						"stripe_downright.png"       : ["Texture", "R/T/E/Shield/Stripe_Downright.png"],
+						"stripe_left.png"            : ["Texture", "R/T/E/Shield/Stripe_Left.png"],
+						"stripe_middle.png"          : ["Texture", "R/T/E/Shield/Stripe_Middle.png"],
+						"stripe_right.png"           : ["Texture", "R/T/E/Shield/Stripe_Right.png"],
+						"stripe_top.png"             : ["Texture", "R/T/E/Shield/Stripe_Top.png"],
+						"triangle_bottom.png"        : ["Texture", "R/T/E/Shield/Triangle_Bottom.png"],
+						"triangle_top.png"           : ["Texture", "R/T/E/Shield/Triangle_Top.png"],
+						"triangles_bottom.png"       : ["Texture", "R/T/E/Shield/Triangles_Bottom.png"],
+						"triangles_top.png"          : ["Texture", "R/T/E/Shield/Triangles_Top.png"],
+					},
+					
+					"shulker/": {
+						"endergolem.png": ["Texture", "R/T/E/Shulker.png"],
+						"spark.png"     : ["Texture", "R/T/E/Shulker_Spark.png"]
+					},
+					
+					"zombie_villager/": {
+						"zombie_butcher.png"  : ["Texture", "R/T/E/Villager_Old_Butcher_Zombie.png"],
+						"zombie_farmer.png"   : ["Texture", "R/T/E/Villager_Old_Farmer_Zombie.png"],
+						"zombie_librarian.png": ["Texture", "R/T/E/Villager_Old_Librarian_Zombie.png"],
+						"zombie_priest.png"   : ["Texture", "R/T/E/Villager_Old_Priest_Zombie.png"],
+						"zombie_smith.png"    : ["Texture", "R/T/E/Villager_Old_Smith_Zombie.png"],
+						"zombie_villager.png" : ["Texture", "R/T/E/Villager_Old_Zombie.png"],
+					}
+				},
+				
+				"gui/": {
+					"world_selection.png": ["Texture", "R/T/U/Selector_World.png"],
+					
+					"widgets.png": ["Atlas", {
+						
+					}],
+					
+					"icons.png": ["Atlas", {
+						
+					}],
+					
+					"bars.png": ["Texture", "R/T/U/Bar.png"],
+					
+					"container/": {
+						"inventory.png": ["Atlas", {
+							
+						}],
+						
+						"creative_inventory/tab_inventory.png": ["Texture", "R/T/U/Creative_Inventory.file"]
+					}
+				},
+				
+				"items/": {
+					"boat.png"         : null,
+					"acacia_boat.png"  : ["Texture", "R/T/I/Boat/Acacia.file"],
+					"birch_boat.png"   : ["Texture", "R/T/I/Boat/Birch.file"],
+					"dark_oak_boat.png": ["Texture", "R/T/I/Boat/Dark.file"],
+					"jungle_boat.png"  : ["Texture", "R/T/I/Boat/Jungle.file"],
+					"oak_boat.png"     : ["Texture", "R/T/I/Boat/Oak.file"],
+					"spruce_boat.png"  : ["Texture", "R/T/I/Boat/Spruce.file"],
+					
+					"chorus_fruit.png"       : ["Texture", "R/T/I/Chorus_Fruit.png"],
+					"chorus_fruit_popped.png": ["Texture", "R/T/I/Chorus.png"],
+					
+					"end_crystal.png": ["Texture", "R/T/I/Crystal_End.png"],
+					
+					"empty_armor_slot_shield.png": ["Texture", "R/T/I/Slot_Arm.png"],
+					
+					"spectral_arrow.png"   : ["Animation", ["Texture", "R/T/I/Arrow/Spectral.png"], "Glowstone"],
+					"tipped_arrow_base.png": ["Texture", "R/T/I/Arrow/Effect.png"],
+					"tipped_arrow_head.png": ["Texture", "R/T/I/Arrow/Effect_Overlay.png"],
+					
+					"beetroot.png"      : ["Texture", "R/T/I/Beetroot.png"],
+					"beetroot_seeds.png": ["Texture", "R/T/I/Seeds_Beetroot.png"],
+					"beetroot_soup.png" : ["Texture", "R/T/I/Bowl_Beetroot.png"],
+					
+					"dragon_breath.png": ["Animation", ["Texture", "R/T/I/Potion_Breath.png"], "End"],
+					
+					"broken_elytra.png": ["Animation", ["Texture", "R/T/I/Elytra_Broken.png"], "End"],
+					"elytra.png"       : ["Animation", ["Texture", "R/T/I/Elytra.png"], "End"],
+				},
+				
+				"blocks/": {
+					"beetroots_stage_0.png": ["Texture", "R/T/B/Beetroot_0.png"],
+					"beetroots_stage_1.png": ["Texture", "R/T/B/Beetroot_1.png"],
+					"beetroots_stage_2.png": ["Texture", "R/T/B/Beetroot_2.png"],
+					"beetroots_stage_3.png": ["Texture", "R/T/B/Beetroot_3.png"],
+					
+					"grass_path_side.png": ["Texture", "R/T/B/Path_Dirt.png"],
+					"grass_path_top.png" : ["Texture", "R/T/B/Path.png"],
+					
+					"frosted_ice_0.png": ["Texture", "R/T/B/Ice_Frost_0.png"],
+					"frosted_ice_1.png": ["Texture", "R/T/B/Ice_Frost_1.png"],
+					"frosted_ice_2.png": ["Texture", "R/T/B/Ice_Frost_2.png"],
+					"frosted_ice_3.png": ["Texture", "R/T/B/Ice_Frost_3.png"],
+					
+					"purpur_block.png"     : ["Texture", "R/T/B/Purpur.png"],
+					"purpur_pillar.png"    : ["Texture", "R/T/B/Purpur_Pillar.png"],
+					"purpur_pillar_top.png": ["Texture", "R/T/B/Purpur_Pillar_Top.png"],
+					
+					"end_bricks.png": ["Texture", "R/T/B/End_Bricks.png"],
+					"end_rod.png"   : ["Animation", ["Texture", "R/T/B/Rod.png"], "End"],
+				}
+			}
+		}
+	}
+}

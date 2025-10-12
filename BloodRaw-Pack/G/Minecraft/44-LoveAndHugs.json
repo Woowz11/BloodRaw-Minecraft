@@ -1,0 +1,18 @@
+{
+	"Parent": "1.8",
+	
+	"ID"  : "Love and Hugs",
+	"Name": "Joke \"Love and Hugs\"",
+	"Type": "Version",
+	//"Dev"   : false,
+	
+	"Add": ["ResourcePack"],
+	
+	"Files": {
+		"assets/minecraft/": {
+			"textures/": {
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"Parent": "a1.0.11",
+	
+	"ID"  : "a1.0.14",
+	"Name": "Alpha 1.0.14",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Add": ["ReplacePack"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"10" : {
+					"4" : ["Texture", "R/T/B/Note.png"]
+				},
+				"11" : {
+					"4" : ["Texture", "R/T/B/Jukebox.png"]
+				}
+			}
+		],
+		"gui/items.png": [ "Atlas", {
+				"0" : {
+					"15" : ["Texture", "R/T/I/Record_13.png"]
+				},
+				"1" : {
+					"15" : ["Texture", "R/T/I/Record_Cat.png"]
+				},
+				"7" : {
+					"9" : ["Texture", "R/T/I/Minecart_Chest.png"],
+					"10" : ["Texture", "R/T/I/Minecart_Furnace.png"]
+				},
+				"12" : {
+					"0" : ["Texture", "R/T/I/Egg.png"]
+				}
+			}
+		],
+		"mob/chicken.png"   : ["Texture", "R/T/E/Chicken.png"]
+	}
+}

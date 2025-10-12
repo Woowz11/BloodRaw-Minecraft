@@ -1,0 +1,19 @@
+{
+	"Parent": "rd20090515",
+	
+	"ID"  : "c0.0.13",
+	"Name": "Classic 0.0.13",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Add": ["ReplacePack"],
+	
+	"Files": {
+		"default.gif": [ "Texture", "R/T/U/Font_ASCII.file" ],
+		
+		"dirt.png" : [ "Texture", "R/T/B/Dirt.png" ],
+		"grass.png": [ "Texture", "R/T/B/Grass.file" ],
+		"rock.png" : [ "Texture", "R/T/B/Bedrock.png" ],
+		"water.png": [ "Texture", "R/T/B/Water_Single.file" ]
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"Parent": "inf20100618",
+	
+	"ID"  : "a1.0.4",
+	"Name": "Alpha 1.0.4",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Add": ["ReplacePack"],
+	
+	"Files": {
+		"snow.png": ["Texture", "R/T/O/Snow.png"],
+		
+		"terrain.png": [ "Atlas", {
+				"0" : {
+					"4" : ["Texture", "R/T/B/Wool_White.file"],
+					"6" : ["Texture", "R/T/B/Lever.png"]
+				},
+				"1" : {
+					"4" : ["Texture", "R/T/B/Spawner.png"]
+				},
+				"2" : {
+					"4" : ["Texture", "R/T/B/Snow.png"],
+					"5" : ["Texture", "R/T/B/Door_Iron.png"],
+					"6" : false
+				},
+				"3" : {
+					"3" : ["Texture", "R/T/B/Redstone_Ore.png"],
+					"4" : ["Texture", "R/T/B/Ice.png"],
+					"6" : ["Animation", ["Texture", "R/T/B/Torch_Redstone.png"], false],
+					"7" : ["Texture", "R/T/B/Torch_Redstone_Off.png"]
+				},
+				"4" : {
+					"4" : ["Texture", "R/T/B/Snow_Dirt.png"],
+					"5" : ["Texture", "R/T/B/Redstone_Cross.file"],
+					"6" : ["Texture", "R/T/B/Redstone_Cross_On.file"]
+				},
+				"5" : {
+					"4" : null,
+					"5" : ["Texture", "R/T/B/Redstone_Line.file"],
+					"6" : ["Texture", "R/T/B/Redstone_Line_On.file"]
+				},
+				"6" : {
+					"4" : null
+				},
+				"7" : {
+					"4" : null
+				},
+				"8" : {
+					"4" : null
+				},
+				"9" : {
+					"4" : null
+				},
+				"10" : {
+					"4" : null
+				},
+				"11" : {
+					"4" : null
+				},
+				"12" : {
+					"4" : null
+				},
+				"13" : {
+					"4" : null
+				},
+				"14" : {
+					"4" : null
+				},
+				"15" : {
+					"4" : null
+				}
+			}
+		],
+		
+		"gui/items.png": [ "Atlas", {
+				"8" : {
+					"3" : ["Animation", ["Texture", "R/T/I/Redstone.png"], false],
+					"6" : ["Texture", "R/T/I/Saddle.png"]
+				},
+				"12" : {
+					"2" : ["Texture", "R/T/I/Door_Iron.png"]
+				}
+			}
+		],
+		
+		"misc/vignette.png": ["Texture", "R/T/O/Vignette.file"],
+		"mob/saddle.png"   : ["Texture", "R/T/E/Pig_Saddle.png"],
+		
+		"title/mojang.png": ["Texture", "R/T/U/Loading.png"]
+	}
+}

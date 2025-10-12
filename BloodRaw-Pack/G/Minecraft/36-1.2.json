@@ -1,0 +1,52 @@
+{
+	"Parent": "1.1",
+	
+	"ID"  : "1.2",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Add": ["TexturePack"],
+	
+	"Files": {
+		"terrain.png": ["Atlas", {
+			"3": {
+				"13": ["Texture", "R/T/B/Lamp.png"]
+			},
+			"4": {
+				"12": ["Texture", "R/T/B/Leaves_Jungle.file"],
+				"13": ["Animation", ["Texture", "R/T/B/Lamp_On.png"], false]
+			},
+			"5": {
+				"12": ["Texture", "R/T/B/Leaves_Jungle_Solid.file"],
+				"13": ["Texture", "R/T/B/Stone_Bricks_Chiseled.png"],
+				"14": ["Texture", "R/T/B/Sand_Stone_Chiseled.png"]
+			},
+			"6": {
+				"12": ["Texture", "R/T/B/Planks_Spruce.png"],
+				"13": ["Texture", "R/T/B/Planks_Birch.png"],
+				"14": ["Texture", "R/T/B/Sand_Stone_Smooth_Side.png"]
+			},
+			"7": {
+				"12": ["Texture", "R/T/B/Planks_Jungle.png"]
+			},
+			"9": {
+				"9": ["Texture", "R/T/B/Tree_Jungle.png"]
+			},
+			"14": {
+				"1": ["Texture", "R/T/B/Sapling_Jungle.png"]
+			}
+		}],
+		
+		"mob/cat_black.png"     : ["Texture", "R/T/E/Cat_Black_White.png"],
+		"mob/cat_red.png"       : ["Texture", "R/T/E/Cat_Orange.png"],
+		"mob/cat_siamese.png"   : ["Texture", "R/T/E/Cat.png"],
+		"mob/ozelot.png"        : ["Texture", "R/T/E/Cat_Ocelot.png"],
+		"mob/villager_golem.png": ["Texture", "R/T/E/Golem.png"],
+		
+		"gui/items.png": ["Atlas", {
+			"11": {
+				"10": ["Animation", ["Texture", "R/T/I/Potion_Experience.png"], false]
+			}
+		}]
+	}
+}

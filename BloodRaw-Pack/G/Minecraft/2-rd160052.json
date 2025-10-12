@@ -1,0 +1,30 @@
+{
+	"Parent": "rd132328",
+	
+	"ID"  : "rd160052",
+	"Name": "RubyDung 160052",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Icon": ["Texture", "R/V/2.png"],
+	
+	"Add": ["ReplacePack"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"0" : {
+					"1" : ["Texture", "R/T/B/Stone_Cobblestone.png"]
+				},
+				"2" : {
+					"0" : ["Texture", "R/T/B/Dirt.png"]
+				},
+				"3" : {
+					"0" : ["Texture", "R/T/B/Grass_Dirt.file"]
+				},
+				"4" : {
+					"0" : ["Texture", "R/T/B/Planks.png"]
+				}
+			}
+		]
+	}
+}

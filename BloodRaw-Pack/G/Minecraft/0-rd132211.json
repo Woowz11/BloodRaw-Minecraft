@@ -1,0 +1,25 @@
+{
+	"ID"  : "rd132211",
+	"Name": "RubyDung 132211",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Icon": ["Texture", "R/V/0.png"],
+	
+	"Add": ["ReplacePack"],
+	
+	"Files": {
+		"terrain.png": [ "Atlas", {
+				"Empty": ["Texture", "R/T/Error.png"],
+				"Size" : [16, 16],
+				"Scale": [16, 16],
+				"0" : {
+					"0" : ["Texture", "R/T/B/Grass.file"]
+				},
+				"1" : {
+					"0" : ["Texture", "R/T/B/Stone.png"]
+				}
+			}
+		]
+	}
+}

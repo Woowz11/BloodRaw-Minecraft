@@ -1,0 +1,10 @@
+{
+	"Parent": "a1.2.3",
+	
+	"ID"  : "a1.2.4",
+	"Name": "Alpha 1.2.4",
+	"Type": "Version",
+	"Dev" : false,
+	
+	"Add": ["TexturePack"]
+}

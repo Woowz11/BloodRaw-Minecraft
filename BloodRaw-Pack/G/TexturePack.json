@@ -1,7 +1,7 @@
 {
-	"Parent": "Pack.json",
+	"Parent": "Pack",
 	
-	"Name": "TexturePack",
+	"ID": "TexturePack",
 	
 	"Files": {
 		"pack.txt"   : ["Create", "<Version> | <D_Version> - By <Author> ©"],
