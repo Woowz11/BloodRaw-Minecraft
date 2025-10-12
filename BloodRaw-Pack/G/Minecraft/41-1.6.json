@@ -7,6 +7,10 @@
 	
 	"Add": ["ResourcePack"],
 	
+	"Addon": {
+		"Mods": ["LuckyBlock_1.6.4", "IC2_1.6.4"]
+	},
+	
 	"PackFormat": 1,
 	
 	"Files": {

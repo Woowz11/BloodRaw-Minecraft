@@ -8,7 +8,7 @@
 	"Add": ["ResourcePack"],
 	
 	"Addon": {
-		"Mods": ["BetterFoliage_1.7.10", "IC2_1.7.10"]
+		"Mods": ["BetterFoliage_1.7.10"]
 	},
 	
 	"Files": {

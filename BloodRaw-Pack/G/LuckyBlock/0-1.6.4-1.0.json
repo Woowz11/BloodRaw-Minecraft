@@ -1,0 +1,17 @@
+{
+	"ID"  : "LuckyBlock_1.6.4",
+	"Name": "Lucky Block",
+	"Type": "Addon",
+	//"Dev" : false,
+	
+	"Mod": {
+		"Version": "1.0",
+		"Link"   : ["<CurseForge>lucky-block/files/3652647"]
+	},
+	
+	"Core": ["Forge"],
+	
+	"Files": {
+		"assets/lucky/textures/blocks/blockLucky.png": ["Animation", ["Texture", "R/T/B/Lucky.png"], "Lucky"]
+	}
+}

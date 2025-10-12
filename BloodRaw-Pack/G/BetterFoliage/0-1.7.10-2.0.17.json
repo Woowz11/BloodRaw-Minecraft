@@ -14,7 +14,7 @@
 	"Files": {
 		"assets/": {
 			"betterfoliage/": {
-				"blocks/blocks/": {
+				"textures/blocks/": {
 					"falling_leaf_default_0.png": ["Texture", "R/T/P/Leaf.png", [["Crop", 0 , 0, 4, 4]]],
 					"falling_leaf_default_1.png": ["Texture", "R/T/P/Leaf.png", [["Crop", 4 , 0, 4, 4]]],
 					"falling_leaf_default_2.png": ["Texture", "R/T/P/Leaf.png", [["Crop", 8 , 0, 4, 4]]],

@@ -1,0 +1,19 @@
+{
+	"ID"  : "IC2_1.6.4",
+	"Name": "IC2",
+	"Type": "Addon",
+	//"Dev" : false,
+	
+	"Icon": ["Texture", "R/V/0.png"],
+	
+	"Mod": {
+		"Version": "1.2.5",
+		"Link"   : ["<CurseForge>industrial-craft/files/6657899"]
+	},
+	
+	"Core": ["Forge"],
+	
+	"Files": {
+		
+	}
+}
