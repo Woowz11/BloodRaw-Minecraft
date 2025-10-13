@@ -5,7 +5,7 @@
 	},
 	
 	"Text": {
-		"Version"   : "1.6.7",
+		"Version"   : "1.6.8",
 		"Name"      : "BloodRaw",
 		"Author"    : "Woowz11",
 		"License"   : "CC BY-NC-SA 4.0",
@@ -33,7 +33,8 @@
 		"Water_Flow" : {"Smooth": true},
 		"End"        : {"Smooth": true},
 		"Redstone"   : {"Smooth": true, "Speed": 5},
-		"Lucky"      : {"Smooth": true, "Speed": 4, "Frames": [ 0,7,1,5,3,7,2,3,7,6,1,0,4,2,6,1,7,3,2,1,0,3,4,5,1,7,6,7,4,3,1,0,2,5,0,3,4,7,1,0,2,3,4,7,0,1,4,3,7,6,5,4,3,2,1 ]}
+		"Lucky"      : {"Smooth": true, "Speed": 4, "Frames": [ 0,7,1,5,3,7,2,3,7,6,1,0,4,2,6,1,7,3,2,1,0,3,4,5,1,7,6,7,4,3,1,0,2,5,0,3,4,7,1,0,2,3,4,7,0,1,4,3,7,6,5,4,3,2,1 ]},
+		"Pumpkin"    : {"Smooth": true, "Speed": 12} 
 	},
 	
 	"Action": {

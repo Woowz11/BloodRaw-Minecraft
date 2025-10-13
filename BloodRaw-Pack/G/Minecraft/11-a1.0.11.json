@@ -56,7 +56,7 @@
 			}
 		],
 		"item/boat.png": ["Texture", "R/T/E/Boat/Old.png"],
-		"mob/cow.png"  : ["Texture", "R/T/E/Cow.png"],
-		"mob/slime.png": ["Texture", "R/T/E/Slime.png"]
+		"mob/cow.png"  : ["Texture", "R/T/E/Cow/Default.png"],
+		"mob/slime.png": ["Texture", "R/T/E/Slime/Default.png"]
 	}
 }

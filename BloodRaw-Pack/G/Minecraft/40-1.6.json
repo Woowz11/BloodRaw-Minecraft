@@ -521,7 +521,7 @@
 						"horse.png"           : ["Texture", "R/T/U/Horse.file"],
 						"inventory.png": ["Actions", "gui/inventory.png", ["Atlas", {
 							"36": {
-								"234": ["Texture", "R/T/U/Effect_Absorption.png"]
+								"234": ["Texture", "R/T/U/Effect/Absorption.png"]
 							}
 						}]],
 						"stats_icons.png": "gui/slot.png",

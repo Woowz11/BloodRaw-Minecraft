@@ -23,8 +23,8 @@
 		}],
 		"gui/hopper.png": ["Texture", "R/T/U/Hopper.file"],
 		
-		"item/chests/trap_small.png": ["Texture", "R/T/E/Chest_Trap.png"],
-		"item/chests/trap_large.png": ["Texture", "R/T/E/Chest_Trap_Double.png"],
+		"item/chests/trap_small.png": ["Texture", "R/T/E/Chest/Trap.png"],
+		"item/chests/trap_large.png": ["Texture", "R/T/E/Chest/Trap_Double.png"],
 		
 		"terrain.png": ["Atlas", {
 			"8": {
@@ -122,22 +122,22 @@
 			
 			"clay.png"    : ["Texture", "R/T/B/Clay.png"],
 			
-			"cloth_0.png"    : ["Texture", "R/T/B/Wool_White.file"],
-			"cloth_1.png"    : ["Texture", "R/T/B/Wool_Orange.file"],
-			"cloth_2.png"    : ["Texture", "R/T/B/Wool_Magenta.file"],
-			"cloth_3.png"    : ["Texture", "R/T/B/Wool_Aqua.file"],
-			"cloth_4.png"    : ["Texture", "R/T/B/Wool_Yellow.file"],
-			"cloth_5.png"    : ["Texture", "R/T/B/Wool_Lime.file"],
-			"cloth_6.png"    : ["Texture", "R/T/B/Wool_Pink.file"],
-			"cloth_7.png"    : ["Texture", "R/T/B/Wool_Gray.file"],
-			"cloth_8.png"    : ["Texture", "R/T/B/Wool_Silver.file"],
-			"cloth_9.png"    : ["Texture", "R/T/B/Wool_Cyan.file"],
-			"cloth_10.png"   : ["Texture", "R/T/B/Wool_Purple.file"],
-			"cloth_11.png"   : ["Texture", "R/T/B/Wool_Blue.file"],
-			"cloth_12.png"   : ["Texture", "R/T/B/Wool_Brown.file"],
-			"cloth_13.png"   : ["Texture", "R/T/B/Wool_Green.file"],
-			"cloth_14.png"   : ["Texture", "R/T/B/Wool_Red.file"],
-			"cloth_15.png"   : ["Texture", "R/T/B/Wool_Black.file"],
+			"cloth_0.png"    : ["Texture", "R/T/B/Wool/White.file"],
+			"cloth_1.png"    : ["Texture", "R/T/B/Wool/Orange.file"],
+			"cloth_2.png"    : ["Texture", "R/T/B/Wool/Magenta.file"],
+			"cloth_3.png"    : ["Texture", "R/T/B/Wool/Aqua.file"],
+			"cloth_4.png"    : ["Texture", "R/T/B/Wool/Yellow.file"],
+			"cloth_5.png"    : ["Texture", "R/T/B/Wool/Lime.file"],
+			"cloth_6.png"    : ["Texture", "R/T/B/Wool/Pink.file"],
+			"cloth_7.png"    : ["Texture", "R/T/B/Wool/Gray.file"],
+			"cloth_8.png"    : ["Texture", "R/T/B/Wool/Silver.file"],
+			"cloth_9.png"    : ["Texture", "R/T/B/Wool/Cyan.file"],
+			"cloth_10.png"   : ["Texture", "R/T/B/Wool/Purple.file"],
+			"cloth_11.png"   : ["Texture", "R/T/B/Wool/Blue.file"],
+			"cloth_12.png"   : ["Texture", "R/T/B/Wool/Brown.file"],
+			"cloth_13.png"   : ["Texture", "R/T/B/Wool/Green.file"],
+			"cloth_14.png"   : ["Texture", "R/T/B/Wool/Red.file"],
+			"cloth_15.png"   : ["Texture", "R/T/B/Wool/Black.file"],
 			
 			"cocoa_0.png"    : ["Texture", "R/T/B/Cocoa_0.png"],
 			"cocoa_1.png"    : ["Texture", "R/T/B/Cocoa_1.png"],
@@ -245,8 +245,8 @@
 			
 			"ladder.png": ["Texture", "R/T/B/Ladder.png"],
 			
-			"lava.png"     : ["Animation", ["Texture", "R/T/B/Lava.png"], "Lava"],
-			"lava_flow.png": ["Animation", ["Texture", "R/T/B/Lava_Flow.png"], "Lava_Flow"],
+			"lava.png"     : ["Animation", ["Texture", "R/T/B/Liquid/Lava.png"], "Lava"],
+			"lava_flow.png": ["Animation", ["Texture", "R/T/B/Liquid/Lava_Flow.png"], "Lava_Flow"],
 			
 			"leaves.png"              : ["Texture", "R/T/B/Leaves.file"],
 			"leaves_jungle.png"       : ["Texture", "R/T/B/Leaves_Jungle.file"],
@@ -308,7 +308,7 @@
 			"potatoes_3.png": ["Texture", "R/T/B/Potato_3.png"],
 			
 			"pumpkin_face.png": ["Texture", "R/T/B/Pumpkin_Face.png"],
-			"pumpkin_jack.png": ["Animation", ["Texture", "R/T/B/Pumpkin_Face_On.png"], {"Smooth": true, "Speed": 6}],
+			"pumpkin_jack.png": ["Animation", ["Texture", "R/T/B/Pumpkin_Face_On.png"], "Pumpkin"],
 			"pumpkin_side.png": ["Texture", "R/T/B/Pumpkin.png"],
 			"pumpkin_top.png" : ["Texture", "R/T/B/Pumpkin_Top.png"],
 			
@@ -394,8 +394,8 @@
 			
 			"vine.png": ["Texture", "R/T/B/Vines.png"],
 			
-			"water.png"     : ["Animation", ["Texture", "R/T/B/Water.file"], "Water"],
-			"water_flow.png": ["Animation", ["Texture", "R/T/B/Water_Flow.file"], "Water_Flow"],
+			"water.png"     : ["Animation", ["Texture", "R/T/B/Liquid/Water.file"], "Water"],
+			"water_flow.png": ["Animation", ["Texture", "R/T/B/Liquid/Water_Flow.file"], "Water_Flow"],
 			
 			"waterlily.png": ["Texture", "R/T/B/Lily.png"],
 			

@@ -50,29 +50,29 @@
 			}
 		}],
 		
-		"mob/wolf_tame.png"  : ["Texture", "R/T/E/Wolf_Pet.png"],
-		"mob/wolf_collar.png": ["Texture", "R/T/E/Wolf_Pet_Overlay.png"],
+		"mob/wolf_tame.png"  : ["Texture", "R/T/E/Wolf/Pet.png"],
+		"mob/wolf_collar.png": ["Texture", "R/T/E/Wolf/Pet_Overlay.png"],
 		
-		"mob/bat.png"            : ["Texture", "R/T/E/Bat.png"],
-		"mob/skeleton_wither.png": ["Texture", "R/T/E/Skeleton_Wither.png"],
-		"mob/wither.png"         : ["Texture", "R/T/E/Wither.png"],
-		"mob/wither_invul.png"   : ["Texture", "R/T/E/Wither_Armor.png"],
-		"mob/zombie_villager.png": ["Texture", "R/T/E/Zombie_Villager.png"],
-		"mob/zombie.png"         : ["Texture", "R/T/E/Zombie.png"],
+		"mob/bat.png"            : ["Texture", "R/T/E/Bat/Old.png"],
+		"mob/skeleton_wither.png": ["Texture", "R/T/E/Skeleton/Wither.png"],
+		"mob/wither.png"         : ["Texture", "R/T/E/Wither/Default.png"],
+		"mob/wither_invul.png"   : ["Texture", "R/T/E/Wither/Armor.png"],
+		"mob/zombie_villager.png": ["Texture", "R/T/E/Villager/Old/Zombie_Old.png"],
+		"mob/zombie.png"         : ["Texture", "R/T/E/Zombie/Default.png"],
 		
-		"mob/villager/witch.png": ["Texture", "R/T/E/Witch.png"],
+		"mob/villager/witch.png": ["Texture", "R/T/E/Witch/Default.png"],
 		
 		"misc/beam.png": ["Texture", "R/T/P/Beam_Beacon.png"],
 		
-		"item/xmaschest.png"     : ["Texture", "R/T/E/Chest_Xmas.png"],
-		"item/largexmaschest.png": ["Texture", "R/T/E/Chest_Xmas_Double.png"],
+		"item/xmaschest.png"     : ["Texture", "R/T/E/Chest/Xmas.png"],
+		"item/largexmaschest.png": ["Texture", "R/T/E/Chest/Xmas_Double.png"],
 		
-		"armor/witherarmor.png": ["Texture", "R/T/E/Wither_Charge.png"],
+		"armor/witherarmor.png": ["Texture", "R/T/E/Wither/Charge.png"],
 		
-		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.png", [["Crop", 0, 0, 64, 32]]],
-		"armor/cloth_1_b.png": ["Texture", "R/T/E/Player_Armor_Leather_Overlay.png", [["Crop", 0, 0, 64, 32]]],
-		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather.png", [["Crop", 0, 32, 64, 32]]],
-		"armor/cloth_2_b.png": ["Texture", "R/T/E/Player_Armor_Leather_Overlay.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player/Armor/Leather.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/cloth_1_b.png": ["Texture", "R/T/E/Player/Armor/Leather_Overlay.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player/Armor/Leather.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/cloth_2_b.png": ["Texture", "R/T/E/Player/Armor/Leather_Overlay.png", [["Crop", 0, 32, 64, 32]]],
 		
 		"art/kz.png": ["Atlas", {
 			"10": {
@@ -90,7 +90,7 @@
 		
 		"gui/inventory.png": ["Atlas", {
 			"18": {
-				"234": ["Texture", "R/T/U/Effect_Wither.png"]
+				"234": ["Texture", "R/T/U/Effect/Wither.png"]
 			}
 		}],
 		

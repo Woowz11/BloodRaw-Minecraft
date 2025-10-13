@@ -13,15 +13,15 @@
 		"fluff.png"   : ["Texture", "R/T/B/Snow.png"],
 		
 		"armor/chain_1.png"  : ["Replace", "armor/chain.png"],
-		"armor/chain_2.png"  : ["Texture", "R/T/E/Player_Armor_Chain.png", [["Crop", 0, 32, 64, 32]]],
-		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player_Armor_Leather.file", [["Crop", 0, 0, 64, 32]]],
-		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player_Armor_Leather.file", [["Crop", 0, 32, 64, 32]]],
-		"armor/diamond_1.png": ["Texture", "R/T/E/Player_Armor_Diamond.png", [["Crop", 0, 0, 64, 32]]],
-		"armor/diamond_2.png": ["Texture", "R/T/E/Player_Armor_Diamond.png", [["Crop", 0, 32, 64, 32]]],
-		"armor/gold_1.png"   : ["Texture", "R/T/E/Player_Armor_Gold.png", [["Crop", 0, 0, 64, 32]]],
-		"armor/gold_2.png"   : ["Texture", "R/T/E/Player_Armor_Gold.png", [["Crop", 0, 32, 64, 32]]],
-		"armor/iron_1.png"   : ["Texture", "R/T/E/Player_Armor_Iron.png", [["Crop", 0, 0, 64, 32]]],
-		"armor/iron_2.png"   : ["Texture", "R/T/E/Player_Armor_Iron.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/chain_2.png"  : ["Texture", "R/T/E/Player/Armor/Chain.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/cloth_1.png"  : ["Texture", "R/T/E/Player/Armor/Leather.file", [["Crop", 0, 0, 64, 32]]],
+		"armor/cloth_2.png"  : ["Texture", "R/T/E/Player/Armor/Leather.file", [["Crop", 0, 32, 64, 32]]],
+		"armor/diamond_1.png": ["Texture", "R/T/E/Player/Armor/Diamond.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/diamond_2.png": ["Texture", "R/T/E/Player/Armor/Diamond.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/gold_1.png"   : ["Texture", "R/T/E/Player/Armor/Gold.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/gold_2.png"   : ["Texture", "R/T/E/Player/Armor/Gold.png", [["Crop", 0, 32, 64, 32]]],
+		"armor/iron_1.png"   : ["Texture", "R/T/E/Player/Armor/Iron.png", [["Crop", 0, 0, 64, 32]]],
+		"armor/iron_2.png"   : ["Texture", "R/T/E/Player/Armor/Iron.png", [["Crop", 0, 32, 64, 32]]],
 		
 		"art/kz.png": [ "Atlas", {
 				"Empty": ["Texture", "R/T/Error.png"],
@@ -151,9 +151,9 @@
 			}
 		],
 		
-		"item/cart.png": ["Texture", "R/T/E/Minecart.png"],
+		"item/cart.png": ["Texture", "R/T/E/Minecart/Default.png"],
 		
-		"mob/spider_eyes.png": ["Texture", "R/T/E/Spider_Eyes.png"],
+		"mob/spider_eyes.png": ["Texture", "R/T/E/Spider/Eyes.png"],
 		
 		"terrain/sun.png" : ["Texture", "R/T/O/Sun.png"],
 		"terrain/moon.png": ["Texture", "R/T/O/Moon.file"],
@@ -239,15 +239,15 @@
 					"3" : ["Animation", ["Texture", "R/T/B/Furnace_On.png"], false],
 					"5" : ["Texture", "R/T/B/Wheat_5.png"],
 					"12" : ["Texture", "R/T/B/Water_Single.file"],
-					"14" : ["Animation", ["Texture", "R/T/B/Lava.png"], false]
+					"14" : ["Animation", ["Texture", "R/T/B/Liquid/Lava.png"], false]
 				},
 				"14" : {
 					"0" : null,
 					"1" : null,
 					"5" : ["Texture", "R/T/B/Wheat_6.png"],
-					"12" : ["Animation", ["Texture", "R/T/B/Water_Flow.file"], false],
+					"12" : ["Animation", ["Texture", "R/T/B/Liquid/Water_Flow.file"], false],
 					"13" : false,
-					"14" : ["Animation", ["Texture", "R/T/B/Lava_Flow.png"], false],
+					"14" : ["Animation", ["Texture", "R/T/B/Liquid/Lava_Flow.png"], false],
 					"15" : false
 				},
 				"15" : {

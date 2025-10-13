@@ -9,6 +9,8 @@
 	"Add": ["TexturePack"],
 	
 	"Files": {
+		"mob/char.png": "char.png",
+		
 		"char.png"   : null,
 		"default.gif": null,
 		"default.png": null,
@@ -33,9 +35,7 @@
 		"gui/background.png"  : ["Texture", "R/T/U/Background.png"],
 		"gui/unknown_pack.png": ["Texture", "R/T/U/Unknown.png"],
 
-		"misc/water.png" : ["Texture", "R/T/B/Water_Single.file"],
-		"misc/shadow.png": ["Texture", "R/T/P/Shadow.png"],
-		
-		"mob/char.png": ["Texture", "R/T/E/Player.file"]
+		"misc/water.png" : ["Texture", "R/T/B/Liquid/Water_Single.file"],
+		"misc/shadow.png": ["Texture", "R/T/P/Shadow.png"]
 	}
 }

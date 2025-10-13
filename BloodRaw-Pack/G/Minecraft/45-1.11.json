@@ -13,15 +13,60 @@
 		"assets/minecraft/textures/": {			
 			"entity/": {
 				"llama/": {
+					"llama_brown.png" : ["Texture", "R/T/E/Llama/Brown.png"],
+					"llama_creamy.png": ["Texture", "R/T/E/Llama/Creamy.png"],
+					"llama_gray.png"  : ["Texture", "R/T/E/Llama/Gray.png"],
+					"llama_white.png" : ["Texture", "R/T/E/Llama/White.png"],
+					"spit.png"        : ["Texture", "R/T/E/Llama/Spit.png"],
 					
+					"llama.png": "assets/minecraft/textures/entity/llama/llama_creamy.png",
+					
+					"decor/": {
+						"decor_black.png"     : ["Texture", "R/T/E/Llama/Decor/Black.png"],
+						"decor_blue.png"      : ["Texture", "R/T/E/Llama/Decor/Blue.png"],
+						"decor_brown.png"     : ["Texture", "R/T/E/Llama/Decor/Brown.png"],
+						"decor_cyan.png"      : ["Texture", "R/T/E/Llama/Decor/Cyan.png"],
+						"decor_gray.png"      : ["Texture", "R/T/E/Llama/Decor/Gray.png"],
+						"decor_green.png"     : ["Texture", "R/T/E/Llama/Decor/Green.png"],
+						"decor_light_blue.png": ["Texture", "R/T/E/Llama/Decor/Aqua.png"],
+						"decor_lime.png"      : ["Texture", "R/T/E/Llama/Decor/Lime.png"],
+						"decor_magenta.png"   : ["Texture", "R/T/E/Llama/Decor/Magenta.png"],
+						"decor_orange.png"    : ["Texture", "R/T/E/Llama/Decor/Orange.png"],
+						"decor_pink.png"      : ["Texture", "R/T/E/Llama/Decor/Pink.png"],
+						"decor_purple.png"    : ["Texture", "R/T/E/Llama/Decor/Purple.png"],
+						"decor_red.png"       : ["Texture", "R/T/E/Llama/Decor/Red.png"],
+						"decor_silver.png"    : ["Texture", "R/T/E/Llama/Decor/Silver.png"],
+						"decor_white.png"     : ["Texture", "R/T/E/Llama/Decor/White.png"],
+						"decor_yellow.png"    : ["Texture", "R/T/E/Llama/Decor/Yellow.png"],
+					}
 				},
 				
 				"illager/": {
-					
+					"evoker.png"      : ["Texture", "R/T/E/Evoker/Default.png"],
+					"fangs.png"       : ["Texture", "R/T/E/Evoker/Fangs.png"],
+					"vex.png"         : ["Texture", "R/T/E/Vex/Old.png"],
+					"vex_charging.png": ["Texture", "R/T/E/Vex/Old_Charging.png"],
+					"vindicator.png"  : ["Texture", "R/T/E/Vindicator/Default.png"],
 				},
 				
 				"shulker/": {
+					"shulker_purple.png": ["Rename", "endergolem.png"],
 					
+					"shulker_light_blue.png": ["Texture", "R/T/E/Shulker/Aqua.png"],
+					"shulker_black.png"     : ["Texture", "R/T/E/Shulker/Black.png"],
+					"shulker_blue.png"      : ["Texture", "R/T/E/Shulker/Blue.png"],
+					"shulker_brown.png"     : ["Texture", "R/T/E/Shulker/Brown.png"],
+					"shulker_cyan.png"      : ["Texture", "R/T/E/Shulker/Cyan.png"],
+					"shulker_gray.png"      : ["Texture", "R/T/E/Shulker/Gray.png"],
+					"shulker_green.png"     : ["Texture", "R/T/E/Shulker/Green.png"],
+					"shulker_lime.png"      : ["Texture", "R/T/E/Shulker/Lime.png"],
+					"shulker_magenta.png"   : ["Texture", "R/T/E/Shulker/Magenta.png"],
+					"shulker_orange.png"    : ["Texture", "R/T/E/Shulker/Orange.png"],
+					"shulker_pink.png"      : ["Texture", "R/T/E/Shulker/Pink.png"],
+					"shulker_red.png"       : ["Texture", "R/T/E/Shulker/Red.png"],
+					"shulker_silver.png"    : ["Texture", "R/T/E/Shulker/Silver.png"],
+					"shulker_white.png"     : ["Texture", "R/T/E/Shulker/White.png"],
+					"shulker_yellow.png"    : ["Texture", "R/T/E/Shulker/Yellow.png"],
 				}
 			},
 			
@@ -31,6 +76,23 @@
 				"observer_top.png"     : [],
 				"observer_back.png"    : [],
 				"observer_back_lit.png": [],
+				
+				"shulker_top_black.png"     : [],
+				"shulker_top_blue.png"      : [],
+				"shulker_top_brown.png"     : [],
+				"shulker_top_cyan.png"      : [],
+				"shulker_top_gray.png"      : [],
+				"shulker_top_green.png"     : [],
+				"shulker_top_light_blue.png": [],
+				"shulker_top_lime.png"      : [],
+				"shulker_top_magenta.png"   : [],
+				"shulker_top_orange.png"    : [],
+				"shulker_top_pink.png"      : [],
+				"shulker_top_purple.png"    : [],
+				"shulker_top_red.png"       : [],
+				"shulker_top_silver.png"    : [],
+				"shulker_top_white.png"     : [],
+				"shulker_top_yellow.png"    : [],
 			},
 			
 			"items/": {
@@ -42,6 +104,10 @@
 				
 				"map_filled.png"         : [],
 				"map_filled_markings.png": [],
+			},
+			
+			"gui/container/": {
+				"shulker_box.png": ["Texture", "R/T/U/Shulker.file"]
 			}
 		}
 	}

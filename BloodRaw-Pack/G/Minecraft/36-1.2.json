@@ -37,11 +37,11 @@
 			}
 		}],
 		
-		"mob/cat_black.png"     : ["Texture", "R/T/E/Cat_Black_White.png"],
-		"mob/cat_red.png"       : ["Texture", "R/T/E/Cat_Orange.png"],
-		"mob/cat_siamese.png"   : ["Texture", "R/T/E/Cat.png"],
-		"mob/ozelot.png"        : ["Texture", "R/T/E/Cat_Ocelot.png"],
-		"mob/villager_golem.png": ["Texture", "R/T/E/Golem.png"],
+		"mob/cat_black.png"     : ["Texture", "R/T/E/Cat/Black_White.png"],
+		"mob/cat_red.png"       : ["Texture", "R/T/E/Cat/Orange.png"],
+		"mob/cat_siamese.png"   : ["Texture", "R/T/E/Cat/Siamese.png"],
+		"mob/ozelot.png"        : ["Texture", "R/T/E/Cat/Ocelot.png"],
+		"mob/villager_golem.png": ["Texture", "R/T/E/Golem/Iron.png"],
 		
 		"gui/items.png": ["Atlas", {
 			"11": {

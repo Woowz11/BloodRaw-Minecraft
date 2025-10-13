@@ -13,7 +13,7 @@
 		
 		"terrain.png": [ "Atlas", {
 				"0" : {
-					"4" : ["Texture", "R/T/B/Wool_White.file"],
+					"4" : ["Texture", "R/T/B/Wool/White.file"],
 					"6" : ["Texture", "R/T/B/Lever.png"]
 				},
 				"1" : {
@@ -85,7 +85,7 @@
 		],
 		
 		"misc/vignette.png": ["Texture", "R/T/O/Vignette.file"],
-		"mob/saddle.png"   : ["Texture", "R/T/E/Pig_Saddle.png"],
+		"mob/saddle.png"   : ["Texture", "R/T/E/Pig/Saddle.png"],
 		
 		"title/mojang.png": ["Texture", "R/T/U/Loading.png"]
 	}

@@ -73,22 +73,22 @@
 		],
 		"terrain/moon_phases.png" : ["Texture", "R/T/O/Moon.png"],
 		
-		"mob/fire.png"   : ["Texture", "R/T/E/Blaze.png"],
-		"mob/lava.png"   : ["Texture", "R/T/E/Slime_Lava.png"],
-		"mob/redcow.png" : ["Texture", "R/T/E/Cow_Mushroom_Red.png"],
-		"mob/snowman.png": ["Texture", "R/T/E/Golem_Snow.png"],
+		"mob/fire.png"   : ["Texture", "R/T/E/Blaze/Default.png"],
+		"mob/lava.png"   : ["Texture", "R/T/E/Slime/Magma.png"],
+		"mob/redcow.png" : ["Texture", "R/T/E/Cow/Mushroom_Red.png"],
+		"mob/snowman.png": ["Texture", "R/T/E/Golem/Snow.png"],
 		
-		"mob/villager/villager.png" : ["Texture", "R/T/E/Villager_Old.png"],
-		"mob/villager/butcher.png"  : ["Texture", "R/T/E/Villager_Old_Butcher.png"],
-		"mob/villager/farmer.png"   : ["Texture", "R/T/E/Villager_Old_Farmer.png"],
-		"mob/villager/librarian.png": ["Texture", "R/T/E/Villager_Old_Librarian.png"],
-		"mob/villager/priest.png"   : ["Texture", "R/T/E/Villager_Old_Priest.png"],
-		"mob/villager/smith.png"    : ["Texture", "R/T/E/Villager_Old_Smith.png"],
+		"mob/villager/villager.png" : ["Texture", "R/T/E/Villager/Old/Default.png"],
+		"mob/villager/butcher.png"  : ["Texture", "R/T/E/Villager/Old/Butcher.png"],
+		"mob/villager/farmer.png"   : ["Texture", "R/T/E/Villager/Old/Farmer.png"],
+		"mob/villager/librarian.png": ["Texture", "R/T/E/Villager/Old/Librarian.png"],
+		"mob/villager/priest.png"   : ["Texture", "R/T/E/Villager/Old/Priest.png"],
+		"mob/villager/smith.png"    : ["Texture", "R/T/E/Villager/Old/Smith.png"],
 		
-		"mob/enderdragon/ender.png"     : ["Texture", "R/T/E/Dragon_End.file"],
-		"mob/enderdragon/ender_eyes.png": ["Texture", "R/T/E/Dragon_End_Eyes.png"],
-		"mob/enderdragon/shuffle.png"   : ["Texture", "R/T/E/Dragon_End_Explosion.png"],
-		"mob/enderdragon/crystal.png"   : ["Texture", "R/T/E/Crystal_End.png"],
+		"mob/enderdragon/ender.png"     : ["Texture", "R/T/E/Dragon/End/Default.file"],
+		"mob/enderdragon/ender_eyes.png": ["Texture", "R/T/E/Dragon/End/Eyes.png"],
+		"mob/enderdragon/shuffle.png"   : ["Texture", "R/T/E/Dragon/End/Explosion.png"],
+		"mob/enderdragon/crystal.png"   : ["Texture", "R/T/E/Dragon/End/Crystal.png"],
 		"mob/enderdragon/beam.png"      : ["Texture", "R/T/P/Beam_End.png"],
 		
 		"misc/glint.png" : ["Texture", "R/T/O/Enchant.png"],
@@ -152,37 +152,37 @@
 				"0"  : ["Texture", "R/T/U/Inventory_Old.file"],
 				"166": ["Texture", "R/T/U/Inventory_Effect.png"],
 				
-				"198": ["Texture", "R/T/U/Effect_Speed+.png"],
-				"216": ["Texture", "R/T/U/Effect_Invisible.png"],
-				"234": ["Texture", "R/T/U/Effect_Oxygen.png"]
+				"198": ["Texture", "R/T/U/Effect/Speed+.png"],
+				"216": ["Texture", "R/T/U/Effect/Invisible.png"],
+				"234": ["Texture", "R/T/U/Effect/Oxygen.png"]
 			},
 			"18": {
-				"198": ["Texture", "R/T/U/Effect_Speed-.png"],
-				"216": ["Texture", "R/T/U/Effect_Hunger.png"]
+				"198": ["Texture", "R/T/U/Effect/Speed-.png"],
+				"216": ["Texture", "R/T/U/Effect/Hunger.png"]
 			},
 			"36": {
-				"198": ["Texture", "R/T/U/Effect_Digging+.png"],
-				"216": ["Texture", "R/T/U/Effect_Jump.png"]
+				"198": ["Texture", "R/T/U/Effect/Digging+.png"],
+				"216": ["Texture", "R/T/U/Effect/Jump.png"]
 			},
 			"54": {
-				"198": ["Texture", "R/T/U/Effect_Digging-.png"],
-				"216": ["Texture", "R/T/U/Effect_Nausea.png"]
+				"198": ["Texture", "R/T/U/Effect/Digging-.png"],
+				"216": ["Texture", "R/T/U/Effect/Nausea.png"]
 			},
 			"72": {
-				"198": ["Texture", "R/T/U/Effect_Strength+.png"],
-				"216": ["Texture", "R/T/U/Effect_Vision+.png"]
+				"198": ["Texture", "R/T/U/Effect/Strength+.png"],
+				"216": ["Texture", "R/T/U/Effect/Vision+.png"]
 			},
 			"90": {
-				"198": ["Texture", "R/T/U/Effect_Strength-.png"],
-				"216": ["Texture", "R/T/U/Effect_Vision-.png"]
+				"198": ["Texture", "R/T/U/Effect/Strength-.png"],
+				"216": ["Texture", "R/T/U/Effect/Vision-.png"]
 			},
 			"108": {
-				"198": ["Texture", "R/T/U/Effect_Poison.png"],
-				"216": ["Texture", "R/T/U/Effect_Resistance.png"]
+				"198": ["Texture", "R/T/U/Effect/Poison.png"],
+				"216": ["Texture", "R/T/U/Effect/Resistance.png"]
 			},
 			"126": {
-				"198": ["Texture", "R/T/U/Effect_Regeneration.png"],
-				"216": ["Texture", "R/T/U/Effect_Fire.png"]
+				"198": ["Texture", "R/T/U/Effect/Regeneration.png"],
+				"216": ["Texture", "R/T/U/Effect/Fire.png"]
 			}
 		}],
 		

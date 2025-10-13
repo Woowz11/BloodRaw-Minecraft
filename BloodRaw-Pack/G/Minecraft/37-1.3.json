@@ -36,7 +36,7 @@
 			}
 		}],
 		
-		"item/enderchest.png": ["Texture", "R/T/E/Chest_End.png"],
+		"item/enderchest.png": ["Texture", "R/T/E/Chest/End.png"],
 		
 		"gui/allitems.png": ["Texture", "R/T/U/Creative_Tabs.png"],
 		"gui/book.png"    : ["Texture", "R/T/U/Book.png"],

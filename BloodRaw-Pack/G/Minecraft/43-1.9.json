@@ -12,7 +12,47 @@
 	"Add": ["ResourcePack"],
 	
 	"Files": {
-		"assets/minecraft/": {			
+		"assets/minecraft/": {
+			"blockstates/": {
+				
+			},
+			
+			"models/": {
+				"block/": {
+					"lit_redstone_ore.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:blocks/redstone_ore_lit"]],
+					
+					"pumpkin.json"    : ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:blocks/pumpkin_side", "minecraft:blocks/pumpkin_top", "minecraft:blocks/pumpkin_bottom", "minecraft:blocks/pumpkin_face_off"]],
+					"lit_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:blocks/pumpkin_side_on", "minecraft:blocks/pumpkin_top", "minecraft:blocks/pumpkin_bottom", "minecraft:blocks/pumpkin_face_on"]],
+				
+					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], ["minecraft:blocks/melon_side", "minecraft:blocks/melon_top", "minecraft:blocks/melon_bottom"]],
+					
+					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:blocks/bookshelf", "minecraft:blocks/bookshelf_top"]],
+					
+					"crafting_table.json": ["Variable", ["File", "R/M/B/Cube.json"], [
+						"minecraft:blocks/crafting_table_front",
+						"minecraft:blocks/crafting_table_side",
+						"minecraft:blocks/crafting_table_front",
+						"minecraft:blocks/crafting_table_side",
+						"minecraft:blocks/crafting_table_top",
+						"minecraft:blocks/crafting_table_bottom",
+					]]
+				},
+				
+				"item/": {
+					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["minecraft:block/cake_uneaten"]],
+					
+					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/cauldron_empty"]],
+					"hopper.json"  : ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/hopper_down"]],
+					
+					"brewing_stand.json": ["Variable", ["File", "R/M/I/Brewing.json"], ["minecraft:block/brewing_stand"]],
+					
+					"repeater.json"  : ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/repeater_1tick"]],
+					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/comparator_unlit"]],
+					
+					"flower_pot.json": ["Variable", ["File", "R/M/I/Pot.json"], ["minecraft:block/flower_pot"]],
+				}
+			},
+			
 			"textures/": {
 				"particle/particles.png": ["Atlas", {
 					"0": {
@@ -34,7 +74,7 @@
 						"boat_spruce.png" : ["Texture", "R/T/E/Boat/Spruce.file"],
 					},
 					
-					"elytra.png"               : ["Texture", "R/T/E/Player_Elytra.png"],
+					"elytra.png"               : ["Texture", "R/T/E/Player/Armor/Elytra.png"],
 					"end_gateway_beam.png"     : ["Texture", "R/T/P/Beam_Gateway.png"],
 					"shield_base_nopattern.png": ["Texture", "R/T/E/Shield/Shield_Empty.png"],
 					"shield_base.png"          : ["Texture", "R/T/E/Shield/Shield.png"],
@@ -90,17 +130,17 @@
 					},
 					
 					"shulker/": {
-						"endergolem.png": ["Texture", "R/T/E/Shulker.png"],
-						"spark.png"     : ["Texture", "R/T/E/Shulker_Spark.png"]
+						"endergolem.png": ["Texture", "R/T/E/Shulker/Default.png"],
+						"spark.png"     : ["Texture", "R/T/E/Shulker/Spark.png"]
 					},
 					
 					"zombie_villager/": {
-						"zombie_butcher.png"  : ["Texture", "R/T/E/Villager_Old_Butcher_Zombie.png"],
-						"zombie_farmer.png"   : ["Texture", "R/T/E/Villager_Old_Farmer_Zombie.png"],
-						"zombie_librarian.png": ["Texture", "R/T/E/Villager_Old_Librarian_Zombie.png"],
-						"zombie_priest.png"   : ["Texture", "R/T/E/Villager_Old_Priest_Zombie.png"],
-						"zombie_smith.png"    : ["Texture", "R/T/E/Villager_Old_Smith_Zombie.png"],
-						"zombie_villager.png" : ["Texture", "R/T/E/Villager_Old_Zombie.png"],
+						"zombie_butcher.png"  : ["Texture", "R/T/E/Villager/Old/Butcher_Zombie.png"],
+						"zombie_farmer.png"   : ["Texture", "R/T/E/Villager/Old/Farmer_Zombie.png"],
+						"zombie_librarian.png": ["Texture", "R/T/E/Villager/Old/Librarian_Zombie.png"],
+						"zombie_priest.png"   : ["Texture", "R/T/E/Villager/Old/Priest_Zombie.png"],
+						"zombie_smith.png"    : ["Texture", "R/T/E/Villager/Old/Smith_Zombie.png"],
+						"zombie_villager.png" : ["Texture", "R/T/E/Villager/Old/Zombie.png"],
 					}
 				},
 				
@@ -140,19 +180,19 @@
 							},
 							
 							"54": {
-								"234": ["Texture", "R/T/U/Effect_Levitation.png"]
+								"234": ["Texture", "R/T/U/Effect/Levitation.png"]
 							},
 							"72": {
-								"234": ["Texture", "R/T/U/Effect_Glowing.png"]
+								"234": ["Texture", "R/T/U/Effect/Glowing.png"]
 							},
 							"90": {
-								"234": ["Texture", "R/T/U/Effect_Luck+.png"]
+								"234": ["Texture", "R/T/U/Effect/Luck+.png"]
 							},
 							"108": {
-								"234": ["Texture", "R/T/U/Effect_Luck-.png"]
+								"234": ["Texture", "R/T/U/Effect/Luck-.png"]
 							},
 							"126": {
-								"234": ["Texture", "R/T/U/Effect_Boost.png"]
+								"234": ["Texture", "R/T/U/Effect/Boost.png"]
 							},
 							
 							"141": {
@@ -235,6 +275,20 @@
 					"structure_block_data.png"  : ["Texture", "R/T/B/Creative_Structure_Data.png"],
 					"structure_block_load.png"  : ["Texture", "R/T/B/Creative_Structure_Load.png"],
 					"structure_block_save.png"  : ["Texture", "R/T/B/Creative_Structure_Save.png"],
+					
+					"chorus_flower.png"     : [],
+					"chorus_flower_dead.png": [],
+					"chorus_plant.png"      : [],
+					
+					"redstone_ore_lit.png": ["Animation", ["Texture", "R/T/B/Redstone_Ore_On.png"], "Redstone"],
+					
+					"pumpkin_bottom.png" : ["Texture", "R/T/B/Pumpkin_Bottom.png"],
+					"pumpkin_side_on.png": ["Animation", ["Texture", "R/T/B/Pumpkin_On.png"], "Pumpkin"],
+					
+					"melon_bottom.png" : ["Texture", "R/T/B/Watermelon_Bottom.png"],
+					
+					"bookshelf_top.png"        : ["Texture", "R/T/B/Bookshelf_Top.png"],
+					"crafting_table_bottom.png": "assets/minecraft/textures/blocks/bookshelf_top.png"
 				}
 			}
 		}

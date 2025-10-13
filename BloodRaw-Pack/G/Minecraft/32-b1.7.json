@@ -41,7 +41,7 @@
 				}
 			}
 		],
-		"mob/silverfish.png": ["Texture", "R/T/E/Silverfish.png"],
+		"mob/silverfish.png": ["Texture", "R/T/E/Silverfish/Default.png"],
 		"gui/items.png": [ "Atlas", {
 				"13" : {
 					"5" : ["Texture", "R/T/I/Shears.png"]

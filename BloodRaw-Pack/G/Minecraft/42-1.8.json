@@ -8,7 +8,7 @@
 	"Add": ["ResourcePack"],
 	
 	"Files": {
-		"assets/minecraft/": {
+		"assets/minecraft/": {			
 			"textures/": {
 				"blocks/": {
 					"sponge_wet.png": ["Texture", "R/T/B/Sponge_Wet.png"],
@@ -60,26 +60,26 @@
 				},
 				
 				"entity/": {
-					"steve.png": ["Texture", "R/T/E/Player.png"],
-					"alex.png" : ["Texture", "R/T/E/Player_2.png"],
+					"steve.png": ["Texture", "R/T/E/Player/0.png"],
+					"alex.png" : ["Texture", "R/T/E/Player/1.png"],
 					
-					"guardian.png"      : ["Texture", "R/T/E/Guardian.png"],
-					"guardian_elder.png": ["Texture", "R/T/E/Guardian_Boss.png"],
+					"guardian.png"      : ["Texture", "R/T/E/Guardian/Default.png"],
+					"guardian_elder.png": ["Texture", "R/T/E/Guardian/Boss.png"],
 					"guardian_beam.png" : ["Texture", "R/T/P/Beam_Guardian.png"],
 					
-					"endermite.png": ["Texture", "R/T/E/Endermite.png"],
+					"endermite.png": ["Texture", "R/T/E/Endermite/Default.png"],
 					
-					"armorstand/wood.png": ["Texture", "R/T/E/Stand.png"],
+					"armorstand/wood.png": ["Texture", "R/T/E/Stand/Default.png"],
 					
 					"rabbit/": {
-						"black.png"          : ["Texture", "R/T/E/Rabbit_Black.png"],
-						"brown.png"          : ["Texture", "R/T/E/Rabbit_Brown.png"],
-						"gold.png"           : ["Texture", "R/T/E/Rabbit_Gold.png"],
-						"salt.png"           : ["Texture", "R/T/E/Rabbit_Salt.png"],
-						"white.png"          : ["Texture", "R/T/E/Rabbit.png"],
-						"white_splotched.png": ["Texture", "R/T/E/Rabbit_Splotched.png"],
-						"toast.png"          : ["Texture", "R/T/E/Rabbit_Toast.png"],
-						"caerbannog.png"     : ["Texture", "R/T/E/Rabbit_Monster.png"],
+						"black.png"          : ["Texture", "R/T/E/Rabbit/Black.png"],
+						"brown.png"          : ["Texture", "R/T/E/Rabbit/Brown.png"],
+						"gold.png"           : ["Texture", "R/T/E/Rabbit/Gold.png"],
+						"salt.png"           : ["Texture", "R/T/E/Rabbit/Salt.png"],
+						"white.png"          : ["Texture", "R/T/E/Rabbit/White.png"],
+						"white_splotched.png": ["Texture", "R/T/E/Rabbit/Splotched.png"],
+						"toast.png"          : ["Texture", "R/T/E/Rabbit/Toast.png"],
+						"caerbannog.png"     : ["Texture", "R/T/E/Rabbit/Monster.png"],
 					},
 					
 					"banner_base.png": ["Texture", "R/T/E/Banner/Banner.png"],

@@ -55,15 +55,15 @@
 		"title/bg/panorama4.png": ["Texture", "R/T/O/Panorama_Menu_4.file"],
 		"title/bg/panorama5.png": ["Texture", "R/T/O/Panorama_Menu_5.file"],
 		
-		"mob/cavespider.png"   : ["Texture", "R/T/E/Spider_Poison.file"],
-		"mob/enderman.png"     : ["Texture", "R/T/E/Enderman.file"],
-		"mob/enderman_eyes.png": ["Texture", "R/T/E/Enderman_Eyes.png"],
+		"mob/cavespider.png"   : ["Texture", "R/T/E/Spider/Poison.file"],
+		"mob/enderman.png"     : ["Texture", "R/T/E/Enderman/Default.file"],
+		"mob/enderman_eyes.png": ["Texture", "R/T/E/Enderman/Eyes.png"],
 		
 		"misc/explosion.png"    : ["Texture", "R/T/P/Explosion.png"],
 		"misc/particlefield.png": ["Texture", "R/T/O/Portal_End.png"],
 		
-		"item/chest.png"     : ["Texture", "R/T/E/Chest.png"],
-		"item/largechest.png": ["Texture", "R/T/E/Chest_Double.png"],
+		"item/chest.png"     : ["Texture", "R/T/E/Chest/Default.png"],
+		"item/largechest.png": ["Texture", "R/T/E/Chest/Default_Double.png"],
 		"item/xporb.png"     : ["Texture", "R/T/P/XP.png"],
 		
 		"gui/crash_logo.png": "gui/logo.png",

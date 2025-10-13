@@ -34,6 +34,6 @@
 				}
 			}
 		],
-		"mob/chicken.png"   : ["Texture", "R/T/E/Chicken.png"]
+		"mob/chicken.png"   : ["Texture", "R/T/E/Chicken/Default.png"]
 	}
 }

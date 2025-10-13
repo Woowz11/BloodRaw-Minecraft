@@ -1,0 +1,12 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+		"particle": "<Var1>",
+		"down"    : "<Var3>",
+		"up"      : "<Var2>",
+		"north"   : "<Var4>",
+		"east"    : "<Var1>",
+		"south"   : "<Var1>",
+		"west"    : "<Var1>"
+	}
+}

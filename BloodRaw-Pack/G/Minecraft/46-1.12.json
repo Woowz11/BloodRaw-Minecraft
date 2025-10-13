@@ -1,0 +1,135 @@
+{
+	"Parent": "1.11",
+	
+	"ID"  : "1.12",
+	"Type": "Version",
+	//"Dev" : false,
+	
+	"Add": ["ResourcePack"],
+	
+	"Files": {
+		"assets/minecraft/textures/": {		
+			"gui/": {
+				"toasts.png": ["Texture", "R/T/U/Achievement_Toast.png"],
+				
+				"title/edition.png": ["Texture", "R/T/U/Logo_Lower.png"],
+				
+				"achievement/": null,
+				"advancements/": {
+					"backgrounds/": {
+						"adventure.png": [],
+						"end.png"      : [],
+						"husbandry.png": [],
+						"nether.png"   : [],
+						"stone.png"    : [],
+					},
+					
+					"window.png" : ["Texture", "R/T/U/Achievement.png"],
+					"widgets.png": ["Texture", "R/T/U/Achievement_Widget.png"],
+					"tabs.png"   : ["Texture", "R/T/U/Achievement_Tab.png"],
+				},
+				
+				"container/": {
+					"recipe_background.png": ["Texture", "R/T/U/Recipe.png"],
+					
+					"inventory.png": ["Atlas", {
+						"178": {
+							"0" : ["Texture", "R/T/U/Recipe_Book_Button.png"],
+							"19": ["Texture", "R/T/U/Recipe_Book_Button_Hover.png"]
+						}
+					}]
+				},
+				
+				"recipe_book.png": ["Texture", "R/T/U/Recipe_Book.png"]
+			},
+			
+			"entity/": {
+				"parrot/": {
+					"parrot_blue.png"       : ["Texture", "R/T/E/Parrot/Blue.png"],
+					"parrot_green.png"      : ["Texture", "R/T/E/Parrot/Green.png"],
+					"parrot_grey.png"       : ["Texture", "R/T/E/Parrot/Gray.png"],
+					"parrot_red_blue.png"   : ["Texture", "R/T/E/Parrot/Red.png"],
+					"parrot_yellow_blue.png": ["Texture", "R/T/E/Parrot/Aqua.png"],
+				},
+				
+				"bed/": {
+					"black.png"     : [],
+					"blue.png"      : [],
+					"brown.png"     : [],
+					"cyan.png"      : [],
+					"gray.png"      : [],
+					"green.png"     : [],
+					"light_blue.png": [],
+					"lime.png"      : [],
+					"magenta.png"   : [],
+					"orange.png"    : [],
+					"pink.png"      : [],
+					"purple.png"    : [],
+					"red.png"       : [],
+					"silver.png"    : [],
+					"white.png"     : [],
+					"yellow.png"    : [],
+				},
+				
+				"illager/illusionist.png": ["Texture", "R/T/E/Illusionist/Default.png"]
+			},
+			
+			"items/": {
+				"knowledge_book.png": []
+			},
+			
+			"blocks/": {
+				"concrete_black.png"     : [],
+				"concrete_blue.png"      : [],
+				"concrete_brown.png"     : [],
+				"concrete_cyan.png"      : [],
+				"concrete_gray.png"      : [],
+				"concrete_green.png"     : [],
+				"concrete_light_blue.png": [],
+				"concrete_lime.png"      : [],
+				"concrete_magenta.png"   : [],
+				"concrete_orange.png"    : [],
+				"concrete_pink.png"      : [],
+				"concrete_purple.png"    : [],
+				"concrete_red.png"       : [],
+				"concrete_silver.png"    : [],
+				"concrete_white.png"     : [],
+				"concrete_yellow.png"    : [],
+				
+				"concrete_powder_black.png"     : [],
+				"concrete_powder_blue.png"      : [],
+				"concrete_powder_brown.png"     : [],
+				"concrete_powder_cyan.png"      : [],
+				"concrete_powder_gray.png"      : [],
+				"concrete_powder_green.png"     : [],
+				"concrete_powder_light_blue.png": [],
+				"concrete_powder_lime.png"      : [],
+				"concrete_powder_magenta.png"   : [],
+				"concrete_powder_orange.png"    : [],
+				"concrete_powder_pink.png"      : [],
+				"concrete_powder_purple.png"    : [],
+				"concrete_powder_red.png"       : [],
+				"concrete_powder_silver.png"    : [],
+				"concrete_powder_white.png"     : [],
+				"concrete_powder_yellow.png"    : [],
+				
+				"glazed_terracotta_black.png"     : [],
+				"glazed_terracotta_blue.png"      : [],
+				"glazed_terracotta_brown.png"     : [],
+				"glazed_terracotta_cyan.png"      : [],
+				"glazed_terracotta_gray.png"      : [],
+				"glazed_terracotta_green.png"     : [],
+				"glazed_terracotta_light_blue.png": [],
+				"glazed_terracotta_lime.png"      : [],
+				"glazed_terracotta_magenta.png"   : [],
+				"glazed_terracotta_orange.png"    : [],
+				"glazed_terracotta_pink.png"      : [],
+				"glazed_terracotta_purple.png"    : [],
+				"glazed_terracotta_red.png"       : [],
+				"glazed_terracotta_silver.png"    : [],
+				"glazed_terracotta_white.png"     : [],
+				"glazed_terracotta_yellow.png"    : [],
+			}
+		}
+	}
+}

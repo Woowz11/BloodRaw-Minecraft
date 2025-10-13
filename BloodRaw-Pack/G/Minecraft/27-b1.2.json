@@ -18,23 +18,23 @@
 					"13" : ["Texture", "R/T/B/Sand_Stone_Smooth.png"]
 				},
 				"1" : {
-					"7" : ["Texture", "R/T/B/Wool_Black.file"],
-					"8" : ["Texture", "R/T/B/Wool_Red.file"],
-					"9" : ["Texture", "R/T/B/Wool_Green.file"],
-					"10" : ["Texture", "R/T/B/Wool_Brown.file"],
-					"11" : ["Texture", "R/T/B/Wool_Blue.file"],
-					"12" : ["Texture", "R/T/B/Wool_Purple.file"],
-					"13" : ["Texture", "R/T/B/Wool_Cyan.file"],
-					"14" : ["Texture", "R/T/B/Wool_Silver.file"]
+					"7"  : ["Texture", "R/T/B/Wool/Black.file"],
+					"8"  : ["Texture", "R/T/B/Wool/Red.file"],
+					"9"  : ["Texture", "R/T/B/Wool/Green.file"],
+					"10" : ["Texture", "R/T/B/Wool/Brown.file"],
+					"11" : ["Texture", "R/T/B/Wool/Blue.file"],
+					"12" : ["Texture", "R/T/B/Wool/Purple.file"],
+					"13" : ["Texture", "R/T/B/Wool/Cyan.file"],
+					"14" : ["Texture", "R/T/B/Wool/Silver.file"]
 				},
 				"2" : {
-					"7" : ["Texture", "R/T/B/Wool_Gray.file"],
-					"8" : ["Texture", "R/T/B/Wool_Pink.file"],
-					"9" : ["Texture", "R/T/B/Wool_Lime.file"],
-					"10" : ["Texture", "R/T/B/Wool_Yellow.file"],
-					"11" : ["Texture", "R/T/B/Wool_Aqua.file"],
-					"12" : ["Texture", "R/T/B/Wool_Magenta.file"],
-					"13" : ["Texture", "R/T/B/Wool_Orange.file"]
+					"7"  : ["Texture", "R/T/B/Wool/Gray.file"],
+					"8"  : ["Texture", "R/T/B/Wool/Pink.file"],
+					"9"  : ["Texture", "R/T/B/Wool/Lime.file"],
+					"10" : ["Texture", "R/T/B/Wool/Yellow.file"],
+					"11" : ["Texture", "R/T/B/Wool/Aqua.file"],
+					"12" : ["Texture", "R/T/B/Wool/Magenta.file"],
+					"13" : ["Texture", "R/T/B/Wool/Orange.file"]
 				},
 				"4" : {
 					"7" : ["Texture", "R/T/B/Tree_Spruce.png"],
@@ -84,7 +84,7 @@
 			}
 			}
 		],
-		"mob/squid.png": ["Texture", "R/T/E/Squid.png"],
+		"mob/squid.png": ["Texture", "R/T/E/Squid/Default.png"],
 		"gui/items.png": [ "Atlas", {
 				"12" : {
 					"1" : ["Texture", "R/T/I/Bone.png"]

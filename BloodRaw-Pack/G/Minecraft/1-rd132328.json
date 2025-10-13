@@ -11,6 +11,6 @@
 	"Add": ["ReplacePack"],
 	
 	"Files": {
-		"char.png": [ "Texture", "R/T/E/Player.file" ]
+		"char.png": [ "Texture", "R/T/E/Player/Old.file" ]
 	}
 }

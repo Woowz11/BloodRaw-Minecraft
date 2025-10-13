@@ -64,8 +64,8 @@
 		"misc/grasscolor.png"  : ["Texture", "R/T/O/Colormap/Grass.png"],
 		"misc/pumpkinblur.png" : ["Texture", "R/T/U/Overlay_Pumpkin.png"],
 		
-		"mob/ghast.png"     : ["Texture", "R/T/E/Ghast.png"],
-		"mob/ghast_fire.png": ["Texture", "R/T/E/Ghast_Fire.png"],
-		"mob/pigzombie.png" : ["Texture", "R/T/E/Pig_Zombie.png"]
+		"mob/ghast.png"     : ["Texture", "R/T/E/Ghast/Default.png"],
+		"mob/ghast_fire.png": ["Texture", "R/T/E/Ghast/Shooting.png"],
+		"mob/pigzombie.png" : ["Texture", "R/T/E/Pig/Zombie.png"]
 	}
 }
