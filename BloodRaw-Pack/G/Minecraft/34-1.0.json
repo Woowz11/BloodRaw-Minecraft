@@ -96,7 +96,7 @@
 		
 		"item/book.png": ["Texture", "R/T/P/Book.png"],
 		
-		"font/alternate.png": ["Texture", "R/T/U/Font_Enchant.file"],
+		"font/alternate.png": ["Texture", "R/T/U/Font/Enchant.file"],
 		
 		"environment/light_normal.png": ["Texture", "R/T/O/Light.png"],
 		
@@ -150,7 +150,7 @@
 			"Size": [256, 256],
 			"0": {
 				"0"  : ["Texture", "R/T/U/Inventory_Old.file"],
-				"166": ["Texture", "R/T/U/Inventory_Potion.png"],
+				"166": ["Texture", "R/T/U/Inventory_Effect.png"],
 				
 				"198": ["Texture", "R/T/U/Effect_Speed+.png"],
 				"216": ["Texture", "R/T/U/Effect_Invisible.png"],

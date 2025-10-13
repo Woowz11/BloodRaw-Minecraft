@@ -1,1 +1,0 @@
-["Texture", "R/T/U/Font_ASCII.png", [["Mask"], ["Multiply", ["Texture", "R/T/U/Font_Gradient.png", [["Tile", 16, 16]]]]]]

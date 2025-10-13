@@ -32,13 +32,13 @@
 				},
 				"4" : {
 					"4" : ["Texture", "R/T/B/Snow_Dirt.png"],
-					"5" : ["Texture", "R/T/B/Redstone_Cross.file"],
-					"6" : ["Texture", "R/T/B/Redstone_Cross_On.file"]
+					"5" : ["Texture", "R/T/B/Redstone_Dust_Cross_Off.file"],
+					"6" : ["Texture", "R/T/B/Redstone_Dust_Cross_On.file"]
 				},
 				"5" : {
 					"4" : null,
-					"5" : ["Texture", "R/T/B/Redstone_Line.file"],
-					"6" : ["Texture", "R/T/B/Redstone_Line_On.file"]
+					"5" : ["Texture", "R/T/B/Redstone_Dust_Line_Off.file"],
+					"6" : ["Texture", "R/T/B/Redstone_Dust_Line_On.file"]
 				},
 				"6" : {
 					"4" : null

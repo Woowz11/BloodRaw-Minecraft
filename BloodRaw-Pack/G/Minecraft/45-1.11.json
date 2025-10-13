@@ -1,0 +1,48 @@
+{
+	"Parent": "1.10",
+	
+	"ID"  : "1.11",
+	"Type": "Version",
+	//"Dev" : false,
+	
+	"Add": ["ResourcePack"],
+	
+	"PackFormat": 3,
+	
+	"Files": {
+		"assets/minecraft/textures/": {			
+			"entity/": {
+				"llama/": {
+					
+				},
+				
+				"illager/": {
+					
+				},
+				
+				"shulker/": {
+					
+				}
+			},
+			
+			"blocks/": {
+				"observer_front.png"   : [],
+				"observer_side.png"    : [],
+				"observer_top.png"     : [],
+				"observer_back.png"    : [],
+				"observer_back_lit.png": [],
+			},
+			
+			"items/": {
+				"iron_nugget.png": [],
+				
+				"shulker_shell.png": [],
+				
+				"totem.png": [],
+				
+				"map_filled.png"         : [],
+				"map_filled_markings.png": [],
+			}
+		}
+	}
+}

@@ -17,13 +17,13 @@
 				"4" : {
 					"5" : null,
 					"6" : null,
-					"10" : ["Texture", "R/T/B/Redstone_Cross.png"]
+					"10" : ["Texture", "R/T/B/Redstone_Dust_Cross.file"]
 				},
 				"5" : {
 					"5" : null,
 					"6" : null,
 					"9" : ["Texture", "R/T/B/Bed_Back.png", [["Move", 0, -7]]],
-					"10" : ["Texture", "R/T/B/Redstone_Line.png"]
+					"10" : ["Texture", "R/T/B/Redstone_Dust_Line.file"]
 				},
 				"6" : {
 					"8" : ["Texture", "R/T/B/Bed_Bottom.png"],

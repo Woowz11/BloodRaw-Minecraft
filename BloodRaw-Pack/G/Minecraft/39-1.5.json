@@ -323,10 +323,10 @@
 			"rail.png"     : ["Texture", "R/T/B/Rail.png"],
 			"rail_turn.png": ["Texture", "R/T/B/Rail_Corner.png"],
 			
-			"redstoneDust_cross.png"        : ["Texture", "R/T/B/Redstone_Cross.png"],
-			"redstoneDust_cross_overlay.png": ["Texture", "R/T/B/Redstone_Cross_Overlay.png"],
-			"redstoneDust_line.png"         : ["Texture", "R/T/B/Redstone_Line.png"],
-			"redstoneDust_line_overlay.png" : ["Texture", "R/T/B/Redstone_Line_Overlay.png"],
+			"redstoneDust_cross.png"        : ["Texture", "R/T/B/Redstone_Dust_Cross.file"],
+			"redstoneDust_cross_overlay.png": ["Texture", "R/T/B/Redstone_Dust_Overlay.png"],
+			"redstoneDust_line.png"         : ["Texture", "R/T/B/Redstone_Dust_Line.file"],
+			"redstoneDust_line_overlay.png" : ["Texture", "R/T/B/Redstone_Dust_Overlay.png"],
 			
 			"redstoneLight.png"    : ["Texture", "R/T/B/Lamp.png"],
 			"redstoneLight_lit.png": ["Animation", ["Texture", "R/T/B/Lamp_On.png"], {"Smooth": true}],

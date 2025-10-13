@@ -69,7 +69,7 @@
 		"gui/crash_logo.png": "gui/logo.png",
 		"gui/logo.png"      : null,
 		
-		"gui/allitems.png": ["Texture", "R/T/U/Creative_Old.png"],
+		"gui/allitems.png": ["Texture", "R/T/U/Creative_Old.file"],
 		
 		"gui/items.png": [ "Atlas", {
 				"5" : {

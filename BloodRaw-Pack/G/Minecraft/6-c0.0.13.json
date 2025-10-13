@@ -9,7 +9,7 @@
 	"Add": ["ReplacePack"],
 	
 	"Files": {
-		"default.gif": [ "Texture", "R/T/U/Font_ASCII.file" ],
+		"default.gif": [ "Texture", "R/T/U/Font/ASCII.file" ],
 		
 		"dirt.png" : [ "Texture", "R/T/B/Dirt.png" ],
 		"grass.png": [ "Texture", "R/T/B/Grass.file" ],

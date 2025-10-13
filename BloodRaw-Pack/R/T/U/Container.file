@@ -1,1 +1,5 @@
-["Texture", "R/T/U/Inventory_Storage_Full.file", [["NewSize", 256, 256], ["Move", 0, 121], ["Put", ["Texture", "R/T/U/Container.png"]]]]
+["Texture", "R/T/U/Inventory_Storage_Full.file", [
+	["NewSize", 256, 256], ["Move", 0, 121], ["Put",
+		["Texture", "R/T/U/Container.png", [["Background", ["Texture", "R/T/U/Slot_9x6.file"], 7, 17]]]
+	]
+]]

@@ -1,0 +1,1 @@
+["Texture", "R/T/U/Font/Enchant.png", [["Mask"], ["Multiply", ["Texture", "R/T/U/Font/Gradient_Enchant.png", [["Tile", 26, 1]]]]]]

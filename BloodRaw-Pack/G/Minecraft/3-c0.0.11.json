@@ -17,6 +17,6 @@
 			}
 		],
 		
-		"default.gif": [ "Texture", "R/T/U/Font_ASCII.file" ]
+		"default.gif": [ "Texture", "R/T/U/Font/ASCII.file" ]
 	}
 }

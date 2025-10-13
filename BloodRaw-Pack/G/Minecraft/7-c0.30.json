@@ -10,7 +10,7 @@
 	
 	"Files": {
 		"clouds.png" : ["Texture", "R/T/O/Clouds.file"],
-		"default.png": ["Texture", "R/T/U/Font_ASCII.file"],
+		"default.png": ["Texture", "R/T/U/Font/ASCII.file"],
 		
 		"terrain.png": [ "Atlas", {
 				"0" : {

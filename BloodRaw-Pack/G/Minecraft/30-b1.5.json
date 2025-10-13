@@ -16,10 +16,10 @@
 					"12" : ["Texture", "R/T/B/Rail_Detector.png"]
 				},
 				"4" : {
-					"11" : ["Texture", "R/T/B/Redstone_Cross_Overlay.png"]
+					"11" : ["Texture", "R/T/B/Redstone_Dust_Overlay.png"]
 				},
 				"5" : {
-					"11" : ["Texture", "R/T/B/Redstone_Line_Overlay.png"]
+					"11" : ["Texture", "R/T/B/Redstone_Dust_Overlay.png"]
 				},
 				"6" : {
 					"2" : ["Texture", "R/T/B/Grass_Dirt_Overlay.png"]
