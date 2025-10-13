@@ -31,7 +31,7 @@
 				}
 			},
 			"bettergrassandleaves/textures/blocks/": {
-				"better_cactus.png": ["Texture", "R/T/B/Cactus_Dense.png"],
+				"better_cactus.png": ["Texture", "R/T/B/Cactus/Dense.png"],
 				
 				"better_leaves_snowed_0.png": ["Texture", "R/T/B/Snow_Leaves_0.png"],
 				"better_leaves_snowed_1.png": ["Texture", "R/T/B/Snow_Leaves_1.png"],

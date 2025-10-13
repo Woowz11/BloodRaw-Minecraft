@@ -64,7 +64,7 @@
 					"15" : ["Texture", "R/T/P/Runes.png", [["Move", -120, 0]]]
 				},
 				"1" : {
-					"14" : ["Texture", "R/T/P/Runes.png"]
+					"14" : ["Texture", "R/T/P/Runes.png", [["Crop", 0, 0, 128, 8]]]
 				},
 				"2" : {
 					"4" : ["Texture", "R/T/P/Crit_Enchant.png"]

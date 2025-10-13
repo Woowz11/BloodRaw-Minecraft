@@ -11,13 +11,13 @@
 	"Files": {
 		"terrain.png": [ "Atlas", {
 				"5" : {
-					"4" : ["Texture", "R/T/B/Cactus_Top.png"]
+					"4" : ["Texture", "R/T/B/Cactus/Top.png"]
 				},
 				"6" : {
-					"4" : ["Texture", "R/T/B/Cactus.png"]
+					"4" : ["Texture", "R/T/B/Cactus/Side.png"]
 				},
 				"7" : {
-					"4" : ["Texture", "R/T/B/Cactus_Bottom.png"]
+					"4" : ["Texture", "R/T/B/Cactus/Bottom.png"]
 				},
 				"8" : {
 					"4" : ["Texture", "R/T/B/Clay.png"]

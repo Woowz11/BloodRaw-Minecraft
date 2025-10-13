@@ -37,7 +37,7 @@
 							"0" : ["Texture", "R/T/U/Recipe_Book_Button.png"],
 							"19": ["Texture", "R/T/U/Recipe_Book_Button_Hover.png"]
 						}
-					}]
+					}],
 				},
 				
 				"recipe_book.png": ["Texture", "R/T/U/Recipe_Book.png"]
@@ -129,6 +129,13 @@
 				"glazed_terracotta_silver.png"    : [],
 				"glazed_terracotta_white.png"     : [],
 				"glazed_terracotta_yellow.png"    : [],
+				
+				"bed_feet_end.png" : null,
+				"bed_feet_side.png": null,
+				"bed_feet_top.png" : null,
+				"bed_head_end.png" : null,
+				"bed_head_side.png": null,
+				"bed_head_top.png" : null,
 			}
 		}
 	}

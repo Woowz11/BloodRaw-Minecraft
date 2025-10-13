@@ -35,7 +35,7 @@
 					"6" : ["Animation", ["Texture", "R/T/B/Glowstone.png"], false]
 				},
 				"14" : {
-					"0" : ["Animation", ["Texture", "R/T/B/Portal.png"], false]
+					"0" : ["Animation", ["Texture", "R/T/B/Portal.file"], false]
 				}
 			}
 		],

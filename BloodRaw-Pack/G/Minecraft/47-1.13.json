@@ -10,10 +10,20 @@
 	"PackFormat": 4,
 	
 	"Files": {
-		"assets/minecraft/": {		
+		"assets/minecraft/": {
+			"font/": {
+				"glyph_sizes.bin": null,
+				"default.json"   : ["File", "R/O/Font.json"]
+			},
+			
 			"textures/": {
 				"particle/particles.png": ["Atlas", {
-					"Size": [32, 32] // додел
+					"Size": [32, 32],
+					
+					"0": {
+						"13": ["Texture", "R/T/P/Nautilus.png"],
+						"16": ["Texture", "R/T/P/Bubble_Pop.png"]
+					}
 				}],
 				
 				"models/armor/turtle_layer_1.png": ["Texture", "R/T/E/Player/Armor/Turtle.png"],
@@ -34,13 +44,23 @@
 					
 					"container/": {
 						"inventory.png": ["Atlas", {
-							// эффекты
+							"144": {
+								"198": ["Texture", "R/T/U/Effect/Falling.png"]
+							},
+							"162": {
+								"198": ["Texture", "R/T/U/Effect/Conduit.png"]
+							},
+							"180": {
+								"198": ["Texture", "R/T/U/Effect/Dolphin.png"]
+							}
 						}]
 					}
 				},
 				
 				"font/": {
-					// новый шрифт, старый удалить
+					"bloodraw_00.png": ["Rename", "unicode_page_00.png"],
+					"bloodraw_04.png": ["Rename", "unicode_page_04.png"],
+					"bloodraw_21.png": ["Rename", "unicode_page_21.png"]
 				},
 				
 				"entity/": {
@@ -61,11 +81,54 @@
 					},
 					
 					"fish/": {
+						"cod.png"       : [],
+						"pufferfish.png": [],
+						"salmon.png"    : [],
 						
+						"tropical_a.png"          : [],
+						"tropical_a_pattern_1.png": [],
+						"tropical_a_pattern_2.png": [],
+						"tropical_a_pattern_3.png": [],
+						"tropical_a_pattern_4.png": [],
+						"tropical_a_pattern_5.png": [],
+						"tropical_a_pattern_6.png": [],
+						
+						"tropical_b.png": [],
+						"tropical_b_pattern_1.png": [],
+						"tropical_b_pattern_2.png": [],
+						"tropical_b_pattern_3.png": [],
+						"tropical_b_pattern_4.png": [],
+						"tropical_b_pattern_5.png": [],
+						"tropical_b_pattern_6.png": [],
 					},
 					
+					"dolphin.png": [],
+					
 					"horse/": {
-						// модельку поменяли
+						"horse_black.png"    : [],
+						"horse_brown.png"    : [],
+						"horse_chestnut.png" : [],
+						"horse_creamy.png"   : [],
+						"horse_darkbrown.png": [],
+						"horse_gray.png"     : [],
+						"horse_white.png"    : [],
+						
+						"donkey.png": [],
+						"mule.png"  : [],
+						
+						"horse_markings_blackdots.png" : [],
+						"horse_markings_white.png"     : [],
+						"horse_markings_whitedots.png" : [],
+						"horse_markings_whitefield.png": [],
+						
+						"horse_skeleton.png": [],
+						"horse_zombie.png"  : [],
+						
+						"armor/": {
+							"horse_armor_diamond.png": [],
+							"horse_armor_gold.png"   : [],
+							"horse_armor_iron.png"   : [],
+						}
 					},
 					
 					"llama/": {
@@ -96,8 +159,20 @@
 						}
 					},
 					
+					"boat/": {
+						"acacia.png"  : ["Rename", "boat_acacia.png"],
+						"birch.png"   : ["Rename", "boat_birch.png"],
+						"dark_oak.png": ["Rename", "boat_darkoak.png"],
+						"jungle.png"  : ["Rename", "boat_jungle.png"],
+						"oak.png"     : ["Rename", "boat_oak.png"],
+						"spruce.png"  : ["Rename", "boat_spruce.png"],
+					},
+					
+					"bed/light_gray.png": ["Rename", "bed/silver.png"],
+					
 					"shulker/": {
-						"shulker.png": ["Rename", "shulker_purple.png"],
+						"shulker.png"           : ["Rename", "shulker_purple.png"],
+						"shulker_light_gray.png": ["Rename", "shulker_silver.png"],
 						
 						"shulker_purple.png": ["Texture", "R/T/E/Shulker/Purple.png"]
 					},
@@ -111,6 +186,10 @@
 				},
 				
 				"block/": ["Actions", "assets/minecraft/textures/blocks/", {
+					"conduit.png": "assets/minecraft/textures/entity/conduit/break_particle.png",
+					
+					"nether_portal.png": ["Rename", "portal.png"],
+					
 					"acacia_door_bottom.png": ["Rename", "door_acacia_lower.png"],
 					"acacia_door_top.png"   : ["Rename", "door_acacia_upper.png"],
 					"acacia_leaves.png"     : ["Rename", "leaves_acacia.png"],
@@ -170,13 +249,10 @@
 					
 					"allium.png": ["Rename", "flower_allium.png"],
 					
-					"andesite.png": ["Rename", "stone_andesite.png"],
-					
-					"anvil.png"    : ["Rename", "anvil_base.png"],
-					"anvil_top.png": ["Rename", "anvil_top_damaged_0.png"],
-					
 					"attached_melon_stem.png"  : ["Rename", "melon_stem_connected.png"],
 					"attached_pumpkin_stem.png": ["Rename", "pumpkin_stem_connected.png"],
+					"melon_stem.png"           : ["Rename", "melon_stem_disconnected.png"],
+					"pumpkin_stem.png"         : ["Rename", "pumpkin_stem_disconnected.png"],
 					
 					"azure_bluet.png": ["Rename", "flower_houstonia.png"],
 					
@@ -320,21 +396,452 @@
 					"yellow_terracotta.png"            : ["Rename", "hardened_clay_stained_yellow.png"],
 					"yellow_wool.png"                  : ["Rename", "wool_colored_yellow.png"],
 					
+					"shulker_box.png": ["Rename", "shulker_top_purple.png"],
+					
 					"purple_concrete.png"              : ["Rename", "concrete_purple.png"],
 					"purple_concrete_powder.png"       : ["Rename", "concrete_powder_purple.png"],
 					"purple_glazed_terracotta.png"     : ["Rename", "glazed_terracotta_purple.png"],
-					"purple_shulker_box.png"           : ["Rename", "shulker_top_purple.png"], // УЧТИ ДЕФОЛТНЫЙ ШАЛКЕР ТЕКСТУРУ
+					"purple_shulker_box.png"           : [],
 					"purple_stained_glass.png"         : ["Rename", "glass_purple.png"],
 					"purple_stained_glass_pane_top.png": ["Rename", "glass_pane_top_purple.png"],
 					"purple_terracotta.png"            : ["Rename", "hardened_clay_stained_purple.png"],
 					"purple_wool.png"                  : ["Rename", "wool_colored_purple.png"],
+					
+					"wheat_stage0.png": ["Rename", "wheat_stage_0.png"],
+					"wheat_stage1.png": ["Rename", "wheat_stage_1.png"],
+					"wheat_stage2.png": ["Rename", "wheat_stage_2.png"],
+					"wheat_stage3.png": ["Rename", "wheat_stage_3.png"],
+					"wheat_stage4.png": ["Rename", "wheat_stage_4.png"],
+					"wheat_stage5.png": ["Rename", "wheat_stage_5.png"],
+					"wheat_stage6.png": ["Rename", "wheat_stage_6.png"],
+					"wheat_stage7.png": ["Rename", "wheat_stage_7.png"],
+					
+					"tripwire.png"     : ["Rename", "trip_wire.png"],
+					"tripwire_hook.png": ["Rename", "trip_wire_source.png"],
+					
+					"lily_pad.png": ["Rename", "waterlily.png"],
+					
+					"water_flow.png"   : ["Animation", ["Texture", "R/T/B/Liquid/Water_Flow.png"], "Water_Flow"],
+					"water_still.png"  : ["Animation", ["Texture", "R/T/B/Liquid/Water.png"], "Water"],
+					"water_overlay.png": "assets/minecraft/textures/block/water_still.png",
+					
+					"sugar_cane.png": ["Rename", "reeds.png"],
+					
+					"carved_pumpkin.png": ["Rename", "pumpkin_face_off.png"],
+					"jack_o_lantern.png": ["Rename", "pumpkin_face_on.png"],
+					
+					"item_frame.png": ["Rename", "itemframe_background.png"],
+					
+					"wet_sponge.png": ["Rename", "sponge_wet.png"],
+					
+					"granite.png"          : ["Rename", "stone_granite.png"],
+					"polished_granite.png" : ["Rename", "stone_granite_smooth.png"],
+					"diorite.png"          : ["Rename", "stone_diorite.png"],
+					"polished_diorite.png" : ["Rename", "stone_diorite_smooth.png"],
+					"andesite.png"         : ["Rename", "stone_andesite.png"],
+					"polished_andesite.png": ["Rename", "stone_andesite_smooth.png"],
+					
+					"grass_block_top.png"         : ["Rename", "grass_top.png"],
+					"grass_block_side_overlay.png": ["Rename", "grass_side_overlay.png"],
+					"grass_block_side.png"        : ["Rename", "grass_side.png"],
+					"grass_block_snow.png"        : ["Rename", "grass_side_snowed.png"],
+					"podzol_top.png"              : ["Rename", "dirt_podzol_top.png"],
+					"podzol_side.png"             : ["Rename", "dirt_podzol_side.png"],
+					
+					"furnace_front.png": ["Rename", "furnace_front_off.png"],
+					
+					"end_portal_frame_top.png" : ["Rename", "endframe_top.png"],
+					"end_portal_frame_side.png": ["Rename", "endframe_side.png"],
+					"end_portal_frame_eye.png" : ["Rename", "endframe_eye.png"],
+					
+					"nether_quartz_ore.png"        : ["Rename", "quartz_ore.png"],
+					"quartz_pillar_top.png"        : ["Rename", "quartz_block_lines_top.png"],
+					"quartz_pillar.png"            : ["Rename", "quartz_block_lines.png"],
+					"chiseled_quartz_block_top.png": ["Rename", "quartz_block_chiseled_top.png"],
+					"chiseled_quartz_block.png"    : ["Rename", "quartz_block_chiseled.png"],
+					
+					"red_nether_bricks.png": ["Rename", "red_nether_brick.png"],
+					"terracotta.png"       : ["Rename", "hardened_clay.png"],
+					
+					"packed_ice.png" : ["Rename", "ice_packed.png"],
+					"slime_block.png": ["Rename", "slime.png"],
+					
+					"torch.png"         : ["Rename", "torch_on.png"],
+					"redstone_torch.png": ["Rename", "redstone_torch_on.png"],
+					
+					"redstone_lamp.png": ["Rename", "redstone_lamp_off.png"],
+					"note_block.png"   : ["Rename", "noteblock.png"],
+					
+					"nether_bricks.png"   : ["Rename", "nether_brick.png"],
+					"end_stone_bricks.png": ["Rename", "end_bricks.png"],
+					
+					"sandstone.png"             : ["Rename", "sandstone_normal.png"],
+					"chiseled_sandstone.png"    : ["Rename", "sandstone_carved.png"],
+					"cut_sandstone.png"         : ["Rename", "sandstone_smooth.png"],
+					"red_sandstone.png"         : ["Rename", "red_sandstone_normal.png"],
+					"chiseled_red_sandstone.png": ["Rename", "red_sandstone_carved.png"],
+					"cut_red_sandstone.png"     : ["Rename", "red_sandstone_smooth.png"],
+					
+					"prismarine.png"     : ["Rename", "prismarine_rough.png"],
+					"dark_prismarine.png": ["Rename", "prismarine_dark.png"],
+					
+					"bricks.png"           : ["Rename", "brick.png"],
+					"mossy_cobblestone.png": ["Rename", "cobblestone_mossy.png"],
+					
+					"stone_bricks.png"         : ["Rename", "stonebrick.png"],
+					"chiseled_stone_bricks.png": ["Rename", "stonebrick_carved.png"],
+					"cracked_stone_bricks.png" : ["Rename", "stonebrick_cracked.png"],
+					"mossy_stone_bricks.png"   : ["Rename", "stonebrick_mossy.png"],
+					
+					"cobweb.png": ["Rename", "web.png"],
+					
+					"grass.png"    : ["Rename", "tallgrass.png"],
+					"dead_bush.png": ["Rename", "deadbush.png"],
+					
+					"brown_mushroom.png": ["Rename", "mushroom_brown.png"],
+					"red_mushroom.png"  : ["Rename", "mushroom_red.png"],
+					
+					"powered_rail.png"    : ["Rename", "rail_golden.png"],
+					"powered_rail_on.png" : ["Rename", "rail_golden_powered.png"],
+					"detector_rail.png"   : ["Rename", "rail_detector.png"],
+					"detector_rail_on.png": ["Rename", "rail_detector_powered.png"],
+					"rail.png"            : ["Rename", "rail_normal.png"],
+					"rail_corner.png"     : ["Rename", "rail_normal_turned.png"],
+					
+					"piston_top.png"     : ["Rename", "piston_top_normal.png"],
+					"dispenser_front.png": ["Rename", "dispenser_front_horizontal.png"],
+					"dropper_front.png"  : ["Rename", "dropper_front_horizontal.png"],
+					
+					"anvil.png"            : ["Rename", "anvil_base.png"],
+					"anvil_top.png"        : ["Rename", "anvil_top_damaged_0.png"],
+					"chipped_anvil_top.png": ["Rename", "anvil_top_damaged_1.png"],
+					"damaged_anvil_top.png": ["Rename", "anvil_top_damaged_2.png"],
+					
+					"fire_0.png": ["Rename", "fire_layer_0.png"],
+					"fire_1.png": ["Rename", "fire_layer_1.png"],
+					
+					"dandelion.png"   : ["Rename", "flower_dandelion.png"],
+					"blue_orchid.png" : ["Rename", "flower_blue_orchid.png"],
+					"oxeye_daisy.png" : ["Rename", "flower_oxeye_daisy.png"],
+					"poppy.png"       : ["Rename", "flower_rose.png"],
+					"orange_tulip.png": ["Rename", "flower_tulip_orange.png"],
+					"pink_tulip.png"  : ["Rename", "flower_tulip_pink.png"],
+					"red_tulip.png"   : ["Rename", "flower_tulip_red.png"],
+					"white_tulip.png" : ["Rename", "flower_tulip_white.png"],
+					
+					"rose_bush_top.png"    : ["Rename", "double_plant_rose_top.png"],
+					"rose_bush_bottom.png" : ["Rename", "double_plant_rose_bottom.png"],
+					"peony_top.png"        : ["Rename", "double_plant_paeonia_top.png"],
+					"peony_bottom.png"     : ["Rename", "double_plant_paeonia_bottom.png"],
+					"lilac_top.png"        : ["Rename", "double_plant_syringa_top.png"],
+					"lilac_bottom.png"     : ["Rename", "double_plant_syringa_bottom.png"],
+					"tall_grass_top.png"   : ["Rename", "double_plant_grass_top.png"],
+					"tall_grass_bottom.png": ["Rename", "double_plant_grass_bottom.png"],
+					"large_fern_top.png"   : ["Rename", "double_plant_fern_top.png"],
+					"large_fern_bottom.png": ["Rename", "double_plant_fern_bottom.png"],
+					"sunflower_front.png"  : ["Rename", "double_plant_sunflower_front.png"],
+					"sunflower_back.png"   : ["Rename", "double_plant_sunflower_back.png"],
+					"sunflower_top.png"    : ["Rename", "double_plant_sunflower_top.png"],
+					"sunflower_bottom.png" : ["Rename", "double_plant_sunflower_bottom.png"],
+					
+					"brown_mushroom_block.png": ["Rename", "mushroom_block_skin_brown.png"],
+					"red_mushroom_block.png"  : ["Rename", "mushroom_block_skin_red.png"],
+					"mushroom_stem.png"       : ["Rename", "mushroom_block_skin_stem.png"],
+					
+					"farmland.png"      : ["Rename", "farmland_dry.png"],
+					"farmland_moist.png": ["Rename", "farmland_wet.png"],
+					
+					"iron_door_top.png"   : ["Rename", "door_iron_upper.png"],
+					"iron_door_bottom.png": ["Rename", "door_iron_lower.png"],
+					
+					"repeater.png"  : ["Rename", "repeater_off.png"],
+					"comparator.png": ["Rename", "comparator_off.png"],
+					
+					"cocoa_stage0.png": ["Rename", "cocoa_stage_0.png"],
+					"cocoa_stage1.png": ["Rename", "cocoa_stage_1.png"],
+					"cocoa_stage2.png": ["Rename", "cocoa_stage_2.png"],
+					
+					"carrots_stage0.png": ["Rename", "carrots_stage_0.png"],
+					"carrots_stage1.png": ["Rename", "carrots_stage_1.png"],
+					"carrots_stage2.png": ["Rename", "carrots_stage_2.png"],
+					"carrots_stage3.png": ["Rename", "carrots_stage_3.png"],
+					
+					"potatoes_stage0.png": ["Rename", "potatoes_stage_0.png"],
+					"potatoes_stage1.png": ["Rename", "potatoes_stage_1.png"],
+					"potatoes_stage2.png": ["Rename", "potatoes_stage_2.png"],
+					"potatoes_stage3.png": ["Rename", "potatoes_stage_3.png"],
+					
+					"sea_pickle.png": [],
+					"seagrass.png"  : [],
+
+					"tall_seagrass_top.png"   : [],
+					"tall_seagrass_bottom.png": [],
+					
+					"stripped_acacia_log.png"      : [],
+					"stripped_acacia_log_top.png"  : [],
+					"stripped_birch_log.png"       : [],
+					"stripped_birch_log_top.png"   : [],
+					"stripped_dark_oak_log.png"    : [],
+					"stripped_dark_oak_log_top.png": [],
+					"stripped_jungle_log.png"      : [],
+					"stripped_jungle_log_top.png"  : [],
+					"stripped_oak_log.png"         : [],
+					"stripped_oak_log_top.png"     : [],
+					"stripped_spruce_log.png"      : [],
+					"stripped_spruce_log_top.png"  : [],
+					
+					"dried_kelp_top.png"   : [],
+					"dried_kelp_side.png"  : [],
+					"dried_kelp_bottom.png": [],
+					
+					"brain_coral.png"           : [],
+					"dead_brain_coral.png"      : [],
+					"brain_coral_fan.png"       : [],
+					"dead_brain_coral_fan.png"  : [],
+					"brain_coral_block.png"     : [],
+					"dead_brain_coral_block.png": [],
+					
+					"bubble_coral.png"           : [],
+					"dead_bubble_coral.png"      : [],
+					"bubble_coral_fan.png"       : [],
+					"dead_bubble_coral_fan.png"  : [],
+					"bubble_coral_block.png"     : [],
+					"dead_bubble_coral_block.png": [],
+					
+					"fire_coral.png"           : [],
+					"dead_fire_coral.png"      : [],
+					"fire_coral_fan.png"       : [],
+					"dead_fire_coral_fan.png"  : [],
+					"fire_coral_block.png"     : [],
+					"dead_fire_coral_block.png": [],
+					
+					"horn_coral.png"           : [],
+					"dead_horn_coral.png"      : [],
+					"horn_coral_fan.png"       : [],
+					"dead_horn_coral_fan.png"  : [],
+					"horn_coral_block.png"     : [],
+					"dead_horn_coral_block.png": [],
+					
+					"tube_coral.png"           : [],
+					"dead_tube_coral.png"      : [],
+					"tube_coral_fan.png"       : [],
+					"dead_tube_coral_fan.png"  : [],
+					"tube_coral_block.png"     : [],
+					"dead_tube_coral_block.png": [],
+					
+					"kelp.png"      : [],
+					"kelp_plant.png": [],
+					
+					"blue_ice.png": [],
+					
+					"turtle_egg.png"                 : [],
+					"turtle_egg_slightly_cracked.png": [],
+					"turtle_egg_very_cracked.png"    : [],
 				}],
 				"blocks/": null,
 				
 				"item/": ["Actions", "assets/minecraft/textures/items/", {
+					"bucket.png"              : ["Rename", "bucket_empty.png"],
+					"water_bucket.png"        : ["Rename", "bucket_water.png"],
+					"lava_bucket.png"         : ["Rename", "bucket_lava.png"],
+					"milk_bucket.png"         : ["Rename", "bucket_milk.png"],
+					"cod_bucket.png"          : [],
+					"salmon_bucket.png"       : [],
+					"tropical_fish_bucket.png": [],
+					"pufferfish_bucket.png"   : [],
 					
+					"rose_red.png"        : ["Rename", "dye_powder_red.png"],
+					"cactus_green.png"    : ["Rename", "dye_powder_green.png"],
+					"purple_dye.png"      : ["Rename", "dye_powder_purple.png"],
+					"cyan_dye.png"        : ["Rename", "dye_powder_cyan.png"],
+					"light_gray_dye.png"  : ["Rename", "dye_powder_silver.png"],
+					"light_blue_dye.png"  : ["Rename", "dye_powder_light_blue.png"],
+					"dandelion_yellow.png": ["Rename", "dye_powder_yellow.png"],
+					"lime_dye.png"        : ["Rename", "dye_powder_lime.png"],
+					"pink_dye.png"        : ["Rename", "dye_powder_pink.png"],
+					"gray_dye.png"        : ["Rename", "dye_powder_gray.png"],
+					"magenta_dye.png"     : ["Rename", "dye_powder_magenta.png"],
+					"orange_dye.png"      : ["Rename", "dye_powder_orange.png"],
+					
+					"book.png"          : ["Rename", "book_normal.png"],
+					"enchanted_book.png": ["Rename", "book_enchanted.png"],
+					"writable_book.png" : ["Rename", "book_writable.png"],
+					"written_book.png"  : ["Rename", "book_written.png"],
+					
+					"redstone.png": ["Rename", "redstone_dust.png"],
+					
+					"cocoa_beans.png"  : ["Rename", "dye_powder_brown.png"],
+					"melon_seeds.png"  : ["Rename", "seeds_melon.png"],
+					"pumpkin_seeds.png": ["Rename", "seeds_pumpkin.png"],
+					"wheat_seeds.png"  : ["Rename", "seeds_wheat.png"],
+					
+					"totem_of_undying.png": ["Rename", "totem.png"],
+					
+					"lapis_lazuli.png": ["Rename", "dye_powder_blue.png"],
+					"ink_sac.png"     : ["Rename", "dye_powder_black.png"],
+					"bone_meal.png"   : ["Rename", "dye_powder_white.png"],
+					
+					"fire_charge.png": ["Rename", "fireball.png"],
+					
+					"firework_rocket.png"      : ["Rename", "fireworks.png"],
+					"firework_star.png"        : ["Rename", "fireworks_charge.png"],
+					"firework_star_overlay.png": ["Rename", "fireworks_charge_overlay.png"],
+					
+					"nether_brick.png": ["Rename", "netherbrick.png"],
+					
+					"slime_ball.png": ["Rename", "slimeball.png"],
+					
+					"golden_apple.png": ["Rename", "apple_golden.png"],
+					
+					"cod.png"          : ["Rename", "fish_cod_raw.png"],
+					"cooked_cod.png"   : ["Rename", "fish_cod_cooked.png"],
+					"salmon.png"       : ["Rename", "fish_salmon_raw.png"],
+					"cooked_salmon.png": ["Rename", "fish_salmon_cooked.png"],
+					"tropical_fish.png": ["Rename", "fish_clownfish_raw.png"],
+					"pufferfish.png"   : ["Rename", "fish_pufferfish_raw.png"],
+					
+					"sugar_cane.png": ["Rename", "reeds.png"],
+					
+					"golden_horse_armor.png": ["Rename", "gold_horse_armor.png"],
+					
+					"popped_chorus_fruit.png": ["Rename", "chorus_fruit_popped.png"],
+					
+					"scute.png"           : [],
+					"turtle_egg.png"      : [],
+					"nautilus_shell.png"  : [],
+					"heart_of_the_sea.png": [],
+					"kelp.png"            : [],
+					
+					"music_disc_11.png"     : ["Rename", "record_11.png"],
+					"music_disc_13.png"     : ["Rename", "record_13.png"],
+					"music_disc_blocks.png" : ["Rename", "record_blocks.png"],
+					"music_disc_cat.png"    : ["Rename", "record_cat.png"],
+					"music_disc_chirp.png"  : ["Rename", "record_chirp.png"],
+					"music_disc_far.png"    : ["Rename", "record_far.png"],
+					"music_disc_mall.png"   : ["Rename", "record_mall.png"],
+					"music_disc_mellohi.png": ["Rename", "record_mellohi.png"],
+					"music_disc_stal.png"   : ["Rename", "record_stal.png"],
+					"music_disc_strad.png"  : ["Rename", "record_strad.png"],
+					"music_disc_wait.png"   : ["Rename", "record_wait.png"],
+					"music_disc_ward.png"   : ["Rename", "record_ward.png"],
+					
+					"acacia_door.png"  : ["Rename", "door_acacia.png"],
+					"birch_door.png"   : ["Rename", "door_birch.png"],
+					"dark_oak_door.png": ["Rename", "door_dark_oak.png"],
+					"iron_door.png"    : ["Rename", "door_iron.png"],
+					"jungle_door.png"  : ["Rename", "door_jungle.png"],
+					"spruce_door.png"  : ["Rename", "door_spruce.png"],
+					"oak_door.png"     : ["Rename", "door_wood.png"],
+					
+					"fermented_spider_eye.png": ["Rename", "spider_eye_fermented.png"],
+					
+					"map.png"                : ["Rename", "map_empty.png"],
+					"filled_map.png"         : ["Rename", "map_filled.png"],
+					"filled_map_markings.png": ["Rename", "map_filled_markings.png"],
+					
+					"minecart.png"              : ["Rename", "minecart_normal.png"],
+					"chest_minecart.png"        : ["Rename", "minecart_chest.png"],
+					"furnace_minecart.png"      : ["Rename", "minecart_furnace.png"],
+					"hopper_minecart.png"       : ["Rename", "minecart_hopper.png"],
+					"tnt_minecart.png"          : ["Rename", "minecart_tnt.png"],
+					"command_block_minecart.png": ["Rename", "minecart_command_block.png"],
+					
+					"bow.png": ["Rename", "bow_standby.png"],
+					
+					"chicken.png"       : ["Rename", "chicken_raw.png"],
+					"cooked_chicken.png": ["Rename", "chicken_cooked.png"],
+					
+					"porkchop.png"       : ["Rename", "porkchop_raw.png"],
+					"cooked_porkchop.png": ["Rename", "porkchop_cooked.png"],
+					
+					"beef.png"       : ["Rename", "beef_raw.png"],
+					"cooked_beef.png": ["Rename", "beef_cooked.png"],
+					
+					"rabbit.png"       : ["Rename", "rabbit_raw.png"],
+					"cooked_rabbit.png": ["Rename", "rabbit_cooked.png"],
+					
+					"mutton.png"       : ["Rename", "mutton_raw.png"],
+					"cooked_mutton.png": ["Rename", "mutton_cooked.png"],
+					
+					"turtle_helmet.png": [],
+					
+					"golden_helmet.png"    : ["Rename", "gold_helmet.png"],
+					"golden_chestplate.png": ["Rename", "gold_chestplate.png"],
+					"golden_leggings.png"  : ["Rename", "gold_leggings.png"],
+					"golden_boots.png"     : ["Rename", "gold_boots.png"],
+					
+					"golden_shovel.png" : ["Rename", "gold_shovel.png"],
+					"golden_pickaxe.png": ["Rename", "gold_pickaxe.png"],
+					"golden_axe.png"    : ["Rename", "gold_axe.png"],
+					"golden_hoe.png"    : ["Rename", "gold_hoe.png"],
+					"golden_sword.png"  : ["Rename", "gold_sword.png"],
+					
+					"wooden_shovel.png" : ["Rename", "wood_shovel.png"],
+					"wooden_pickaxe.png": ["Rename", "wood_pickaxe.png"],
+					"wooden_axe.png"    : ["Rename", "wood_axe.png"],
+					"wooden_hoe.png"    : ["Rename", "wood_hoe.png"],
+					"wooden_sword.png"  : ["Rename", "wood_sword.png"],
+					
+					"trident.png": [],
+					
+					"melon_slice.png"           : ["Rename", "melon.png"],
+					"glistering_melon_slice.png": ["Rename", "melon_speckled.png"],
+					
+					"baked_potato.png"    : ["Rename", "potato_baked.png"],
+					"poisonous_potato.png": ["Rename", "potato_poisonous.png"],
+					
+					"sea_pickle.png": [],
+					"seagrass.png"  : [],
+					
+					"glass_bottle.png"    : ["Rename", "potion_bottle_empty.png"],
+					"potion.png"          : ["Rename", "potion_bottle_drinkable.png"],
+					"splash_potion.png"   : ["Rename", "potion_bottle_splash.png"],
+					"lingering_potion.png": ["Rename", "potion_bottle_lingering.png"],
+					
+					"phantom_membrane.png": [],
+					"golden_carrot.png"   : ["Rename", "carrot_golden.png"],
+					"dried_kelp.png"      : [],
+					"armor_stand.png"     : ["Rename", "wooden_armorstand.png"],
+					
+					"fishing_rod.png": ["Rename", "fishing_rod_uncast.png"],
 				}],
 				"items/": null,
+			},
+			
+			"models/": {
+				"item/": {
+					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["minecraft:block/cake"]],
+					
+					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/cauldron"]],
+					"hopper.json"  : ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/hopper"]],
+					
+					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/comparator"]]
+				},
+				
+				"block/": {
+					"pumpkin.json"       : ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], ["minecraft:block/pumpkin_side", "minecraft:block/pumpkin_top", "minecraft:block/pumpkin_bottom"]],
+					"carved_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:block/pumpkin_side", "minecraft:block/pumpkin_top", "minecraft:block/pumpkin_bottom", "minecraft:block/carved_pumpkin"]],
+
+					"lit_pumpkin.json"   : null,
+					"jack_o_lantern.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:block/pumpkin_side_on", "minecraft:block/pumpkin_top", "minecraft:block/pumpkin_bottom", "minecraft:block/jack_o_lantern"]],
+					
+					
+
+					"lit_redstone_ore.json": null,
+				
+					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], ["minecraft:block/melon_side", "minecraft:block/melon_top", "minecraft:block/melon_bottom"]],
+					
+					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:block/bookshelf", "minecraft:block/bookshelf_top"]],
+					
+					"crafting_table.json": ["Variable", ["File", "R/M/B/Cube.json"], [
+						"minecraft:block/crafting_table_front",
+						"minecraft:block/crafting_table_side",
+						"minecraft:block/crafting_table_front",
+						"minecraft:block/crafting_table_side",
+						"minecraft:block/crafting_table_top",
+						"minecraft:block/crafting_table_bottom",
+					]]
+				}
 			}
 		}
 	}

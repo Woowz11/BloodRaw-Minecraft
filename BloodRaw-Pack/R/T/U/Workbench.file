@@ -1,1 +1,3 @@
-["Texture", "R/T/U/Inventory_Storage_Full.file", [["NewSize", 256, 256], ["Move", 0, 64], ["Put", ["Texture", "R/T/U/Workbench.png"]]]]
+["Texture", "R/T/U/Inventory_Storage_Full.file", [["NewSize", 256, 256], ["Move", 0, 64], ["Put", ["Texture", "R/T/U/Workbench.png"]],
+	["Put", ["Texture", "R/T/U/Recipe_Book_Button.png"], 0, 168], ["Put", ["Texture", "R/T/U/Recipe_Book_Button_Hover.png"], 0, 187]
+]]

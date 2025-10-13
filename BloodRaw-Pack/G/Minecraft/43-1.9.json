@@ -280,6 +280,8 @@
 					"chorus_flower_dead.png": [],
 					"chorus_plant.png"      : [],
 					
+					"water_overlay.png": "assets/minecraft/textures/blocks/water_still.png",
+					
 					"redstone_ore_lit.png": ["Animation", ["Texture", "R/T/B/Redstone_Ore_On.png"], "Redstone"],
 					
 					"pumpkin_bottom.png" : ["Texture", "R/T/B/Pumpkin_Bottom.png"],

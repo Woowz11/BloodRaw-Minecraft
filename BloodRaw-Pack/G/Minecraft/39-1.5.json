@@ -101,9 +101,9 @@
 			
 			"brick.png" : ["Texture", "R/T/B/Bricks.png"],
 			
-			"cactus_bottom.png" : ["Texture", "R/T/B/Cactus_Bottom.png"],
-			"cactus_side.png"   : ["Texture", "R/T/B/Cactus.png"],
-			"cactus_top.png"    : ["Texture", "R/T/B/Cactus_Top.png"],
+			"cactus_bottom.png" : ["Texture", "R/T/B/Cactus/Bottom.png"],
+			"cactus_side.png"   : ["Texture", "R/T/B/Cactus/Side.png"],
+			"cactus_top.png"    : ["Texture", "R/T/B/Cactus/Top.png"],
 			
 			"cake_bottom.png" : ["Texture", "R/T/B/Cake_Bottom.png"],
 			"cake_inner.png"  : ["Texture", "R/T/B/Cake_Inner.png"],
@@ -300,7 +300,7 @@
 			"piston_top.png"       : ["Texture", "R/T/B/Piston.png"],
 			"piston_top_sticky.png": ["Texture", "R/T/B/Piston_Slime.png"],
 			
-			"portal.png": ["Animation", ["Texture", "R/T/B/Portal.png"], {"Smooth": true}],
+			"portal.png": ["Animation", ["Texture", "R/T/B/Portal.file"], {"Smooth": true}],
 			
 			"potatoes_0.png": ["Texture", "R/T/B/Potato_0.png"],
 			"potatoes_1.png": ["Texture", "R/T/B/Potato_1.png"],
