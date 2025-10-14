@@ -19,14 +19,28 @@
 			
 			"models/": {
 				"block/": {
-					"lit_redstone_ore.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:blocks/redstone_ore_lit"]],
+					"lit_redstone_ore.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:blocks/bloodraw/redstone_ore_lit"]],
 					
-					"pumpkin.json"    : ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:blocks/pumpkin_side", "minecraft:blocks/pumpkin_top", "minecraft:blocks/pumpkin_bottom", "minecraft:blocks/pumpkin_face_off"]],
-					"lit_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:blocks/pumpkin_side_on", "minecraft:blocks/pumpkin_top", "minecraft:blocks/pumpkin_bottom", "minecraft:blocks/pumpkin_face_on"]],
+					"pumpkin.json"    : ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
+						"minecraft:blocks/pumpkin_side",
+						"minecraft:blocks/pumpkin_top",
+						"minecraft:blocks/bloodraw/pumpkin_bottom",
+						"minecraft:blocks/pumpkin_face_off"
+					]],
+					"lit_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
+						"minecraft:blocks/bloodraw/pumpkin_side_on",
+						"minecraft:blocks/pumpkin_top",
+						"minecraft:blocks/bloodraw/pumpkin_bottom",
+						"minecraft:blocks/pumpkin_face_on"
+					]],
 				
-					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], ["minecraft:blocks/melon_side", "minecraft:blocks/melon_top", "minecraft:blocks/melon_bottom"]],
+					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], [
+						"minecraft:blocks/melon_side",
+						"minecraft:blocks/melon_top",
+						"minecraft:blocks/bloodraw/melon_bottom"
+					]],
 					
-					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:blocks/bookshelf", "minecraft:blocks/bookshelf_top"]],
+					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:blocks/bookshelf", "minecraft:blocks/bloodraw/bookshelf_top"]],
 					
 					"crafting_table.json": ["Variable", ["File", "R/M/B/Cube.json"], [
 						"minecraft:blocks/crafting_table_front",
@@ -34,7 +48,7 @@
 						"minecraft:blocks/crafting_table_front",
 						"minecraft:blocks/crafting_table_side",
 						"minecraft:blocks/crafting_table_top",
-						"minecraft:blocks/crafting_table_bottom",
+						"minecraft:blocks/bloodraw/crafting_table_bottom",
 					]]
 				},
 				
@@ -50,6 +64,13 @@
 					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/comparator_unlit"]],
 					
 					"flower_pot.json": ["Variable", ["File", "R/M/I/Pot.json"], ["minecraft:block/flower_pot"]],
+					
+					"oak_sapling.json"     : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_oak"]],
+					"spruce_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_spruce"]],
+					"birch_sapling.json"   : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_birch"]],
+					"jungle_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_jungle"]],
+					"acacia_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_acacia"]],
+					"dark_oak_sapling.json": ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_dark_oak"]],
 				}
 			},
 			
@@ -208,6 +229,8 @@
 				},
 				
 				"items/": {
+					"quiver.png": null,
+					
 					"boat.png"         : null,
 					"acacia_boat.png"  : ["Texture", "R/T/I/Boat/Acacia.file"],
 					"birch_boat.png"   : ["Texture", "R/T/I/Boat/Birch.file"],
@@ -236,7 +259,16 @@
 					"broken_elytra.png": ["Animation", ["Texture", "R/T/I/Elytra_Broken.png"], "End"],
 					"elytra.png"       : ["Animation", ["Texture", "R/T/I/Elytra.png"], "End"],
 					
-					"potion_bottle_lingering.png": ["Texture", "R/T/I/Potion_Spread.png"]
+					"potion_bottle_lingering.png": ["Texture", "R/T/I/Potion_Spread.png"],
+					
+					"bloodraw/": {
+						"sapling_oak.png"     : ["Texture", "R/T/I/Sapling/Oak.png"],
+						"sapling_spruce.png"  : ["Texture", "R/T/I/Sapling/Spruce.png"],
+						"sapling_birch.png"   : ["Texture", "R/T/I/Sapling/Birch.png"],
+						"sapling_jungle.png"  : ["Texture", "R/T/I/Sapling/Jungle.png"],
+						"sapling_acacia.png"  : ["Texture", "R/T/I/Sapling/Acacia.png"],
+						"sapling_dark_oak.png": ["Texture", "R/T/I/Sapling/Dark.png"],
+					}
 				},
 				
 				"blocks/": {
@@ -282,15 +314,17 @@
 					
 					"water_overlay.png": "assets/minecraft/textures/blocks/water_still.png",
 					
-					"redstone_ore_lit.png": ["Animation", ["Texture", "R/T/B/Redstone_Ore_On.png"], "Redstone"],
+					"bloodraw/": {
+						"redstone_ore_lit.png": ["Animation", ["Texture", "R/T/B/Redstone_Ore_On.png"], "Redstone"],
 					
-					"pumpkin_bottom.png" : ["Texture", "R/T/B/Pumpkin_Bottom.png"],
-					"pumpkin_side_on.png": ["Animation", ["Texture", "R/T/B/Pumpkin_On.png"], "Pumpkin"],
-					
-					"melon_bottom.png" : ["Texture", "R/T/B/Watermelon_Bottom.png"],
-					
-					"bookshelf_top.png"        : ["Texture", "R/T/B/Bookshelf_Top.png"],
-					"crafting_table_bottom.png": "assets/minecraft/textures/blocks/bookshelf_top.png"
+						"pumpkin_bottom.png" : ["Texture", "R/T/B/Pumpkin_Bottom.png"],
+						"pumpkin_side_on.png": ["Animation", ["Texture", "R/T/B/Pumpkin_On.png"], "Pumpkin"],
+						
+						"melon_bottom.png" : ["Texture", "R/T/B/Watermelon_Bottom.png"],
+						
+						"bookshelf_top.png"        : ["Texture", "R/T/B/Bookshelf_Top.png"],
+						"crafting_table_bottom.png": "assets/minecraft/textures/blocks/bloodraw/bookshelf_top.png"
+					}
 				}
 			}
 		}

@@ -176,12 +176,12 @@
 					"8" : ["Texture", "R/T/B/Rail.png"]
 				},
 				"1" : {
-					"5" : ["Texture", "R/T/B/Door.png"],
+					"5" : ["Texture", "R/T/B/Door/Oak.png"],
 					"6" : false
 				},
 				"2" : {
 					"3" : ["Texture", "R/T/B/Diamond_Ore.png"],
-					"5" : ["Texture", "R/T/B/Door.png", [["Flip", true]]],
+					"5" : ["Texture", "R/T/B/Door/Oak.png", [["Flip", true]]],
 					"6" : false
 				},
 				"3" : {

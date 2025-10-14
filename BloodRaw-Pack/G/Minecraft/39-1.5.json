@@ -181,11 +181,11 @@
 			"dispenser_front.png"         : ["Texture", "R/T/B/Dispenser.png"],
 			"dispenser_front_vertical.png": ["Texture", "R/T/B/Dispenser_Top.png"],
 			
-			"doorIron_upper.png": ["Texture", "R/T/B/Door_Iron.png", [["Crop", 0, 0, 16, 16]]],
-			"doorIron_lower.png": ["Texture", "R/T/B/Door_Iron.png", [["Crop", 0, 16, 16, 16]]],
+			"doorIron_upper.png": ["Texture", "R/T/B/Door/Iron.png", [["Crop", 0, 0, 16, 16]]],
+			"doorIron_lower.png": ["Texture", "R/T/B/Door/Iron.png", [["Crop", 0, 16, 16, 16]]],
 			
-			"doorWood_upper.png": ["Texture", "R/T/B/Door.png", [["Crop", 0, 0, 16, 16]]],
-			"doorWood_lower.png": ["Texture", "R/T/B/Door.png", [["Crop", 0, 16, 16, 16]]],
+			"doorWood_upper.png": ["Texture", "R/T/B/Door/Oak.png", [["Crop", 0, 0, 16, 16]]],
+			"doorWood_lower.png": ["Texture", "R/T/B/Door/Oak.png", [["Crop", 0, 16, 16, 16]]],
 			
 			"dragonEgg.png": ["Texture", "R/T/B/Egg_Dragon.png"],
 			

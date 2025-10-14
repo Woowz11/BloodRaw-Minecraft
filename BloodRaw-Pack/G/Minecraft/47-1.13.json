@@ -819,22 +819,47 @@
 					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/cauldron"]],
 					"hopper.json"  : ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/hopper"]],
 					
-					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/comparator"]]
+					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/comparator"]],
+					
+					"oak_sapling.json"     : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_oak"]],
+					"spruce_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_spruce"]],
+					"birch_sapling.json"   : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_birch"]],
+					"jungle_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_jungle"]],
+					"acacia_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_acacia"]],
+					"dark_oak_sapling.json": ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_dark_oak"]],
 				},
 				
 				"block/": {
-					"pumpkin.json"       : ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], ["minecraft:block/pumpkin_side", "minecraft:block/pumpkin_top", "minecraft:block/pumpkin_bottom"]],
-					"carved_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:block/pumpkin_side", "minecraft:block/pumpkin_top", "minecraft:block/pumpkin_bottom", "minecraft:block/carved_pumpkin"]],
+					"pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], [
+						"minecraft:block/pumpkin_side",
+						"minecraft:block/pumpkin_top",
+						"minecraft:block/bloodraw/pumpkin_bottom"
+					]],
+					"carved_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
+						"minecraft:block/pumpkin_side",
+						"minecraft:block/pumpkin_top",
+						"minecraft:block/bloodraw/pumpkin_bottom",
+						"minecraft:block/carved_pumpkin"
+					]],
 
 					"lit_pumpkin.json"   : null,
-					"jack_o_lantern.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:block/pumpkin_side_on", "minecraft:block/pumpkin_top", "minecraft:block/pumpkin_bottom", "minecraft:block/jack_o_lantern"]],
+					"jack_o_lantern.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
+						"minecraft:block/bloodraw/pumpkin_side_on",
+						"minecraft:block/pumpkin_top",
+						"minecraft:block/bloodraw/pumpkin_bottom",
+						"minecraft:block/jack_o_lantern"
+					]],
 					
 					"lit_redstone_ore.json": null,
-					"redstone_ore_on.json" : ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:block/redstone_ore_lit"]],
+					"redstone_ore_on.json" : ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:block/bloodraw/redstone_ore_lit"]],
 				
-					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], ["minecraft:block/melon_side", "minecraft:block/melon_top", "minecraft:block/melon_bottom"]],
+					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], [
+						"minecraft:block/melon_side",
+						"minecraft:block/melon_top",
+						"minecraft:block/bloodraw/melon_bottom"
+					]],
 					
-					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:block/bookshelf", "minecraft:block/bookshelf_top"]],
+					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:block/bookshelf", "minecraft:block/bloodraw/bookshelf_top"]],
 					
 					"crafting_table.json": ["Variable", ["File", "R/M/B/Cube.json"], [
 						"minecraft:block/crafting_table_front",
@@ -842,7 +867,7 @@
 						"minecraft:block/crafting_table_front",
 						"minecraft:block/crafting_table_side",
 						"minecraft:block/crafting_table_top",
-						"minecraft:block/crafting_table_bottom",
+						"minecraft:block/bloodraw/crafting_table_bottom",
 					]]
 				}
 			}
