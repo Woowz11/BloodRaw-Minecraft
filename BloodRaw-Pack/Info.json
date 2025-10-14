@@ -5,7 +5,7 @@
 	},
 	
 	"Text": {
-		"Version"   : "1.6.9",
+		"Version"   : "1.7.0",
 		"Name"      : "BloodRaw",
 		"Author"    : "Woowz11",
 		"License"   : "CC BY-NC-SA 4.0",
@@ -17,7 +17,21 @@
 	},
 	
 	"Color": {
-		"Glass_Red": "red"
+		"Glass_Silver" : "#AEAEAE",
+		"Glass_Gray"   : "#6D6D6D",
+		"Glass_Black"  : "#2D2D2D",
+		"Glass_Red"    : "#CA302F",
+		"Glass_Orange" : "#CA612F",
+		"Glass_Yellow" : "#CAB62F",
+		"Glass_Lime"   : "#55CA2F",
+		"Glass_Aqua"   : "#6DA0D4",
+		"Glass_Blue"   : "#3139CE",
+		"Glass_Purple" : "#8D2FCA",
+		"Glass_Magenta": "#CA2FA7",
+		"Glass_Pink"   : "#EE90BE",
+		"Glass_Brown"  : "#763D19",
+		"Glass_Green"  : "#23731B",
+		"Glass_Cyan"   : "#567CA2",
 	},
 	
 	"Animation": {
@@ -34,7 +48,9 @@
 		"End"        : {"Smooth": true},
 		"Redstone"   : {"Smooth": true, "Speed": 5},
 		"Lucky"      : {"Smooth": true, "Speed": 4, "Frames": [ 0,7,1,5,3,7,2,3,7,6,1,0,4,2,6,1,7,3,2,1,0,3,4,5,1,7,6,7,4,3,1,0,2,5,0,3,4,7,1,0,2,3,4,7,0,1,4,3,7,6,5,4,3,2,1 ]},
-		"Pumpkin"    : {"Smooth": true, "Speed": 12} 
+		"Pumpkin"    : {"Smooth": true, "Speed": 12},
+		"Milk"       : {"Smooth": true, "Speed": 3},
+		"Milk_Flow"  : {"Smooth": true},
 	},
 	
 	"Action": {

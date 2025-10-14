@@ -21,7 +21,7 @@
 				},
 				"1" : {
 					"2" : ["Texture", "R/T/B/Iron_Ore.png"],
-					"3" : ["Texture", "R/T/B/Glass.file"],
+					"3" : ["Texture", "R/T/B/Glass/Default.file"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#FE9B39"]]],
 					"15" : ["Texture", "R/T/B/Destroy_1.png", [["Background", "#7F7F7F"]]]
 				},

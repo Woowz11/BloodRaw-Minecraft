@@ -12,7 +12,7 @@
 		"terrain.png": [ "Atlas", {
 				"4" : {
 					"6" : ["Texture", "R/T/B/Stone_Bricks_Moss.png"],
-					"9" : ["Texture", "R/T/B/Glass_Side.png"]
+					"9" : ["Texture", "R/T/B/Glass/Side.png"]
 				},
 				"5" : {
 					"5" : ["Texture", "R/T/B/Bars.png"],
@@ -107,8 +107,8 @@
 					"48" : ["Texture", "R/T/U/Ping_4.png"],
 					"56" : ["Texture", "R/T/U/Ping.png"],
 					
-					"64" : ["Texture", "R/T/U/Bar_XP_Empty.png"],
-					"69" : ["Texture", "R/T/U/Bar_XP.png"],
+					"64" : ["Texture", "R/T/U/Bar/XP_Empty.png"],
+					"69" : ["Texture", "R/T/U/Bar/XP.png"],
 					
 					"177" : ["Texture", "R/T/U/Host_0.png"],
 					"185" : ["Texture", "R/T/U/Host_1.png"],
@@ -125,51 +125,51 @@
 					"209" : ["Texture", "R/T/U/Host_Search_4.png"]
 				},
 				"16" : {
-					"27" : ["Texture", "R/T/U/Food_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food/Empty.png"]
 				},
 				"25" : {
 					"9" : ["Texture", "R/T/U/Armor_Half.png"],
-					"27" : ["Texture", "R/T/U/Food_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food/Empty.png"]
 				},
 				"34" : {
-					"27" : ["Texture", "R/T/U/Food_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food/Empty.png"]
 				},
 				"43" : {
-					"27" : ["Texture", "R/T/U/Food_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food/Empty.png"]
 				},
 				"52" : {
-					"27" : ["Texture", "R/T/U/Food.png"]
+					"27" : ["Texture", "R/T/U/Food/Full.png"]
 				},
 				"61" : {
-					"27" : ["Texture", "R/T/U/Food_Half.png"]
+					"27" : ["Texture", "R/T/U/Food/Half.png"]
 				},
 				"70" : {
-					"27" : ["Texture", "R/T/U/Food.png"]
+					"27" : ["Texture", "R/T/U/Food/Full.png"]
 				},
 				"79" : {
-					"27" : ["Texture", "R/T/U/Food_Half.png"]
+					"27" : ["Texture", "R/T/U/Food/Half.png"]
 				},
 				"88" : {
 					"0" : ["Texture", "R/T/U/Health_Poison.png"],
-					"27" : ["Texture", "R/T/U/Food_Poison.png"]
+					"27" : ["Texture", "R/T/U/Food/Hunger_Full.png"]
 				},
 				"97" : {
 					"0" : ["Texture", "R/T/U/Health_Poison_Half.png"],
-					"27" : ["Texture", "R/T/U/Food_Poison_Half.png"]
+					"27" : ["Texture", "R/T/U/Food/Hunger_Half.png"]
 				},
 				"106" : {
 					"0" : ["Texture", "R/T/U/Health_Poison.png"],
-					"27" : ["Texture", "R/T/U/Food_Poison.png"]
+					"27" : ["Texture", "R/T/U/Food/Hunger_Full.png"]
 				},
 				"115" : {
 					"0" : ["Texture", "R/T/U/Health_Poison_Half.png"],
-					"27" : ["Texture", "R/T/U/Food_Poison_Half.png"]
+					"27" : ["Texture", "R/T/U/Food/Hunger_Half.png"]
 				},
 				"124" : {
-					"27" : ["Texture", "R/T/U/Food_Poison_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food/Hunger_Empty.png"]
 				},
 				"133" : {
-					"27" : ["Texture", "R/T/U/Food_Poison_Empty.png"]
+					"27" : ["Texture", "R/T/U/Food/Hunger_Empty.png"]
 				}
 			}
 		]

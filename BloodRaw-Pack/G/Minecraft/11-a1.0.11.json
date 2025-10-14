@@ -48,7 +48,7 @@
 					"3" : ["Texture", "R/T/I/Book.png"]
 				},
 				"13" : {
-					"4" : ["Texture", "R/T/I/Bucket_Milk.png"]
+					"4" : ["Animation", ["Texture", "R/T/I/Bucket_Milk.png"], false]
 				},
 				"14" : {
 					"1" : ["Texture", "R/T/I/Slime.png"]

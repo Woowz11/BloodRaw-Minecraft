@@ -105,8 +105,8 @@
 		
 		"gui/icons.png": [ "Atlas", {
 				"0": {
-					"74": ["Texture", "R/T/U/Bar_Health_Empty.png"],
-					"79": ["Texture", "R/T/U/Bar_Health.png"]
+					"74": ["Texture", "R/T/U/Bar/Health_Empty.png"],
+					"79": ["Texture", "R/T/U/Bar/Health.png"]
 				},
 				"16": {
 					"45": ["Texture", "R/T/U/Health_Empty.png"]

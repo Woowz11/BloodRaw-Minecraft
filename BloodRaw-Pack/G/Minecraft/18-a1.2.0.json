@@ -62,7 +62,7 @@
 		"misc/dial.png"        : ["Texture", "R/T/O/Clock.png"],
 		"misc/foliagecolor.png": ["Texture", "R/T/O/Colormap/Leaves.png"],
 		"misc/grasscolor.png"  : ["Texture", "R/T/O/Colormap/Grass.png"],
-		"misc/pumpkinblur.png" : ["Texture", "R/T/U/Overlay_Pumpkin.png"],
+		"misc/pumpkinblur.png" : ["Texture", "R/T/U/Overlay/Pumpkin.png"],
 		
 		"mob/ghast.png"     : ["Texture", "R/T/E/Ghast/Default.png"],
 		"mob/ghast_fire.png": ["Texture", "R/T/E/Ghast/Shooting.png"],

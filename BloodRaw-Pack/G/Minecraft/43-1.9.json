@@ -171,7 +171,7 @@
 						}
 					}],
 					
-					"bars.png": ["Texture", "R/T/U/Bar.png"],
+					"bars.png": ["Texture", "R/T/U/Bar/Default.png"],
 					
 					"container/": {
 						"inventory.png": ["Atlas", {
@@ -221,7 +221,7 @@
 					
 					"end_crystal.png": ["Texture", "R/T/I/Crystal_End.png"],
 					
-					"empty_armor_slot_shield.png": ["Texture", "R/T/I/Slot_Arm.png"],
+					"empty_armor_slot_shield.png": ["Texture", "R/T/U/Slot/Require/Arm.png"],
 					
 					"spectral_arrow.png"   : ["Animation", ["Texture", "R/T/I/Arrow/Spectral.png"], "Glowstone"],
 					"tipped_arrow_base.png": ["Texture", "R/T/I/Arrow/Effect.png"],

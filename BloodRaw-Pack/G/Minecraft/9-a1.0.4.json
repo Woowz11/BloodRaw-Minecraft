@@ -79,7 +79,7 @@
 					"6" : ["Texture", "R/T/I/Saddle.png"]
 				},
 				"12" : {
-					"2" : ["Texture", "R/T/I/Door_Iron.png"]
+					"2" : ["Texture", "R/T/I/Door/Iron.png"]
 				}
 			}
 		],

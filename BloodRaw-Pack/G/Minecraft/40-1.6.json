@@ -444,8 +444,8 @@
 					"demo_background.png"   : "gui/demo_bg.png",
 					"icons.png"             : ["Actions", "gui/icons.png", ["Atlas", {
 						"0": {
-							"84": ["Texture", "R/T/U/Bar_Jump_Empty.png"],
-							"89": ["Texture", "R/T/U/Bar_Jump.png"]
+							"84": ["Texture", "R/T/U/Bar/Jump_Empty.png"],
+							"89": ["Texture", "R/T/U/Bar/Jump.png"]
 						},
 						
 						"52": {

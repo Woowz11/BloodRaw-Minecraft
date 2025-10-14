@@ -28,7 +28,7 @@
 				
 				"models/armor/turtle_layer_1.png": ["Texture", "R/T/E/Player/Armor/Turtle.png"],
 				
-				"map/map_icons.png": [],
+				"map/map_icons.png": [], // ау... что это???? ты не забыл про это????
 				
 				"gui/": {
 					"recipe_button.png": ["Atlas", {
@@ -64,11 +64,11 @@
 				},
 				
 				"entity/": {
-					"trident.png"        : [],
-					"trident_riptide.png": [],
+					"trident.png"        : ["Texture", "R/T/E/Player/Item/Trident.png"],
+					"trident_riptide.png": ["Texture", "R/T/E/Player/Item/Trident_Riptide.png"],
 					
-					"phantom.png"     : [],
-					"phantom_eyes.png": [],
+					"phantom.png"     : ["Texture", "R/T/E/Phantom/Default.png"],
+					"phantom_eyes.png": ["Texture", "R/T/E/Phantom/Eyes.png"],
 					
 					"conduit/": {
 						"base.png"          : [],
@@ -81,9 +81,9 @@
 					},
 					
 					"fish/": {
-						"cod.png"       : [],
-						"pufferfish.png": [],
-						"salmon.png"    : [],
+						"cod.png"       : ["Texture", "R/T/E/Fish/Cod.png"],
+						"pufferfish.png": ["Texture", "R/T/E/Fish/Pufferfish.png"],
+						"salmon.png"    : ["Texture", "R/T/E/Fish/Salmon.png"],
 						
 						"tropical_a.png"          : [],
 						"tropical_a_pattern_1.png": [],
@@ -102,32 +102,32 @@
 						"tropical_b_pattern_6.png": [],
 					},
 					
-					"dolphin.png": [],
+					"dolphin.png": ["Texture", "R/T/E/Dolphin/Default.png"],
 					
 					"horse/": {
-						"horse_black.png"    : [],
-						"horse_brown.png"    : [],
-						"horse_chestnut.png" : [],
-						"horse_creamy.png"   : [],
-						"horse_darkbrown.png": [],
-						"horse_gray.png"     : [],
-						"horse_white.png"    : [],
+						"horse_black.png"    : ["Texture", "R/T/E/Horse/Black.png"],
+						"horse_brown.png"    : ["Texture", "R/T/E/Horse/Brown.png"],
+						"horse_chestnut.png" : ["Texture", "R/T/E/Horse/Chestnut.png"],
+						"horse_creamy.png"   : ["Texture", "R/T/E/Horse/Creamy.png"],
+						"horse_darkbrown.png": ["Texture", "R/T/E/Horse/Dark.png"],
+						"horse_gray.png"     : ["Texture", "R/T/E/Horse/Gray.png"],
+						"horse_white.png"    : ["Texture", "R/T/E/Horse/White.png"],
 						
-						"donkey.png": [],
-						"mule.png"  : [],
+						"donkey.png": ["Texture", "R/T/E/Horse/Donkey.png"],
+						"mule.png"  : ["Texture", "R/T/E/Horse/Mule.png"],
 						
-						"horse_markings_blackdots.png" : [],
-						"horse_markings_white.png"     : [],
-						"horse_markings_whitedots.png" : [],
-						"horse_markings_whitefield.png": [],
+						"horse_markings_blackdots.png" : ["Texture", "R/T/E/Horse/Markings_Black.png"],
+						"horse_markings_white.png"     : ["Texture", "R/T/E/Horse/Markings_Line.png"],
+						"horse_markings_whitedots.png" : ["Texture", "R/T/E/Horse/Markings_Dots.png"],
+						"horse_markings_whitefield.png": ["Texture", "R/T/E/Horse/Markings_Fire.png"],
 						
-						"horse_skeleton.png": [],
-						"horse_zombie.png"  : [],
+						"horse_skeleton.png": ["Texture", "R/T/E/Horse/Skeleton.png"],
+						"horse_zombie.png"  : ["Texture", "R/T/E/Horse/Zombie.png"],
 						
 						"armor/": {
-							"horse_armor_diamond.png": [],
-							"horse_armor_gold.png"   : [],
-							"horse_armor_iron.png"   : [],
+							"horse_armor_diamond.png": ["Texture", "R/T/E/Horse/Armor/Diamond.png"],
+							"horse_armor_gold.png"   : ["Texture", "R/T/E/Horse/Armor/Gold.png"],
+							"horse_armor_iron.png"   : ["Texture", "R/T/E/Horse/Armor/Iron.png"],
 						}
 					},
 					
@@ -177,11 +177,11 @@
 						"shulker_purple.png": ["Texture", "R/T/E/Shulker/Purple.png"]
 					},
 					
-					"turtle/big_sea_turtle.png": [],
+					"turtle/big_sea_turtle.png": ["Texture", "R/T/E/Turtle/Default.png"],
 					
 					"zombie/": {
-						"drowned.png"            : [],
-						"drowned_outer_layer.png": [],
+						"drowned.png"            : ["Texture", "R/T/E/Zombie/Drowned.png", [["Crop", 0, 0 , 64, 64]]],
+						"drowned_outer_layer.png": ["Texture", "R/T/E/Zombie/Drowned.png", [["Crop", 0, 64, 64, 64]]],
 					}
 				},
 				
@@ -808,6 +808,10 @@
 				"items/": null,
 			},
 			
+			"blockstates/": {
+				"redstone_ore.json": ["Variable", ["File", "R/S/B/Redstone_Ore.json"], ["minecraft:block/redstone_ore", "minecraft:block/redstone_ore_on"]]
+			},
+			
 			"models/": {
 				"item/": {
 					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["minecraft:block/cake"]],
@@ -825,9 +829,8 @@
 					"lit_pumpkin.json"   : null,
 					"jack_o_lantern.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], ["minecraft:block/pumpkin_side_on", "minecraft:block/pumpkin_top", "minecraft:block/pumpkin_bottom", "minecraft:block/jack_o_lantern"]],
 					
-					
-
 					"lit_redstone_ore.json": null,
+					"redstone_ore_on.json" : ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:block/redstone_ore_lit"]],
 				
 					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], ["minecraft:block/melon_side", "minecraft:block/melon_top", "minecraft:block/melon_bottom"]],
 					

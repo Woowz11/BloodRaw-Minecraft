@@ -166,11 +166,11 @@
 					
 					"barrier.png": ["Texture", "R/T/B/Creative_Barrier.png"],
 					
-					"door_acacia.png"  : ["Texture", "R/T/I/Door_Acacia.png"],
-					"door_birch.png"   : ["Texture", "R/T/I/Door_Birch.png"],
-					"door_dark_oak.png": ["Texture", "R/T/I/Door_Dark.png"],
-					"door_jungle.png"  : ["Texture", "R/T/I/Door_Jungle.png"],
-					"door_spruce.png"  : ["Texture", "R/T/I/Door_Spruce.png"],
+					"door_acacia.png"  : ["Texture", "R/T/I/Door/Acacia.png"],
+					"door_birch.png"   : ["Texture", "R/T/I/Door/Birch.png"],
+					"door_dark_oak.png": ["Texture", "R/T/I/Door/Dark.png"],
+					"door_jungle.png"  : ["Texture", "R/T/I/Door/Jungle.png"],
+					"door_spruce.png"  : ["Texture", "R/T/I/Door/Spruce.png"],
 					
 					"rabbit_raw.png"   : ["Texture", "R/T/I/Meat_Rabbit.png"],
 					"rabbit_cooked.png": ["Texture", "R/T/I/Meat_Rabbit_Cooked.png"],
