@@ -5,7 +5,7 @@
 	},
 	
 	"Text": {
-		"Version"   : "1.7.1",
+		"Version"   : "1.7.2",
 		"Name"      : "BloodRaw",
 		"Author"    : "Woowz11",
 		"License"   : "CC BY-NC-SA 4.0",
@@ -35,7 +35,7 @@
 	},
 	
 	"Animation": {
-		"Prismarine" : {"Smooth": true, "Speed": 5, "Frames": [ 0,1,2,3,2,1 ]},
+		"Prismarine" : {"Smooth": true, "Speed": 32, "Frames": [ 0,1,2,3,2,3,2,3,2,3,2,1,0,1,0,1,0,1,0,1 ]},
 		"Command"    : {"Frames": [ 0,3,0,3,0,3,0,3,0,3,0,3,0,3,1,2,1,2,1,2,1,2,1,2,1,2,1,2 ]},
 		"Eye_End"    : {"Smooth": true, "Speed": 8},
 		"Fire"       : {"Speed": 2},

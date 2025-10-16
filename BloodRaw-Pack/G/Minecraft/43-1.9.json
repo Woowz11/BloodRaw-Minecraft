@@ -49,7 +49,14 @@
 						"minecraft:blocks/crafting_table_side",
 						"minecraft:blocks/crafting_table_top",
 						"minecraft:blocks/bloodraw/crafting_table_bottom",
-					]]
+					]],
+					
+					"pressure_plate_up.json"  : ["File", "R/M/B/New/Pressure_Plate.json"],
+					"pressure_plate_down.json": ["File", "R/M/B/New/Pressure_Plate_Pressed.json"],
+					
+					"button.json"          : ["File", "R/M/B/New/Button.json"],
+					"button_inventory.json": "assets/minecraft/models/block/button.json",
+					"button_pressed.json"  : ["File", "R/M/B/New/Button_Pressed.json"],
 				},
 				
 				"item/": {
