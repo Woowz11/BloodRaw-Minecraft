@@ -6,8 +6,8 @@
 
 | Поле | Данные |
 |------|--------|
-| Версия <Name>    | <Version> |
-| Версия Minecraft | <D_Version> |
-| Сгенерирован     | <D_Date> |
-| Всего файлов     | <D_TotalFiles> |
-| Заняло времени   | <D_Time>ms |
+| Версия <[Name]>  | <[Version]> |
+| Версия Minecraft | <[D_Version]> |
+| Сгенерирован     | <[D_Date]> |
+| Всего файлов     | <[D_TotalFiles]> |
+| Заняло времени   | <[D_Time]>ms |

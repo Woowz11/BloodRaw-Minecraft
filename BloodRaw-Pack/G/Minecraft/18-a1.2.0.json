@@ -42,7 +42,7 @@
 		"pumpkin.png": ["Texture", "R/T/B/Pumpkin_Face.png"],
 		"gui/items.png": [ "Atlas", {
 				"6" : {
-					"4" : ["Texture", "R/T/I/Clock.png"]
+					"4" : ["Texture", "R/T/I/Clock/Old.png"]
 				},
 				"9" : {
 					"4" : ["Animation", ["Texture", "R/T/I/Glowstone.png"], false],
@@ -59,7 +59,7 @@
 				}
 			}
 		],
-		"misc/dial.png"        : ["Texture", "R/T/O/Clock.png"],
+		"misc/dial.png"        : ["Texture", "R/T/I/Clock/Old_Dial.png"],
 		"misc/foliagecolor.png": ["Texture", "R/T/G/Colormap/Leaves.png"],
 		"misc/grasscolor.png"  : ["Texture", "R/T/G/Colormap/Grass.png"],
 		"misc/pumpkinblur.png" : ["Texture", "R/T/U/Overlay/Pumpkin.png"],

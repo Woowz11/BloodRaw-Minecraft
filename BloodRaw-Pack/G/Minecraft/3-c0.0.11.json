@@ -11,7 +11,7 @@
 	"Files": {
 		"terrain.png": [ "Atlas", {
 				"15" : {
-					"0" : ["Texture", "R/T/B/Sapling.png"],
+					"0" : ["Texture", "R/T/B/Sapling/Oak.png"],
 					"1" : ["Texture", "R/T/B/Grass.file"]
 				}
 			}

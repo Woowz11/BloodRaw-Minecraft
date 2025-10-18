@@ -1,5 +1,5 @@
 {   
-	"credit": "Bloodraw <Version>",
+	"credit": "Bloodraw <[Version]>",
 	"parent": "minecraft:block/thin_block",
     "textures": {
         "particle": "#texture"

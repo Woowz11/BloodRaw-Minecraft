@@ -1,5 +1,5 @@
 {
-	"credit": "Bloodraw <Version>",
+	"credit": "Bloodraw <[Version]>",
 	"parent": "block/block",
 	"textures": {
 		"particle": "#texture"

@@ -87,8 +87,8 @@
 					"log_big_oak.png"    : ["Texture", "R/T/B/Tree_Dark.png"],
 					"log_big_oak_top.png": ["Texture", "R/T/B/Tree_Dark_Top.png"],
 					
-					"sapling_acacia.png"    : ["Texture", "R/T/B/Sapling_Acacia.png"],
-					"sapling_roofed_oak.png": ["Texture", "R/T/B/Sapling_Dark.png"],
+					"sapling_acacia.png"    : ["Texture", "R/T/B/Sapling/Acacia.png"],
+					"sapling_roofed_oak.png": ["Texture", "R/T/B/Sapling/Dark.png"],
 					
 					"planks_acacia.png" : ["Texture", "R/T/B/Planks_Acacia.png"],
 					"planks_big_oak.png": ["Texture", "R/T/B/Planks_Dark.png"],

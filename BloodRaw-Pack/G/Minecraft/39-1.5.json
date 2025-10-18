@@ -200,8 +200,8 @@
 			"endframe_side.png": ["Texture", "R/T/B/Portal_End_Frame_Side.png"],
 			"endframe_top.png" : ["Texture", "R/T/B/Portal_End_Frame.png"],
 			
-			"farmland_dry.png": ["Texture", "R/T/B/Farmland.png"],
-			"farmland_wet.png": ["Texture", "R/T/B/Farmland_Wet.png"],
+			"farmland_dry.png": ["Texture", "R/T/B/Farmland/0.png"],
+			"farmland_wet.png": ["Texture", "R/T/B/Farmland/7.png"],
 			
 			"fenceIron.png": ["Texture", "R/T/B/Bars.png"],
 			
@@ -348,10 +348,10 @@
 			"sandstone_smooth.png": ["Texture", "R/T/B/Sand_Stone_Smooth_Side.png"],
 			"sandstone_top.png"   : ["Texture", "R/T/B/Sand_Stone_Smooth.png"],
 			
-			"sapling.png"       : ["Texture", "R/T/B/Sapling.png"],
-			"sapling_birch.png" : ["Texture", "R/T/B/Sapling_Birch.png"],
-			"sapling_jungle.png": ["Texture", "R/T/B/Sapling_Jungle.png"],
-			"sapling_spruce.png": ["Texture", "R/T/B/Sapling_Spruce.png"],
+			"sapling.png"       : ["Texture", "R/T/B/Sapling/Oak.png"],
+			"sapling_birch.png" : ["Texture", "R/T/B/Sapling/Birch.png"],
+			"sapling_jungle.png": ["Texture", "R/T/B/Sapling/Jungle.png"],
+			"sapling_spruce.png": ["Texture", "R/T/B/Sapling/Spruce.png"],
 			
 			"snow.png"     : ["Texture", "R/T/B/Snow.png"],
 			"snow_side.png": ["Texture", "R/T/B/Snow_Dirt.png"],
@@ -450,10 +450,10 @@
 			"bootsGold.png"         : ["Texture", "R/T/I/Gold_Boots.png"],
 			"bootsIron.png"         : ["Texture", "R/T/I/Iron_Boots.png"],
 			
-			"bow.png"       : ["Texture", "R/T/I/Bow.png"],
-			"bow_pull_0.png": ["Texture", "R/T/I/Bow_Stage_0.png"],
-			"bow_pull_1.png": ["Texture", "R/T/I/Bow_Stage_1.png"],
-			"bow_pull_2.png": ["Texture", "R/T/I/Bow_Stage_2.png"],
+			"bow.png"       : ["Texture", "R/T/I/Bow/Default.png"],
+			"bow_pull_0.png": ["Texture", "R/T/I/Bow/Default_0.png"],
+			"bow_pull_1.png": ["Texture", "R/T/I/Bow/Default_1.png"],
+			"bow_pull_2.png": ["Texture", "R/T/I/Bow/Default_2.png"],
 			
 			"bowl.png": ["Texture", "R/T/I/Bowl.png"],
 			
@@ -487,13 +487,13 @@
 			
 			"clay.png": ["Texture", "R/T/I/Clay.png"],
 			
-			"clock.png": ["Texture", "R/T/I/Clock.png"],
+			"clock.png": ["Animation", ["Texture", "R/T/I/Clock/Default.png"], {}],
 			
 			"coal.png": ["Texture", "R/T/I/Coal.png"],
 			
 			"comparator.png": ["Texture", "R/T/I/Comparator.png"],
 			
-			"compass.png": ["Texture", "R/T/I/Compass.png"],
+			"compass.png": ["Animation", ["Texture", "R/T/I/Compass/Default.png"], {}],
 			
 			"cookie.png": ["Texture", "R/T/I/Cookie.png"],
 			
@@ -532,7 +532,7 @@
 			"enderPearl.png": ["Texture", "R/T/I/Pearl.png"],
 			"eyeOfEnder.png": ["Animation", ["Texture", "R/T/I/Pearl_End.png"], "Eye_End"],
 			
-			"expBottle.png": ["Animation", ["Texture", "R/T/I/Potion_Experience.png"], {"Smooth": true}],
+			"expBottle.png": ["Animation", ["Texture", "R/T/I/Experience.png"], {"Smooth": true, "Speed": 3}],
 			
 			"feather.png": ["Texture", "R/T/I/Feather.png"],
 			
@@ -558,7 +558,7 @@
 			
 			"ghastTear.png": ["Texture", "R/T/I/Ghast.png"],
 			
-			"glassBottle.png": ["Texture", "R/T/I/Potion_Empty.png"],
+			"glassBottle.png": ["Texture", "R/T/I/Bottle.png"],
 			
 			"goldNugget.png": ["Texture", "R/T/I/Gold_Nugget.png"],
 			
@@ -595,7 +595,7 @@
 			"leggingsGold.png"         : ["Texture", "R/T/I/Gold_Pants.png"],
 			"leggingsIron.png"         : ["Texture", "R/T/I/Iron_Pants.png"],
 			
-			"magmaCream.png": ["Animation", ["Texture", "R/T/I/Lava.png"], {"Smooth": true, "Speed": 31}],
+			"magmaCream.png": ["Animation", ["Texture", "R/T/I/Magma.png"], "Lava"],
 			
 			"map.png": ["Texture", "R/T/I/Map.png"],
 			
@@ -639,9 +639,9 @@
 			"potatoBaked.png"    : ["Texture", "R/T/I/Potato_Cooked.png"],
 			"potatoPoisonous.png": ["Texture", "R/T/I/Potato_Poison.png"],
 			
-			"potion.png"         : ["Texture", "R/T/I/Potion.png"],
-			"potion_contents.png": ["Animation", ["Texture", "R/T/I/Potion_Overlay.png"], {"Smooth": true, "Speed": 3}],
-			"potion_splash.png"  : ["Texture", "R/T/I/Potion_Splash.png"],
+			"potion.png"         : ["Texture", "R/T/I/Potion/Default.png"],
+			"potion_contents.png": ["Animation", ["Texture", "R/T/I/Potion/Overlay.png"], {"Smooth": true, "Speed": 3}],
+			"potion_splash.png"  : ["Texture", "R/T/I/Potion/Splash.png"],
 			
 			"pumpkinPie.png": ["Texture", "R/T/I/Pie.png"],
 			

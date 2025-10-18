@@ -1,5 +1,5 @@
 {
-	"parent": "<Var1>",
+	"parent": "<[Var1]>",
 	
 	"display": {
 		"gui": {

@@ -1,11 +1,11 @@
 {
 	"Out": {
-		"Default": "<Name> <D_Version>.zip",
-		"Addon"  : "Addon - <Name> <D_Version>.zip"
+		"Default": "<[Name]> <[D_Version]>.zip",
+		"Addon"  : "Addon - <[Name]> <[D_Version]>.zip"
 	},
 	
 	"Text": {
-		"Version"   : "1.7.3",
+		"Version"   : "1.7.4",
 		"Name"      : "BloodRaw",
 		"Author"    : "Woowz11",
 		"License"   : "CC BY-NC-SA 4.0",

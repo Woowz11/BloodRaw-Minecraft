@@ -1,8 +1,8 @@
 {
 	"parent": "block/cube_bottom_top",
 	"textures": {
-		"top"   : "<Var2>",
-		"bottom": "<Var3>",
-		"side"  : "<Var1>"
+		"top"   : "<[Var2]>",
+		"bottom": "<[Var3]>",
+		"side"  : "<[Var1]>"
 	}
 }

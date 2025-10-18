@@ -1,9 +1,9 @@
-License: <License>
+License: <[License]>
 
-By <Author>
+By <[Author]>
 
 Contact:
-Discord: <Discord>
-GitHub: <GitHub>
+* Discord: <[Discord]>
+* GitHub : <[GitHub]>
 
-Download Pack: <Generator>
+Download Pack: <[Generator]>

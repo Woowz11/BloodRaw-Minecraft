@@ -197,13 +197,13 @@
 					"1" : ["Texture", "R/T/B/Iron.png"],
 					"2" : ["Texture", "R/T/B/Iron.png"],
 					"3" : ["Texture", "R/T/B/Iron.png"],
-					"5" : ["Texture", "R/T/B/Farmland_Wet.png"]
+					"5" : ["Texture", "R/T/B/Farmland/7.png"]
 				},
 				"7" : {
 					"1" : ["Texture", "R/T/B/Gold.png"],
 					"2" : ["Texture", "R/T/B/Gold.png"],
 					"3" : ["Texture", "R/T/B/Gold.png"],
-					"5" : ["Texture", "R/T/B/Farmland.png"]
+					"5" : ["Texture", "R/T/B/Farmland/0.png"]
 				},
 				"8" : {
 					"1" : ["Texture", "R/T/B/Diamond.png"],
@@ -324,7 +324,7 @@
 				},
 				"5" : {
 					"0" : ["Texture", "R/T/I/Lighter.png"],
-					"1" : ["Texture", "R/T/I/Bow.png"],
+					"1" : ["Texture", "R/T/I/Bow/Default.png"],
 					"2" : ["Texture", "R/T/I/Arrow/Default.png"],
 					"3" : ["Texture", "R/T/I/Stick.png"]
 				},

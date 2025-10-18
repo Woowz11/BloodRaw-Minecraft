@@ -1,0 +1,12 @@
+{
+	"variants": {
+		"moisture=0": { "model": "<[Var1]>" },
+		"moisture=1": { "model": "<[Var2]>" },
+		"moisture=2": { "model": "<[Var3]>" },
+		"moisture=3": { "model": "<[Var4]>" },
+		"moisture=4": { "model": "<[Var5]>" },
+		"moisture=5": { "model": "<[Var6]>" },
+		"moisture=6": { "model": "<[Var7]>" },
+		"moisture=7": { "model": "<[Var8]>" }
+	}
+}

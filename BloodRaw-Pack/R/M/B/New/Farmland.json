@@ -1,0 +1,65 @@
+{
+	"credit": "Bloodraw <[Version]>",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#dirt",
+		"dirt"    : "blocks/dirt",
+		"top"     : "blocks/farmland_dry",
+		"side"    : "#dirt"
+	},
+	"elements": [
+		{
+			"from": [0 , 0 , 0 ],
+			"to"  : [16, 15, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "north"},
+				"east" : {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "east" },
+				"south": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "south"},
+				"west" : {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "west" },
+				"up"   : {"uv": [0, 0, 16, 16], "texture": "#top"                      },
+				"down" : {"uv": [0, 0, 16, 16], "texture": "#dirt", "cullface": "down" }
+			}
+		},
+		{
+			"from": [0.005 , 13.7471, 8.79048 ],
+			"to"  : [15.995, 17.7371, 13.78048],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 10.80447, 8]},
+			"faces": {
+				"east": {"uv": [0 , 4 , 5 , 0 ], "texture": "#side"},
+				"west": {"uv": [11, 4 , 16, 0 ], "texture": "#side"},
+				"up"  : {"uv": [0 , 11, 16, 16], "texture": "#top" }
+			}
+		},
+		{
+			"from": [0.01 , 11.1647, 8.47106 ],
+			"to"  : [15.99, 15.1447, 13.45106],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 10.80447, 8]},
+			"faces": {
+				"east": {"uv": [5, 4, 10, 0 ], "texture": "#side"},
+				"west": {"uv": [7, 4, 12, 0 ], "texture": "#side"},
+				"up"  : {"uv": [0, 6, 16, 11], "texture": "#top" }
+			}
+		},
+		{
+			"from": [0.01 , 13.7521, 2.22452],
+			"to"  : [15.99, 17.7321, 7.20452],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 10.80447, 8]},
+			"faces": {
+				"east": {"uv": [11, 4, 16, 0], "texture": "#side"},
+				"west": {"uv": [0 , 4, 5 , 0], "texture": "#side"},
+				"up"  : {"uv": [0 , 0, 16, 5], "texture": "#top" }
+			}
+		},
+		{
+			"from": [0.005 , 11.1597, 2.54394],
+			"to"  : [15.995, 15.1497, 7.53394],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 10.80447, 8]},
+			"faces": {
+				"east": {"uv": [8, 4, 13, 0], "texture": "#side"},
+				"west": {"uv": [4, 4, 9 , 0], "texture": "#side"},
+				"up"  : {"uv": [0, 4, 16, 9], "texture": "#top" }
+			}
+		}
+	]
+}

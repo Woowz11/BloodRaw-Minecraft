@@ -33,7 +33,7 @@
 				"9": ["Texture", "R/T/B/Tree_Jungle.png"]
 			},
 			"14": {
-				"1": ["Texture", "R/T/B/Sapling_Jungle.png"]
+				"1": ["Texture", "R/T/B/Sapling/Jungle.png"]
 			}
 		}],
 		
@@ -45,7 +45,7 @@
 		
 		"gui/items.png": ["Atlas", {
 			"11": {
-				"10": ["Animation", ["Texture", "R/T/I/Potion_Experience.png"], false]
+				"10": ["Animation", ["Texture", "R/T/I/Experience.png"], false]
 			}
 		}]
 	}

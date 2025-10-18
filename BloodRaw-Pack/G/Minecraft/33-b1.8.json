@@ -73,9 +73,9 @@
 		
 		"gui/items.png": [ "Atlas", {
 				"5" : {
-					"6" : ["Texture", "R/T/I/Bow_Stage_0.png"],
-					"7" : ["Texture", "R/T/I/Bow_Stage_1.png"],
-					"8" : ["Texture", "R/T/I/Bow_Stage_2.png"]
+					"6" : ["Texture", "R/T/I/Bow/Default_0.png"],
+					"7" : ["Texture", "R/T/I/Bow/Default_1.png"],
+					"8" : ["Texture", "R/T/I/Bow/Default_2.png"]
 				},
 				"9" : {
 					"6" : ["Texture", "R/T/I/Meat.png"],

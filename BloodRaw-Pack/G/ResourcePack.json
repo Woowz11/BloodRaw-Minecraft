@@ -4,7 +4,7 @@
 	"ID": "ResourcePack",
 	
 	"Files": {
-		"pack.mcmeta": ["Create", "{\n\t\"pack\": {\n\t\t\"pack_format\": <D_PackFormat>,\n\t\t\"description\": \"<Version> | <D_Version>\\nBy <Author> ©\"\n\t}\n}"],
+		"pack.mcmeta": ["Create", "{\n\t\"pack\": {\n\t\t\"pack_format\": <[D_PackFormat]>,\n\t\t\"description\": \"<[Version]> | <[D_Version]>\\nBy <[Author]> ©\"\n\t}\n}"],
 		"pack.png"   : ["Texture", "R/O/Pack/Icon.png"]
 	}
 }

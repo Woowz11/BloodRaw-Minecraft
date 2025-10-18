@@ -214,7 +214,7 @@
 			},
 			"10": {
 				"8" : ["Texture", "R/T/I/Eye_Spider_Potion.png"],
-				"9" : ["Texture", "R/T/I/Potion_Splash.png"],
+				"9" : ["Texture", "R/T/I/Potion/Splash.png"],
 				"15": ["Texture", "R/T/I/Record_11.png"]
 			},
 			"11": {
@@ -225,15 +225,15 @@
 			"12": {
 				"6"  : ["Texture", "R/T/I/Blaze.png"],
 				"7"  : ["Texture", "R/T/I/Gold_Nugget.png"],
-				"8"  : ["Texture", "R/T/I/Potion.png"],
+				"8"  : ["Texture", "R/T/I/Potion/Default.png"],
 				"9"  : ["Texture", "R/T/I/Cauldron.png"],
 				"10" : ["Texture", "R/T/I/Brewing.png"]
 			},
 			"13": {
 				"7"  : ["Texture", "R/T/I/Wart.png"],
-				"8"  : ["Animation", ["Texture", "R/T/I/Potion_Overlay.png"], false],
+				"8"  : ["Animation", ["Texture", "R/T/I/Potion/Overlay.png"], false],
 				"9"  : ["Animation", ["Texture", "R/T/I/Blaze_Dust.png"], false],
-				"10" : ["Animation", ["Texture", "R/T/I/Lava.png"], false]
+				"10" : ["Animation", ["Texture", "R/T/I/Magma.png"], false]
 			},
 			"14": {
 				"2" : ["Animation", ["Texture", "R/T/I/Fire.png"], false]

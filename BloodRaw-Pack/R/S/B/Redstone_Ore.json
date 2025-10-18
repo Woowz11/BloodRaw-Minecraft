@@ -1,6 +1,0 @@
-{
-	"variants": {
-		"lit=false": { "model": "<Var1>" },
-		"lit=true" : { "model": "<Var2>" }
-	}
-}

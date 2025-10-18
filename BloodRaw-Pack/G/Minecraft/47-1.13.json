@@ -809,7 +809,16 @@
 			},
 			
 			"blockstates/": {
-				"redstone_ore.json": ["Variable", ["File", "R/S/B/Redstone_Ore.json"], ["minecraft:block/redstone_ore", "minecraft:block/redstone_ore_on"]]
+				"farmland.json": ["Variable", ["File", "R/S/B/Farmland.json"], [
+					"block/farmland",
+					"block/bloodraw/farmland_1",
+					"block/bloodraw/farmland_2",
+					"block/bloodraw/farmland_3",
+					"block/bloodraw/farmland_4",
+					"block/bloodraw/farmland_5",
+					"block/bloodraw/farmland_6",
+					"block/farmland_moist",
+				]]
 			},
 			
 			"models/": {
@@ -868,7 +877,49 @@
 						"minecraft:block/crafting_table_side",
 						"minecraft:block/crafting_table_top",
 						"minecraft:block/bloodraw/crafting_table_bottom",
-					]]
+					]],
+					
+					"template_farmland.json": ["Rename", "farmland.json"],
+					
+					"bloodraw/farmland_1.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"minecraft:block/dirt",
+						"minecraft:block/bloodraw/farmland_side_1",
+						"minecraft:block/bloodraw/farmland_1"
+					]],
+					"bloodraw/farmland_2.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"minecraft:block/dirt",
+						"minecraft:block/bloodraw/farmland_side_2",
+						"minecraft:block/bloodraw/farmland_2"
+					]],
+					"bloodraw/farmland_3.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"minecraft:block/dirt",
+						"minecraft:block/bloodraw/farmland_side_3",
+						"minecraft:block/bloodraw/farmland_3"
+					]],
+					"bloodraw/farmland_4.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"minecraft:block/dirt",
+						"minecraft:block/bloodraw/farmland_side_4",
+						"minecraft:block/bloodraw/farmland_4"
+					]],
+					"bloodraw/farmland_5.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"minecraft:block/dirt",
+						"minecraft:block/bloodraw/farmland_side_5",
+						"minecraft:block/bloodraw/farmland_5"
+					]],
+					"bloodraw/farmland_6.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"minecraft:block/dirt",
+						"minecraft:block/bloodraw/farmland_side_6",
+						"minecraft:block/bloodraw/farmland_6"
+					]],
+					
+					"farmland_moist.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"minecraft:block/dirt",
+						"minecraft:block/bloodraw/farmland_side_7",
+						"minecraft:block/farmland_moist"
+					]],
+					
+					"slime.json"      : null,
+					"slime_block.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:block/slime_block"]]
 				}
 			}
 		}

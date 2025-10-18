@@ -25,8 +25,8 @@
 					"2" : ["Texture", "R/T/B/Grass_Dirt_Overlay.png"]
 				},
 				"15" : {
-					"3" : ["Texture", "R/T/B/Sapling_Spruce.png"],
-					"4" : ["Texture", "R/T/B/Sapling_Birch.png"]
+					"3" : ["Texture", "R/T/B/Sapling/Spruce.png"],
+					"4" : ["Texture", "R/T/B/Sapling/Birch.png"]
 				}
 			}
 		],

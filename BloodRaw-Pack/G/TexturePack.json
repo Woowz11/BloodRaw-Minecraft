@@ -4,7 +4,7 @@
 	"ID": "TexturePack",
 	
 	"Files": {
-		"pack.txt"   : ["Create", "<Version> | <D_Version> - By <Author> ©"],
+		"pack.txt"   : ["Create", "<[Version]> | <[D_Version]> - By <[Author]> ©"],
 		"pack.png"   : ["Texture", "R/O/Pack/Icon.png"]
 	}
 }

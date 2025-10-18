@@ -1,0 +1,1 @@
+["Table", "var R = {}; for(var i = 0; i < 64; i++){ R[FileName + i.toString().padStart(2, '0') + '.png'] = ['Texture', 'R/T/I/Clock/Default.png', [['Frame', i]]]; } return R;"]
