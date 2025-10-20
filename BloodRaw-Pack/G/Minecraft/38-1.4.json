@@ -34,7 +34,7 @@
 				"14": ["Texture", "R/T/B/Anvil_Top_1.png"]
 			},
 			"9": {
-				"2" : ["Animation", ["Texture", "R/T/B/Beacon.png"], false],
+				"2" : ["Animation", ["Texture", "R/T/B/Beacon/Default.png"], false],
 				"11": ["Texture", "R/T/B/Frame.png"],
 				"12": ["Texture", "R/T/B/Potato_1.png"]
 			},

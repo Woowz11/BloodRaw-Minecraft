@@ -38,21 +38,21 @@
 					"15" : ["Texture", "R/T/B/Destroy_3.png", [["Background", "#7F7F7F"]]]
 				},
 				"4" : {
-					"1" : ["Texture", "R/T/B/Tree.png"],
+					"1" : ["Texture", "R/T/B/Log/Oak.png"],
 					"2" : ["Texture", "R/T/B/Stone_Cobblestone_Moss.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#39FE39"]]],
 					"15" : ["Texture", "R/T/B/Destroy_4.png", [["Background", "#7F7F7F"]]]
 				},
 				"5" : {
 					"0" : ["Texture", "R/T/B/Stone_Slab_Side.png"],
-					"1" : ["Texture", "R/T/B/Tree_Top.png"],
+					"1" : ["Texture", "R/T/B/Log/Oak_Top.file"],
 					"2" : ["Texture", "R/T/B/Obsidian.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#39FE9B"]]],
 					"15" : ["Texture", "R/T/B/Destroy_5.png", [["Background", "#7F7F7F"]]]
 				},
 				"6" : {
 					"0" : ["Texture", "R/T/B/Stone_Slab.png"],
-					"1" : ["Texture", "R/T/B/Leaves_Tint_Solid.file"],
+					"1" : ["Texture", "R/T/B/Leaves/Old_Solid.file"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#39FEFE"]]],
 					"15" : ["Texture", "R/T/B/Destroy_6.png", [["Background", "#7F7F7F"]]]
 				},

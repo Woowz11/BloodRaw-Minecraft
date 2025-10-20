@@ -77,15 +77,15 @@
 					"red_sand.png"  : ["Texture", "R/T/B/Sand_Red.png"],
 					"ice_packed.png": ["Texture", "R/T/B/Ice_Compress.png"],
 					
-					"leaves_acacia.png"        : ["Texture", "R/T/B/Leaves_Acacia.file"],
-					"leaves_acacia_opaque.png" : ["Texture", "R/T/B/Leaves_Acacia_Solid.file"],
-					"leaves_big_oak.png"       : ["Texture", "R/T/B/Leaves_Dark.file"],
-					"leaves_big_oak_opaque.png": ["Texture", "R/T/B/Leaves_Dark_Solid.file"],
+					"leaves_acacia.png"        : ["Texture", "R/T/B/Leaves/Acacia.file"],
+					"leaves_acacia_opaque.png" : ["Texture", "R/T/B/Leaves/Acacia_Solid.file"],
+					"leaves_big_oak.png"       : ["Texture", "R/T/B/Leaves/Dark.file"],
+					"leaves_big_oak_opaque.png": ["Texture", "R/T/B/Leaves/Dark_Solid.file"],
 					
-					"log_acacia.png"     : ["Texture", "R/T/B/Tree_Acacia.png"],
-					"log_acacia_top.png" : ["Texture", "R/T/B/Tree_Acacia_Top.png"],
-					"log_big_oak.png"    : ["Texture", "R/T/B/Tree_Dark.png"],
-					"log_big_oak_top.png": ["Texture", "R/T/B/Tree_Dark_Top.png"],
+					"log_acacia.png"     : ["Texture", "R/T/B/Log/Acacia.png"],
+					"log_acacia_top.png" : ["Texture", "R/T/B/Log/Acacia_Top.png"],
+					"log_big_oak.png"    : ["Texture", "R/T/B/Log/Dark.png"],
+					"log_big_oak_top.png": ["Texture", "R/T/B/Log/Dark_Top.png"],
 					
 					"sapling_acacia.png"    : ["Texture", "R/T/B/Sapling/Acacia.png"],
 					"sapling_roofed_oak.png": ["Texture", "R/T/B/Sapling/Dark.png"],

@@ -162,17 +162,17 @@
 						
 						"leaves_oak.png"         : ["Rename", "leaves.png"],
 						"leaves_oak_opaque.png"  : ["Rename", "leaves_opaque.png"],
-						"leaves_birch.png"       : ["Texture", "R/T/B/Leaves_Birch.file"],
-						"leaves_birch_opaque.png": ["Texture", "R/T/B/Leaves_Birch_Solid.file"],
+						"leaves_birch.png"       : ["Texture", "R/T/B/Leaves/Birch.file"],
+						"leaves_birch_opaque.png": ["Texture", "R/T/B/Leaves/Birch_Solid.file"],
 						
 						"log_birch.png"     : ["Rename", "tree_birch.png"],
-						"log_birch_top.png" : ["Texture", "R/T/B/Tree_Birch_Top.png"],
+						"log_birch_top.png" : ["Texture", "R/T/B/Log/Birch_Top.png"],
 						"log_jungle.png"    : ["Rename", "tree_jungle.png"],
-						"log_jungle_top.png": ["Texture", "R/T/B/Tree_Jungle_Top.png"],
+						"log_jungle_top.png": ["Texture", "R/T/B/Log/Jungle_Top.png"],
 						"log_oak.png"       : ["Rename", "tree_side.png"],
 						"log_oak_top.png"   : ["Rename", "tree_top.png"],
 						"log_spruce.png"    : ["Rename", "tree_spruce.png"],
-						"log_spruce_top.png": ["Texture", "R/T/B/Tree_Spruce_Top.png"],
+						"log_spruce_top.png": ["Texture", "R/T/B/Log/Spruce_Top.png"],
 						
 						"redstone_lamp_off.png": ["Rename", "redstoneLight.png"],
 						"redstone_lamp_on.png" : ["Rename", "redstoneLight_lit.png"],

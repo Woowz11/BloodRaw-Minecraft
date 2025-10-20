@@ -14,10 +14,10 @@
 					"0" : ["Texture", "R/T/B/Grass.png"]
 				},
 				"4" : {
-					"3" : ["Texture", "R/T/B/Leaves.file"]
+					"3" : ["Texture", "R/T/B/Leaves/Oak.file"]
 				},
 				"5" : {
-					"3" : ["Texture", "R/T/B/Leaves_Solid.file"]
+					"3" : ["Texture", "R/T/B/Leaves/Oak_Solid.file"]
 				},
 				"6" : {
 					"6" : ["Texture", "R/T/B/Pumpkin_Top.png"],

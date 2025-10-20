@@ -13,11 +13,11 @@
 				"13": ["Texture", "R/T/B/Lamp.png"]
 			},
 			"4": {
-				"12": ["Texture", "R/T/B/Leaves_Jungle.file"],
+				"12": ["Texture", "R/T/B/Leaves/Jungle.file"],
 				"13": ["Animation", ["Texture", "R/T/B/Lamp_On.png"], false]
 			},
 			"5": {
-				"12": ["Texture", "R/T/B/Leaves_Jungle_Solid.file"],
+				"12": ["Texture", "R/T/B/Leaves/Jungle_Solid.file"],
 				"13": ["Texture", "R/T/B/Stone_Bricks_Chiseled.png"],
 				"14": ["Texture", "R/T/B/Sand_Stone_Chiseled.png"]
 			},
@@ -30,7 +30,7 @@
 				"12": ["Texture", "R/T/B/Planks_Jungle.png"]
 			},
 			"9": {
-				"9": ["Texture", "R/T/B/Tree_Jungle.png"]
+				"9": ["Texture", "R/T/B/Log/Jungle.png"]
 			},
 			"14": {
 				"1": ["Texture", "R/T/B/Sapling/Jungle.png"]

@@ -38,7 +38,7 @@
 					
 					"daylight_detector_inverted_top.png": ["Texture", "R/T/B/Detector_Light_Night.png"],
 					
-					"iron_trapdoor.png": ["Texture", "R/T/B/Trapdoor_Iron.png"],
+					"iron_trapdoor.png": ["Texture", "R/T/B/Trapdoor/Iron.png"],
 					
 					"leaves_acacia_opaque.png" : null,
 					"leaves_big_oak_opaque.png": null,

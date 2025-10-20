@@ -188,10 +188,10 @@
 					"5" : ["Texture", "R/T/B/Ladder.png"]
 				},
 				"4" : {
-					"3" : ["Texture", "R/T/B/Leaves_Tint.file"]
+					"3" : ["Texture", "R/T/B/Leaves/Old.file"]
 				},
 				"5" : {
-					"3" : ["Texture", "R/T/B/Leaves_Tint_Solid.file"]
+					"3" : ["Texture", "R/T/B/Leaves/Old_Solid.file"]
 				},
 				"6" : {
 					"1" : ["Texture", "R/T/B/Iron.png"],

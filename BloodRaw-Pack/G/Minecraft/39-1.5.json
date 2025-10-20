@@ -76,7 +76,7 @@
 			"anvil_top_damaged_1.png": ["Texture", "R/T/B/Anvil_Top_0.png"],
 			"anvil_top_damaged_2.png": ["Texture", "R/T/B/Anvil_Top_1.png"],
 			
-			"beacon.png": ["Animation", ["Texture", "R/T/B/Beacon.png"], {"Smooth": true}],
+			"beacon.png": ["Animation", ["Texture", "R/T/B/Beacon/Default.png"], "Beacon"],
 			
 			"bed_feet_end.png" : ["Texture", "R/T/B/Bed_Back.png"],
 			"bed_feet_side.png": ["Texture", "R/T/B/Bed_Left.png"],
@@ -248,12 +248,12 @@
 			"lava.png"     : ["Animation", ["Texture", "R/T/B/Liquid/Lava.png"], "Lava"],
 			"lava_flow.png": ["Animation", ["Texture", "R/T/B/Liquid/Lava_Flow.png"], "Lava_Flow"],
 			
-			"leaves.png"              : ["Texture", "R/T/B/Leaves.file"],
-			"leaves_jungle.png"       : ["Texture", "R/T/B/Leaves_Jungle.file"],
-			"leaves_jungle_opaque.png": ["Texture", "R/T/B/Leaves_Jungle_Solid.file"],
-			"leaves_opaque.png"       : ["Texture", "R/T/B/Leaves_Solid.file"],
-			"leaves_spruce.png"       : ["Texture", "R/T/B/Leaves_Spruce.file"],
-			"leaves_spruce_opaque.png": ["Texture", "R/T/B/Leaves_Spruce_Solid.file"],
+			"leaves.png"              : ["Texture", "R/T/B/Leaves/Oak.file"],
+			"leaves_jungle.png"       : ["Texture", "R/T/B/Leaves/Jungle.file"],
+			"leaves_jungle_opaque.png": ["Texture", "R/T/B/Leaves/Jungle_Solid.file"],
+			"leaves_opaque.png"       : ["Texture", "R/T/B/Leaves/Oak_Solid.file"],
+			"leaves_spruce.png"       : ["Texture", "R/T/B/Leaves/Spruce.file"],
+			"leaves_spruce_opaque.png": ["Texture", "R/T/B/Leaves/Spruce_Solid.file"],
 			
 			"lever.png": ["Texture", "R/T/B/Lever.png"],
 			
@@ -381,13 +381,13 @@
 			
 			"torch.png": ["Animation", ["Texture", "R/T/B/Torch.file"], "Fire"],
 			
-			"trapdoor.png": ["Texture", "R/T/B/Trapdoor.png"],
+			"trapdoor.png": ["Texture", "R/T/B/Trapdoor/Oak.png"],
 			
-			"tree_birch.png" : ["Texture", "R/T/B/Tree_Birch.png"],
-			"tree_jungle.png": ["Texture", "R/T/B/Tree_Jungle.png"],
-			"tree_side.png"  : ["Texture", "R/T/B/Tree.png"],
-			"tree_spruce.png": ["Texture", "R/T/B/Tree_Spruce.png"],
-			"tree_top.png"   : ["Texture", "R/T/B/Tree_Top.png"],
+			"tree_birch.png" : ["Texture", "R/T/B/Log/Birch.png"],
+			"tree_jungle.png": ["Texture", "R/T/B/Log/Jungle.png"],
+			"tree_side.png"  : ["Texture", "R/T/B/Log/Oak.png"],
+			"tree_spruce.png": ["Texture", "R/T/B/Log/Spruce.png"],
+			"tree_top.png"   : ["Texture", "R/T/B/Log/Oak_Top.file"],
 			
 			"tripWire.png"      : ["Texture", "R/T/B/String.file"],
 			"tripWireSource.png": ["Texture", "R/T/B/Trap.png"],
@@ -538,7 +538,7 @@
 			
 			"fermentedSpiderEye.png": ["Texture", "R/T/I/Eye_Spider_Potion.png"],
 			
-			"fireball.png": ["Animation", ["Texture", "R/T/I/Fire.png"], {"Smooth": true, "Speed": 30}],
+			"fireball.png": ["Animation", ["Texture", "R/T/I/Fire.png"], {"Smooth": true}],
 			
 			"fireworks.png"              : ["Texture", "R/T/I/Firework.png"],
 			"fireworksCharge.png"        : ["Texture", "R/T/I/Firework_Charge.png"],

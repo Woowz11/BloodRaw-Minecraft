@@ -1,0 +1,10 @@
+{
+	"parent": "block/bloodraw/beacon",
+	"textures": {
+		"core"    : "<[Var1]>",
+		"base"    : "<[Var2]>",
+		"top"     : "<[Var3]>",
+		"side"    : "<[Var4]>",
+		"bottom"  : "<[Var5]>"
+	}
+}

@@ -13,124 +13,6 @@
 	
 	"Files": {
 		"assets/minecraft/": {
-			"blockstates/": {
-				"farmland.json": ["Variable", ["File", "R/S/B/Farmland.json"], [
-					"farmland_dry",
-					"bloodraw/farmland_1",
-					"bloodraw/farmland_2",
-					"bloodraw/farmland_3",
-					"bloodraw/farmland_4",
-					"bloodraw/farmland_5",
-					"bloodraw/farmland_6",
-					"farmland_moist",
-				]]
-			},
-			
-			"models/": {
-				"block/": {
-					"lit_redstone_ore.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:blocks/bloodraw/redstone_ore_lit"]],
-					
-					"pumpkin.json"    : ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
-						"minecraft:blocks/pumpkin_side",
-						"minecraft:blocks/pumpkin_top",
-						"minecraft:blocks/bloodraw/pumpkin_bottom",
-						"minecraft:blocks/pumpkin_face_off"
-					]],
-					"lit_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
-						"minecraft:blocks/bloodraw/pumpkin_side_on",
-						"minecraft:blocks/pumpkin_top",
-						"minecraft:blocks/bloodraw/pumpkin_bottom",
-						"minecraft:blocks/pumpkin_face_on"
-					]],
-				
-					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], [
-						"minecraft:blocks/melon_side",
-						"minecraft:blocks/melon_top",
-						"minecraft:blocks/bloodraw/melon_bottom"
-					]],
-					
-					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:blocks/bookshelf", "minecraft:blocks/bloodraw/bookshelf_top"]],
-					
-					"crafting_table.json": ["Variable", ["File", "R/M/B/Cube.json"], [
-						"minecraft:blocks/crafting_table_front",
-						"minecraft:blocks/crafting_table_side",
-						"minecraft:blocks/crafting_table_front",
-						"minecraft:blocks/crafting_table_side",
-						"minecraft:blocks/crafting_table_top",
-						"minecraft:blocks/bloodraw/crafting_table_bottom",
-					]],
-					
-					"pressure_plate_up.json"  : ["File", "R/M/B/New/Pressure_Plate.json"],
-					"pressure_plate_down.json": ["File", "R/M/B/New/Pressure_Plate_Pressed.json"],
-					
-					"button.json"          : ["File", "R/M/B/New/Button.json"],
-					"button_inventory.json": "assets/minecraft/models/block/button.json",
-					"button_pressed.json"  : ["File", "R/M/B/New/Button_Pressed.json"],
-					
-					"farmland.json": ["File", "R/M/B/New/Farmland.json"],
-					
-					"bloodraw/farmland_1.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:blocks/dirt",
-						"minecraft:blocks/bloodraw/farmland_side_1",
-						"minecraft:blocks/bloodraw/farmland_1"
-					]],
-					"bloodraw/farmland_2.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:blocks/dirt",
-						"minecraft:blocks/bloodraw/farmland_side_2",
-						"minecraft:blocks/bloodraw/farmland_2"
-					]],
-					"bloodraw/farmland_3.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:blocks/dirt",
-						"minecraft:blocks/bloodraw/farmland_side_3",
-						"minecraft:blocks/bloodraw/farmland_3"
-					]],
-					"bloodraw/farmland_4.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:blocks/dirt",
-						"minecraft:blocks/bloodraw/farmland_side_4",
-						"minecraft:blocks/bloodraw/farmland_4"
-					]],
-					"bloodraw/farmland_5.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:blocks/dirt",
-						"minecraft:blocks/bloodraw/farmland_side_5",
-						"minecraft:blocks/bloodraw/farmland_5"
-					]],
-					"bloodraw/farmland_6.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:blocks/dirt",
-						"minecraft:blocks/bloodraw/farmland_side_6",
-						"minecraft:blocks/bloodraw/farmland_6"
-					]],
-					
-					"farmland_moist.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:blocks/dirt",
-						"minecraft:blocks/bloodraw/farmland_side_7",
-						"minecraft:blocks/farmland_wet"
-					]],
-					
-					"slime.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:blocks/slime"]]
-				},
-				
-				"item/": {
-					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["minecraft:block/cake_uneaten"]],
-					
-					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/cauldron_empty"]],
-					"hopper.json"  : ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/hopper_down"]],
-					
-					"brewing_stand.json": ["Variable", ["File", "R/M/I/Brewing.json"], ["minecraft:block/brewing_stand"]],
-					
-					"repeater.json"  : ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/repeater_1tick"]],
-					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/comparator_unlit"]],
-					
-					"flower_pot.json": ["Variable", ["File", "R/M/I/Pot.json"], ["minecraft:block/flower_pot"]],
-					
-					"oak_sapling.json"     : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_oak"]],
-					"spruce_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_spruce"]],
-					"birch_sapling.json"   : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_birch"]],
-					"jungle_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_jungle"]],
-					"acacia_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_acacia"]],
-					"dark_oak_sapling.json": ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:items/bloodraw/sapling_dark_oak"]],
-				}
-			},
-			
 			"textures/": {
 				"particle/particles.png": ["Atlas", {
 					"0": {
@@ -401,8 +283,170 @@
 						"farmland_side_4.png": ["Texture", "R/T/B/Farmland/Side_4.file"],
 						"farmland_side_5.png": ["Texture", "R/T/B/Farmland/Side_5.file"],
 						"farmland_side_6.png": ["Texture", "R/T/B/Farmland/Side_6.file"],
-						"farmland_side_7.png": ["Texture", "R/T/B/Farmland/Side_7.png"]
+						"farmland_side_7.png": ["Texture", "R/T/B/Farmland/Side_7.png"],
+						
+						"iron_top.png": ["Texture", "R/T/B/Iron_Top.png"],
+						
+						"nether_side.png": ["Texture", "R/T/B/Nether_Side.png"],
+						
+						"beacon_top.png"   : ["Animation", ["Texture", "R/T/B/Beacon/Top.png"], "Beacon"],
+						"beacon_side.png"  : ["Animation", ["Texture", "R/T/B/Beacon/Side.png"], "Beacon"],
+						"beacon_bottom.png": ["Texture", "R/T/B/Beacon/Bottom.png"],
 					}
+				}
+			},
+			
+			"blockstates/": {
+				"farmland.json": ["Variable", ["File", "R/S/B/Farmland.json"], [
+					"farmland_dry",
+					"bloodraw/farmland_1",
+					"bloodraw/farmland_2",
+					"bloodraw/farmland_3",
+					"bloodraw/farmland_4",
+					"bloodraw/farmland_5",
+					"bloodraw/farmland_6",
+					"farmland_moist",
+				]],
+				
+				"trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"wooden_trapdoor_top",
+					"wooden_trapdoor_bottom",
+					"wooden_trapdoor_open"
+				]],
+				"iron_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"iron_trapdoor_top",
+					"iron_trapdoor_bottom",
+					"iron_trapdoor_open"
+				]],
+			},
+			
+			"models/": {
+				"block/": {
+					"cube_column.json": ["File", "R/M/B/New/Cube_Column.json"],
+					
+					"lit_redstone_ore.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/bloodraw/redstone_ore_lit"]],
+					
+					"pumpkin.json"    : ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
+						"blocks/pumpkin_side",
+						"blocks/pumpkin_top",
+						"blocks/bloodraw/pumpkin_bottom",
+						"blocks/pumpkin_face_off"
+					]],
+					"lit_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
+						"blocks/bloodraw/pumpkin_side_on",
+						"blocks/pumpkin_top",
+						"blocks/bloodraw/pumpkin_bottom",
+						"blocks/pumpkin_face_on"
+					]],
+				
+					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], [
+						"blocks/melon_side",
+						"blocks/melon_top",
+						"blocks/bloodraw/melon_bottom"
+					]],
+					
+					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["blocks/bookshelf", "blocks/bloodraw/bookshelf_top"]],
+					
+					"crafting_table.json": ["Variable", ["File", "R/M/B/Cube.json"], [
+						"blocks/crafting_table_front",
+						"blocks/crafting_table_side",
+						"blocks/crafting_table_front",
+						"blocks/crafting_table_side",
+						"blocks/crafting_table_top",
+						"blocks/bloodraw/crafting_table_bottom",
+					]],
+					
+					"pressure_plate_up.json"  : ["File", "R/M/B/New/Pressure_Plate.json"],
+					"pressure_plate_down.json": ["File", "R/M/B/New/Pressure_Plate_Pressed.json"],
+					
+					"button.json"          : ["File", "R/M/B/New/Button.json"],
+					"button_inventory.json": "assets/minecraft/models/block/button.json",
+					"button_pressed.json"  : ["File", "R/M/B/New/Button_Pressed.json"],
+					
+					"farmland.json": ["File", "R/M/B/New/Farmland.json"],
+					
+					"bloodraw/farmland_1.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"blocks/dirt",
+						"blocks/bloodraw/farmland_side_1",
+						"blocks/bloodraw/farmland_1"
+					]],
+					"bloodraw/farmland_2.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"blocks/dirt",
+						"blocks/bloodraw/farmland_side_2",
+						"blocks/bloodraw/farmland_2"
+					]],
+					"bloodraw/farmland_3.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"blocks/dirt",
+						"blocks/bloodraw/farmland_side_3",
+						"blocks/bloodraw/farmland_3"
+					]],
+					"bloodraw/farmland_4.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"blocks/dirt",
+						"blocks/bloodraw/farmland_side_4",
+						"blocks/bloodraw/farmland_4"
+					]],
+					"bloodraw/farmland_5.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"blocks/dirt",
+						"blocks/bloodraw/farmland_side_5",
+						"blocks/bloodraw/farmland_5"
+					]],
+					"bloodraw/farmland_6.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"blocks/dirt",
+						"blocks/bloodraw/farmland_side_6",
+						"blocks/bloodraw/farmland_6"
+					]],
+					
+					"farmland_moist.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
+						"blocks/dirt",
+						"blocks/bloodraw/farmland_side_7",
+						"blocks/farmland_wet"
+					]],
+					
+					"slime.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/slime"]],
+					
+					"iron_block.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], [
+						"blocks/iron_block",
+						"blocks/bloodraw/iron_top"
+					]],
+					
+					"trapdoor_top.json"   : ["File", "R/M/B/New/Trapdoor.json"],
+					"trapdoor_bottom.json": ["File", "R/M/B/New/Trapdoor_Bottom.json"],
+					"trapdoor_open.json"  : ["File", "R/M/B/New/Trapdoor_Open.json"],
+					
+					"netherrack.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], [
+						"blocks/bloodraw/nether_side",
+						"blocks/netherrack"
+					]],
+					
+					"bloodraw/beacon.json": ["File", "R/M/B/New/Beacon.json"],
+					"beacon.json"         : ["Variable", ["File", "R/M/B/Beacon.json"], [
+						"blocks/beacon",
+						"blocks/obsidian",
+						"blocks/bloodraw/beacon_top",
+						"blocks/bloodraw/beacon_side",
+						"blocks/bloodraw/beacon_bottom"
+					]]
+				},
+				
+				"item/": {
+					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["block/cake_uneaten"]],
+					
+					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["block/cauldron_empty"]],
+					"hopper.json"  : ["Variable", ["File", "R/M/I/Block.json"], ["block/hopper_down"]],
+					
+					"brewing_stand.json": ["Variable", ["File", "R/M/I/Brewing.json"], ["block/brewing_stand"]],
+					
+					"repeater.json"  : ["Variable", ["File", "R/M/I/Repeater.json"], ["block/repeater_1tick"]],
+					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["block/comparator_unlit"]],
+					
+					"flower_pot.json": ["Variable", ["File", "R/M/I/Pot.json"], ["block/flower_pot"]],
+					
+					"oak_sapling.json"     : ["Variable", ["File", "R/M/I/Item.json"], ["items/bloodraw/sapling_oak"]],
+					"spruce_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["items/bloodraw/sapling_spruce"]],
+					"birch_sapling.json"   : ["Variable", ["File", "R/M/I/Item.json"], ["items/bloodraw/sapling_birch"]],
+					"jungle_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["items/bloodraw/sapling_jungle"]],
+					"acacia_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["items/bloodraw/sapling_acacia"]],
+					"dark_oak_sapling.json": ["Variable", ["File", "R/M/I/Item.json"], ["items/bloodraw/sapling_dark_oak"]],
 				}
 			}
 		}

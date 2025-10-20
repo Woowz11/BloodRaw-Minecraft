@@ -37,12 +37,12 @@
 					"13" : ["Texture", "R/T/B/Wool/Orange.file"]
 				},
 				"4" : {
-					"7" : ["Texture", "R/T/B/Tree_Spruce.png"],
-					"8" : ["Texture", "R/T/B/Leaves_Spruce.file"]
+					"7" : ["Texture", "R/T/B/Log/Spruce.png"],
+					"8" : ["Texture", "R/T/B/Leaves/Spruce.file"]
 				},
 				"5" : {
-					"7" : ["Texture", "R/T/B/Tree_Birch.png"],
-					"8" : ["Texture", "R/T/B/Leaves_Spruce_Solid.file"]
+					"7" : ["Texture", "R/T/B/Log/Birch.png"],
+					"8" : ["Texture", "R/T/B/Leaves/Spruce_Solid.file"]
 				},
 				"6" : {
 					"2" : null,

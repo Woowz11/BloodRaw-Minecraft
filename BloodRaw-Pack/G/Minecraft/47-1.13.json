@@ -197,7 +197,7 @@
 					"acacia_log_top.png"    : ["Rename", "log_acacia_top.png"],
 					"acacia_planks.png"     : ["Rename", "planks_acacia.png"],
 					"acacia_sapling.png"    : ["Rename", "sapling_acacia.png"],
-					"acacia_trapdoor.png"   : [],
+					"acacia_trapdoor.png"   : ["Texture", "R/T/B/Trapdoor/Acacia.png"],
 					
 					"birch_door_bottom.png": ["Rename", "door_birch_lower.png"],
 					"birch_door_top.png"   : ["Rename", "door_birch_upper.png"],
@@ -206,7 +206,7 @@
 					"birch_log_top.png"    : ["Rename", "log_birch_top.png"],
 					"birch_planks.png"     : ["Rename", "planks_birch.png"],
 					"birch_sapling.png"    : ["Rename", "sapling_birch.png"],
-					"birch_trapdoor.png"   : [],
+					"birch_trapdoor.png"   : ["Texture", "R/T/B/Trapdoor/Birch.png"],
 					
 					"dark_oak_door_bottom.png": ["Rename", "door_dark_oak_lower.png"],
 					"dark_oak_door_top.png"   : ["Rename", "door_dark_oak_upper.png"],
@@ -215,7 +215,7 @@
 					"dark_oak_log_top.png"    : ["Rename", "log_big_oak_top.png"],
 					"dark_oak_planks.png"     : ["Rename", "planks_big_oak.png"],
 					"dark_oak_sapling.png"    : ["Rename", "sapling_roofed_oak.png"],
-					"dark_oak_trapdoor.png"   : [],
+					"dark_oak_trapdoor.png"   : ["Texture", "R/T/B/Trapdoor/Dark.png"],
 					
 					"jungle_door_bottom.png": ["Rename", "door_jungle_lower.png"],
 					"jungle_door_top.png"   : ["Rename", "door_jungle_upper.png"],
@@ -224,7 +224,7 @@
 					"jungle_log_top.png"    : ["Rename", "log_jungle_top.png"],
 					"jungle_planks.png"     : ["Rename", "planks_jungle.png"],
 					"jungle_sapling.png"    : ["Rename", "sapling_jungle.png"],
-					"jungle_trapdoor.png"   : [],
+					"jungle_trapdoor.png"   : ["Texture", "R/T/B/Trapdoor/Jungle.png"],
 					
 					"oak_door_bottom.png": ["Rename", "door_wood_lower.png"],
 					"oak_door_top.png"   : ["Rename", "door_wood_upper.png"],
@@ -233,7 +233,7 @@
 					"oak_log_top.png"    : ["Rename", "log_oak_top.png"],
 					"oak_planks.png"     : ["Rename", "planks_oak.png"],
 					"oak_sapling.png"    : ["Rename", "sapling_oak.png"],
-					"oak_trapdoor.png"   : [],
+					"oak_trapdoor.png"   : ["Rename", "trapdoor.png"],
 					
 					"spruce_door_bottom.png": ["Rename", "door_spruce_lower.png"],
 					"spruce_door_top.png"   : ["Rename", "door_spruce_upper.png"],
@@ -242,7 +242,7 @@
 					"spruce_log_top.png"    : ["Rename", "log_spruce_top.png"],
 					"spruce_planks.png"     : ["Rename", "planks_spruce.png"],
 					"spruce_sapling.png"    : ["Rename", "sapling_spruce.png"],
-					"spruce_trapdoor.png"   : [],
+					"spruce_trapdoor.png"   : ["Texture", "R/T/B/Trapdoor/Spruce.png"],
 					
 					"activator_rail.png"   : ["Rename", "rail_activator.png"],
 					"activator_rail_on.png": ["Rename", "rail_activator_powered.png"],
@@ -577,18 +577,18 @@
 					"tall_seagrass_top.png"   : [],
 					"tall_seagrass_bottom.png": [],
 					
-					"stripped_acacia_log.png"      : [],
-					"stripped_acacia_log_top.png"  : [],
-					"stripped_birch_log.png"       : [],
-					"stripped_birch_log_top.png"   : [],
-					"stripped_dark_oak_log.png"    : [],
-					"stripped_dark_oak_log_top.png": [],
-					"stripped_jungle_log.png"      : [],
-					"stripped_jungle_log_top.png"  : [],
-					"stripped_oak_log.png"         : [],
-					"stripped_oak_log_top.png"     : [],
-					"stripped_spruce_log.png"      : [],
-					"stripped_spruce_log_top.png"  : [],
+					"stripped_acacia_log.png"      : ["Texture", "R/T/B/Log/Stripped/Acacia.png"],
+					"stripped_acacia_log_top.png"  : ["Texture", "R/T/B/Log/Stripped/Acacia_Top.png"],
+					"stripped_birch_log.png"       : ["Texture", "R/T/B/Log/Stripped/Birch.png"],
+					"stripped_birch_log_top.png"   : ["Texture", "R/T/B/Log/Stripped/Birch_Top.png"],
+					"stripped_dark_oak_log.png"    : ["Texture", "R/T/B/Log/Stripped/Dark.png"],
+					"stripped_dark_oak_log_top.png": ["Texture", "R/T/B/Log/Stripped/Dark_Top.png"],
+					"stripped_jungle_log.png"      : ["Texture", "R/T/B/Log/Stripped/Jungle.png"],
+					"stripped_jungle_log_top.png"  : ["Texture", "R/T/B/Log/Stripped/Jungle_Top.png"],
+					"stripped_oak_log.png"         : ["Texture", "R/T/B/Log/Stripped/Oak.png"],
+					"stripped_oak_log_top.png"     : ["Texture", "R/T/B/Log/Stripped/Oak_Top.png"],
+					"stripped_spruce_log.png"      : ["Texture", "R/T/B/Log/Stripped/Spruce.png"],
+					"stripped_spruce_log_top.png"  : ["Texture", "R/T/B/Log/Stripped/Spruce_Top.png"],
 					
 					"dried_kelp_top.png"   : [],
 					"dried_kelp_side.png"  : [],
@@ -818,108 +818,172 @@
 					"block/bloodraw/farmland_5",
 					"block/bloodraw/farmland_6",
 					"block/farmland_moist",
-				]]
+				]],
+				
+				"trapdoor.json": null,
+				
+				"oak_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"block/oak_trapdoor_top",
+					"block/oak_trapdoor_bottom",
+					"block/oak_trapdoor_open"
+				]],
+				"iron_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"block/iron_trapdoor_top",
+					"block/iron_trapdoor_bottom",
+					"block/iron_trapdoor_open"
+				]],
+				"acacia_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"block/acacia_trapdoor_top",
+					"block/acacia_trapdoor_bottom",
+					"block/acacia_trapdoor_open"
+				]],
+				"dark_oak_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"block/dark_oak_trapdoor_top",
+					"block/dark_oak_trapdoor_bottom",
+					"block/dark_oak_trapdoor_open"
+				]],
+				"spruce_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"block/spruce_trapdoor_top",
+					"block/spruce_trapdoor_bottom",
+					"block/spruce_trapdoor_open"
+				]],
+				"birch_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"block/birch_trapdoor_top",
+					"block/birch_trapdoor_bottom",
+					"block/birch_trapdoor_open"
+				]],
+				"jungle_trapdoor.json": ["Variable", ["File", "R/S/B/Trapdoor.json"], [
+					"block/jungle_trapdoor_top",
+					"block/jungle_trapdoor_bottom",
+					"block/jungle_trapdoor_open"
+				]],
 			},
 			
 			"models/": {
 				"item/": {
-					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["minecraft:block/cake"]],
+					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["block/cake"]],
 					
-					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/cauldron"]],
-					"hopper.json"  : ["Variable", ["File", "R/M/I/Block.json"], ["minecraft:block/hopper"]],
+					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["block/cauldron"]],
+					"hopper.json"  : ["Variable", ["File", "R/M/I/Block.json"], ["block/hopper"]],
 					
-					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["minecraft:block/comparator"]],
+					"comparator.json": ["Variable", ["File", "R/M/I/Repeater.json"], ["block/comparator"]],
 					
-					"oak_sapling.json"     : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_oak"]],
-					"spruce_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_spruce"]],
-					"birch_sapling.json"   : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_birch"]],
-					"jungle_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_jungle"]],
-					"acacia_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_acacia"]],
-					"dark_oak_sapling.json": ["Variable", ["File", "R/M/I/Item.json"], ["minecraft:item/bloodraw/sapling_dark_oak"]],
+					"oak_sapling.json"     : ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_oak"]],
+					"spruce_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_spruce"]],
+					"birch_sapling.json"   : ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_birch"]],
+					"jungle_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_jungle"]],
+					"acacia_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_acacia"]],
+					"dark_oak_sapling.json": ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_dark_oak"]],
 				},
 				
 				"block/": {
 					"pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], [
-						"minecraft:block/pumpkin_side",
-						"minecraft:block/pumpkin_top",
-						"minecraft:block/bloodraw/pumpkin_bottom"
+						"block/pumpkin_side",
+						"block/pumpkin_top",
+						"block/bloodraw/pumpkin_bottom"
 					]],
 					"carved_pumpkin.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
-						"minecraft:block/pumpkin_side",
-						"minecraft:block/pumpkin_top",
-						"minecraft:block/bloodraw/pumpkin_bottom",
-						"minecraft:block/carved_pumpkin"
+						"block/pumpkin_side",
+						"block/pumpkin_top",
+						"block/bloodraw/pumpkin_bottom",
+						"block/carved_pumpkin"
 					]],
 
 					"lit_pumpkin.json"   : null,
 					"jack_o_lantern.json": ["Variable", ["File", "R/M/B/Cube_Column_Double_Front.json"], [
-						"minecraft:block/bloodraw/pumpkin_side_on",
-						"minecraft:block/pumpkin_top",
-						"minecraft:block/bloodraw/pumpkin_bottom",
-						"minecraft:block/jack_o_lantern"
+						"block/bloodraw/pumpkin_side_on",
+						"block/pumpkin_top",
+						"block/bloodraw/pumpkin_bottom",
+						"block/jack_o_lantern"
 					]],
 					
 					"lit_redstone_ore.json": null,
-					"redstone_ore_on.json" : ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:block/bloodraw/redstone_ore_lit"]],
+					"redstone_ore_on.json" : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/redstone_ore_lit"]],
 				
 					"melon.json": ["Variable", ["File", "R/M/B/Cube_Column_Double.json"], [
-						"minecraft:block/melon_side",
-						"minecraft:block/melon_top",
-						"minecraft:block/bloodraw/melon_bottom"
+						"block/melon_side",
+						"block/melon_top",
+						"block/bloodraw/melon_bottom"
 					]],
 					
-					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["minecraft:block/bookshelf", "minecraft:block/bloodraw/bookshelf_top"]],
+					"bookshelf.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/bookshelf", "block/bloodraw/bookshelf_top"]],
 					
 					"crafting_table.json": ["Variable", ["File", "R/M/B/Cube.json"], [
-						"minecraft:block/crafting_table_front",
-						"minecraft:block/crafting_table_side",
-						"minecraft:block/crafting_table_front",
-						"minecraft:block/crafting_table_side",
-						"minecraft:block/crafting_table_top",
-						"minecraft:block/bloodraw/crafting_table_bottom",
+						"block/crafting_table_front",
+						"block/crafting_table_side",
+						"block/crafting_table_front",
+						"block/crafting_table_side",
+						"block/crafting_table_top",
+						"block/bloodraw/crafting_table_bottom",
 					]],
 					
 					"template_farmland.json": ["Rename", "farmland.json"],
 					
 					"bloodraw/farmland_1.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:block/dirt",
-						"minecraft:block/bloodraw/farmland_side_1",
-						"minecraft:block/bloodraw/farmland_1"
+						"block/dirt",
+						"block/bloodraw/farmland_side_1",
+						"block/bloodraw/farmland_1"
 					]],
 					"bloodraw/farmland_2.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:block/dirt",
-						"minecraft:block/bloodraw/farmland_side_2",
-						"minecraft:block/bloodraw/farmland_2"
+						"block/dirt",
+						"block/bloodraw/farmland_side_2",
+						"block/bloodraw/farmland_2"
 					]],
 					"bloodraw/farmland_3.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:block/dirt",
-						"minecraft:block/bloodraw/farmland_side_3",
-						"minecraft:block/bloodraw/farmland_3"
+						"block/dirt",
+						"block/bloodraw/farmland_side_3",
+						"block/bloodraw/farmland_3"
 					]],
 					"bloodraw/farmland_4.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:block/dirt",
-						"minecraft:block/bloodraw/farmland_side_4",
-						"minecraft:block/bloodraw/farmland_4"
+						"block/dirt",
+						"block/bloodraw/farmland_side_4",
+						"block/bloodraw/farmland_4"
 					]],
 					"bloodraw/farmland_5.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:block/dirt",
-						"minecraft:block/bloodraw/farmland_side_5",
-						"minecraft:block/bloodraw/farmland_5"
+						"block/dirt",
+						"block/bloodraw/farmland_side_5",
+						"block/bloodraw/farmland_5"
 					]],
 					"bloodraw/farmland_6.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:block/dirt",
-						"minecraft:block/bloodraw/farmland_side_6",
-						"minecraft:block/bloodraw/farmland_6"
+						"block/dirt",
+						"block/bloodraw/farmland_side_6",
+						"block/bloodraw/farmland_6"
 					]],
 					
 					"farmland_moist.json": ["Variable", ["File", "R/M/B/Farmland.json"], [
-						"minecraft:block/dirt",
-						"minecraft:block/bloodraw/farmland_side_7",
-						"minecraft:block/farmland_moist"
+						"block/dirt",
+						"block/bloodraw/farmland_side_7",
+						"block/farmland_moist"
 					]],
 					
 					"slime.json"      : null,
-					"slime_block.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["minecraft:block/slime_block"]]
+					"slime_block.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/slime_block"]],
+					
+					"iron_block.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], [
+						"block/iron_block",
+						"block/bloodraw/iron_top"
+					]],
+					
+					"template_trapdoor_top.json"   : ["Rename", "trapdoor_top.json"],
+					"template_trapdoor_bottom.json": ["Rename", "trapdoor_bottom.json"],
+					"template_trapdoor_open.json"  : ["Rename", "trapdoor_open.json"],
+					
+					"template_orientable_trapdoor_top.json"   : ["Variable", ["File", "R/M/Parent.json"], ["block/template_trapdoor_top"]],
+					"template_orientable_trapdoor_bottom.json": ["Variable", ["File", "R/M/Parent.json"], ["block/template_trapdoor_bottom"]],
+					"template_orientable_trapdoor_open.json"  : ["Variable", ["File", "R/M/Parent.json"], ["block/template_trapdoor_open"]],
+					
+					"netherrack.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], [
+						"block/bloodraw/nether_side",
+						"block/netherrack"
+					]],
+					
+					"beacon.json": ["Variable", ["File", "R/M/B/Beacon.json"], [
+						"block/beacon",
+						"block/obsidian",
+						"block/bloodraw/beacon_top",
+						"block/bloodraw/beacon_side",
+						"block/bloodraw/beacon_bottom"
+					]]
 				}
 			}
 		}
