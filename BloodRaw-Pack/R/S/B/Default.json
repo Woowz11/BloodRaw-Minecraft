@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"<[Custom CompareVersion(SelectedVersion, '1.13') >= 0 ? '' : 'normal']>": { "model": "<[Var1]>" }
+	}
+}

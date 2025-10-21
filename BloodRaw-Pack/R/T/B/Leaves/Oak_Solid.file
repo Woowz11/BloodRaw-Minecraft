@@ -1,1 +1,1 @@
-["Texture", "R/T/B/Leaves/Oak.png", [["Fixed", null, null, null, 255]]]
+["Variable", ["File", "R/T/B/Leaves/Solid.var"], ["Oak"]]

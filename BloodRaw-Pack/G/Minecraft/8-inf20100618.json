@@ -209,42 +209,42 @@
 					"1" : ["Texture", "R/T/B/Diamond.png"],
 					"2" : ["Texture", "R/T/B/Diamond.png"],
 					"3" : ["Texture", "R/T/B/Diamond.png"],
-					"5" : ["Texture", "R/T/B/Wheat_0.png"]
+					"5" : ["Texture", "R/T/B/Wheat/0.png"]
 				},
 				"9" : {
 					"1" : ["Texture", "R/T/B/Chest_Top.png"],
 					"2" : ["Texture", "R/T/B/Chest_Left.png"],
 					"3" : ["Texture", "R/T/B/Chest_Left_Back.png"],
-					"5" : ["Texture", "R/T/B/Wheat_1.png"]
+					"5" : ["Texture", "R/T/B/Wheat/1.png"]
 				},
 				"10" : {
 					"1" : ["Texture", "R/T/B/Chest_Side.png"],
 					"2" : ["Texture", "R/T/B/Chest_Right.png"],
 					"3" : ["Texture", "R/T/B/Chest_Right_Back.png"],
-					"5" : ["Texture", "R/T/B/Wheat_2.png"]
+					"5" : ["Texture", "R/T/B/Wheat/2.png"]
 				},
 				"11" : {
 					"1" : ["Texture", "R/T/B/Chest.png"],
 					"2" : ["Texture", "R/T/B/Workbench.png"],
 					"3" : ["Texture", "R/T/B/Workbench_Side.png"],
-					"5" : ["Texture", "R/T/B/Wheat_3.png"]
+					"5" : ["Texture", "R/T/B/Wheat/3.png"]
 				},
 				"12" : {
 					"2" : ["Texture", "R/T/B/Furnace.png"],
 					"3" : ["Texture", "R/T/B/Workbench_Side_2.png"],
-					"5" : ["Texture", "R/T/B/Wheat_4.png"]
+					"5" : ["Texture", "R/T/B/Wheat/4.png"]
 				},
 				"13" : {
 					"2" : ["Texture", "R/T/B/Mechanism.png"],
 					"3" : ["Animation", ["Texture", "R/T/B/Furnace_On.png"], false],
-					"5" : ["Texture", "R/T/B/Wheat_5.png"],
+					"5" : ["Texture", "R/T/B/Wheat/5.png"],
 					"12" : ["Texture", "R/T/B/Water_Single.file"],
 					"14" : ["Animation", ["Texture", "R/T/B/Liquid/Lava.png"], false]
 				},
 				"14" : {
 					"0" : null,
 					"1" : null,
-					"5" : ["Texture", "R/T/B/Wheat_6.png"],
+					"5" : ["Texture", "R/T/B/Wheat/6.png"],
 					"12" : ["Animation", ["Texture", "R/T/B/Liquid/Water_Flow.file"], false],
 					"13" : false,
 					"14" : ["Animation", ["Texture", "R/T/B/Liquid/Lava_Flow.png"], false],
@@ -252,7 +252,7 @@
 				},
 				"15" : {
 					"1" : ["Animation", ["Texture", "R/T/B/Fire.file"], false],
-					"5" : ["Texture", "R/T/B/Wheat_7.png"],
+					"5" : ["Texture", "R/T/B/Wheat/7.png"],
 					"12" : false,
 					"13" : false,
 					"14" : false,
@@ -333,19 +333,19 @@
 					"2" : ["Texture", "R/T/I/Quiver.png"]
 				},
 				"7" : {
-					"0" : ["Texture", "R/T/I/Coal.png"],
+					"0" : ["Texture", "R/T/I/Coal/Default.png"],
 					"1" : ["Texture", "R/T/I/Iron.png"],
 					"2" : ["Texture", "R/T/I/Gold.png"],
 					"3" : ["Texture", "R/T/I/Diamond.png"],
-					"4" : ["Texture", "R/T/I/Bowl.png"],
+					"4" : ["Texture", "R/T/I/Bowl/Default.png"],
 					"5" : ["Texture", "R/T/I/Meat_Pig.png"],
-					"8" : ["Texture", "R/T/I/Minecart.png"]
+					"8" : ["Texture", "R/T/I/Minecart/Default.png"]
 				},
 				"8" : {
 					"0" : ["Texture", "R/T/I/String.png"],
 					"1" : ["Texture", "R/T/I/Feather.png"],
 					"2" : ["Texture", "R/T/I/Gunpowder.png"],
-					"4" : ["Texture", "R/T/I/Bowl_Mushroom.png"],
+					"4" : ["Texture", "R/T/I/Bowl/Mushroom.png"],
 					"5" : ["Texture", "R/T/I/Meat_Pig_Cooked.png"]
 				},
 				"9" : {
@@ -354,18 +354,18 @@
 					"2" : ["Texture", "R/T/I/Bread.png"]
 				},
 				"10" : {
-					"0" : ["Texture", "R/T/I/Apple.png"],
+					"0" : ["Texture", "R/T/I/Apple/Default.png"],
 					"1" : ["Texture", "R/T/I/Painting.png"],
 					"2" : ["Texture", "R/T/I/Sign.png"],
-					"4" : ["Texture", "R/T/I/Bucket.png"]
+					"4" : ["Texture", "R/T/I/Bucket/Default.png"]
 				},
 				"11" : {
-					"0" : ["Texture", "R/T/I/Apple_Gold.png"],
+					"0" : ["Texture", "R/T/I/Apple/Gold.png"],
 					"2" : ["Texture", "R/T/I/Door/Oak.png"],
-					"4" : ["Animation", ["Texture", "R/T/I/Bucket_Water.png"], false]
+					"4" : ["Animation", ["Texture", "R/T/I/Bucket/Water.png"], false]
 				},
 				"12" : {
-					"4" : ["Animation", ["Texture", "R/T/I/Bucket_Lava.png"], false]
+					"4" : ["Animation", ["Texture", "R/T/I/Bucket/Lava.png"], false]
 				},
 				"15" : {
 					"0" : ["Texture", "R/T/U/Slot/Require/Helmet.png"],

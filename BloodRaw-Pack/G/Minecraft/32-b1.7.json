@@ -23,21 +23,21 @@
 					"9" : ["Texture", "R/T/B/Bed_Front.png"]
 				},
 				"10" : {
-					"6" : ["Texture", "R/T/B/Piston_Slime.png"],
-					"7" : ["Texture", "R/T/B/Cake.png"]
+					"6" : ["Texture", "R/T/B/Piston/Slime.png"],
+					"7" : ["Texture", "R/T/B/Cake/Side.png"]
 				},
 				"11" : {
-					"6" : ["Texture", "R/T/B/Piston.png"],
-					"7" : ["Texture", "R/T/B/Cake_Inner.png"]
+					"6" : ["Texture", "R/T/B/Piston/Default.png"],
+					"7" : ["Texture", "R/T/B/Cake/Inner.png"]
 				},
 				"12" : {
-					"6" : ["Texture", "R/T/B/Piston_Side.png"]
+					"6" : ["Texture", "R/T/B/Piston/Side.png"]
 				},
 				"13" : {
-					"6" : ["Texture", "R/T/B/Piston_Bottom.png"]
+					"6" : ["Texture", "R/T/B/Piston/Bottom.png"]
 				},
 				"14" : {
-					"6" : ["Texture", "R/T/B/Piston_Inner.png"]
+					"6" : ["Texture", "R/T/B/Piston/Inner.png"]
 				}
 			}
 		],

@@ -166,13 +166,13 @@
 						"leaves_birch_opaque.png": ["Texture", "R/T/B/Leaves/Birch_Solid.file"],
 						
 						"log_birch.png"     : ["Rename", "tree_birch.png"],
-						"log_birch_top.png" : ["Texture", "R/T/B/Log/Birch_Top.png"],
+						"log_birch_top.png" : ["Texture", "R/T/B/Log/Birch_Top.file"],
 						"log_jungle.png"    : ["Rename", "tree_jungle.png"],
 						"log_jungle_top.png": ["Texture", "R/T/B/Log/Jungle_Top.png"],
 						"log_oak.png"       : ["Rename", "tree_side.png"],
 						"log_oak_top.png"   : ["Rename", "tree_top.png"],
 						"log_spruce.png"    : ["Rename", "tree_spruce.png"],
-						"log_spruce_top.png": ["Texture", "R/T/B/Log/Spruce_Top.png"],
+						"log_spruce_top.png": ["Texture", "R/T/B/Log/Spruce_Top.file"],
 						
 						"redstone_lamp_off.png": ["Rename", "redstoneLight.png"],
 						"redstone_lamp_on.png" : ["Rename", "redstoneLight_lit.png"],
@@ -449,37 +449,37 @@
 						},
 						
 						"52": {
-							"9": ["Texture", "R/T/U/Health_Animal_Empty.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Empty.png"]
 						},
 						"61": {
-							"9": ["Texture", "R/T/U/Health_Animal_Empty.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Empty.png"]
 						},
 						"70": {
-							"9": ["Texture", "R/T/U/Health_Animal_Empty.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Empty.png"]
 						},
 						"79": {
-							"9": ["Texture", "R/T/U/Health_Animal_Empty.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Empty.png"]
 						},
 						"88": {
-							"9": ["Texture", "R/T/U/Health_Animal.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Full.png"]
 						},
 						"97": {
-							"9": ["Texture", "R/T/U/Health_Animal_Half.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Half.png"]
 						},
 						"106": {
-							"9": ["Texture", "R/T/U/Health_Animal.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Full.png"]
 						},
 						"115": {
-							"9": ["Texture", "R/T/U/Health_Animal_Half.png"]
+							"9": ["Texture", "R/T/U/Health/Animal_Half.png"]
 						},
 						
 						"160": {
-							"0" : ["Texture", "R/T/U/Health_Absorption.png"],
-							"45": ["Texture", "R/T/U/Health_Absorption.png"]
+							"0" : ["Texture", "R/T/U/Health/Absorption_Full.png"],
+							"45": ["Texture", "R/T/U/Health/Absorption_Full.png"]
 						},
 						"169": {
-							"0" : ["Texture", "R/T/U/Health_Absorption_Half.png"],
-							"45": ["Texture", "R/T/U/Health_Absorption_Half.png"]
+							"0" : ["Texture", "R/T/U/Health/Absorption_Half.png"],
+							"45": ["Texture", "R/T/U/Health/Absorption_Half.png"]
 						}
 					}]],
 					"options_background.png": "gui/background.png",
@@ -620,7 +620,7 @@
 						"spawn_egg.png"        : ["Rename", "monsterPlacer.png"],
 						"spawn_egg_overlay.png": ["Rename", "monsterPlacer_overlay.png"],
 						
-						"charcoal.png"   : ["Texture", "R/T/I/Coal_Wood.png"],
+						"charcoal.png"   : ["Texture", "R/T/I/Coal/Wood.png"],
 						"iron_ingot.png" : ["Rename", "ingotIron.png"],
 						"gold_ingot.png" : ["Rename", "ingotGold.png"],
 						"gold_nugget.png": ["Rename", "goldNugget.png"],

@@ -24,29 +24,29 @@
 		}],
 		"terrain.png": ["Atlas", {
 			"7": {
-				"13": ["Texture", "R/T/B/Anvil.png"],
-				"14": ["Texture", "R/T/B/Anvil_Top.png"]
+				"13": ["Texture", "R/T/B/Anvil/Default.png"],
+				"14": ["Texture", "R/T/B/Anvil/Top.png"]
 			},
 			"8": {
 				"11": ["Animation", ["Texture", "R/T/B/Creative_Command.png"], false],
-				"12": ["Texture", "R/T/B/Potato_0.png"],
-				"13": ["Texture", "R/T/B/Anvil_Top_0.png"],
-				"14": ["Texture", "R/T/B/Anvil_Top_1.png"]
+				"12": ["Texture", "R/T/B/Potato/0.png"],
+				"13": ["Texture", "R/T/B/Anvil/Top_0.png"],
+				"14": ["Texture", "R/T/B/Anvil/Top_1.png"]
 			},
 			"9": {
 				"2" : ["Animation", ["Texture", "R/T/B/Beacon/Default.png"], false],
 				"11": ["Texture", "R/T/B/Frame.png"],
-				"12": ["Texture", "R/T/B/Potato_1.png"]
+				"12": ["Texture", "R/T/B/Potato/1.png"]
 			},
 			"10": {
 				"11": ["Texture", "R/T/B/Pot.png"],
-				"12": ["Texture", "R/T/B/Potato_2.png"]
+				"12": ["Texture", "R/T/B/Potato/2.png"]
 			},
 			"11": {
-				"12": ["Texture", "R/T/B/Carrot_3.png"]
+				"12": ["Texture", "R/T/B/Carrot/3.png"]
 			},
 			"12": {
-				"12": ["Texture", "R/T/B/Potato_3.png"]
+				"12": ["Texture", "R/T/B/Potato/3.png"]
 			}
 		}],
 		
@@ -96,20 +96,20 @@
 		
 		"gui/icons.png": ["Atlas", {
 			"124": {
-				"0" : ["Texture", "R/T/U/Health_Wither.png"],
-				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.file"]
+				"0" : ["Texture", "R/T/U/Health/Wither_Full.png"],
+				"45": ["Texture", "R/T/U/Health/Wither_Hardcore.file"]
 			},
 			"133": {
-				"0" : ["Texture", "R/T/U/Health_Wither_Half.png"],
-				"45": ["Texture", "R/T/U/Health_Wither_Half.png"]
+				"0" : ["Texture", "R/T/U/Health/Wither_Half.png"],
+				"45": ["Texture", "R/T/U/Health/Wither_Half.png"]
 			},
 			"142": {
-				"0" : ["Texture", "R/T/U/Health_Wither.png"],
-				"45": ["Texture", "R/T/U/Health_Wither_Hardcore.file"]
+				"0" : ["Texture", "R/T/U/Health/Wither_Full.png"],
+				"45": ["Texture", "R/T/U/Health/Wither_Hardcore.file"]
 			},
 			"151": {
-				"0" : ["Texture", "R/T/U/Health_Wither_Half.png"],
-				"45": ["Texture", "R/T/U/Health_Wither_Half.png"]
+				"0" : ["Texture", "R/T/U/Health/Wither_Half.png"],
+				"45": ["Texture", "R/T/U/Health/Wither_Half.png"]
 			}
 		}],
 		
@@ -125,31 +125,31 @@
 				"11": ["Texture", "R/T/I/Leather_Pants_Overlay.png"],
 				"12": ["Texture", "R/T/I/Leather_Boots_Overlay.png"],
 				
-				"14": ["Texture", "R/T/I/Head_Skeleton.png"]
+				"14": ["Texture", "R/T/I/Head/Skeleton.png"]
 			},
 			"1": {
-				"14": ["Texture", "R/T/I/Head_Wither.png"]
+				"14": ["Texture", "R/T/I/Head/Wither.png"]
 			},
 			"2": {
-				"14": ["Texture", "R/T/I/Head_Zombie.png"]
+				"14": ["Texture", "R/T/I/Head/Zombie.png"]
 			},
 			"3": {
-				"14": ["Texture", "R/T/I/Head.png"]
+				"14": ["Texture", "R/T/I/Head/Player.png"]
 			},
 			"4": {
-				"14": ["Texture", "R/T/I/Head_Creeper.png"]
+				"14": ["Texture", "R/T/I/Head/Creeper.png"]
 			},
 			"6": {
-				"6": ["Texture", "R/T/I/Fishing_Carrot.png"],
-				"7": ["Texture", "R/T/I/Potato_Cooked.png"],
-				"8": ["Texture", "R/T/I/Potato_Poison.png"],
-				"9": ["Texture", "R/T/I/Carrot_Gold.png"]
+				"6": ["Texture", "R/T/I/Fishing/Carrot.png"],
+				"7": ["Texture", "R/T/I/Potato/Cooked.png"],
+				"8": ["Texture", "R/T/I/Potato/Poison.png"],
+				"9": ["Texture", "R/T/I/Carrot/Gold.png"]
 			},
 			"7": {
-				"7": ["Texture", "R/T/I/Potato.png"]
+				"7": ["Texture", "R/T/I/Potato/Default.png"]
 			},
 			"8": {
-				"7": ["Texture", "R/T/I/Carrot.png"],
+				"7": ["Texture", "R/T/I/Carrot/Default.png"],
 				
 				"9": ["Texture", "R/T/I/Pie.png"]
 			},
@@ -162,7 +162,7 @@
 			},
 			"11": {
 				"12": ["Texture", "R/T/I/Firework_Charge_Overlay.png"],
-				"15": ["Texture", "R/T/I/Record_Wait.png"]
+				"15": ["Texture", "R/T/I/Record/Wait.png"]
 			},
 			"13": {
 				"11": ["Texture", "R/T/I/Pot.png"],
@@ -172,7 +172,7 @@
 				"12": ["Texture", "R/T/I/Frame.png"]
 			},
 			"15": {
-				"12": ["Texture", "R/T/I/Book_Enchant.png"]
+				"12": ["Texture", "R/T/I/Book/Enchant.png"]
 			}
 		}]
 	}

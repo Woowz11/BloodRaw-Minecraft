@@ -71,10 +71,10 @@
 			"activatorRail.png"        : ["Texture", "R/T/B/Rail_Activator.png"],
 			"activatorRail_powered.png": ["Texture", "R/T/B/Rail_Activator_On.png"],
 			
-			"anvil_base.png"         : ["Texture", "R/T/B/Anvil.png"],
-			"anvil_top.png"          : ["Texture", "R/T/B/Anvil_Top.png"],
-			"anvil_top_damaged_1.png": ["Texture", "R/T/B/Anvil_Top_0.png"],
-			"anvil_top_damaged_2.png": ["Texture", "R/T/B/Anvil_Top_1.png"],
+			"anvil_base.png"         : ["Texture", "R/T/B/Anvil/Default.png"],
+			"anvil_top.png"          : ["Texture", "R/T/B/Anvil/Top.png"],
+			"anvil_top_damaged_1.png": ["Texture", "R/T/B/Anvil/Top_0.png"],
+			"anvil_top_damaged_2.png": ["Texture", "R/T/B/Anvil/Top_1.png"],
 			
 			"beacon.png": ["Animation", ["Texture", "R/T/B/Beacon/Default.png"], "Beacon"],
 			
@@ -96,8 +96,8 @@
 			
 			"bookshelf.png" : ["Texture", "R/T/B/Bookshelf.png"],
 			
-			"brewingStand.png"      : ["Texture", "R/T/B/Brewing.png"],
-			"brewingStand_base.png" : ["Texture", "R/T/B/Brewing_Bottom.png"],
+			"brewingStand.png"      : ["Texture", "R/T/B/Brewing/Default.png"],
+			"brewingStand_base.png" : ["Texture", "R/T/B/Brewing/Bottom.png"],
 			
 			"brick.png" : ["Texture", "R/T/B/Bricks.png"],
 			
@@ -105,15 +105,15 @@
 			"cactus_side.png"   : ["Texture", "R/T/B/Cactus/Side.png"],
 			"cactus_top.png"    : ["Texture", "R/T/B/Cactus/Top.png"],
 			
-			"cake_bottom.png" : ["Texture", "R/T/B/Cake_Bottom.png"],
-			"cake_inner.png"  : ["Texture", "R/T/B/Cake_Inner.png"],
-			"cake_side.png"   : ["Texture", "R/T/B/Cake.png"],
-			"cake_top.png"    : ["Texture", "R/T/B/Cake_Top.png"],
+			"cake_bottom.png" : ["Texture", "R/T/B/Cake/Bottom.png"],
+			"cake_inner.png"  : ["Texture", "R/T/B/Cake/Inner.png"],
+			"cake_side.png"   : ["Texture", "R/T/B/Cake/Side.png"],
+			"cake_top.png"    : ["Texture", "R/T/B/Cake/Top.png"],
 			
-			"carrots_0.png"    : ["Texture", "R/T/B/Carrot_0.png"],
-			"carrots_1.png"    : ["Texture", "R/T/B/Carrot_1.png"],
-			"carrots_2.png"    : ["Texture", "R/T/B/Carrot_2.png"],
-			"carrots_3.png"    : ["Texture", "R/T/B/Carrot_3.png"],
+			"carrots_0.png"    : ["Texture", "R/T/B/Carrot/0.png"],
+			"carrots_1.png"    : ["Texture", "R/T/B/Carrot/1.png"],
+			"carrots_2.png"    : ["Texture", "R/T/B/Carrot/2.png"],
+			"carrots_3.png"    : ["Texture", "R/T/B/Carrot/3.png"],
 			
 			"cauldron_bottom.png": ["Texture", "R/T/B/Cauldron_Bottom.png"],
 			"cauldron_inner.png" : ["Texture", "R/T/B/Cauldron_Inner.png"],
@@ -139,39 +139,39 @@
 			"cloth_14.png"   : ["Texture", "R/T/B/Wool/Red.file"],
 			"cloth_15.png"   : ["Texture", "R/T/B/Wool/Black.file"],
 			
-			"cocoa_0.png"    : ["Texture", "R/T/B/Cocoa_0.png"],
-			"cocoa_1.png"    : ["Texture", "R/T/B/Cocoa_1.png"],
-			"cocoa_2.png"    : ["Texture", "R/T/B/Cocoa_2.png"],
+			"cocoa_0.png"    : ["Texture", "R/T/B/Cocoa/0.png"],
+			"cocoa_1.png"    : ["Texture", "R/T/B/Cocoa/1.png"],
+			"cocoa_2.png"    : ["Texture", "R/T/B/Cocoa/2.png"],
 			
 			"commandBlock.png": ["Animation", ["Texture", "R/T/B/Creative_Command.png"], "Command"],
 			
 			"comparator.png"    : ["Texture", "R/T/B/Comparator.png"],
 			"comparator_lit.png": ["Texture", "R/T/B/Comparator_On.png"],
 			
-			"crops_0.png": ["Texture", "R/T/B/Wheat_0.png"],
-			"crops_1.png": ["Texture", "R/T/B/Wheat_1.png"],
-			"crops_2.png": ["Texture", "R/T/B/Wheat_2.png"],
-			"crops_3.png": ["Texture", "R/T/B/Wheat_3.png"],
-			"crops_4.png": ["Texture", "R/T/B/Wheat_4.png"],
-			"crops_5.png": ["Texture", "R/T/B/Wheat_5.png"],
-			"crops_6.png": ["Texture", "R/T/B/Wheat_6.png"],
-			"crops_7.png": ["Texture", "R/T/B/Wheat_7.png"],
+			"crops_0.png": ["Texture", "R/T/B/Wheat/0.png"],
+			"crops_1.png": ["Texture", "R/T/B/Wheat/1.png"],
+			"crops_2.png": ["Texture", "R/T/B/Wheat/2.png"],
+			"crops_3.png": ["Texture", "R/T/B/Wheat/3.png"],
+			"crops_4.png": ["Texture", "R/T/B/Wheat/4.png"],
+			"crops_5.png": ["Texture", "R/T/B/Wheat/5.png"],
+			"crops_6.png": ["Texture", "R/T/B/Wheat/6.png"],
+			"crops_7.png": ["Texture", "R/T/B/Wheat/7.png"],
 			
 			"daylightDetector_side.png": ["Texture", "R/T/B/Detector_Light.png"],
 			"daylightDetector_top.png" : ["Texture", "R/T/B/Detector_Light_Day.png"],
 			
 			"deadbush.png": ["Texture", "R/T/B/Bush_Dead.png"],
 			
-			"destroy_0.png": ["Texture", "R/T/B/Destroy_0.png"],
-			"destroy_1.png": ["Texture", "R/T/B/Destroy_1.png"],
-			"destroy_2.png": ["Texture", "R/T/B/Destroy_2.png"],
-			"destroy_3.png": ["Texture", "R/T/B/Destroy_3.png"],
-			"destroy_4.png": ["Texture", "R/T/B/Destroy_4.png"],
-			"destroy_5.png": ["Texture", "R/T/B/Destroy_5.png"],
-			"destroy_6.png": ["Texture", "R/T/B/Destroy_6.png"],
-			"destroy_7.png": ["Texture", "R/T/B/Destroy_7.png"],
-			"destroy_8.png": ["Texture", "R/T/B/Destroy_8.png"],
-			"destroy_9.png": ["Texture", "R/T/B/Destroy_9.png"],
+			"destroy_0.png": ["Texture", "R/T/B/Destroy/0.png"],
+			"destroy_1.png": ["Texture", "R/T/B/Destroy/1.png"],
+			"destroy_2.png": ["Texture", "R/T/B/Destroy/2.png"],
+			"destroy_3.png": ["Texture", "R/T/B/Destroy/3.png"],
+			"destroy_4.png": ["Texture", "R/T/B/Destroy/4.png"],
+			"destroy_5.png": ["Texture", "R/T/B/Destroy/5.png"],
+			"destroy_6.png": ["Texture", "R/T/B/Destroy/6.png"],
+			"destroy_7.png": ["Texture", "R/T/B/Destroy/7.png"],
+			"destroy_8.png": ["Texture", "R/T/B/Destroy/8.png"],
+			"destroy_9.png": ["Texture", "R/T/B/Destroy/9.png"],
 			
 			"detectorRail.png"   : ["Texture", "R/T/B/Rail_Detector.png"],
 			"detectorRail_on.png": ["Texture", "R/T/B/Rail_Detector_On.png"],
@@ -294,18 +294,18 @@
 			"oreLapis.png"   : ["Texture", "R/T/B/Lapis_Ore.png"],
 			"oreRedstone.png": ["Texture", "R/T/B/Redstone_Ore.png"],
 			
-			"piston_bottom.png"    : ["Texture", "R/T/B/Piston_Bottom.png"],
-			"piston_inner_top.png" : ["Texture", "R/T/B/Piston_Inner.png"],
-			"piston_side.png"      : ["Texture", "R/T/B/Piston_Side.png"],
-			"piston_top.png"       : ["Texture", "R/T/B/Piston.png"],
-			"piston_top_sticky.png": ["Texture", "R/T/B/Piston_Slime.png"],
+			"piston_bottom.png"    : ["Texture", "R/T/B/Piston/Bottom.png"],
+			"piston_inner_top.png" : ["Texture", "R/T/B/Piston/Inner.png"],
+			"piston_side.png"      : ["Texture", "R/T/B/Piston/Side.png"],
+			"piston_top.png"       : ["Texture", "R/T/B/Piston/Default.png"],
+			"piston_top_sticky.png": ["Texture", "R/T/B/Piston/Slime.png"],
 			
 			"portal.png": ["Animation", ["Texture", "R/T/B/Portal.file"], {"Smooth": true}],
 			
-			"potatoes_0.png": ["Texture", "R/T/B/Potato_0.png"],
-			"potatoes_1.png": ["Texture", "R/T/B/Potato_1.png"],
-			"potatoes_2.png": ["Texture", "R/T/B/Potato_2.png"],
-			"potatoes_3.png": ["Texture", "R/T/B/Potato_3.png"],
+			"potatoes_0.png": ["Texture", "R/T/B/Potato/0.png"],
+			"potatoes_1.png": ["Texture", "R/T/B/Potato/1.png"],
+			"potatoes_2.png": ["Texture", "R/T/B/Potato/2.png"],
+			"potatoes_3.png": ["Texture", "R/T/B/Potato/3.png"],
 			
 			"pumpkin_face.png": ["Texture", "R/T/B/Pumpkin_Face.png"],
 			"pumpkin_jack.png": ["Animation", ["Texture", "R/T/B/Pumpkin_Face_On.png"], "Pumpkin"],
@@ -356,7 +356,7 @@
 			"snow.png"     : ["Texture", "R/T/B/Snow.png"],
 			"snow_side.png": ["Texture", "R/T/B/Snow_Dirt.png"],
 			
-			"sponge.png": ["Texture", "R/T/B/Sponge.png"],
+			"sponge.png": ["Texture", "R/T/B/Sponge/Default.png"],
 			
 			"stem_bent.png"    : ["Texture", "R/T/B/Stem_Connect.png"],
 			"stem_straight.png": ["Texture", "R/T/B/Stem.png"],
@@ -416,7 +416,7 @@
 		"gui/items.png": ["Atlas", {
 			"5": {
 				"9" : ["Texture", "R/T/I/Comparator.png"],
-				"10": ["Texture", "R/T/I/Brick_Nether.png"]
+				"10": ["Texture", "R/T/I/Brick/Nether.png"]
 			},
 			"12": {
 				"12": ["Texture", "R/T/I/Quartz.png"]
@@ -424,8 +424,8 @@
 		}],
 		
 		"textures/items/": {
-			"apple.png"    : ["Texture", "R/T/I/Apple.png"],
-			"appleGold.png": ["Texture", "R/T/I/Apple_Gold.png"],
+			"apple.png"    : ["Texture", "R/T/I/Apple/Default.png"],
+			"appleGold.png": ["Texture", "R/T/I/Apple/Gold.png"],
 			
 			"arrow.png": ["Texture", "R/T/I/Arrow/Default.png"],
 			
@@ -434,14 +434,14 @@
 			"beefCooked.png": ["Texture", "R/T/I/Meat_Cooked.png"],
 			"beefRaw.png"   : ["Texture", "R/T/I/Meat.png"],
 			
-			"blazePowder.png": ["Animation", ["Texture", "R/T/I/Blaze_Dust.png"], {"Smooth": true}],
-			"blazeRod.png"   : ["Texture", "R/T/I/Blaze.png"],
+			"blazePowder.png": ["Animation", ["Texture", "R/T/I/Blaze/Dust.png"], {"Smooth": true}],
+			"blazeRod.png"   : ["Texture", "R/T/I/Blaze/Default.png"],
 			
 			"boat.png": ["Texture", "R/T/I/Boat/Old.png"],
 			
-			"bone.png": ["Texture", "R/T/I/Bone.png"],
+			"bone.png": ["Texture", "R/T/I/Bone/Default.png"],
 			
-			"book.png": ["Texture", "R/T/I/Book.png"],
+			"book.png": ["Texture", "R/T/I/Book/Default.png"],
 			
 			"bootsChain.png"        : ["Texture", "R/T/I/Chain_Boots.png"],
 			"bootsCloth.png"        : ["Texture", "R/T/I/Leather_Boots.png"],
@@ -455,23 +455,23 @@
 			"bow_pull_1.png": ["Texture", "R/T/I/Bow/Default_1.png"],
 			"bow_pull_2.png": ["Texture", "R/T/I/Bow/Default_2.png"],
 			
-			"bowl.png": ["Texture", "R/T/I/Bowl.png"],
+			"bowl.png": ["Texture", "R/T/I/Bowl/Default.png"],
 			
 			"bread.png": ["Texture", "R/T/I/Bread.png"],
 			
 			"brewingStand.png": ["Texture", "R/T/I/Brewing.png"],
 			
-			"brick.png": ["Texture", "R/T/I/Brick.png"],
+			"brick.png": ["Texture", "R/T/I/Brick/Default.png"],
 			
-			"bucket.png"     : ["Texture", "R/T/I/Bucket.png"],
-			"bucketLava.png" : ["Animation", ["Texture", "R/T/I/Bucket_Lava.png"], "Lava"],
-			"bucketWater.png": ["Animation", ["Texture", "R/T/I/Bucket_Water.png"], "Water"],
+			"bucket.png"     : ["Texture", "R/T/I/Bucket/Default.png"],
+			"bucketLava.png" : ["Animation", ["Texture", "R/T/I/Bucket/Lava.png"], "Lava"],
+			"bucketWater.png": ["Animation", ["Texture", "R/T/I/Bucket/Water.png"], "Water"],
 			
 			"cake.png": ["Texture", "R/T/I/Cake.png"],
 			
-			"carrotGolden.png"  : ["Texture", "R/T/I/Carrot_Gold.png"],
-			"carrotOnAStick.png": ["Texture", "R/T/I/Fishing_Carrot.png"],
-			"carrots.png"       : ["Texture", "R/T/I/Carrot.png"],
+			"carrotGolden.png"  : ["Texture", "R/T/I/Carrot/Gold.png"],
+			"carrotOnAStick.png": ["Texture", "R/T/I/Fishing/Carrot.png"],
+			"carrots.png"       : ["Texture", "R/T/I/Carrot/Default.png"],
 			
 			"cauldron.png": ["Texture", "R/T/I/Cauldron.png"],
 			
@@ -489,7 +489,7 @@
 			
 			"clock.png": ["Animation", ["Texture", "R/T/I/Clock/Default.png"], {}],
 			
-			"coal.png": ["Texture", "R/T/I/Coal.png"],
+			"coal.png": ["Texture", "R/T/I/Coal/Default.png"],
 			
 			"comparator.png": ["Texture", "R/T/I/Comparator.png"],
 			
@@ -507,19 +507,19 @@
 			"dyePowder_black.png"    : ["Texture", "R/T/I/Ink.png"],
 			"dyePowder_blue.png"     : ["Texture", "R/T/I/Lapis.png"],
 			"dyePowder_brown.png"    : ["Texture", "R/T/I/Cocoa.png"],
-			"dyePowder_cyan.png"     : ["Texture", "R/T/I/Dye_Cyan.png"],
-			"dyePowder_gray.png"     : ["Texture", "R/T/I/Dye_Gray.png"],
-			"dyePowder_green.png"    : ["Texture", "R/T/I/Dye_Green.png"],
-			"dyePowder_lightBlue.png": ["Texture", "R/T/I/Dye_Aqua.png"],
-			"dyePowder_lime.png"     : ["Texture", "R/T/I/Dye_Lime.png"],
-			"dyePowder_magenta.png"  : ["Texture", "R/T/I/Dye_Magenta.png"],
-			"dyePowder_orange.png"   : ["Texture", "R/T/I/Dye_Orange.png"],
-			"dyePowder_pink.png"     : ["Texture", "R/T/I/Dye_Pink.png"],
-			"dyePowder_purple.png"   : ["Texture", "R/T/I/Dye_Purple.png"],
-			"dyePowder_red.png"      : ["Texture", "R/T/I/Dye_Red.png"],
-			"dyePowder_silver.png"   : ["Texture", "R/T/I/Dye_Silver.png"],
-			"dyePowder_white.png"    : ["Texture", "R/T/I/Bone_Dust.png"],
-			"dyePowder_yellow.png"   : ["Texture", "R/T/I/Dye_Yellow.png"],
+			"dyePowder_cyan.png"     : ["Texture", "R/T/I/Dye/Cyan.png"],
+			"dyePowder_gray.png"     : ["Texture", "R/T/I/Dye/Gray.png"],
+			"dyePowder_green.png"    : ["Texture", "R/T/I/Dye/Green.png"],
+			"dyePowder_lightBlue.png": ["Texture", "R/T/I/Dye/Aqua.png"],
+			"dyePowder_lime.png"     : ["Texture", "R/T/I/Dye/Lime.png"],
+			"dyePowder_magenta.png"  : ["Texture", "R/T/I/Dye/Magenta.png"],
+			"dyePowder_orange.png"   : ["Texture", "R/T/I/Dye/Orange.png"],
+			"dyePowder_pink.png"     : ["Texture", "R/T/I/Dye/Pink.png"],
+			"dyePowder_purple.png"   : ["Texture", "R/T/I/Dye/Purple.png"],
+			"dyePowder_red.png"      : ["Texture", "R/T/I/Dye/Red.png"],
+			"dyePowder_silver.png"   : ["Texture", "R/T/I/Dye/Silver.png"],
+			"dyePowder_white.png"    : ["Texture", "R/T/I/Bone/Dust.png"],
+			"dyePowder_yellow.png"   : ["Texture", "R/T/I/Dye/Yellow.png"],
 			
 			"egg.png": ["Texture", "R/T/I/Egg.png"],
 			
@@ -527,7 +527,7 @@
 			
 			"emptyMap.png": ["Texture", "R/T/I/Map_Empty.png"],
 			
-			"enchantedBook.png": ["Texture", "R/T/I/Book_Enchant.png"],
+			"enchantedBook.png": ["Texture", "R/T/I/Book/Enchant.png"],
 			
 			"enderPearl.png": ["Texture", "R/T/I/Pearl.png"],
 			"eyeOfEnder.png": ["Animation", ["Texture", "R/T/I/Pearl_End.png"], "Eye_End"],
@@ -544,10 +544,10 @@
 			"fireworksCharge.png"        : ["Texture", "R/T/I/Firework_Charge.png"],
 			"fireworksCharge_overlay.png": ["Texture", "R/T/I/Firework_Charge_Overlay.png"],
 			
-			"fishCooked.png"      : ["Texture", "R/T/I/Fish_Cooked.png"],
-			"fishRaw.png"         : ["Texture", "R/T/I/Fish.png"],
-			"fishingRod.png"      : ["Texture", "R/T/I/Fishing.png"],
-			"fishingRod_empty.png": ["Texture", "R/T/I/Fishing_Empty.png"],
+			"fishCooked.png"      : ["Texture", "R/T/I/Fish/Cod_Cooked.png"],
+			"fishRaw.png"         : ["Texture", "R/T/I/Fish/Cod.png"],
+			"fishingRod.png"      : ["Texture", "R/T/I/Fishing/Default.png"],
+			"fishingRod_empty.png": ["Texture", "R/T/I/Fishing/Empty.png"],
 			
 			"flint.png"        : ["Texture", "R/T/I/Flint.png"],
 			"flintAndSteel.png": ["Texture", "R/T/I/Lighter.png"],
@@ -586,7 +586,7 @@
 			"ingotGold.png": ["Texture", "R/T/I/Gold.png"],
 			"ingotIron.png": ["Texture", "R/T/I/Iron.png"],
 			
-			"leather.png": ["Texture", "R/T/I/Leather.png"],
+			"leather.png": ["Texture", "R/T/I/Leather/Default.png"],
 			
 			"leggingsChain.png"        : ["Texture", "R/T/I/Chain_Pants.png"],
 			"leggingsCloth.png"        : ["Texture", "R/T/I/Leather_Pants.png"],
@@ -599,22 +599,22 @@
 			
 			"map.png": ["Texture", "R/T/I/Map.png"],
 			
-			"melon.png": ["Texture", "R/T/I/Watermelon.png"],
+			"melon.png": ["Texture", "R/T/I/Watermelon/Default.png"],
 			
-			"milk.png": ["Animation", ["Texture", "R/T/I/Bucket_Milk.png"], "Milk"],
+			"milk.png": ["Animation", ["Texture", "R/T/I/Bucket/Milk.png"], "Milk"],
 			
-			"minecart.png"       : ["Texture", "R/T/I/Minecart.png"],
-			"minecartChest.png"  : ["Texture", "R/T/I/Minecart_Chest.png"],
-			"minecartFurnace.png": ["Texture", "R/T/I/Minecart_Furnace.png"],
-			"minecartHopper.png" : ["Texture", "R/T/I/Minecart_Hopper.png"],
-			"minecartTnt.png"    : ["Texture", "R/T/I/Minecart_TNT.png"],
+			"minecart.png"       : ["Texture", "R/T/I/Minecart/Default.png"],
+			"minecartChest.png"  : ["Texture", "R/T/I/Minecart/Chest.png"],
+			"minecartFurnace.png": ["Texture", "R/T/I/Minecart/Furnace.png"],
+			"minecartHopper.png" : ["Texture", "R/T/I/Minecart/Hopper.png"],
+			"minecartTnt.png"    : ["Texture", "R/T/I/Minecart/TNT.png"],
 			
-			"monsterPlacer.png"        : ["Texture", "R/T/I/Spawn.png"],
-			"monsterPlacer_overlay.png": ["Texture", "R/T/I/Spawn_Overlay.png"],
+			"monsterPlacer.png"        : ["Texture", "R/T/I/Spawn/Default.png"],
+			"monsterPlacer_overlay.png": ["Texture", "R/T/I/Spawn/Overlay.png"],
 			
-			"mushroomStew.png": ["Texture", "R/T/I/Bowl_Mushroom.png"],
+			"mushroomStew.png": ["Texture", "R/T/I/Bowl/Mushroom.png"],
 			
-			"netherbrick.png": ["Texture", "R/T/I/Brick_Nether.png"],
+			"netherbrick.png": ["Texture", "R/T/I/Brick/Nether.png"],
 			
 			"netherquartz.png": ["Texture", "R/T/I/Quartz.png"],
 			
@@ -635,9 +635,9 @@
 			"porkchopCooked.png": ["Texture", "R/T/I/Meat_Pig_Cooked.png"],
 			"porkchopRaw.png"   : ["Texture", "R/T/I/Meat_Pig.png"],
 			
-			"potato.png"         : ["Texture", "R/T/I/Potato.png"],
-			"potatoBaked.png"    : ["Texture", "R/T/I/Potato_Cooked.png"],
-			"potatoPoisonous.png": ["Texture", "R/T/I/Potato_Poison.png"],
+			"potato.png"         : ["Texture", "R/T/I/Potato/Default.png"],
+			"potatoBaked.png"    : ["Texture", "R/T/I/Potato/Cooked.png"],
+			"potatoPoisonous.png": ["Texture", "R/T/I/Potato/Poison.png"],
 			
 			"potion.png"         : ["Texture", "R/T/I/Potion/Default.png"],
 			"potion_contents.png": ["Animation", ["Texture", "R/T/I/Potion/Overlay.png"], {"Smooth": true, "Speed": 3}],
@@ -647,18 +647,18 @@
 			
 			"quiver.png": ["Texture", "R/T/I/Quiver.png"],
 			
-			"record_11.png"     : ["Texture", "R/T/I/Record_11.png"],
-			"record_13.png"     : ["Texture", "R/T/I/Record_13.png"],
-			"record_blocks.png" : ["Texture", "R/T/I/Record_Blocks.png"],
-			"record_cat.png"    : ["Texture", "R/T/I/Record_Cat.png"],
-			"record_chirp.png"  : ["Texture", "R/T/I/Record_Chirp.png"],
-			"record_far.png"    : ["Texture", "R/T/I/Record_Far.png"],
-			"record_mall.png"   : ["Texture", "R/T/I/Record_Mall.png"],
-			"record_mellohi.png": ["Texture", "R/T/I/Record_Mellohi.png"],
-			"record_stal.png"   : ["Texture", "R/T/I/Record_Stal.png"],
-			"record_strad.png"  : ["Texture", "R/T/I/Record_Strad.png"],
-			"record_wait.png"   : ["Texture", "R/T/I/Record_Wait.png"],
-			"record_ward.png"   : ["Texture", "R/T/I/Record_Ward.png"],
+			"record_11.png"     : ["Texture", "R/T/I/Record/11.png"],
+			"record_13.png"     : ["Texture", "R/T/I/Record/13.png"],
+			"record_blocks.png" : ["Texture", "R/T/I/Record/Blocks.png"],
+			"record_cat.png"    : ["Texture", "R/T/I/Record/Cat.png"],
+			"record_chirp.png"  : ["Texture", "R/T/I/Record/Chirp.png"],
+			"record_far.png"    : ["Texture", "R/T/I/Record/Far.png"],
+			"record_mall.png"   : ["Texture", "R/T/I/Record/Mall.png"],
+			"record_mellohi.png": ["Texture", "R/T/I/Record/Mellohi.png"],
+			"record_stal.png"   : ["Texture", "R/T/I/Record/Stal.png"],
+			"record_strad.png"  : ["Texture", "R/T/I/Record/Strad.png"],
+			"record_wait.png"   : ["Texture", "R/T/I/Record/Wait.png"],
+			"record_ward.png"   : ["Texture", "R/T/I/Record/Ward.png"],
 			
 			"redstone.png": ["Animation", ["Texture", "R/T/I/Redstone.png"], "Redstone"],
 			
@@ -684,11 +684,11 @@
 			
 			"sign.png": ["Texture", "R/T/I/Sign.png"],
 			
-			"skull_char.png"    : ["Texture", "R/T/I/Head.png"],
-			"skull_creeper.png" : ["Texture", "R/T/I/Head_Creeper.png"],
-			"skull_skeleton.png": ["Texture", "R/T/I/Head_Skeleton.png"],
-			"skull_wither.png"  : ["Texture", "R/T/I/Head_Wither.png"],
-			"skull_zombie.png"  : ["Texture", "R/T/I/Head_Zombie.png"],
+			"skull_char.png"    : ["Texture", "R/T/I/Head/Player.png"],
+			"skull_creeper.png" : ["Texture", "R/T/I/Head/Creeper.png"],
+			"skull_skeleton.png": ["Texture", "R/T/I/Head/Skeleton.png"],
+			"skull_wither.png"  : ["Texture", "R/T/I/Head/Wither.png"],
+			"skull_zombie.png"  : ["Texture", "R/T/I/Head/Zombie.png"],
 			
 			"slimeball.png": ["Texture", "R/T/I/Slime.png"],
 			
@@ -699,7 +699,7 @@
 			
 			"snowball.png": ["Texture", "R/T/I/Snow.png"],
 			
-			"speckledMelon.png": ["Animation", ["Texture", "R/T/I/Watermelon_Gold.png"], {"Smooth": true, "Speed": 10}],
+			"speckledMelon.png": ["Animation", ["Texture", "R/T/I/Watermelon/Gold.png"], {"Smooth": true, "Speed": 10}],
 			
 			"spiderEye.png": ["Texture", "R/T/I/Eye_Spider.png"],
 			
@@ -719,8 +719,8 @@
 			
 			"wheat.png": ["Texture", "R/T/I/Wheat.png"],
 			
-			"writingBook.png": ["Texture", "R/T/I/Book_Write.png"],
-			"writtenBook.png": ["Texture", "R/T/I/Book_Write_Finish.png"],
+			"writingBook.png": ["Texture", "R/T/I/Book/Write.png"],
+			"writtenBook.png": ["Texture", "R/T/I/Book/Writen.png"],
 			
 			"yellowDust.png": ["Animation", ["Texture", "R/T/I/Glowstone.png"], "Glowstone"]
 		}

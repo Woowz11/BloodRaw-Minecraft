@@ -91,7 +91,7 @@
 				},
 				"13" : {
 					"3" : ["Texture", "R/T/I/Seeds_Pumpkin.png"],
-					"6" : ["Texture", "R/T/I/Watermelon.png"]
+					"6" : ["Texture", "R/T/I/Watermelon/Default.png"]
 				},
 				"14" : {
 					"3" : ["Texture", "R/T/I/Seeds_Watermelon.png"]
@@ -150,19 +150,19 @@
 					"27" : ["Texture", "R/T/U/Food/Half.png"]
 				},
 				"88" : {
-					"0" : ["Texture", "R/T/U/Health_Poison.png"],
+					"0" : ["Texture", "R/T/U/Health/Poison_Full.png"],
 					"27" : ["Texture", "R/T/U/Food/Hunger_Full.png"]
 				},
 				"97" : {
-					"0" : ["Texture", "R/T/U/Health_Poison_Half.png"],
+					"0" : ["Texture", "R/T/U/Health/Poison_Half.png"],
 					"27" : ["Texture", "R/T/U/Food/Hunger_Half.png"]
 				},
 				"106" : {
-					"0" : ["Texture", "R/T/U/Health_Poison.png"],
+					"0" : ["Texture", "R/T/U/Health/Poison_Full.png"],
 					"27" : ["Texture", "R/T/U/Food/Hunger_Full.png"]
 				},
 				"115" : {
-					"0" : ["Texture", "R/T/U/Health_Poison_Half.png"],
+					"0" : ["Texture", "R/T/U/Health/Poison_Half.png"],
 					"27" : ["Texture", "R/T/U/Food/Hunger_Half.png"]
 				},
 				"124" : {

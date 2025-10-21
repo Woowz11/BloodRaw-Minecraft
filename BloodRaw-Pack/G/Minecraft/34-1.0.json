@@ -39,11 +39,11 @@
 				},
 				"12" : {
 					"4" : ["Texture", "R/T/B/Lily.png"],
-					"9" : ["Texture", "R/T/B/Brewing_Bottom.png"]
+					"9" : ["Texture", "R/T/B/Brewing/Bottom.png"]
 				},
 				"13" : {
 					"4" : ["Texture", "R/T/B/Mycelium_Dirt.png"],
-					"9" : ["Texture", "R/T/B/Brewing.png"]
+					"9" : ["Texture", "R/T/B/Brewing/Default.png"]
 				},
 				"14" : {
 					"4" : ["Texture", "R/T/B/Mycelium.png"],
@@ -109,40 +109,40 @@
 					"79": ["Texture", "R/T/U/Bar/Health.png"]
 				},
 				"16": {
-					"45": ["Texture", "R/T/U/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health/Empty.png"]
 				},
 				"25": {
-					"45": ["Texture", "R/T/U/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health/Empty.png"]
 				},
 				"34": {
-					"45": ["Texture", "R/T/U/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health/Empty.png"]
 				},
 				"43": {
-					"45": ["Texture", "R/T/U/Health_Empty.png"]
+					"45": ["Texture", "R/T/U/Health/Empty.png"]
 				},
 				"53": {
-					"45": ["Texture", "R/T/U/Health_Hardcore.file"]
+					"45": ["Texture", "R/T/U/Health/Hardcore.file"]
 				},
 				"61": {
-					"45": ["Texture", "R/T/U/Health_Half.png"]
+					"45": ["Texture", "R/T/U/Health/Half.png"]
 				},
 				"70": {
-					"45": ["Texture", "R/T/U/Health_Hardcore.file"]
+					"45": ["Texture", "R/T/U/Health/Hardcore.file"]
 				},
 				"79": {
-					"45": ["Texture", "R/T/U/Health_Half.png"]
+					"45": ["Texture", "R/T/U/Health/Half.png"]
 				},
 				"88": {
-					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.file"]
+					"45": ["Texture", "R/T/U/Health/Poison_Hardcore.file"]
 				},
 				"97": {
-					"45": ["Texture", "R/T/U/Health_Poison_Half.png"]
+					"45": ["Texture", "R/T/U/Health/Poison_Half.png"]
 				},
 				"106": {
-					"45": ["Texture", "R/T/U/Health_Poison_Hardcore.file"]
+					"45": ["Texture", "R/T/U/Health/Poison_Hardcore.file"]
 				},
 				"115": {
-					"45": ["Texture", "R/T/U/Health_Poison_Half.png"]
+					"45": ["Texture", "R/T/U/Health/Poison_Half.png"]
 				}
 			}
 		],
@@ -188,34 +188,34 @@
 		
 		"gui/items.png": ["Atlas", {
 			"2": {
-				"15": ["Texture", "R/T/I/Record_Blocks.png"]
+				"15": ["Texture", "R/T/I/Record/Blocks.png"]
 			},
 			"3": {
-				"15": ["Texture", "R/T/I/Record_Chirp.png"]
+				"15": ["Texture", "R/T/I/Record/Chirp.png"]
 			},
 			"4": {
-				"15": ["Texture", "R/T/I/Record_Far.png"]
+				"15": ["Texture", "R/T/I/Record/Far.png"]
 			},
 			"5": {
-				"15": ["Texture", "R/T/I/Record_Mall.png"]
+				"15": ["Texture", "R/T/I/Record/Mall.png"]
 			},
 			"6": {
-				"15": ["Texture", "R/T/I/Record_Mellohi.png"]
+				"15": ["Texture", "R/T/I/Record/Mellohi.png"]
 			},
 			"7": {
-				"15": ["Texture", "R/T/I/Record_Stal.png"]
+				"15": ["Texture", "R/T/I/Record/Stal.png"]
 			},
 			"8": {
-				"15": ["Texture", "R/T/I/Record_Strad.png"]
+				"15": ["Texture", "R/T/I/Record/Strad.png"]
 			},
 			"9": {
-				"8" : ["Animation", ["Texture", "R/T/I/Watermelon_Gold.png"], false],
-				"15": ["Texture", "R/T/I/Record_Ward.png"]
+				"8" : ["Animation", ["Texture", "R/T/I/Watermelon/Gold.png"], false],
+				"15": ["Texture", "R/T/I/Record/Ward.png"]
 			},
 			"10": {
 				"8" : ["Texture", "R/T/I/Eye_Spider_Potion.png"],
 				"9" : ["Texture", "R/T/I/Potion/Splash.png"],
-				"15": ["Texture", "R/T/I/Record_11.png"]
+				"15": ["Texture", "R/T/I/Record/11.png"]
 			},
 			"11": {
 				"7" : ["Texture", "R/T/I/Ghast.png"],
@@ -223,7 +223,7 @@
 				"9" : ["Animation", ["Texture", "R/T/I/Pearl_End.png"], false]
 			},
 			"12": {
-				"6"  : ["Texture", "R/T/I/Blaze.png"],
+				"6"  : ["Texture", "R/T/I/Blaze/Default.png"],
 				"7"  : ["Texture", "R/T/I/Gold_Nugget.png"],
 				"8"  : ["Texture", "R/T/I/Potion/Default.png"],
 				"9"  : ["Texture", "R/T/I/Cauldron.png"],
@@ -232,7 +232,7 @@
 			"13": {
 				"7"  : ["Texture", "R/T/I/Wart.png"],
 				"8"  : ["Animation", ["Texture", "R/T/I/Potion/Overlay.png"], false],
-				"9"  : ["Animation", ["Texture", "R/T/I/Blaze_Dust.png"], false],
+				"9"  : ["Animation", ["Texture", "R/T/I/Blaze/Dust.png"], false],
 				"10" : ["Animation", ["Texture", "R/T/I/Magma.png"], false]
 			},
 			"14": {

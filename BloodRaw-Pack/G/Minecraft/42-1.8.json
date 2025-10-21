@@ -11,15 +11,15 @@
 		"assets/minecraft/": {			
 			"textures/": {
 				"blocks/": {
-					"sponge_wet.png": ["Texture", "R/T/B/Sponge_Wet.png"],
+					"sponge_wet.png": ["Texture", "R/T/B/Sponge/Wet.png"],
 					"slime.png"     : ["Texture", "R/T/B/Slime.png"],
 					
-					"stone_andesite.png"       : ["Texture", "R/T/B/Andesite.png"],
-					"stone_andesite_smooth.png": ["Texture", "R/T/B/Andesite_Smooth.png"],
-					"stone_diorite.png"        : ["Texture", "R/T/B/Diorite.png"],
-					"stone_diorite_smooth.png" : ["Texture", "R/T/B/Diorite_Smooth.png"],
-					"stone_granite.png"        : ["Texture", "R/T/B/Granite.png"],
-					"stone_granite_smooth.png" : ["Texture", "R/T/B/Granite_Smooth.png"],
+					"stone_andesite.png"       : ["Texture", "R/T/B/Andesite/Default.png"],
+					"stone_andesite_smooth.png": ["Texture", "R/T/B/Andesite/Smooth.png"],
+					"stone_diorite.png"        : ["Texture", "R/T/B/Diorite/Default.png"],
+					"stone_diorite_smooth.png" : ["Texture", "R/T/B/Diorite/Smooth.png"],
+					"stone_granite.png"        : ["Texture", "R/T/B/Granite/Default.png"],
+					"stone_granite_smooth.png" : ["Texture", "R/T/B/Granite/Smooth.png"],
 					
 					"door_acacia_upper.png"  : ["Texture", "R/T/B/Door/Acacia.png", [["Crop", 0, 0, 16, 16]]],
 					"door_acacia_lower.png"  : ["Texture", "R/T/B/Door/Acacia.png", [["Crop", 0, 16, 16, 16]]],
@@ -174,9 +174,9 @@
 					
 					"rabbit_raw.png"   : ["Texture", "R/T/I/Meat_Rabbit.png"],
 					"rabbit_cooked.png": ["Texture", "R/T/I/Meat_Rabbit_Cooked.png"],
-					"rabbit_hide.png"  : ["Texture", "R/T/I/Leather_Rabbit.png"],
+					"rabbit_hide.png"  : ["Texture", "R/T/I/Leather/Rabbit.png"],
 					"rabbit_foot.png"  : ["Texture", "R/T/I/Foot.png"],
-					"rabbit_stew.png"  : ["Texture", "R/T/I/Bowl_Rabbit.png"],
+					"rabbit_stew.png"  : ["Texture", "R/T/I/Bowl/Rabbit.png"],
 					
 					"prismarine_shard.png"   : ["Texture", "R/T/I/Prismarine.png"],
 					"prismarine_crystals.png": ["Animation", ["Texture", "R/T/I/Prismarine_Crystal.png"], "Prismarine"],

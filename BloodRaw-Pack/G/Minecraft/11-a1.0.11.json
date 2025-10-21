@@ -29,10 +29,10 @@
 		],
 		"gui/items.png": [ "Atlas", {
 				"6" : {
-					"1" : ["Texture", "R/T/I/Brick.png"]
+					"1" : ["Texture", "R/T/I/Brick/Default.png"]
 				},
 				"7" : {
-					"6" : ["Texture", "R/T/I/Leather.png"]
+					"6" : ["Texture", "R/T/I/Leather/Default.png"]
 				},
 				"8" : {
 					"8" : ["Texture", "R/T/I/Boat/Old.png"]
@@ -45,10 +45,10 @@
 				},
 				"11" : {
 					"1" : ["Texture", "R/T/I/Sugarcane.png"],
-					"3" : ["Texture", "R/T/I/Book.png"]
+					"3" : ["Texture", "R/T/I/Book/Default.png"]
 				},
 				"13" : {
-					"4" : ["Animation", ["Texture", "R/T/I/Bucket_Milk.png"], false]
+					"4" : ["Animation", ["Texture", "R/T/I/Bucket/Milk.png"], false]
 				},
 				"14" : {
 					"1" : ["Texture", "R/T/I/Slime.png"]

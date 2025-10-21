@@ -11,7 +11,7 @@
 	"Files": {
 		"gui/items.png": [ "Atlas", {
 				"5" : {
-					"4" : ["Texture", "R/T/I/Fishing.png"]
+					"4" : ["Texture", "R/T/I/Fishing/Default.png"]
 				}
 			}
 		],

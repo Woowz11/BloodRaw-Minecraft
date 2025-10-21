@@ -100,14 +100,14 @@
 				},
 				
 				"items/": {
-					"minecart_command_block.png": ["Texture", "R/T/I/Minecart_Command.png"],
+					"minecart_command_block.png": ["Texture", "R/T/I/Minecart/Command.png"],
 					
 					"fish_cod_raw.png"       : ["Rename", "fish_raw.png"],
 					"fish_cod_cooked.png"    : ["Rename", "fish_cooked.png"],
-					"fish_salmon_raw.png"    : ["Texture", "R/T/I/Fish_Salmon.png"],
-					"fish_salmon_cooked.png" : ["Texture", "R/T/I/Fish_Salmon_Cooked.png"],
-					"fish_clownfish_raw.png" : ["Texture", "R/T/I/Fish_Clown.png"],
-					"fish_pufferfish_raw.png": ["Texture", "R/T/I/Fish_Puffer.png"]
+					"fish_salmon_raw.png"    : ["Texture", "R/T/I/Fish/Salmon.png"],
+					"fish_salmon_cooked.png" : ["Texture", "R/T/I/Fish/Salmon_Cooked.png"],
+					"fish_clownfish_raw.png" : ["Texture", "R/T/I/Fish/Tropical.png"],
+					"fish_pufferfish_raw.png": ["Texture", "R/T/I/Fish/Puffer.png"]
 				}
 			}
 		}

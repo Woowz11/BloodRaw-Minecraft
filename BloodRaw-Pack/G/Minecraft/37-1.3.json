@@ -10,19 +10,19 @@
 	"Files": {
 		"terrain.png": ["Atlas", {
 			"8": {
-				"10": ["Texture", "R/T/B/Cocoa_2.png"]
+				"10": ["Texture", "R/T/B/Cocoa/2.png"]
 			},
 			"9": {
 				"1" : ["Texture", "R/T/B/Emerald.png"],
 				"2" : null,
 				"3" : null,
-				"10": ["Texture", "R/T/B/Cocoa_1.png"]
+				"10": ["Texture", "R/T/B/Cocoa/1.png"]
 			},
 			"10": {
 				"1" : null,
 				"2" : null,
 				"3" : null,
-				"10": ["Texture", "R/T/B/Cocoa_0.png"]
+				"10": ["Texture", "R/T/B/Cocoa/0.png"]
 			},
 			"11": {
 				"1" : null,
@@ -53,10 +53,10 @@
 				"11": ["Texture", "R/T/I/Emerald.png"]
 			},
 			"11": {
-				"11": ["Texture", "R/T/I/Book_Write.png"]
+				"11": ["Texture", "R/T/I/Book/Write.png"]
 			},
 			"12": {
-				"11": ["Texture", "R/T/I/Book_Write_Finish.png"]
+				"11": ["Texture", "R/T/I/Book/Writen.png"]
 			}
 		}]
 	}

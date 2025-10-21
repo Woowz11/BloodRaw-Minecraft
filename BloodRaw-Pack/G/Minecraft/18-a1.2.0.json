@@ -46,10 +46,10 @@
 				},
 				"9" : {
 					"4" : ["Animation", ["Texture", "R/T/I/Glowstone.png"], false],
-					"5" : ["Texture", "R/T/I/Fish.png"]
+					"5" : ["Texture", "R/T/I/Fish/Cod.png"]
 				},
 				"10" : {
-					"5" : ["Texture", "R/T/I/Fish_Cooked.png"]
+					"5" : ["Texture", "R/T/I/Fish/Cod_Cooked.png"]
 				}
 			}
 		],

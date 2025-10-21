@@ -15,46 +15,46 @@
 		"terrain.png": [ "Atlas", {
 				"0" : {
 					"2" : ["Texture", "R/T/B/Gold_Ore.png"],
-					"3" : ["Texture", "R/T/B/Sponge.png"],
+					"3" : ["Texture", "R/T/B/Sponge/Default.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#FE3939"]]],
-					"15" : ["Texture", "R/T/B/Destroy_0.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/0.png", [["Background", "#7F7F7F"]]]
 				},
 				"1" : {
 					"2" : ["Texture", "R/T/B/Iron_Ore.png"],
 					"3" : ["Texture", "R/T/B/Glass/Default.file"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#FE9B39"]]],
-					"15" : ["Texture", "R/T/B/Destroy_1.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/1.png", [["Background", "#7F7F7F"]]]
 				},
 				"2" : {
 					"1" : ["Texture", "R/T/B/Sand.png"],
 					"2" : ["Texture", "R/T/B/Coal_Ore.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#FEFE39"]]],
-					"15" : ["Texture", "R/T/B/Destroy_2.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/2.png", [["Background", "#7F7F7F"]]]
 				},
 				"3" : {
 					"1" : ["Texture", "R/T/B/Gravel.png"],
 					"2" : ["Texture", "R/T/B/Bookshelf.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#9BFE39"]]],
-					"15" : ["Texture", "R/T/B/Destroy_3.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/3.png", [["Background", "#7F7F7F"]]]
 				},
 				"4" : {
 					"1" : ["Texture", "R/T/B/Log/Oak.png"],
 					"2" : ["Texture", "R/T/B/Stone_Cobblestone_Moss.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#39FE39"]]],
-					"15" : ["Texture", "R/T/B/Destroy_4.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/4.png", [["Background", "#7F7F7F"]]]
 				},
 				"5" : {
 					"0" : ["Texture", "R/T/B/Stone_Slab_Side.png"],
 					"1" : ["Texture", "R/T/B/Log/Oak_Top.file"],
 					"2" : ["Texture", "R/T/B/Obsidian.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#39FE9B"]]],
-					"15" : ["Texture", "R/T/B/Destroy_5.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/5.png", [["Background", "#7F7F7F"]]]
 				},
 				"6" : {
 					"0" : ["Texture", "R/T/B/Stone_Slab.png"],
 					"1" : ["Texture", "R/T/B/Leaves/Old_Solid.file"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#39FEFE"]]],
-					"15" : ["Texture", "R/T/B/Destroy_6.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/6.png", [["Background", "#7F7F7F"]]]
 				},
 				"7" : {
 					"0" : ["Texture", "R/T/B/Bricks.png"],
@@ -62,7 +62,7 @@
 					"2" : ["Texture", "R/T/B/Iron.png"],
 					"3" : ["Texture", "R/T/B/Iron.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#78BAFE"]]],
-					"15" : ["Texture", "R/T/B/Destroy_7.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/7.png", [["Background", "#7F7F7F"]]]
 				},
 				"8" : {
 					"0" : ["Texture", "R/T/B/TNT.png"],
@@ -70,12 +70,12 @@
 					"2" : ["Texture", "R/T/B/Gold.png"],
 					"3" : ["Texture", "R/T/B/Gold.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#8A8AFE"]]],
-					"15" : ["Texture", "R/T/B/Destroy_8.png", [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/8.png", [["Background", "#7F7F7F"]]]
 				},
 				"9" : {
 					"0" : ["Texture", "R/T/B/TNT_Top.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#9B39FE"]]],
-					"15" : ["Texture", "R/T/B/Destroy_9.png"  , [["Background", "#7F7F7F"]]]
+					"15" : ["Texture", "R/T/B/Destroy/9.png"  , [["Background", "#7F7F7F"]]]
 				},
 				"10" : {
 					"0" : ["Texture", "R/T/B/TNT_Bottom.png"],
@@ -156,33 +156,33 @@
 					"0" : ["Texture", "R/T/U/Crosshair.png"]
 				},
 				"16" : {
-					"0" : ["Texture", "R/T/U/Health_Empty.png"],
+					"0" : ["Texture", "R/T/U/Health/Empty.png"],
 					"9" : ["Texture", "R/T/U/Armor.png"],
 					"18" : ["Texture", "R/T/U/Oxygen.png"]
 				},
 				"25" : {
-					"0" : ["Texture", "R/T/U/Health_Empty.png"],
+					"0" : ["Texture", "R/T/U/Health/Empty.png"],
 					"9" : ["Texture", "R/T/U/Armor_Half.png"],
 					"18" : ["Texture", "R/T/U/Oxygen_Pop.png"]
 				},
 				"34" : {
-					"0" : ["Texture", "R/T/U/Health_Empty.png"],
+					"0" : ["Texture", "R/T/U/Health/Empty.png"],
 					"9" : ["Texture", "R/T/U/Armor_Empty.png"]
 				},
 				"43" : {
-					"0" : ["Texture", "R/T/U/Health_Empty.png"]
+					"0" : ["Texture", "R/T/U/Health/Empty.png"]
 				},
 				"52" : {
-					"0" : ["Texture", "R/T/U/Health.png"]
+					"0" : ["Texture", "R/T/U/Health/Full.png"]
 				},
 				"61" : {
-					"0" : ["Texture", "R/T/U/Health_Half.png"]
+					"0" : ["Texture", "R/T/U/Health/Half.png"]
 				},
 				"70" : {
-					"0" : ["Texture", "R/T/U/Health.png"]
+					"0" : ["Texture", "R/T/U/Health/Full.png"]
 				},
 				"79" : {
-					"0" : ["Texture", "R/T/U/Health_Half.png"]
+					"0" : ["Texture", "R/T/U/Health/Half.png"]
 				}
 			}
 		]

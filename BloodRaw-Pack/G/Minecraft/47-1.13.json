@@ -857,6 +857,20 @@
 					"block/jungle_trapdoor_bottom",
 					"block/jungle_trapdoor_open"
 				]],
+				
+				"stone_monster_egg.json"         : null,
+				"stone_brick_monster_egg.json"   : null,
+				"mossy_brick_monster_egg.json"   : null,
+				"cracked_brick_monster_egg.json" : null,
+				"cobblestone_monster_egg.json"   : null,
+				"chiseled_brick_monster_egg.json": null,
+				
+				"infested_stone.json"                : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_infested"]],
+				"infested_stone_bricks.json"         : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_infested"]],
+				"infested_mossy_stone_bricks.json"   : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_moss_infested"]],
+				"infested_cracked_stone_bricks.json" : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_crack_infested"]],
+				"infested_cobblestone.json"          : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/cobblestone_infested"]],
+				"infested_chiseled_stone_bricks.json": ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_chiseled_infested"]]
 			},
 			
 			"models/": {
@@ -874,6 +888,13 @@
 					"jungle_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_jungle"]],
 					"acacia_sapling.json"  : ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_acacia"]],
 					"dark_oak_sapling.json": ["Variable", ["File", "R/M/I/Item.json"], ["item/bloodraw/sapling_dark_oak"]],
+					
+					"infested_stone.json"                : ["Rename", "stone_monster_egg.json"],
+					"infested_stone_bricks.json"         : ["Rename", "stone_brick_monster_egg.json"],
+					"infested_mossy_stone_bricks.json"   : ["Rename", "mossy_brick_monster_egg.json"],
+					"infested_cracked_stone_bricks.json" : ["Rename", "cracked_brick_monster_egg.json"],
+					"infested_chiseled_stone_bricks.json": ["Rename", "chiseled_brick_monster_egg.json"],
+					"infested_cobblestone.json"          : ["Rename", "cobblestone_monster_egg.json"]
 				},
 				
 				"block/": {
@@ -983,7 +1004,14 @@
 						"block/bloodraw/beacon_top",
 						"block/bloodraw/beacon_side",
 						"block/bloodraw/beacon_bottom"
-					]]
+					]],
+					
+					"bloodraw/stone_infested.json"                : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_infested"]],
+					"bloodraw/stone_bricks_infested.json"         : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_bricks_infested"]],
+					"bloodraw/stone_bricks_moss_infested.json"    : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_bricks_moss_infested"]],
+					"bloodraw/stone_bricks_crack_infested.json"   : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_bricks_crack_infested"]],
+					"bloodraw/stone_bricks_chiseled_infested.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_bricks_chiseled_infested"]],
+					"bloodraw/cobblestone_infested.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/cobblestone_infested"]]
 				}
 			}
 		}
