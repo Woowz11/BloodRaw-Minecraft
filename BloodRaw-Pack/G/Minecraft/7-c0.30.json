@@ -117,7 +117,7 @@
 		"mob/sheep_fur.png": ["Texture", "R/T/E/Sheep/Fur.file"],
 		"mob/skeleton.png" : ["Texture", "R/T/E/Skeleton/Default.png"],
 		"mob/spider.png"   : ["Texture", "R/T/E/Spider/Default.file"],
-		"mob/zombie.png"   : ["Texture", "R/T/E/Zombie.png", [["Crop", 64, 32]]],
+		"mob/zombie.png"   : ["Texture", "R/T/E/Zombie/Default.png", [["Crop", 64, 32]]],
 		
 		"particles.png": [ "Atlas", {
 				"Size" : [16, 16],

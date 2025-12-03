@@ -94,7 +94,7 @@
 					"1" : ["Texture", "R/T/I/Cake.png"]
 				},
 				"14" : {
-					"4" : ["Texture", "R/T/I/Ink.png"],
+					"4" : ["Animation", ["Texture", "R/T/I/Ink.png"], false],
 					"5" : ["Texture", "R/T/I/Dye/Red_Old.png"],
 					"6" : ["Texture", "R/T/I/Dye/Green.png"],
 					"7" : ["Texture", "R/T/I/Cocoa.png"],

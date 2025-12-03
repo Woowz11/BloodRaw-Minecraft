@@ -504,7 +504,7 @@
 			"doorIron.png": ["Texture", "R/T/I/Door/Iron.png"],
 			"doorWood.png": ["Texture", "R/T/I/Door/Oak.png"],
 			
-			"dyePowder_black.png"    : ["Texture", "R/T/I/Ink.png"],
+			"dyePowder_black.png"    : ["Animation", ["Texture", "R/T/I/Ink.png"], "Ink"],
 			"dyePowder_blue.png"     : ["Texture", "R/T/I/Lapis.png"],
 			"dyePowder_brown.png"    : ["Texture", "R/T/I/Cocoa.png"],
 			"dyePowder_cyan.png"     : ["Texture", "R/T/I/Dye/Cyan.png"],
