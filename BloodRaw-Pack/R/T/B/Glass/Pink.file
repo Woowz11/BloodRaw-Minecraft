@@ -1,1 +1,1 @@
-["Texture", "R/T/B/Glass/Color.png", [["Multiply", "Glass_Pink"], ["Put", ["Texture", "R/T/B/Glass/Overlay.png"]]]]
+["Variable", ["File", "R/T/B/Glass/Color.var"], ["Pink"]]

@@ -1,0 +1,1 @@
+["Texture", "R/T/B/Glass/Color.png", [["Multiply", "Glass_<[Var1]>"], ["Put", ["Texture", "R/T/B/Glass/Overlay.png"]]]]

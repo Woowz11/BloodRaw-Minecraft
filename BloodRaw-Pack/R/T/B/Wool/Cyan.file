@@ -1,1 +1,1 @@
-["Texture", "R/T/B/Wool/Default.png", [["Gradient", ["Texture", "R/T/G/Wool/Cyan.png"]]]]
+["Variable", ["File", "R/T/B/Wool/Default.var"], ["Cyan"]]
