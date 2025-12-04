@@ -83,15 +83,15 @@
 					"leaves_big_oak_opaque.png": ["Texture", "R/T/B/Leaves/Dark_Solid.file"],
 					
 					"log_acacia.png"     : ["Texture", "R/T/B/Log/Acacia.png"],
-					"log_acacia_top.png" : ["Texture", "R/T/B/Log/Acacia_Top.png"],
+					"log_acacia_top.png" : ["Texture", "R/T/B/Log/Acacia_Top.file"],
 					"log_big_oak.png"    : ["Texture", "R/T/B/Log/Dark.png"],
-					"log_big_oak_top.png": ["Texture", "R/T/B/Log/Dark_Top.png"],
+					"log_big_oak_top.png": ["Texture", "R/T/B/Log/Dark_Top.file"],
 					
 					"sapling_acacia.png"    : ["Texture", "R/T/B/Sapling/Acacia.png"],
 					"sapling_roofed_oak.png": ["Texture", "R/T/B/Sapling/Dark.png"],
 					
-					"planks_acacia.png" : ["Texture", "R/T/B/Planks_Acacia.png"],
-					"planks_big_oak.png": ["Texture", "R/T/B/Planks_Dark.png"],
+					"planks_acacia.png" : ["Texture", "R/T/B/Planks/Acacia.png"],
+					"planks_big_oak.png": ["Texture", "R/T/B/Planks/Dark.png"],
 				},
 				
 				"gui/": {

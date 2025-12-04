@@ -172,8 +172,8 @@
 					"door_jungle.png"  : ["Texture", "R/T/I/Door/Jungle.png"],
 					"door_spruce.png"  : ["Texture", "R/T/I/Door/Spruce.png"],
 					
-					"rabbit_raw.png"   : ["Texture", "R/T/I/Meat_Rabbit.png"],
-					"rabbit_cooked.png": ["Texture", "R/T/I/Meat_Rabbit_Cooked.png"],
+					"rabbit_raw.png"   : ["Texture", "R/T/I/Meat/Rabbit.png"],
+					"rabbit_cooked.png": ["Texture", "R/T/I/Meat/Cooked/Rabbit.png"],
 					"rabbit_hide.png"  : ["Texture", "R/T/I/Leather/Rabbit.png"],
 					"rabbit_foot.png"  : ["Texture", "R/T/I/Foot.png"],
 					"rabbit_stew.png"  : ["Texture", "R/T/I/Bowl/Rabbit.png"],
@@ -181,8 +181,8 @@
 					"prismarine_shard.png"   : ["Texture", "R/T/I/Prismarine.png"],
 					"prismarine_crystals.png": ["Animation", ["Texture", "R/T/I/Prismarine_Crystal.png"], "Prismarine"],
 					
-					"mutton_raw.png"   : ["Texture", "R/T/I/Meat_Sheep.png"],
-					"mutton_cooked.png": ["Texture", "R/T/I/Meat_Sheep_Cooked.png"],
+					"mutton_raw.png"   : ["Texture", "R/T/I/Meat/Sheep.png"],
+					"mutton_cooked.png": ["Texture", "R/T/I/Meat/Cooked/Sheep.png"],
 					
 					"wooden_armorstand.png": ["Texture", "R/T/I/Stand.png"],
 				},

@@ -58,9 +58,9 @@
 				},
 				"7" : {
 					"0" : ["Texture", "R/T/B/Bricks.png"],
-					"1" : ["Texture", "R/T/B/Iron.png"],
+					"1" : ["Texture", "R/T/B/Iron_Top.png"],
 					"2" : ["Texture", "R/T/B/Iron.png"],
-					"3" : ["Texture", "R/T/B/Iron.png"],
+					"3" : ["Texture", "R/T/B/Iron_Top.png"],
 					"4" : ["Texture", "R/T/B/Wool/White.file", [["Multiply", "#78BAFE"]]],
 					"15" : ["Texture", "R/T/B/Destroy/7.png", [["Background", "#7F7F7F"]]]
 				},

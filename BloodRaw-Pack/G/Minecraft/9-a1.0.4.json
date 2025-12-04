@@ -17,7 +17,7 @@
 					"6" : ["Texture", "R/T/B/Lever.png"]
 				},
 				"1" : {
-					"4" : ["Texture", "R/T/B/Spawner.png"]
+					"4" : ["Animation", ["Texture", "R/T/B/Spawner.png"], false]
 				},
 				"2" : {
 					"4" : ["Texture", "R/T/B/Snow.png"],

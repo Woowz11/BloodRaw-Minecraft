@@ -78,15 +78,15 @@
 					"8" : ["Texture", "R/T/I/Bow/Default_2.png"]
 				},
 				"9" : {
-					"6" : ["Texture", "R/T/I/Meat.png"],
-					"7" : ["Texture", "R/T/I/Meat_Chicken.png"]
+					"6" : ["Texture", "R/T/I/Meat/Cow.png"],
+					"7" : ["Texture", "R/T/I/Meat/Chicken.png"]
 				},
 				"10" : {
-					"6" : ["Texture", "R/T/I/Meat_Cooked.png"],
-					"7" : ["Texture", "R/T/I/Meat_Chicken_Cooked.png"]
+					"6" : ["Texture", "R/T/I/Meat/Cooked/Cow.png"],
+					"7" : ["Texture", "R/T/I/Meat/Cooked/Chicken.png"]
 				},
 				"11" : {
-					"5" : ["Animation", ["Texture", "R/T/I/Meat_Rotten.png"], false],
+					"5" : ["Animation", ["Texture", "R/T/I/Meat/Rotten.png"], false],
 					"6" : ["Texture", "R/T/I/Pearl.png"]
 				},
 				"13" : {

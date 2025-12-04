@@ -582,7 +582,7 @@
 					"stripped_birch_log.png"       : ["Texture", "R/T/B/Log/Stripped/Birch.png"],
 					"stripped_birch_log_top.png"   : ["Texture", "R/T/B/Log/Stripped/Birch_Top.png"],
 					"stripped_dark_oak_log.png"    : ["Texture", "R/T/B/Log/Stripped/Dark.png"],
-					"stripped_dark_oak_log_top.png": ["Texture", "R/T/B/Log/Dark_Top.png"],
+					"stripped_dark_oak_log_top.png": ["Texture", "R/T/B/Log/Stripped/Dark_Top.png"],
 					"stripped_jungle_log.png"      : ["Texture", "R/T/B/Log/Stripped/Jungle.png"],
 					"stripped_jungle_log_top.png"  : ["Texture", "R/T/B/Log/Stripped/Jungle_Top.png"],
 					"stripped_oak_log.png"         : ["Texture", "R/T/B/Log/Stripped/Oak.png"],
@@ -637,6 +637,8 @@
 					"turtle_egg.png"                 : [],
 					"turtle_egg_slightly_cracked.png": [],
 					"turtle_egg_very_cracked.png"    : [],
+					
+					"spawner.png": ["Rename", "mob_spawner.png"],
 				}],
 				"blocks/": null,
 				
@@ -894,7 +896,7 @@
 					"infested_mossy_stone_bricks.json"   : ["Rename", "mossy_brick_monster_egg.json"],
 					"infested_cracked_stone_bricks.json" : ["Rename", "cracked_brick_monster_egg.json"],
 					"infested_chiseled_stone_bricks.json": ["Rename", "chiseled_brick_monster_egg.json"],
-					"infested_cobblestone.json"          : ["Rename", "cobblestone_monster_egg.json"]
+					"infested_cobblestone.json"          : ["Rename", "cobblestone_monster_egg.json"],
 				},
 				
 				"block/": {
@@ -978,7 +980,7 @@
 					]],
 					
 					"slime.json"      : null,
-					"slime_block.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/slime_block"]],
+					"slime_block.json": ["Variable", ["File", "R/M/B/Glass.json"], ["block/slime_block"]],
 					
 					"iron_block.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], [
 						"block/iron_block",
@@ -1011,7 +1013,45 @@
 					"bloodraw/stone_bricks_moss_infested.json"    : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_bricks_moss_infested"]],
 					"bloodraw/stone_bricks_crack_infested.json"   : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_bricks_crack_infested"]],
 					"bloodraw/stone_bricks_chiseled_infested.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_bricks_chiseled_infested"]],
-					"bloodraw/cobblestone_infested.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/cobblestone_infested"]]
+					"bloodraw/cobblestone_infested.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/cobblestone_infested"]],
+					
+					"glass.json": ["Variable", ["File", "R/M/B/Glass.json"], ["block/glass"]],
+					
+					"glass_black.json"     : null,
+					"glass_blue.json"      : null,
+					"glass_brown.json"     : null,
+					"glass_cyan.json"      : null,
+					"glass_gray.json"      : null,
+					"glass_green.json"     : null,
+					"glass_light_blue.json": null,
+					"glass_lime.json"      : null,
+					"glass_magenta.json"   : null,
+					"glass_orange.json"    : null,
+					"glass_pink.json"      : null,
+					"glass_purple.json"    : null,
+					"glass_red.json"       : null,
+					"glass_silver.json"    : null,
+					"glass_white.json"     : null,
+					"glass_yellow.json"    : null,
+					"black_stained_glass.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["block/black_stained_glass"]],
+					"blue_stained_glass.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["block/blue_stained_glass"]],
+					"brown_stained_glass.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["block/brown_stained_glass"]],
+					"cyan_stained_glass.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["block/cyan_stained_glass"]],
+					"gray_stained_glass.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["block/gray_stained_glass"]],
+					"green_stained_glass.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["block/green_stained_glass"]],
+					"light_blue_stained_glass.json": ["Variable", ["File", "R/M/B/Glass.json"], ["block/light_blue_stained_glass"]],
+					"lime_stained_glass.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["block/lime_stained_glass"]],
+					"magenta_stained_glass.json"   : ["Variable", ["File", "R/M/B/Glass.json"], ["block/magenta_stained_glass"]],
+					"orange_stained_glass.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["block/orange_stained_glass"]],
+					"pink_stained_glass.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["block/pink_stained_glass"]],
+					"purple_stained_glass.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["block/purple_stained_glass"]],
+					"red_stained_glass.json"       : ["Variable", ["File", "R/M/B/Glass.json"], ["block/red_stained_glass"]],
+					"light_gray_stained_glass.json": ["Variable", ["File", "R/M/B/Glass.json"], ["block/light_gray_stained_glass"]],
+					"white_stained_glass.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["block/white_stained_glass"]],
+					"yellow_stained_glass.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["block/yellow_stained_glass"]],
+					
+					"mob_spawner_cage.json": null,
+					"spawner.json"         : ["Variable", ["File", "R/M/B/Glass.json"], ["block/spawner"]],
 				}
 			}
 		}

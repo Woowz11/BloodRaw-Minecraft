@@ -7,8 +7,6 @@
 	
 	"PackFormat": 2,
 	
-	"Desc": "Какое-то описание!!! <[License]>",
-	
 	"Add": ["ResourcePack"],
 	
 	"Files": {
@@ -416,7 +414,7 @@
 						"blocks/farmland_wet"
 					]],
 					
-					"slime.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/slime"]],
+					"slime.json": ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/slime"]],
 					
 					"iron_block.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], [
 						"blocks/iron_block",
@@ -446,7 +444,29 @@
 					"bloodraw/stone_bricks_moss_infested.json"    : ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/bloodraw/stone_bricks_moss_infested"]],
 					"bloodraw/stone_bricks_crack_infested.json"   : ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/bloodraw/stone_bricks_crack_infested"]],
 					"bloodraw/stone_bricks_chiseled_infested.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/bloodraw/stone_bricks_chiseled_infested"]],
-					"bloodraw/cobblestone_infested.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/bloodraw/cobblestone_infested"]]
+					"bloodraw/cobblestone_infested.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["blocks/bloodraw/cobblestone_infested"]],
+					
+					"bloodraw/glass.json": ["File", "R/M/B/New/Glass.json"],
+					"glass.json"         : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass"]],
+					
+					"glass_black.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_black"]],
+					"glass_blue.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_blue"]],
+					"glass_brown.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_brown"]],
+					"glass_cyan.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_cyan"]],
+					"glass_gray.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_gray"]],
+					"glass_green.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_green"]],
+					"glass_light_blue.json": ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_light_blue"]],
+					"glass_lime.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_lime"]],
+					"glass_magenta.json"   : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_magenta"]],
+					"glass_orange.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_orange"]],
+					"glass_pink.json"      : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_pink"]],
+					"glass_purple.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_purple"]],
+					"glass_red.json"       : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_red"]],
+					"glass_silver.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_silver"]],
+					"glass_white.json"     : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_white"]],
+					"glass_yellow.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_yellow"]],
+					
+					"mob_spawner_cage.json": ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/mob_spawner"]],
 				},
 				
 				"item/": {
@@ -474,7 +494,9 @@
 					"mossy_brick_monster_egg.json"   : ["Variable", ["File", "R/M/Parent.json"], ["block/bloodraw/stone_bricks_moss_infested"]],
 					"cracked_brick_monster_egg.json" : ["Variable", ["File", "R/M/Parent.json"], ["block/bloodraw/stone_bricks_crack_infested"]],
 					"chiseled_brick_monster_egg.json": ["Variable", ["File", "R/M/Parent.json"], ["block/bloodraw/stone_bricks_chiseled_infested"]],
-					"cobblestone_monster_egg.json"   : ["Variable", ["File", "R/M/Parent.json"], ["block/bloodraw/cobblestone_infested"]]
+					"cobblestone_monster_egg.json"   : ["Variable", ["File", "R/M/Parent.json"], ["block/bloodraw/cobblestone_infested"]],
+					
+					"handheld.json": ["File", "R/M/I/New/Handheld.json"],
 				}
 			}
 		}

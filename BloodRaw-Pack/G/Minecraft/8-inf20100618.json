@@ -194,9 +194,9 @@
 					"3" : ["Texture", "R/T/B/Leaves/Old_Solid.file"]
 				},
 				"6" : {
-					"1" : ["Texture", "R/T/B/Iron.png"],
+					"1" : ["Texture", "R/T/B/Iron_Top.png"],
 					"2" : ["Texture", "R/T/B/Iron.png"],
-					"3" : ["Texture", "R/T/B/Iron.png"],
+					"3" : ["Texture", "R/T/B/Iron_Top.png"],
 					"5" : ["Texture", "R/T/B/Farmland/7.png"]
 				},
 				"7" : {
@@ -338,7 +338,7 @@
 					"2" : ["Texture", "R/T/I/Gold.png"],
 					"3" : ["Texture", "R/T/I/Diamond.png"],
 					"4" : ["Texture", "R/T/I/Bowl/Default.png"],
-					"5" : ["Texture", "R/T/I/Meat_Pig.png"],
+					"5" : ["Texture", "R/T/I/Meat/Pig.png"],
 					"8" : ["Texture", "R/T/I/Minecart/Default.png"]
 				},
 				"8" : {
@@ -346,7 +346,7 @@
 					"1" : ["Texture", "R/T/I/Feather.png"],
 					"2" : ["Texture", "R/T/I/Gunpowder.png"],
 					"4" : ["Texture", "R/T/I/Bowl/Mushroom.png"],
-					"5" : ["Texture", "R/T/I/Meat_Pig_Cooked.png"]
+					"5" : ["Texture", "R/T/I/Meat/Cooked/Pig.png"]
 				},
 				"9" : {
 					"0" : ["Texture", "R/T/I/Seeds.png"],

@@ -32,21 +32,21 @@
 			},
 			"9": {
 				"3" : ["Texture", "R/T/B/Detector_Light_Day.png"],
-				"13": ["Texture", "R/T/B/Quartz_Chiseled_Top.png"],
-				"14": ["Texture", "R/T/B/Quartz_Chiseled.png"]
+				"13": ["Texture", "R/T/B/Quartz/Chiseled_Top.png"],
+				"14": ["Texture", "R/T/B/Quartz/Chiseled.png"]
 			},
 			"10": {
 				"1" : ["Animation", ["Texture", "R/T/B/Redstone.png"], false],
 				"2" : ["Texture", "R/T/B/Dropper_Top.png"],
 				"3" : ["Texture", "R/T/B/Detector_Light.png"],
-				"13": ["Texture", "R/T/B/Quartz_Pillar_Top.png"],
-				"14": ["Texture", "R/T/B/Quartz_Pillar.png"]
+				"13": ["Texture", "R/T/B/Quartz/Pillar_Top.png"],
+				"14": ["Texture", "R/T/B/Quartz/Pillar.png"]
 			},
 			"11": {
 				"1" : ["Texture", "R/T/B/Dropper.png"],
 				"11": ["Texture", "R/T/B/Comparator.png"],
-				"13": ["Texture", "R/T/B/Quartz.png"],
-				"14": ["Texture", "R/T/B/Quartz_Smooth.png"]
+				"13": ["Texture", "R/T/B/Quartz/Default.png"],
+				"14": ["Texture", "R/T/B/Quartz/Default.png"]
 			},
 			"12": {
 				"8" : null,
@@ -262,7 +262,7 @@
 			"melon_side.png": ["Texture", "R/T/B/Watermelon.png"],
 			"melon_top.png": ["Texture", "R/T/B/Watermelon_Top.png"],
 			
-			"mobSpawner.png": ["Texture", "R/T/B/Spawner.png"],
+			"mobSpawner.png": ["Animation", ["Texture", "R/T/B/Spawner.png"], "Lava"],
 			
 			"mushroom_brown.png"     : ["Texture", "R/T/B/Mushroom.png"],
 			"mushroom_inside.png"    : ["Texture", "R/T/B/Mushroom_Block.png"],
@@ -312,13 +312,13 @@
 			"pumpkin_side.png": ["Texture", "R/T/B/Pumpkin.png"],
 			"pumpkin_top.png" : ["Texture", "R/T/B/Pumpkin_Top.png"],
 			
-			"quartzblock_bottom.png"      : ["Texture", "R/T/B/Quartz.png"],
-			"quartzblock_chiseled.png"    : ["Texture", "R/T/B/Quartz_Chiseled.png"],
-			"quartzblock_chiseled_top.png": ["Texture", "R/T/B/Quartz_Chiseled_Top.png"],
-			"quartzblock_lines.png"       : ["Texture", "R/T/B/Quartz_Pillar.png"],
-			"quartzblock_lines_top.png"   : ["Texture", "R/T/B/Quartz_Pillar_Top.png"],
-			"quartzblock_side.png"        : ["Texture", "R/T/B/Quartz.png"],
-			"quartzblock_top.png"         : ["Texture", "R/T/B/Quartz.png"],
+			"quartzblock_bottom.png"      : ["Texture", "R/T/B/Quartz/Default.png"],
+			"quartzblock_chiseled.png"    : ["Texture", "R/T/B/Quartz/Chiseled.png"],
+			"quartzblock_chiseled_top.png": ["Texture", "R/T/B/Quartz/Chiseled_Top.png"],
+			"quartzblock_lines.png"       : ["Texture", "R/T/B/Quartz/Pillar.png"],
+			"quartzblock_lines_top.png"   : ["Texture", "R/T/B/Quartz/Pillar_Top.png"],
+			"quartzblock_side.png"        : ["Texture", "R/T/B/Quartz/Default.png"],
+			"quartzblock_top.png"         : ["Texture", "R/T/B/Quartz/Default.png"],
 			
 			"rail.png"     : ["Texture", "R/T/B/Rail.png"],
 			"rail_turn.png": ["Texture", "R/T/B/Rail_Corner.png"],
@@ -403,10 +403,10 @@
 			
 			"whiteStone.png" : ["Texture", "R/T/B/End.png"],
 			
-			"wood.png"       : ["Texture", "R/T/B/Planks.png"],
-			"wood_birch.png" : ["Texture", "R/T/B/Planks_Birch.png"],
-			"wood_jungle.png": ["Texture", "R/T/B/Planks_Jungle.png"],
-			"wood_spruce.png": ["Texture", "R/T/B/Planks_Spruce.png"],
+			"wood.png"       : ["Texture", "R/T/B/Planks/Oak.png"],
+			"wood_birch.png" : ["Texture", "R/T/B/Planks/Birch.png"],
+			"wood_jungle.png": ["Texture", "R/T/B/Planks/Jungle.png"],
+			"wood_spruce.png": ["Texture", "R/T/B/Planks/Spruce.png"],
 			
 			"workbench_front.png": ["Texture", "R/T/B/Workbench_Side_2.png"],
 			"workbench_side.png" : ["Texture", "R/T/B/Workbench_Side.png"],
@@ -431,11 +431,11 @@
 			
 			"bed.png": ["Texture", "R/T/I/Bed.png"],
 			
-			"beefCooked.png": ["Texture", "R/T/I/Meat_Cooked.png"],
-			"beefRaw.png"   : ["Texture", "R/T/I/Meat.png"],
+			"beefCooked.png": ["Texture", "R/T/I/Meat/Cooked/Cow.png"],
+			"beefRaw.png"   : ["Texture", "R/T/I/Meat/Cow.png"],
 			
 			"blazePowder.png": ["Animation", ["Texture", "R/T/I/Blaze/Dust.png"], {"Smooth": true}],
-			"blazeRod.png"   : ["Texture", "R/T/I/Blaze/Default.png"],
+			"blazeRod.png"   : ["Animation", ["Texture", "R/T/I/Blaze/Default.png"], "Blaze"],
 			
 			"boat.png": ["Texture", "R/T/I/Boat/Old.png"],
 			
@@ -482,8 +482,8 @@
 			"chestplateGold.png"         : ["Texture", "R/T/I/Gold_Chestplate.png"],
 			"chestplateIron.png"         : ["Texture", "R/T/I/Iron_Chestplate.png"],
 			
-			"chickenCooked.png": ["Texture", "R/T/I/Meat_Chicken.png"],
-			"chickenRaw.png"   : ["Texture", "R/T/I/Meat_Chicken_Cooked.png"],
+			"chickenCooked.png": ["Texture", "R/T/I/Meat/Chicken.png"],
+			"chickenRaw.png"   : ["Texture", "R/T/I/Meat/Cooked/Chicken.png"],
 			
 			"clay.png": ["Texture", "R/T/I/Clay.png"],
 			
@@ -632,8 +632,8 @@
 			"pickaxeStone.png"  : ["Texture", "R/T/I/Stone_Pickaxe.png"],
 			"pickaxeWood.png"   : ["Texture", "R/T/I/Wood_Pickaxe.png"],
 			
-			"porkchopCooked.png": ["Texture", "R/T/I/Meat_Pig_Cooked.png"],
-			"porkchopRaw.png"   : ["Texture", "R/T/I/Meat_Pig.png"],
+			"porkchopCooked.png": ["Texture", "R/T/I/Meat/Cooked/Pig.png"],
+			"porkchopRaw.png"   : ["Texture", "R/T/I/Meat/Pig.png"],
 			
 			"potato.png"         : ["Texture", "R/T/I/Potato/Default.png"],
 			"potatoBaked.png"    : ["Texture", "R/T/I/Potato/Cooked.png"],
@@ -664,7 +664,7 @@
 			
 			"reeds.png": ["Texture", "R/T/I/Sugarcane.png"],
 			
-			"rottenFlesh.png": ["Animation", ["Texture", "R/T/I/Meat_Rotten.png", [["Crop", 0, 16, 16, 64]]], {"Frames": [ 0,1,0,1,0,1,0,1,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,2,3,2,3,2,3,2,3,2,3,2,3,1,0,1,0,1,0,1,0,1,0,2,3,2,3,2,3,2,3 ]}],
+			"rottenFlesh.png": ["Animation", ["Texture", "R/T/I/Meat/Rotten.png", [["Crop", 0, 16, 16, 128]]], {"Frames": [ 0,1,0,1,0,1,0,4,5,4,5,4,5,0,1,0,1,0,1,0,1,0,1,6,7,6,7,6,7,6,6,7,6,2,3,2,3,2,3,2,3,2,3,2,3,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,6,7,6,7,6,7,6,7,6,7,0,4,5,4,5,4,5,4,5,4,5,6,7,6,7,6,7,6,7,6,7,2,3,2,3,2,3,2,3,2,3,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,0,1,0,1,0,1,0,1,0,1,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,6,7,6,7,6,7,6,7,6,7,6,7,2,3,2,3,2,3,2,3,2,3,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,6,7,6,7,6,7,6,7,6,7,6,7,0,1,0,1,0,1,0,1,0,1,0,1,0,1,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,2,3,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,0,1,0,1,0,1,0,1,0,1,0,1,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,2,3,2,3,2,3,2,3,2,3,2,3,2,3 ]}],
 			
 			"ruby.png": ["Texture", "R/T/I/Ruby.png"],
 			

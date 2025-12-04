@@ -1,0 +1,6 @@
+{
+	"parent": "block/bloodraw/glass",
+	"textures": {
+		"all"    : "<[Var1]>"
+	}
+}

@@ -22,12 +22,12 @@
 				"14": ["Texture", "R/T/B/Sand_Stone_Chiseled.png"]
 			},
 			"6": {
-				"12": ["Texture", "R/T/B/Planks_Spruce.png"],
-				"13": ["Texture", "R/T/B/Planks_Birch.png"],
+				"12": ["Texture", "R/T/B/Planks/Spruce.png"],
+				"13": ["Texture", "R/T/B/Planks/Birch.png"],
 				"14": ["Texture", "R/T/B/Sand_Stone_Smooth_Side.png"]
 			},
 			"7": {
-				"12": ["Texture", "R/T/B/Planks_Jungle.png"]
+				"12": ["Texture", "R/T/B/Planks/Jungle.png"]
 			},
 			"9": {
 				"9": ["Texture", "R/T/B/Log/Jungle.png"]

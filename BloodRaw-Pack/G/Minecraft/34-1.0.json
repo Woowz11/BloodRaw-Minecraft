@@ -223,7 +223,7 @@
 				"9" : ["Animation", ["Texture", "R/T/I/Pearl_End.png"], false]
 			},
 			"12": {
-				"6"  : ["Texture", "R/T/I/Blaze/Default.png"],
+				"6"  : ["Animation",["Texture", "R/T/I/Blaze/Default.png"], false],
 				"7"  : ["Texture", "R/T/I/Gold_Nugget.png"],
 				"8"  : ["Texture", "R/T/I/Potion/Default.png"],
 				"9"  : ["Texture", "R/T/I/Cauldron.png"],
