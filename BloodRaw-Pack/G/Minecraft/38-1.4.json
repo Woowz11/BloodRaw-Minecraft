@@ -115,15 +115,15 @@
 		
 		"gui/items.png": ["Atlas", {
 			"0": {
-				"0": ["Texture", "R/T/I/Leather_Helmet.png"],
-				"1": ["Texture", "R/T/I/Leather_Chestplate.png"],
-				"2": ["Texture", "R/T/I/Leather_Pants.png"],
-				"3": ["Texture", "R/T/I/Leather_Boots.png"],
+				"0": ["Texture", "R/T/I/Helmet/Leather.png"],
+				"1": ["Texture", "R/T/I/Chestplate/Leather.png"],
+				"2": ["Texture", "R/T/I/Pants/Leather.png"],
+				"3": ["Texture", "R/T/I/Boots/Leather.png"],
 				
-				"9" : ["Texture", "R/T/I/Leather_Helmet_Overlay.png"],
-				"10": ["Texture", "R/T/I/Leather_Chestplate_Overlay.png"],
-				"11": ["Texture", "R/T/I/Leather_Pants_Overlay.png"],
-				"12": ["Texture", "R/T/I/Leather_Boots_Overlay.png"],
+				"9" : ["Texture", "R/T/I/Helmet/Leather_Overlay.png"],
+				"10": ["Texture", "R/T/I/Chestplate/Leather_Overlay.png"],
+				"11": ["Texture", "R/T/I/Pants/Leather_Overlay.png"],
+				"12": ["Texture", "R/T/I/Boots/Leather_Overlay.png"],
 				
 				"14": ["Texture", "R/T/I/Head/Skeleton.png"]
 			},
@@ -155,18 +155,18 @@
 			},
 			"9": {
 				"11": ["Animation", ["Texture", "R/T/I/Star.png"], false],
-				"12": ["Texture", "R/T/I/Firework.png"]
+				"12": ["Texture", "R/T/I/Firework/Default.png"]
 			},
 			"10": {
-				"12": ["Texture", "R/T/I/Firework_Charge.png"]
+				"12": ["Texture", "R/T/I/Firework/Charge.png"]
 			},
 			"11": {
-				"12": ["Texture", "R/T/I/Firework_Charge_Overlay.png"],
+				"12": ["Texture", "R/T/I/Firework/Charge_Overlay.png"],
 				"15": ["Texture", "R/T/I/Record/Wait.png"]
 			},
 			"13": {
 				"11": ["Texture", "R/T/I/Pot.png"],
-				"12": ["Texture", "R/T/I/Map_Empty.png"]
+				"12": ["Texture", "R/T/I/Map/Empty.png"]
 			},
 			"14": {
 				"12": ["Texture", "R/T/I/Frame.png"]

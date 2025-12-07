@@ -639,6 +639,24 @@
 					"turtle_egg_very_cracked.png"    : [],
 					
 					"spawner.png": ["Rename", "mob_spawner.png"],
+					
+					"bloodraw/": {
+						"oak_wood.png"     : ["Texture", "R/T/B/Log/Oak_Wood.png"],
+						"acacia_wood.png"  : ["Texture", "R/T/B/Log/Acacia_Wood.png"],
+						"birch_wood.png"   : ["Texture", "R/T/B/Log/Birch_Wood.png"],
+						"spruce_wood.png"  : ["Texture", "R/T/B/Log/Spruce_Wood.png"],
+						"jungle_wood.png"  : ["Texture", "R/T/B/Log/Jungle_Wood.png"],
+						"dark_oak_wood.png": ["Texture", "R/T/B/Log/Dark_Wood.png"],
+						
+						"stripped_oak_wood.png"     : ["Texture", "R/T/B/Log/Stripped/Oak_Wood.png"],
+						"stripped_acacia_wood.png"  : ["Texture", "R/T/B/Log/Stripped/Acacia_Wood.png"],
+						"stripped_birch_wood.png"   : ["Texture", "R/T/B/Log/Stripped/Birch_Wood.png"],
+						"stripped_spruce_wood.png"  : ["Texture", "R/T/B/Log/Stripped/Spruce_Wood.png"],
+						"stripped_jungle_wood.png"  : ["Texture", "R/T/B/Log/Stripped/Jungle_Wood.png"],
+						"stripped_dark_oak_wood.png": ["Texture", "R/T/B/Log/Stripped/Dark_Wood.png"],
+						
+						"smooth_quartz.png": ["Texture", "R/T/B/Quartz/Smooth.png"],
+					}
 				}],
 				"blocks/": null,
 				
@@ -1052,6 +1070,22 @@
 					
 					"mob_spawner_cage.json": null,
 					"spawner.json"         : ["Variable", ["File", "R/M/B/Glass.json"], ["block/spawner"]],
+					
+					"oak_wood.json"     : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/oak_log", "block/bloodraw/oak_wood"]],
+					"acacia_wood.json"  : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/acacia_log", "block/bloodraw/acacia_wood"]],
+					"birch_wood.json"   : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/birch_log", "block/bloodraw/birch_wood"]],
+					"spruce_wood.json"  : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/spruce_log", "block/bloodraw/spruce_wood"]],
+					"jungle_wood.json"  : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/jungle_log", "block/bloodraw/jungle_wood"]],
+					"dark_oak_wood.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/dark_oak_log", "block/bloodraw/dark_oak_wood"]],
+					
+					"stripped_oak_wood.json"     : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/stripped_oak_log", "block/bloodraw/stripped_oak_wood"]],
+					"stripped_acacia_wood.json"  : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/stripped_acacia_log", "block/bloodraw/stripped_acacia_wood"]],
+					"stripped_birch_wood.json"   : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/stripped_birch_log", "block/bloodraw/stripped_birch_wood"]],
+					"stripped_spruce_wood.json"  : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/stripped_spruce_log", "block/bloodraw/stripped_spruce_wood"]],
+					"stripped_jungle_wood.json"  : ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/stripped_jungle_log", "block/bloodraw/stripped_jungle_wood"]],
+					"stripped_dark_oak_wood.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/stripped_dark_oak_log", "block/bloodraw/stripped_dark_oak_wood"]],
+					
+					"smooth_quartz.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/smooth_quartz"]],
 				}
 			}
 		}

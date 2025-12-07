@@ -49,8 +49,8 @@
 		
 		"gui/items.png": ["Atlas", {
 			"10": {
-				"10": ["Texture", "R/T/I/Ruby.png"],
-				"11": ["Texture", "R/T/I/Emerald.png"]
+				"10": ["Texture", "R/T/I/Gem/Ruby.png"],
+				"11": ["Texture", "R/T/I/Gem/Emerald.png"]
 			},
 			"11": {
 				"11": ["Texture", "R/T/I/Book/Write.png"]

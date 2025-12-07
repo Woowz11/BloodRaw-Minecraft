@@ -732,9 +732,9 @@
 						
 						"rotten_flesh.png": ["Rename", "rottenFlesh.png"],
 						
-						"iron_horse_armor.png"   : ["Texture", "R/T/I/Iron_Armor_Horse.png"],
-						"gold_horse_armor.png"   : ["Texture", "R/T/I/Gold_Armor_Horse.png"],
-						"diamond_horse_armor.png": ["Texture", "R/T/I/Diamond_Armor_Horse.png"],
+						"iron_horse_armor.png"   : ["Texture", "R/T/I/Pet_Armor/Horse/Iron.png"],
+						"gold_horse_armor.png"   : ["Texture", "R/T/I/Pet_Armor/Horse/Gold.png"],
+						"diamond_horse_armor.png": ["Texture", "R/T/I/Pet_Armor/Horse/Diamond.png"],
 					}
 				]
 			},

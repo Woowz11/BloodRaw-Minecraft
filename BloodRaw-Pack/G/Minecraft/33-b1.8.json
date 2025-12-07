@@ -87,14 +87,14 @@
 				},
 				"11" : {
 					"5" : ["Animation", ["Texture", "R/T/I/Meat/Rotten.png"], false],
-					"6" : ["Texture", "R/T/I/Pearl.png"]
+					"6" : ["Texture", "R/T/I/Pearl/Default.png"]
 				},
 				"13" : {
-					"3" : ["Texture", "R/T/I/Seeds_Pumpkin.png"],
+					"3" : ["Texture", "R/T/I/Seeds/Pumpkin.png"],
 					"6" : ["Texture", "R/T/I/Watermelon/Default.png"]
 				},
 				"14" : {
-					"3" : ["Texture", "R/T/I/Seeds_Watermelon.png"]
+					"3" : ["Texture", "R/T/I/Seeds/Watermelon.png"]
 				}
 			}
 		],

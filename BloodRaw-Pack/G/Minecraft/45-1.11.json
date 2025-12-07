@@ -96,7 +96,7 @@
 			},
 			
 			"items/": {
-				"iron_nugget.png": ["Texture", "R/T/I/Iron_Nugget.png"],
+				"iron_nugget.png": ["Texture", "R/T/I/Nugget/Iron.png"],
 				
 				"shulker_shell.png": [],
 				

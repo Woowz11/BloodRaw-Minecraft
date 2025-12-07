@@ -97,8 +97,8 @@
 					"4" : ["Animation", ["Texture", "R/T/I/Ink.png"], false],
 					"5" : ["Texture", "R/T/I/Dye/Red_Old.png"],
 					"6" : ["Texture", "R/T/I/Dye/Green.png"],
-					"7" : ["Texture", "R/T/I/Cocoa.png"],
-					"8" : ["Texture", "R/T/I/Lapis.png"],
+					"7" : ["Texture", "R/T/I/Seeds/Cocoa.png"],
+					"8" : ["Texture", "R/T/I/Gem/Lapis.png"],
 					"9" : ["Texture", "R/T/I/Dye/Purple.png"],
 					"10" : ["Texture", "R/T/I/Dye/Cyan.png"],
 					"11" : ["Texture", "R/T/I/Dye/Silver.png"]

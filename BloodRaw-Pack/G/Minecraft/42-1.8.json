@@ -178,8 +178,8 @@
 					"rabbit_foot.png"  : ["Texture", "R/T/I/Foot.png"],
 					"rabbit_stew.png"  : ["Texture", "R/T/I/Bowl/Rabbit.png"],
 					
-					"prismarine_shard.png"   : ["Texture", "R/T/I/Prismarine.png"],
-					"prismarine_crystals.png": ["Animation", ["Texture", "R/T/I/Prismarine_Crystal.png"], "Prismarine"],
+					"prismarine_shard.png"   : ["Texture", "R/T/I/Prismarine/Default.png"],
+					"prismarine_crystals.png": ["Animation", ["Texture", "R/T/I/Prismarine/Crystal.png"], "Prismarine"],
 					
 					"mutton_raw.png"   : ["Texture", "R/T/I/Meat/Sheep.png"],
 					"mutton_cooked.png": ["Texture", "R/T/I/Meat/Cooked/Sheep.png"],

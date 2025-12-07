@@ -30,23 +30,23 @@
 					"11" : ["Texture", "R/T/B/Enchanting_Bottom.png"]
 				},
 				"10" : {
-					"8" : ["Texture", "R/T/B/Cauldron_Top.png"],
-					"9" : ["Texture", "R/T/B/Cauldron.png"]
+					"8" : ["Texture", "R/T/B/Cauldron/Top.png"],
+					"9" : ["Texture", "R/T/B/Cauldron/Side.png"]
 				},
 				"11" : {
-					"8" : ["Texture", "R/T/B/Cauldron_Inner.png"],
-					"9" : ["Texture", "R/T/B/Cauldron_Bottom.png"]
+					"8" : ["Texture", "R/T/B/Cauldron/Inner.png"],
+					"9" : ["Texture", "R/T/B/Cauldron/Bottom.png"]
 				},
 				"12" : {
 					"4" : ["Texture", "R/T/B/Lily.png"],
 					"9" : ["Texture", "R/T/B/Brewing/Bottom.png"]
 				},
 				"13" : {
-					"4" : ["Texture", "R/T/B/Mycelium_Dirt.png"],
+					"4" : ["Texture", "R/T/B/Mycelium/Dirt.png"],
 					"9" : ["Texture", "R/T/B/Brewing/Default.png"]
 				},
 				"14" : {
-					"4" : ["Texture", "R/T/B/Mycelium.png"],
+					"4" : ["Texture", "R/T/B/Mycelium/Default.png"],
 					"9" : ["Texture", "R/T/B/Portal_End_Frame.png"],
 					"10" : ["Animation", ["Texture", "R/T/B/Portal_End_Frame_Pearl.png"], false]
 				},
@@ -213,30 +213,30 @@
 				"15": ["Texture", "R/T/I/Record/Ward.png"]
 			},
 			"10": {
-				"8" : ["Texture", "R/T/I/Eye_Spider_Potion.png"],
-				"9" : ["Texture", "R/T/I/Potion/Splash.png"],
+				"8" : ["Texture", "R/T/I/Eye_Spider/Potion.png"],
+				"9" : ["Texture", "R/T/I/Bottle/Potion/Splash.png"],
 				"15": ["Texture", "R/T/I/Record/11.png"]
 			},
 			"11": {
 				"7" : ["Texture", "R/T/I/Ghast.png"],
-				"8" : ["Texture", "R/T/I/Eye_Spider.png"],
-				"9" : ["Animation", ["Texture", "R/T/I/Pearl_End.png"], false]
+				"8" : ["Texture", "R/T/I/Eye_Spider/Default.png"],
+				"9" : ["Animation", ["Texture", "R/T/I/Pearl/End.png"], false]
 			},
 			"12": {
 				"6"  : ["Animation",["Texture", "R/T/I/Blaze/Default.png"], false],
-				"7"  : ["Texture", "R/T/I/Gold_Nugget.png"],
-				"8"  : ["Texture", "R/T/I/Potion/Default.png"],
+				"7"  : ["Texture", "R/T/I/Nugget/Gold.png"],
+				"8"  : ["Texture", "R/T/I/Bottle/Potion/Default.png"],
 				"9"  : ["Texture", "R/T/I/Cauldron.png"],
 				"10" : ["Texture", "R/T/I/Brewing.png"]
 			},
 			"13": {
 				"7"  : ["Texture", "R/T/I/Wart.png"],
-				"8"  : ["Animation", ["Texture", "R/T/I/Potion/Overlay.png"], false],
+				"8"  : ["Animation", ["Texture", "R/T/I/Bottle/Potion/Overlay.png"], false],
 				"9"  : ["Animation", ["Texture", "R/T/I/Blaze/Dust.png"], false],
 				"10" : ["Animation", ["Texture", "R/T/I/Magma.png"], false]
 			},
 			"14": {
-				"2" : ["Animation", ["Texture", "R/T/I/Fire.png"], false]
+				"2" : ["Animation", ["Texture", "R/T/I/Fire/Default.png"], false]
 			}
 		}]
 	}

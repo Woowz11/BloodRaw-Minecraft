@@ -52,7 +52,7 @@
 					"5" : ["Texture", "R/T/I/Fishing/Empty.png"]
 				},
 				"12" : {
-					"3" : ["Texture", "R/T/I/Map.png"]
+					"3" : ["Texture", "R/T/I/Map/Default.png"]
 				}
 			}
 		],

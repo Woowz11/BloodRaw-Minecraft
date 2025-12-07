@@ -37,10 +37,10 @@
 				"better_leaves_snowed_1.png": ["Texture", "R/T/B/Snow_Leaves_1.png"],
 				"better_leaves_snowed_2.png": ["Texture", "R/T/B/Snow_Leaves_2.png"],
 				
-				"better_reed_0.png": ["Texture", "R/T/B/Reed_0.png"],
-				"better_reed_1.png": ["Texture", "R/T/B/Reed_1.png"],
-				"better_reed_2.png": ["Texture", "R/T/B/Reed_2.png"],
-				"better_reed_3.png": ["Texture", "R/T/B/Reed_3.png"]
+				"better_reed_0.png": ["Texture", "R/T/B/Reed/Default.png"],
+				"better_reed_1.png": ["Texture", "R/T/B/Reed/Default_1.png"],
+				"better_reed_2.png": ["Texture", "R/T/B/Reed/Default_2.png"],
+				"better_reed_3.png": ["Texture", "R/T/B/Reed/Default_3.png"]
 			}
 		}
 	}

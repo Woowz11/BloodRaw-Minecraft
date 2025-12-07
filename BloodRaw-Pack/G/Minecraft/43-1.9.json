@@ -37,7 +37,7 @@
 					"shield_base_nopattern.png": ["Texture", "R/T/E/Shield/Shield_Empty.png"],
 					"shield_base.png"          : ["Texture", "R/T/E/Shield/Shield.png"],
 					
-					"enderdragon/dragon_fireball.png": ["Texture", "R/T/I/Fire_Dragon.png"],
+					"enderdragon/dragon_fireball.png": ["Texture", "R/T/I/Fire/Dragon.png"],
 					
 					"projectiles/": {
 						"arrow.png"         : ["Texture", "R/T/E/Arrow/Default.png"],
@@ -176,8 +176,8 @@
 					"oak_boat.png"     : ["Texture", "R/T/I/Boat/Oak.file"],
 					"spruce_boat.png"  : ["Texture", "R/T/I/Boat/Spruce.file"],
 					
-					"chorus_fruit.png"       : ["Texture", "R/T/I/Chorus_Fruit.png"],
-					"chorus_fruit_popped.png": ["Texture", "R/T/I/Chorus.png"],
+					"chorus_fruit.png"       : ["Texture", "R/T/I/Chorus/Fruit.png"],
+					"chorus_fruit_popped.png": ["Texture", "R/T/I/Chorus/Default.png"],
 					
 					"end_crystal.png": ["Texture", "R/T/I/Crystal_End.png"],
 					
@@ -188,15 +188,15 @@
 					"tipped_arrow_head.png": ["Texture", "R/T/I/Arrow/Effect_Overlay.png"],
 					
 					"beetroot.png"      : ["Texture", "R/T/I/Beetroot.png"],
-					"beetroot_seeds.png": ["Texture", "R/T/I/Seeds_Beetroot.png"],
+					"beetroot_seeds.png": ["Texture", "R/T/I/Seeds/Beetroot.png"],
 					"beetroot_soup.png" : ["Texture", "R/T/I/Bowl/Beetroot.png"],
 					
-					"dragon_breath.png": ["Animation", ["Texture", "R/T/I/Breath.png"], {"Speed": 6}],
+					"dragon_breath.png": ["Animation", ["Texture", "R/T/I/Bottle/Breath.png"], {"Speed": 6}],
 					
-					"broken_elytra.png": ["Animation", ["Texture", "R/T/I/Elytra_Broken.png"], "End"],
-					"elytra.png"       : ["Animation", ["Texture", "R/T/I/Elytra.png"], "End"],
+					"broken_elytra.png": ["Animation", ["Texture", "R/T/I/Elytra/Broken.png"], "End"],
+					"elytra.png"       : ["Animation", ["Texture", "R/T/I/Elytra/Default.png"], "End"],
 					
-					"potion_bottle_lingering.png": ["Animation", ["Texture", "R/T/I/Potion/Lingering.png"], {"Speed": 6}],
+					"potion_bottle_lingering.png": ["Animation", ["Texture", "R/T/I/Bottle/Potion/Lingering.png"], {"Speed": 6}],
 					
 					"clock.png"  : null,
 					"compass.png": null,
