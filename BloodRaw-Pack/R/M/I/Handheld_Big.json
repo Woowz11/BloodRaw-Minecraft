@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/bloodraw/handheld_big",
+	"textures": {
+		"layer0": "<[Var1]>"
+	}
+}

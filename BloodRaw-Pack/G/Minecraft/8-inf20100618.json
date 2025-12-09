@@ -137,16 +137,16 @@
 		
 		"gui/icons.png": [ "Atlas", {
 				"16" : {
-					"9" : ["Texture", "R/T/U/Armor_Empty.png"]
+					"9" : ["Texture", "R/T/U/Armor/Empty.png"]
 				},
 				"25" : {
-					"9" : ["Texture", "R/T/U/Armor_Half.png", [["Flip", true]]]
+					"9" : ["Texture", "R/T/U/Armor/Half.png", [["Flip", true]]]
 				},
 				"34" : {
-					"9" : ["Texture", "R/T/U/Armor.png"]
+					"9" : ["Texture", "R/T/U/Armor/Full.png"]
 				},
 				"43" : {
-					"9" : ["Texture", "R/T/U/Armor.png"]
+					"9" : ["Texture", "R/T/U/Armor/Full.png"]
 				}
 			}
 		],
@@ -238,7 +238,7 @@
 					"2" : ["Texture", "R/T/B/Mechanism.png"],
 					"3" : ["Animation", ["Texture", "R/T/B/Furnace_On.png"], false],
 					"5" : ["Texture", "R/T/B/Wheat/5.png"],
-					"12" : ["Texture", "R/T/B/Water_Single.file"],
+					"12" : ["Texture", "R/T/B/Liquid/Water_Single.file"],
 					"14" : ["Animation", ["Texture", "R/T/B/Liquid/Lava.png"], false]
 				},
 				"14" : {

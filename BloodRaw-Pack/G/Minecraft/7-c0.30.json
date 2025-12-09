@@ -134,9 +134,9 @@
 				"0" : {
 					"0" : ["Texture", "R/T/U/Hotbar.file"],
 					"22" : ["Texture", "R/T/U/Hotbar_Slot_Selected.png"],
-					"46" : ["Texture", "R/T/U/Button_Disabled.png"],
-					"66" : ["Texture", "R/T/U/Button.png"],
-					"86" : ["Texture", "R/T/U/Button_Hover.png"]
+					"46" : ["Texture", "R/T/U/Button/Disabled.png"],
+					"66" : ["Texture", "R/T/U/Button/Default.png"],
+					"86" : ["Texture", "R/T/U/Button/Hover.png"]
 				},
 				"208" : {
 					"0" : ["Texture", "R/T/U/Realms_Bulb.png"]
@@ -157,17 +157,17 @@
 				},
 				"16" : {
 					"0" : ["Texture", "R/T/U/Health/Empty.png"],
-					"9" : ["Texture", "R/T/U/Armor.png"],
-					"18" : ["Texture", "R/T/U/Oxygen.png"]
+					"9" : ["Texture", "R/T/U/Armor/Full.png"],
+					"18" : ["Texture", "R/T/U/Oxygen/Default.png"]
 				},
 				"25" : {
 					"0" : ["Texture", "R/T/U/Health/Empty.png"],
-					"9" : ["Texture", "R/T/U/Armor_Half.png"],
-					"18" : ["Texture", "R/T/U/Oxygen_Pop.png"]
+					"9" : ["Texture", "R/T/U/Armor/Half.png"],
+					"18" : ["Texture", "R/T/U/Oxygen/Pop.png"]
 				},
 				"34" : {
 					"0" : ["Texture", "R/T/U/Health/Empty.png"],
-					"9" : ["Texture", "R/T/U/Armor_Empty.png"]
+					"9" : ["Texture", "R/T/U/Armor/Empty.png"]
 				},
 				"43" : {
 					"0" : ["Texture", "R/T/U/Health/Empty.png"]

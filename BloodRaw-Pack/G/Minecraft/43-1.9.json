@@ -211,6 +211,38 @@
 						"sapling_jungle.png"  : ["Texture", "R/T/I/Sapling/Jungle.png"],
 						"sapling_acacia.png"  : ["Texture", "R/T/I/Sapling/Acacia.png"],
 						"sapling_dark_oak.png": ["Texture", "R/T/I/Sapling/Dark.png"],
+						
+						"stick.png": ["Texture", "R/T/I/Stick_Big.png"],
+						
+						"wooden_axe.png"    : ["Texture", "R/T/I/Axe/Wood_Big.png"],
+						"wooden_pickaxe.png": ["Texture", "R/T/I/Pickaxe/Wood_Big.png"],
+						"wooden_hoe.png"    : ["Texture", "R/T/I/Hoe/Wood_Big.png"],
+						"wooden_shovel.png" : ["Texture", "R/T/I/Shovel/Wood_Big.png"],
+						"wooden_sword.png"  : ["Texture", "R/T/I/Sword/Wood_Big.png"],
+						
+						"stone_axe.png"    : ["Texture", "R/T/I/Axe/Stone_Big.png"],
+						"stone_pickaxe.png": ["Texture", "R/T/I/Pickaxe/Stone_Big.png"],
+						"stone_hoe.png"    : ["Texture", "R/T/I/Hoe/Stone_Big.png"],
+						"stone_shovel.png" : ["Texture", "R/T/I/Shovel/Stone_Big.png"],
+						"stone_sword.png"  : ["Texture", "R/T/I/Sword/Stone_Big.png"],
+						
+						"iron_axe.png"    : ["Texture", "R/T/I/Axe/Iron_Big.png"],
+						"iron_pickaxe.png": ["Texture", "R/T/I/Pickaxe/Iron_Big.png"],
+						"iron_hoe.png"    : ["Texture", "R/T/I/Hoe/Iron_Big.png"],
+						"iron_shovel.png" : ["Texture", "R/T/I/Shovel/Iron_Big.png"],
+						"iron_sword.png"  : ["Texture", "R/T/I/Sword/Iron_Big.png"],
+						
+						"golden_axe.png"    : ["Texture", "R/T/I/Axe/Gold_Big.png"],
+						"golden_pickaxe.png": ["Texture", "R/T/I/Pickaxe/Gold_Big.png"],
+						"golden_hoe.png"    : ["Texture", "R/T/I/Hoe/Gold_Big.png"],
+						"golden_shovel.png" : ["Texture", "R/T/I/Shovel/Gold_Big.png"],
+						"golden_sword.png"  : ["Texture", "R/T/I/Sword/Gold_Big.png"],
+						
+						"diamond_axe.png"    : ["Texture", "R/T/I/Axe/Diamond_Big.png"],
+						"diamond_pickaxe.png": ["Texture", "R/T/I/Pickaxe/Diamond_Big.png"],
+						"diamond_hoe.png"    : ["Texture", "R/T/I/Hoe/Diamond_Big.png"],
+						"diamond_shovel.png" : ["Texture", "R/T/I/Shovel/Diamond_Big.png"],
+						"diamond_sword.png"  : ["Texture", "R/T/I/Sword/Diamond_Big.png"],
 					}
 				},
 				
@@ -470,6 +502,10 @@
 				},
 				
 				"item/": {
+					"bloodraw/": {
+						"handheld_big.json": ["File", "R/M/I/New/Handheld_Big.json"],
+					},
+					
 					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["block/cake_uneaten"]],
 					
 					"cauldron.json": ["Variable", ["File", "R/M/I/Block.json"], ["block/cauldron_empty"]],
@@ -497,6 +533,38 @@
 					"cobblestone_monster_egg.json"   : ["Variable", ["File", "R/M/Parent.json"], ["block/bloodraw/cobblestone_infested"]],
 					
 					"handheld.json": ["File", "R/M/I/New/Handheld.json"],
+				
+					"stick.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/stick"]],
+				
+					"wooden_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/wooden_axe"]],
+					"wooden_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/wooden_hoe"]],
+					"wooden_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/wooden_pickaxe"]],
+					"wooden_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/wooden_shovel"]],
+					"wooden_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/wooden_sword"]],
+					
+					"stone_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/stone_axe"]],
+					"stone_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/stone_hoe"]],
+					"stone_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/stone_pickaxe"]],
+					"stone_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/stone_shovel"]],
+					"stone_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/stone_sword"]],
+					
+					"iron_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/iron_axe"]],
+					"iron_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/iron_hoe"]],
+					"iron_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/iron_pickaxe"]],
+					"iron_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/iron_shovel"]],
+					"iron_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/iron_sword"]],
+					
+					"golden_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/golden_axe"]],
+					"golden_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/golden_hoe"]],
+					"golden_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/golden_pickaxe"]],
+					"golden_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/golden_shovel"]],
+					"golden_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/golden_sword"]],
+					
+					"diamond_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_axe"]],
+					"diamond_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_hoe"]],
+					"diamond_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_pickaxe"]],
+					"diamond_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_shovel"]],
+					"diamond_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_sword"]],
 				}
 			}
 		}

@@ -26,8 +26,8 @@
 				},
 				
 				"blocks/": {
-					"bone_block_side.png": [],
-					"bone_block_top.png" : [],
+					"bone_block_side.png": ["Texture", "R/T/B/Bone/Default.png"],
+					"bone_block_top.png" : ["Texture", "R/T/B/Bone/Top.png"],
 					
 					"nether_wart_block.png": [],
 					"red_nether_brick.png" : [],

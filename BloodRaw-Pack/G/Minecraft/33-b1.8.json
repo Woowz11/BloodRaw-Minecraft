@@ -100,35 +100,35 @@
 		],
 		"gui/icons.png": [ "Atlas", {
 				"0" : {
-					"16" : ["Texture", "R/T/U/Ping_0.png"],
-					"24" : ["Texture", "R/T/U/Ping_1.png"],
-					"32" : ["Texture", "R/T/U/Ping_2.png"],
-					"40" : ["Texture", "R/T/U/Ping_3.png"],
-					"48" : ["Texture", "R/T/U/Ping_4.png"],
-					"56" : ["Texture", "R/T/U/Ping.png"],
+					"16" : ["Texture", "R/T/U/Ping/5.png"],
+					"24" : ["Texture", "R/T/U/Ping/4.png"],
+					"32" : ["Texture", "R/T/U/Ping/3.png"],
+					"40" : ["Texture", "R/T/U/Ping/2.png"],
+					"48" : ["Texture", "R/T/U/Ping/1.png"],
+					"56" : ["Texture", "R/T/U/Ping/0.png"],
 					
 					"64" : ["Texture", "R/T/U/Bar/XP_Empty.png"],
 					"69" : ["Texture", "R/T/U/Bar/XP.png"],
 					
-					"177" : ["Texture", "R/T/U/Host_0.png"],
-					"185" : ["Texture", "R/T/U/Host_1.png"],
-					"193" : ["Texture", "R/T/U/Host_2.png"],
-					"201" : ["Texture", "R/T/U/Host_3.png"],
-					"209" : ["Texture", "R/T/U/Host_4.png"],
-					"217" : ["Texture", "R/T/U/Host.png"]
+					"177" : ["Texture", "R/T/U/Host/5.png"],
+					"185" : ["Texture", "R/T/U/Host/4.png"],
+					"193" : ["Texture", "R/T/U/Host/3.png"],
+					"201" : ["Texture", "R/T/U/Host/2.png"],
+					"209" : ["Texture", "R/T/U/Host/1.png"],
+					"217" : ["Texture", "R/T/U/Host/0.png"]
 				},
 				"10" : {
-					"177" : ["Texture", "R/T/U/Host_Search_0.png"],
-					"185" : ["Texture", "R/T/U/Host_Search_1.png"],
-					"193" : ["Texture", "R/T/U/Host_Search_2.png"],
-					"201" : ["Texture", "R/T/U/Host_Search_3.png"],
-					"209" : ["Texture", "R/T/U/Host_Search_4.png"]
+					"177" : ["Texture", "R/T/U/Host/Search_4.png"],
+					"185" : ["Texture", "R/T/U/Host/Search_3.png"],
+					"193" : ["Texture", "R/T/U/Host/Search_2.png"],
+					"201" : ["Texture", "R/T/U/Host/Search_1.png"],
+					"209" : ["Texture", "R/T/U/Host/Search_0.png"]
 				},
 				"16" : {
 					"27" : ["Texture", "R/T/U/Food/Empty.png"]
 				},
 				"25" : {
-					"9" : ["Texture", "R/T/U/Armor_Half.png"],
+					"9" : ["Texture", "R/T/U/Armor/Half.png"],
 					"27" : ["Texture", "R/T/U/Food/Empty.png"]
 				},
 				"34" : {

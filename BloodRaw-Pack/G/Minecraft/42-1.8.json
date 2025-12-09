@@ -129,14 +129,14 @@
 				"gui/": {
 					"widgets.png": ["Atlas", {
 						"0": {
-							"146": ["Texture", "R/T/U/Difficulty.png"],
-							"166": ["Texture", "R/T/U/Difficulty_Hover.png"],
-							"186": ["Texture", "R/T/U/Difficulty_Disabled.png"]
+							"146": ["Texture", "R/T/U/Difficulty/Default.png"],
+							"166": ["Texture", "R/T/U/Difficulty/Default_Hover.png"],
+							"186": ["Texture", "R/T/U/Difficulty/Default_Disabled.png"]
 						},
 						"20": {
-							"146": ["Texture", "R/T/U/Difficulty_Open.png"],
-							"166": ["Texture", "R/T/U/Difficulty_Open_Hover.png"],
-							"186": ["Texture", "R/T/U/Difficulty_Open_Disabled.png"]
+							"146": ["Texture", "R/T/U/Difficulty/Open.png"],
+							"166": ["Texture", "R/T/U/Difficulty/Open_Hover.png"],
+							"186": ["Texture", "R/T/U/Difficulty/Open_Disabled.png"]
 						}
 					}],
 					

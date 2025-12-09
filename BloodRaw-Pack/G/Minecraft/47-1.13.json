@@ -915,6 +915,38 @@
 					"infested_cracked_stone_bricks.json" : ["Rename", "cracked_brick_monster_egg.json"],
 					"infested_chiseled_stone_bricks.json": ["Rename", "chiseled_brick_monster_egg.json"],
 					"infested_cobblestone.json"          : ["Rename", "cobblestone_monster_egg.json"],
+					
+					"stick.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/stick"]],
+					
+					"wooden_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/wooden_axe"]],
+					"wooden_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/wooden_hoe"]],
+					"wooden_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/wooden_pickaxe"]],
+					"wooden_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/wooden_shovel"]],
+					"wooden_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/wooden_sword"]],
+					
+					"stone_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/stone_axe"]],
+					"stone_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/stone_hoe"]],
+					"stone_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/stone_pickaxe"]],
+					"stone_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/stone_shovel"]],
+					"stone_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/stone_sword"]],
+					
+					"iron_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/iron_axe"]],
+					"iron_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/iron_hoe"]],
+					"iron_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/iron_pickaxe"]],
+					"iron_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/iron_shovel"]],
+					"iron_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/iron_sword"]],
+					
+					"golden_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/golden_axe"]],
+					"golden_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/golden_hoe"]],
+					"golden_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/golden_pickaxe"]],
+					"golden_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/golden_shovel"]],
+					"golden_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/golden_sword"]],
+					
+					"diamond_axe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_axe"]],
+					"diamond_hoe.json"    : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_hoe"]],
+					"diamond_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_pickaxe"]],
+					"diamond_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_shovel"]],
+					"diamond_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_sword"]],
 				},
 				
 				"block/": {

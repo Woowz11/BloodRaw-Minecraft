@@ -1,0 +1,36 @@
+{
+	"credit": "Bloodraw <[Version]>",
+	"parent": "item/handheld",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 4, 0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 4, 0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 59],
+			"translation": [2.13, 4.7, -0.37],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -59],
+			"translation": [2.13, 4.7, -0.37],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"ground": {
+			"scale": [1.125, 1.125, 1]
+		},
+		"gui": {
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}

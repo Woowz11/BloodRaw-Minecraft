@@ -487,13 +487,13 @@
 					"options_background.png": "gui/background.png",
 					"widgets.png"           : ["Actions", "gui/gui.png", ["Atlas", {
 						"166": {
-							"22": ["Texture", "R/T/U/Mail_Hover.png"]
+							"22": ["Texture", "R/T/U/Mail/Hover.png"]
 						},
 						"182": {
-							"22": ["Texture", "R/T/U/Mail.png"]
+							"22": ["Texture", "R/T/U/Mail/Default.png"]
 						},
 						"198": {
-							"22": ["Texture", "R/T/U/Mail_Total.png"]
+							"22": ["Texture", "R/T/U/Mail/Total.png"]
 						}
 					}]],
 					
