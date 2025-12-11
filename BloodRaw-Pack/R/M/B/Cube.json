@@ -2,11 +2,11 @@
 	"parent": "block/cube",
 	"textures": {
 		"particle": "<[Var1]>",
-		"down"    : "<[Var6]>",
-		"up"      : "<[Var5]>",
 		"north"   : "<[Var1]>",
 		"east"    : "<[Var2]>",
 		"south"   : "<[Var3]>",
-		"west"    : "<[Var4]>"
+		"west"    : "<[Var4]>",
+		"up"      : "<[Var5]>",
+		"down"    : "<[Var6]>"
 	}
 }

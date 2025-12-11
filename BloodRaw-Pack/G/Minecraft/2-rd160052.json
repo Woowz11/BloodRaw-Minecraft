@@ -19,7 +19,7 @@
 					"0" : ["Texture", "R/T/B/Dirt.png"]
 				},
 				"3" : {
-					"0" : ["Texture", "R/T/B/Grass_Dirt.file"]
+					"0" : ["Texture", "R/T/B/Grass/Dirt.file"]
 				},
 				"4" : {
 					"0" : ["Texture", "R/T/B/Planks/Oak.png"]

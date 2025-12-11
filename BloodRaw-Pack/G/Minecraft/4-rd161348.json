@@ -8,6 +8,8 @@
 	
 	"Add": ["ReplacePack"],
 	
+	"Icon": ["Texture", "R/V/4.png"],
+	
 	"Files": {
 		"terrain.png": [ "Atlas", {
 				"1" : {

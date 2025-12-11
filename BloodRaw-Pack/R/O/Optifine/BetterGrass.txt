@@ -1,0 +1,17 @@
+grass.multilayer=true
+
+grass.snow=true
+mycelium.snow=true
+podzol.snow=true
+
+
+texture.grass=block<[S]>/bloodraw/grass_side_better_overlay
+texture.grass_side=block<[S]>/bloodraw/grass_side_better
+
+texture.grass_path=block<[S]>/bloodraw/path_side_better
+
+texture.podzol=block<[S]>/bloodraw/podzol_side_better
+
+texture.mycelium=block<[S]>/bloodraw/mycelium_side_better
+
+texture.snow=block<[S]>/bloodraw/snow_side_better

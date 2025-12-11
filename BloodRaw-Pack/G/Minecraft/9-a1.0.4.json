@@ -20,7 +20,7 @@
 					"4" : ["Animation", ["Texture", "R/T/B/Spawner.png"], false]
 				},
 				"2" : {
-					"4" : ["Texture", "R/T/B/Snow.png"],
+					"4" : ["Texture", "R/T/B/Snow/Default.png"],
 					"5" : ["Texture", "R/T/B/Door/Iron.png"],
 					"6" : false
 				},
@@ -31,7 +31,7 @@
 					"7" : ["Texture", "R/T/B/Torch_Redstone_Off.png"]
 				},
 				"4" : {
-					"4" : ["Texture", "R/T/B/Snow_Dirt.png"],
+					"4" : ["Texture", "R/T/B/Snow/Dirt.png"],
 					"5" : ["Texture", "R/T/B/Redstone_Dust_Cross_Off.file"],
 					"6" : ["Texture", "R/T/B/Redstone_Dust_Cross_On.file"]
 				},

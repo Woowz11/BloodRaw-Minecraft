@@ -1,0 +1,30 @@
+{
+	"ID": "Optifine-1.9",
+	"Name": "Optifine",
+	"Type": "Addon",
+	
+	"Files": {
+		"assets/minecraft/": {
+			"textures/": {
+				"blocks/": {
+					"bloodraw/": {
+						"grass_side_better.png"        : ["Texture", "R/T/B/Grass/Dirt_Better.png"],
+						"grass_side_better_overlay.png": ["Texture", "R/T/B/Grass/Dirt_Better_Overlay.png"],
+						"snow_side_better.png"         : ["Texture", "R/T/B/Snow/Dirt_Better.png"],
+						"mycelium_side_better.png"     : ["Texture", "R/T/B/Mycelium/Dirt_Better.png"],
+						"podzol_side_better.png"       : ["Texture", "R/T/B/Podzol/Dirt_Better.png"],
+						"path_side_better.png"         : ["Texture", "R/T/B/Path/Dirt_Better.png"],
+					}
+				}
+			},
+			
+			"mcpatcher/": {
+				"color.properties": ["File", "R/O/Optifine/Colors.txt"]
+			},
+			
+			"optifine/": {
+				"bettergrass.properties": ["File", "R/O/Optifine/BetterGrass.txt"]
+			}
+		}
+	}
+}

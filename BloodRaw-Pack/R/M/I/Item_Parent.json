@@ -1,0 +1,6 @@
+{
+	"parent": "<[Var1]>",
+	"textures": {
+		"layer0": "<[Var2]>"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": { "model": "<[Var1]>" },
+		"type=top"   : { "model": "<[Var2]>" },
+		"type=double": { "model": "<[Var3]>" }
+	}
+}

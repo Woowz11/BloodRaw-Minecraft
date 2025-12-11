@@ -1,0 +1,23 @@
+{
+	"Parent": "Optifine-1.12",
+	"Name": "Optifine",
+	"Type": "Addon",
+	
+	"ID": "Optifine-1.13",
+	
+	"Files": {
+		"assets/minecraft/": {
+			"textures/": {
+				"block/": ["Actions", "assets/minecraft/textures/blocks/", {
+					
+				}],
+				"blocks/": null
+			},
+			
+			"optifine/": ["Actions", "assets/minecraft/mcpatcher/", {
+				
+			}],
+			"mcpatcher/": null,
+		}
+	}
+}

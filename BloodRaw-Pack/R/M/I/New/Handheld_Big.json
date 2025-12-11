@@ -1,6 +1,6 @@
 {
 	"credit": "Bloodraw <[Version]>",
-	"parent": "item/handheld",
+	"parent": "item/bloodraw/generated_big",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 55],
@@ -21,16 +21,6 @@
 			"rotation": [0, 90, -59],
 			"translation": [2.13, 4.7, -0.37],
 			"scale": [1.36, 1.36, 0.68]
-		},
-		"ground": {
-			"scale": [1.125, 1.125, 1]
-		},
-		"gui": {
-			"scale": [2, 2, 1]
-		},
-		"fixed": {
-			"rotation": [0, -180, 0],
-			"scale": [2, 2, 1]
 		}
 	}
 }

@@ -1,0 +1,11 @@
+{
+	"Parent": "Optifine-1.11",
+	"Name": "Optifine",
+	"Type": "Addon",
+	
+	"ID": "Optifine-1.12",
+	
+	"Files": {
+
+	}
+}

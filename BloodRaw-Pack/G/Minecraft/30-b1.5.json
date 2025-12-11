@@ -22,7 +22,7 @@
 					"11" : ["Texture", "R/T/B/Redstone_Dust_Overlay.png"]
 				},
 				"6" : {
-					"2" : ["Texture", "R/T/B/Grass_Dirt_Overlay.png"]
+					"2" : ["Texture", "R/T/B/Grass/Dirt_Overlay.png"]
 				},
 				"15" : {
 					"3" : ["Texture", "R/T/B/Sapling/Spruce.png"],

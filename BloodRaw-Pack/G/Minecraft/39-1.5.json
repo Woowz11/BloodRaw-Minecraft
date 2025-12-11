@@ -224,9 +224,9 @@
 			"goldenRail.png"        : ["Texture", "R/T/B/Rail_Accelerator.png"],
 			"goldenRail_powered.png": ["Texture", "R/T/B/Rail_Accelerator_On.png"],
 			
-			"grass_side.png"        : ["Texture", "R/T/B/Grass_Dirt.file"],
-			"grass_side_overlay.png": ["Texture", "R/T/B/Grass_Dirt_Overlay.png"],
-			"grass_top.png"         : ["Texture", "R/T/B/Grass.png"],
+			"grass_side.png"        : ["Texture", "R/T/B/Grass/Dirt.file"],
+			"grass_side_overlay.png": ["Texture", "R/T/B/Grass/Dirt_Overlay.png"],
+			"grass_top.png"         : ["Texture", "R/T/B/Grass/Default.png"],
 			
 			"gravel.png": ["Texture", "R/T/B/Gravel.png"],
 			
@@ -353,8 +353,8 @@
 			"sapling_jungle.png": ["Texture", "R/T/B/Sapling/Jungle.png"],
 			"sapling_spruce.png": ["Texture", "R/T/B/Sapling/Spruce.png"],
 			
-			"snow.png"     : ["Texture", "R/T/B/Snow.png"],
-			"snow_side.png": ["Texture", "R/T/B/Snow_Dirt.png"],
+			"snow.png"     : ["Texture", "R/T/B/Snow/Default.png"],
+			"snow_side.png": ["Texture", "R/T/B/Snow/Dirt.png"],
 			
 			"sponge.png": ["Texture", "R/T/B/Sponge/Default.png"],
 			
@@ -493,7 +493,7 @@
 			
 			"comparator.png": ["Texture", "R/T/I/Comparator.png"],
 			
-			"compass.png": ["Animation", ["Texture", "R/T/I/Compass/Default.png"], {}],
+			"compass.png": ["Animation", ["Texture", "R/T/I/Compass/Default.file"], {}],
 			
 			"cookie.png": ["Texture", "R/T/I/Cookie.png"],
 			

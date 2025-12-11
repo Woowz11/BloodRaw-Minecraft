@@ -38,7 +38,7 @@
 					"15" : ["Texture", "R/T/B/Destroy/7.png"]
 				},
 				"8" : {
-					"2" : ["Texture", "R/T/B/Grass.png"],
+					"2" : ["Texture", "R/T/B/Grass/Default.png"],
 					"3" : ["Texture", "R/T/B/Grass_Fern.png"],
 					"15" : ["Texture", "R/T/B/Destroy/8.png"]
 				},

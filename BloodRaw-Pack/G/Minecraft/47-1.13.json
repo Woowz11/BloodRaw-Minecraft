@@ -7,6 +7,10 @@
 	
 	"Add": ["ResourcePack"],
 	
+	"Addon": {
+		"Optifine": ["Optifine-1.13"]
+	},
+	
 	"PackFormat": 4,
 	
 	"Files": {
@@ -656,6 +660,30 @@
 						"stripped_dark_oak_wood.png": ["Texture", "R/T/B/Log/Stripped/Dark_Wood.png"],
 						
 						"smooth_quartz.png": ["Texture", "R/T/B/Quartz/Smooth.png"],
+						
+						"acacia_slab_double.png"  : ["Texture", "R/T/B/Planks/Acacia_Double.png"],
+						"birch_slab_double.png"   : ["Texture", "R/T/B/Planks/Birch_Double.png"],
+						"dark_oak_slab_double.png": ["Texture", "R/T/B/Planks/Dark_Double.png"],
+						"jungle_slab_double.png"  : ["Texture", "R/T/B/Planks/Jungle_Double.png"],
+						"oak_slab_double.png"     : ["Texture", "R/T/B/Planks/Oak_Double.png"],
+						"spruce_slab_double.png"  : ["Texture", "R/T/B/Planks/Spruce_Double.png"],
+						
+						"brick_slab_double.png"           : ["Texture", "R/T/B/Bricks_Double.png"],
+						"red_sandstone_slab_double.png"   : ["Texture", "R/T/B/Sand_Red_Stone_Double.png"],
+						"sandstone_slab_double.png"       : ["Texture", "R/T/B/Sand_Stone_Double.png"],
+						"stone_brick_slab_double.png"     : ["Texture", "R/T/B/Stone_Bricks_Double.png"],
+						"cobblestone_slab_double.png"     : ["Texture", "R/T/B/Stone_Cobblestone_Double.png"],
+						"nether_brick_slab_double.png"    : ["Texture", "R/T/B/Nether_Bricks_Double.png"],
+						"prismarine_slab_double.png"      : ["Texture", "R/T/B/Prismarine_Double.png"],
+						"prismarine_brick_slab_double.png": ["Texture", "R/T/B/Prismarine_Bricks_Double.png"],
+						"dark_prismarine_slab_double.png" : ["Texture", "R/T/B/Prismarine_Dark_Double.png"],
+						"purpur_slab_double_1.png"        : ["Texture", "R/T/B/Purpur_Double_1.png"],
+						"purpur_slab_double_2.png"        : ["Texture", "R/T/B/Purpur_Double_2.png"],
+						"purpur_slab_double_3.png"        : ["Texture", "R/T/B/Purpur_Double_3.png"],
+						"purpur_slab_double_4.png"        : ["Texture", "R/T/B/Purpur_Double_4.png"],
+						"purpur_slab_double_5.png"        : ["Texture", "R/T/B/Purpur_Double_5.png"],
+						"purpur_slab_double_6.png"        : ["Texture", "R/T/B/Purpur_Double_6.png"],
+						"quartz_slab_double.png"          : ["Texture", "R/T/B/Quartz/Default_Double.png"],
 					}
 				}],
 				"blocks/": null,
@@ -890,7 +918,109 @@
 				"infested_mossy_stone_bricks.json"   : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_moss_infested"]],
 				"infested_cracked_stone_bricks.json" : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_crack_infested"]],
 				"infested_cobblestone.json"          : ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/cobblestone_infested"]],
-				"infested_chiseled_stone_bricks.json": ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_chiseled_infested"]]
+				"infested_chiseled_stone_bricks.json": ["Variable", ["File", "R/S/B/Default.json"], ["block/bloodraw/stone_bricks_chiseled_infested"]],
+				
+				"snow.json": ["Variable", ["File", "R/S/B/Snow.json"], [
+					"block/snow_height2",
+					"block/snow_height4",
+					"block/snow_height6",
+					"block/snow_height8",
+					"block/snow_height10",
+					"block/snow_height12",
+					"block/snow_height14",
+					"block/snow_height16",
+				]],
+				
+				"acacia_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/acacia_slab",
+					"block/acacia_slab_top",
+					"block/acacia_slab_double"
+				]],
+				"birch_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/birch_slab",
+					"block/birch_slab_top",
+					"block/birch_slab_double"
+				]],
+				"brick_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/brick_slab",
+					"block/brick_slab_top",
+					"block/brick_slab_double"
+				]],
+				"cobblestone_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/cobblestone_slab",
+					"block/cobblestone_slab_top",
+					"block/cobblestone_slab_double"
+				]],
+				"dark_oak_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/dark_oak_slab",
+					"block/dark_oak_slab_top",
+					"block/dark_oak_slab_double"
+				]],
+				"dark_prismarine_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/dark_prismarine_slab",
+					"block/dark_prismarine_slab_top",
+					"block/dark_prismarine_slab_double"
+				]],
+				"jungle_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/jungle_slab",
+					"block/jungle_slab_top",
+					"block/jungle_slab_double"
+				]],
+				"nether_brick_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/nether_brick_slab",
+					"block/nether_brick_slab_top",
+					"block/nether_brick_slab_double"
+				]],
+				"oak_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/oak_slab",
+					"block/oak_slab_top",
+					"block/oak_slab_double"
+				]],
+				/*"petrified_oak_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/petrified_oak_slab",
+					"block/petrified_oak_slab_top",
+					"block/acacia_slab_double"
+				]],*/
+				"prismarine_brick_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/prismarine_brick_slab",
+					"block/prismarine_brick_slab_top",
+					"block/prismarine_brick_slab_double"
+				]],
+				"prismarine_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/prismarine_slab",
+					"block/prismarine_slab_top",
+					"block/prismarine_slab_double"
+				]],
+				"purpur_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/purpur_slab",
+					"block/purpur_slab_top",
+					"block/purpur_slab_double"
+				]],
+				"quartz_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/quartz_slab",
+					"block/quartz_slab_top",
+					"block/quartz_slab_double"
+				]],
+				"red_sandstone_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/red_sandstone_slab",
+					"block/red_sandstone_slab_top",
+					"block/red_sandstone_slab_double"
+				]],
+				"sandstone_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/sandstone_slab",
+					"block/sandstone_slab_top",
+					"block/sandstone_slab_double"
+				]],
+				"spruce_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/spruce_slab",
+					"block/spruce_slab_top",
+					"block/spruce_slab_double"
+				]],
+				"stone_brick_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+					"block/stone_brick_slab",
+					"block/stone_brick_slab_top",
+					"block/stone_brick_slab_double"
+				]],
 			},
 			
 			"models/": {
@@ -947,6 +1077,21 @@
 					"diamond_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_pickaxe"]],
 					"diamond_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_shovel"]],
 					"diamond_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["item/bloodraw/diamond_sword"]],
+					
+					"bow.json"          : ["Variable", ["File", "R/M/I/New/Bow_Big.json"], ["item/bloodraw/bow"]],
+					"bow_pulling_0.json": ["Variable", ["File", "R/M/I/Item_Parent.json"], ["item/bow","item/bloodraw/bow_0"]],
+					"bow_pulling_1.json": ["Variable", ["File", "R/M/I/Item_Parent.json"], ["item/bow","item/bloodraw/bow_1"]],
+					"bow_pulling_2.json": ["Variable", ["File", "R/M/I/Item_Parent.json"], ["item/bow","item/bloodraw/bow_2"]],
+					
+					"lead.json"         : ["Variable", ["File", "R/M/I/Handheld.json"], ["item/lead"]],
+					"reeds.json"        : null,
+					"sugar_cane.json"   : ["Variable", ["File", "R/M/I/Handheld.json"], ["item/sugar_cane"]],
+					"cod.json"          : ["Variable", ["File", "R/M/I/Handheld.json"], ["item/cod"]],
+					"cooked_cod.json"   : ["Variable", ["File", "R/M/I/Handheld.json"], ["item/cooked_cod"]],
+					"salmon.json"       : ["Variable", ["File", "R/M/I/Handheld.json"], ["item/salmon"]],
+					"clownfish.json"    : null,
+					"tropical_fish.json": ["Variable", ["File", "R/M/I/Handheld.json"], ["item/tropical_fish"]],
+					"rotten_flesh.json" : ["Variable", ["File", "R/M/I/Handheld.json"], ["item/rotten_flesh"]],
 				},
 				
 				"block/": {
@@ -1118,6 +1263,41 @@
 					"stripped_dark_oak_wood.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/stripped_dark_oak_log", "block/bloodraw/stripped_dark_oak_wood"]],
 					
 					"smooth_quartz.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/smooth_quartz"]],
+					
+					"snow_height2.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["block/snow", "block/bloodraw/snow_side", "2", "14"]],
+					"snow_height4.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["block/snow", "block/bloodraw/snow_side", "4", "12"]],
+					"snow_height6.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["block/snow", "block/bloodraw/snow_side", "6", "10"]],
+					"snow_height8.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["block/snow", "block/bloodraw/snow_side", "8", "8"]],
+					"snow_height10.json": ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["block/snow", "block/bloodraw/snow_side", "10", "6"]],
+					"snow_height12.json": ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["block/snow", "block/bloodraw/snow_side", "12", "4"]],
+					"snow_height14.json": ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["block/snow", "block/bloodraw/snow_side", "14", "2"]],
+					"snow_height16.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["block/bloodraw/snow_side", "block/snow"]],
+					
+					"acacia_slab_double.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/acacia_slab_double"]],
+					"birch_slab_double.json"           : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/birch_slab_double"]],
+					"brick_slab_double.json"           : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/brick_slab_double"]],
+					"cobblestone_slab_double.json"     : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/cobblestone_slab_double"]],
+					"dark_oak_slab_double.json"        : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/dark_oak_slab_double"]],
+					"dark_prismarine_slab_double.json" : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/dark_prismarine_slab_double"]],
+					"jungle_slab_double.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/jungle_slab_double"]],
+					"nether_brick_slab_double.json"    : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/nether_brick_slab_double"]],
+					"oak_slab_double.json"             : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/oak_slab_double"]],
+					//"petrified_oak_slab_double.json" : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/acacia_slab_double"]],
+					"prismarine_brick_slab_double.json": ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/prismarine_brick_slab_double"]],
+					"prismarine_slab_double.json"      : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/prismarine_slab_double"]],
+					"purpur_slab_double.json"          : ["Variable", ["File", "R/M/B/Cube.json"], [
+						"block/bloodraw/purpur_slab_double_1",
+						"block/bloodraw/purpur_slab_double_2",
+						"block/bloodraw/purpur_slab_double_3",
+						"block/bloodraw/purpur_slab_double_5",
+						"block/bloodraw/purpur_slab_double_4",
+						"block/bloodraw/purpur_slab_double_6"
+					]],
+					"quartz_slab_double.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/quartz_slab_double"]],
+					"red_sandstone_slab_double.json"   : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/red_sandstone_slab_double"]],
+					"sandstone_slab_double.json"       : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/sandstone_slab_double"]],
+					"spruce_slab_double.json"          : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/spruce_slab_double"]],
+					"stone_brick_slab_double.json"     : ["Variable", ["File", "R/M/B/Cube_All.json"], ["block/bloodraw/stone_brick_slab_double"]],
 				}
 			}
 		}

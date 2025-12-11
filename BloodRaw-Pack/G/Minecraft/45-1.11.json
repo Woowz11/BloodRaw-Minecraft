@@ -9,6 +9,10 @@
 	
 	"PackFormat": 3,
 	
+	"Addon": {
+		"Optifine": ["Optifine-1.11"]
+	},
+	
 	"Files": {
 		"assets/minecraft/textures/": {			
 			"entity/": {

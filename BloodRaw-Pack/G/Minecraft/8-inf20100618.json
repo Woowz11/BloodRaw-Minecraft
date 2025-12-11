@@ -10,7 +10,7 @@
 	
 	"Files": {
 		"shadow.png"  : ["Texture", "R/T/P/Shadow.png"],
-		"fluff.png"   : ["Texture", "R/T/B/Snow.png"],
+		"fluff.png"   : ["Texture", "R/T/B/Snow/Default.png"],
 		
 		"armor/chain_1.png"  : ["Replace", "armor/chain.png"],
 		"armor/chain_2.png"  : ["Texture", "R/T/E/Player/Armor/Chain.png", [["Crop", 0, 32, 64, 32]]],

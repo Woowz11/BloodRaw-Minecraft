@@ -12,7 +12,7 @@
 		"default.gif": [ "Texture", "R/T/U/Font/ASCII.file" ],
 		
 		"dirt.png" : [ "Texture", "R/T/B/Dirt.png" ],
-		"grass.png": [ "Texture", "R/T/B/Grass.file" ],
+		"grass.png": [ "Texture", "R/T/B/Grass/Default.file" ],
 		"rock.png" : [ "Texture", "R/T/B/Bedrock.png" ],
 		"water.png": [ "Texture", "R/T/B/Liquid/Water_Single.file" ]
 	}

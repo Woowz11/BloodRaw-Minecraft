@@ -7,6 +7,10 @@
 	
 	"Add": ["ResourcePack"],
 	
+	"Addon": {
+		"Optifine": ["Optifine-1.10"]
+	},
+	
 	"Files": {
 		"assets/minecraft/": {			
 			"textures/": {

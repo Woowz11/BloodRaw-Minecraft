@@ -33,8 +33,8 @@
 					"door_spruce_lower.png"  : ["Texture", "R/T/B/Door/Spruce.png", [["Crop", 0, 16, 16, 16]]],
 					
 					"coarse_dirt.png"     : ["Texture", "R/T/B/Dirt_Rocks.png"],
-					"dirt_podzol_top.png" : ["Texture", "R/T/B/Podzol.png"],
-					"dirt_podzol_side.png": ["Texture", "R/T/B/Podzol_Dirt.png"],
+					"dirt_podzol_top.png" : ["Texture", "R/T/B/Podzol/Default.png"],
+					"dirt_podzol_side.png": ["Texture", "R/T/B/Podzol/Dirt.png"],
 					
 					"daylight_detector_inverted_top.png": ["Texture", "R/T/B/Detector_Light_Night.png"],
 					

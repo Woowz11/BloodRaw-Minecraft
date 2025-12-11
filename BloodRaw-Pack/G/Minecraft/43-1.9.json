@@ -9,6 +9,10 @@
 	
 	"Add": ["ResourcePack"],
 	
+	"Addon": {
+		"Optifine": ["Optifine-1.9"]
+	},
+	
 	"Files": {
 		"assets/minecraft/": {
 			"textures/": {
@@ -243,6 +247,11 @@
 						"diamond_hoe.png"    : ["Texture", "R/T/I/Hoe/Diamond_Big.png"],
 						"diamond_shovel.png" : ["Texture", "R/T/I/Shovel/Diamond_Big.png"],
 						"diamond_sword.png"  : ["Texture", "R/T/I/Sword/Diamond_Big.png"],
+						
+						"bow.png"  : ["Texture", "R/T/I/Bow/Default_Big.png"],
+						"bow_0.png": ["Texture", "R/T/I/Bow/Default_Big_0.png"],
+						"bow_1.png": ["Texture", "R/T/I/Bow/Default_Big_1.png"],
+						"bow_2.png": ["Texture", "R/T/I/Bow/Default_Big_2.png"],
 					}
 				},
 				
@@ -252,8 +261,8 @@
 					"beetroots_stage_2.png": ["Texture", "R/T/B/Beetroot/2.png"],
 					"beetroots_stage_3.png": ["Texture", "R/T/B/Beetroot/3.png"],
 					
-					"grass_path_side.png": ["Texture", "R/T/B/Path_Dirt.png"],
-					"grass_path_top.png" : ["Texture", "R/T/B/Path.png"],
+					"grass_path_side.png": ["Texture", "R/T/B/Path/Dirt.png"],
+					"grass_path_top.png" : ["Texture", "R/T/B/Path/Default.png"],
 					
 					"frosted_ice_0.png": ["Texture", "R/T/B/Ice_Frost_0.png"],
 					"frosted_ice_1.png": ["Texture", "R/T/B/Ice_Frost_1.png"],
@@ -329,6 +338,8 @@
 						"stone_bricks_crack_infested.png"   : ["Texture", "R/T/B/Stone_Bricks_Crack_Infested.file"],
 						"stone_bricks_moss_infested.png"    : ["Texture", "R/T/B/Stone_Bricks_Moss_Infested.file"],
 						"stone_bricks_chiseled_infested.png": ["Texture", "R/T/B/Stone_Bricks_Chiseled_Infested.file"],
+						
+						"snow_side.png": ["Texture", "R/T/B/Snow/Side.png"]
 					}
 				}
 			},
@@ -361,7 +372,18 @@
 				"mossy_brick_monster_egg.json"   : ["Variable", ["File", "R/S/B/Default.json"], ["bloodraw/stone_bricks_moss_infested"]],
 				"cracked_brick_monster_egg.json" : ["Variable", ["File", "R/S/B/Default.json"], ["bloodraw/stone_bricks_crack_infested"]],
 				"cobblestone_monster_egg.json"   : ["Variable", ["File", "R/S/B/Default.json"], ["bloodraw/cobblestone_infested"]],
-				"chiseled_brick_monster_egg.json": ["Variable", ["File", "R/S/B/Default.json"], ["bloodraw/stone_bricks_chiseled_infested"]]
+				"chiseled_brick_monster_egg.json": ["Variable", ["File", "R/S/B/Default.json"], ["bloodraw/stone_bricks_chiseled_infested"]],
+				
+				"snow.json": ["Variable", ["File", "R/S/B/Snow.json"], [
+					"snow_height2",
+					"snow_height4",
+					"snow_height6",
+					"snow_height8",
+					"snow_height10",
+					"snow_height12",
+					"snow_height14",
+					"snow_height16",
+				]],
 			},
 			
 			"models/": {
@@ -499,11 +521,21 @@
 					"glass_yellow.json"    : ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/glass_yellow"]],
 					
 					"mob_spawner_cage.json": ["Variable", ["File", "R/M/B/Glass.json"], ["blocks/mob_spawner"]],
+					
+					"snow_height2.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["blocks/snow", "blocks/bloodraw/snow_side", "2", "14"]],
+					"snow_height4.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["blocks/snow", "blocks/bloodraw/snow_side", "4", "12"]],
+					"snow_height6.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["blocks/snow", "blocks/bloodraw/snow_side", "6", "10"]],
+					"snow_height8.json" : ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["blocks/snow", "blocks/bloodraw/snow_side", "8", "8"]],
+					"snow_height10.json": ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["blocks/snow", "blocks/bloodraw/snow_side", "10", "6"]],
+					"snow_height12.json": ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["blocks/snow", "blocks/bloodraw/snow_side", "12", "4"]],
+					"snow_height14.json": ["Variable", ["File", "R/M/B/Snow_Layer.json"], ["blocks/snow", "blocks/bloodraw/snow_side", "14", "2"]],
+					"snow_height16.json": ["Variable", ["File", "R/M/B/Cube_Column.json"], ["blocks/bloodraw/snow_side", "blocks/snow"]],
 				},
 				
 				"item/": {
 					"bloodraw/": {
-						"handheld_big.json": ["File", "R/M/I/New/Handheld_Big.json"],
+						"generated_big.json": ["File", "R/M/I/New/Generated_Big.json"],
+						"handheld_big.json" : ["File", "R/M/I/New/Handheld_Big.json"],
 					},
 					
 					"cake.json": ["Variable", ["File", "R/M/I/Cake.json"], ["block/cake_uneaten"]],
@@ -565,6 +597,19 @@
 					"diamond_pickaxe.json": ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_pickaxe"]],
 					"diamond_shovel.json" : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_shovel"]],
 					"diamond_sword.json"  : ["Variable", ["File", "R/M/I/Handheld_Big.json"], ["items/bloodraw/diamond_sword"]],
+					
+					"bow.json"          : ["Variable", ["File", "R/M/I/New/Bow_Big.json"], ["items/bloodraw/bow"]],
+					"bow_pulling_0.json": ["Variable", ["File", "R/M/I/Item_Parent.json"], ["item/bow","items/bloodraw/bow_0"]],
+					"bow_pulling_1.json": ["Variable", ["File", "R/M/I/Item_Parent.json"], ["item/bow","items/bloodraw/bow_1"]],
+					"bow_pulling_2.json": ["Variable", ["File", "R/M/I/Item_Parent.json"], ["item/bow","items/bloodraw/bow_2"]],
+					
+					"lead.json"        : ["Variable", ["File", "R/M/I/Handheld.json"], ["items/lead"]],
+					"reeds.json"       : ["Variable", ["File", "R/M/I/Handheld.json"], ["items/reeds"]],
+					"cod.json"         : ["Variable", ["File", "R/M/I/Handheld.json"], ["items/fish_cod_raw"]],
+					"cooked_cod.json"  : ["Variable", ["File", "R/M/I/Handheld.json"], ["items/fish_cod_cooked"]],
+					"salmon.json"      : ["Variable", ["File", "R/M/I/Handheld.json"], ["items/fish_salmon_raw"]],
+					"clownfish.json"   : ["Variable", ["File", "R/M/I/Handheld.json"], ["items/fish_clownfish_raw"]],
+					"rotten_flesh.json": ["Variable", ["File", "R/M/I/Handheld.json"], ["items/rotten_flesh"]],
 				}
 			}
 		}
