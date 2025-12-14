@@ -19,11 +19,11 @@
 			},
 			
 			"mcpatcher/": {
-				"color.properties": ["File", "R/O/Optifine/Colors.txt"]
+				"color.properties": ["File", "R/O/Optifine/Colors.properties"]
 			},
 			
 			"optifine/": {
-				"bettergrass.properties": ["File", "R/O/Optifine/BetterGrass.txt"]
+				"bettergrass.properties": ["File", "R/O/Optifine/BetterGrass.properties"]
 			}
 		}
 	}

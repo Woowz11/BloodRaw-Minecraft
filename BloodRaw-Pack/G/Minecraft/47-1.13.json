@@ -971,7 +971,7 @@
 					"block/nether_brick_slab_top",
 					"block/nether_brick_slab_double"
 				]],
-				"oak_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+				"oak_slab.json": ["Variable", ["File", "R/S/B/Slab_AllRotations.json"], [
 					"block/oak_slab",
 					"block/oak_slab_top",
 					"block/oak_slab_double"
@@ -991,7 +991,7 @@
 					"block/prismarine_slab_top",
 					"block/prismarine_slab_double"
 				]],
-				"purpur_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+				"purpur_slab.json": ["Variable", ["File", "R/S/B/Slab_AllRotations.json"], [
 					"block/purpur_slab",
 					"block/purpur_slab_top",
 					"block/purpur_slab_double"
@@ -1011,7 +1011,7 @@
 					"block/sandstone_slab_top",
 					"block/sandstone_slab_double"
 				]],
-				"spruce_slab.json": ["Variable", ["File", "R/S/B/Slab.json"], [
+				"spruce_slab.json": ["Variable", ["File", "R/S/B/Slab_AllRotations.json"], [
 					"block/spruce_slab",
 					"block/spruce_slab_top",
 					"block/spruce_slab_double"

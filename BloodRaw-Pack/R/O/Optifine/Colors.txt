@@ -1,1 +1,0 @@
-text.sign=FF0000

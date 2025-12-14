@@ -1,0 +1,24 @@
+{
+	"variants": {
+		"type=bottom": { "model": "<[Var1]>" },
+		"type=top"   : { "model": "<[Var2]>" },
+		"type=double": [
+			{ "model": "<[Var3]>"                      },
+			{ "model": "<[Var3]>"           , "y": 90  },
+			{ "model": "<[Var3]>"           , "y": 180 },
+			{ "model": "<[Var3]>"           , "y": 270 },
+			{ "model": "<[Var3]>", "x": 90             },
+			{ "model": "<[Var3]>", "x": 90  , "y": 90  },
+			{ "model": "<[Var3]>", "x": 90  , "y": 180 },
+			{ "model": "<[Var3]>", "x": 90  , "y": 270 },
+			{ "model": "<[Var3]>", "x": 180            },
+			{ "model": "<[Var3]>", "x": 180 , "y": 90  },
+			{ "model": "<[Var3]>", "x": 180 , "y": 180 },
+			{ "model": "<[Var3]>", "x": 180 , "y": 270 },
+			{ "model": "<[Var3]>", "x": 270            },
+			{ "model": "<[Var3]>", "x": 270 , "y": 90  },
+			{ "model": "<[Var3]>", "x": 270 , "y": 180 },
+			{ "model": "<[Var3]>", "x": 270 , "y": 270 }
+		]
+	}
+}
